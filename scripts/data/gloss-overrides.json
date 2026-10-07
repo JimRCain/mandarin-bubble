@@ -1,0 +1,34 @@
+{
+  "why": [
+    "Hand decisions the migration cannot infer from the corpus. Kept deliberately",
+    "small: each entry is a content judgement, not a code workaround.",
+    "The migration applies these BEFORE it picks a canonical gloss per word id."
+  ],
+  "splitIds": [
+    {
+      "deck": "Chinese license plates",
+      "hanzi": "新",
+      "pinyin": "xīn",
+      "id": "新-xin1-plate",
+      "english": "Xinjiang (plate abbreviation)",
+      "why": "新 means 'new' in every other deck. In the plate deck the character stands for the province, which is a different word wearing the same Hanzi and the same pinyin."
+    },
+    {
+      "deck": "Chinese license plates",
+      "hanzi": "贵",
+      "pinyin": "guì",
+      "id": "贵-gui4-plate",
+      "english": "Guizhou (plate abbreviation)",
+      "why": "贵 means 'expensive' elsewhere; here it abbreviates 贵州."
+    },
+    {
+      "deck": "Chinese license plates",
+      "hanzi": "云",
+      "pinyin": "yún",
+      "id": "云-yun2-plate",
+      "english": "Yunnan (plate abbreviation)",
+      "why": "云 means 'cloud' in the Weather deck; here it abbreviates 云南."
+    }
+  ],
+  "canonicalGloss": {}
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "冰水-bing1-shui3",
+    "hanzi": "冰水",
+    "pinyin": "bīng shuǐ",
+    "english": "ice water",
+    "band": "rare",
+    "zipf": 3.23
+  },
+  {
+    "id": "冰茶-bing1-cha2",
+    "hanzi": "冰茶",
+    "pinyin": "bīng chá",
+    "english": "iced tea",
+    "band": "rare",
+    "zipf": 3.11
+  },
+  {
+    "id": "可乐-ke3-le4",
+    "hanzi": "可乐",
+    "pinyin": "kě lè",
+    "english": "cola",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "咖啡-ka1-fei1",
+    "hanzi": "咖啡",
+    "pinyin": "kā fēi",
+    "english": "coffee",
+    "band": "mid",
+    "zipf": 4.66
+  },
+  {
+    "id": "啤酒-pi2-jiu3",
+    "hanzi": "啤酒",
+    "pinyin": "pí jiǔ",
+    "english": "beer",
+    "band": "mid",
+    "zipf": 4.25
+  },
+  {
+    "id": "拿铁-na2-tie3",
+    "hanzi": "拿铁",
+    "pinyin": "ná tiě",
+    "english": "latte",
+    "band": "rare",
+    "zipf": 3.63
+  },
+  {
+    "id": "果汁-guo3-zhi1",
+    "hanzi": "果汁",
+    "pinyin": "guǒ zhī",
+    "english": "juice",
+    "band": "rare",
+    "zipf": 3.65
+  },
+  {
+    "id": "果茶-guo3-cha2",
+    "hanzi": "果茶",
+    "pinyin": "guǒ chá",
+    "english": "fruit tea",
+    "band": "rare",
+    "zipf": 3.23
+  },
+  {
+    "id": "柠檬水-ning2-meng2-shui3",
+    "hanzi": "柠檬水",
+    "pinyin": "níng méng shuǐ",
+    "english": "lemonade",
+    "band": "rare",
+    "zipf": 2.79
+  },
+  {
+    "id": "椰子水-ye1-zi5-shui3",
+    "hanzi": "椰子水",
+    "pinyin": "yē zi shuǐ",
+    "english": "coconut water",
+    "band": "rare",
+    "zipf": 2.54
+  },
+  {
+    "id": "椰汁-ye1-zhi1",
+    "hanzi": "椰汁",
+    "pinyin": "yē zhī",
+    "english": "coconut milk",
+    "band": "rare",
+    "zipf": 1.66
+  },
+  {
+    "id": "橙汁-cheng2-zhi1",
+    "hanzi": "橙汁",
+    "pinyin": "chéng zhī",
+    "english": "orange juice",
+    "band": "rare",
+    "zipf": 2.4
+  },
+  {
+    "id": "气泡水-qi4-pao4-shui3",
+    "hanzi": "气泡水",
+    "pinyin": "qì pào shuǐ",
+    "english": "sparkling water",
+    "band": "rare",
+    "zipf": 2.45
+  },
+  {
+    "id": "水-shui3",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "english": "water",
+    "band": "common",
+    "zipf": 5.3
+  },
+  {
+    "id": "汤力水-tang1-li4-shui3",
+    "hanzi": "汤力水",
+    "pinyin": "tāng lì shuǐ",
+    "english": "tonic water",
+    "band": "rare",
+    "zipf": 2.24
+  },
+  {
+    "id": "汽水-qi4-shui3",
+    "hanzi": "汽水",
+    "pinyin": "qì shuǐ",
+    "english": "soda",
+    "band": "rare",
+    "zipf": 3.7
+  },
+  {
+    "id": "热巧克力-re4-qiao3-ke4-li4",
+    "hanzi": "热巧克力",
+    "pinyin": "rè qiǎo kè lì",
+    "english": "hot chocolate",
+    "band": "rare",
+    "zipf": 3.16
+  },
+  {
+    "id": "牛奶-niu2-nai3",
+    "hanzi": "牛奶",
+    "pinyin": "niú nǎi",
+    "english": "milk",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "珍珠奶茶-zhen1-zhu1-nai3-cha2",
+    "hanzi": "珍珠奶茶",
+    "pinyin": "zhēn zhū nǎi chá",
+    "english": "bubble tea",
+    "band": "rare",
+    "zipf": 2.38
+  },
+  {
+    "id": "白开水-bai2-kai1-shui3",
+    "hanzi": "白开水",
+    "pinyin": "bái kāi shuǐ",
+    "english": "plain boiled water",
+    "band": "rare",
+    "zipf": 2.42
+  },
+  {
+    "id": "白酒-bai2-jiu3",
+    "hanzi": "白酒",
+    "pinyin": "bái jiǔ",
+    "english": "baijiu (liquor)",
+    "band": "rare",
+    "zipf": 3.58
+  },
+  {
+    "id": "矿泉水-kuang4-quan2-shui3",
+    "hanzi": "矿泉水",
+    "pinyin": "kuàng quán shuǐ",
+    "english": "mineral water",
+    "band": "rare",
+    "zipf": 3.53
+  },
+  {
+    "id": "红茶-hong2-cha2",
+    "hanzi": "红茶",
+    "pinyin": "hóng chá",
+    "english": "black tea",
+    "band": "rare",
+    "zipf": 3.37
+  },
+  {
+    "id": "绿茶-lv4-cha2",
+    "hanzi": "绿茶",
+    "pinyin": "lǜ chá",
+    "english": "green tea",
+    "band": "rare",
+    "zipf": 3.43
+  },
+  {
+    "id": "美式咖啡-mei3-shi4-ka1-fei1",
+    "hanzi": "美式咖啡",
+    "pinyin": "měi shì kā fēi",
+    "english": "americano",
+    "band": "rare",
+    "zipf": 2.58
+  },
+  {
+    "id": "能量饮料-neng2-liang4-yin3-liao4",
+    "hanzi": "能量饮料",
+    "pinyin": "néng liàng yǐn liào",
+    "english": "energy drink",
+    "band": "rare",
+    "zipf": 3.25
+  },
+  {
+    "id": "茶-cha2",
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "english": "tea",
+    "band": "mid",
+    "zipf": 4.62
+  },
+  {
+    "id": "葡萄酒-pu2-tao2-jiu3",
+    "hanzi": "葡萄酒",
+    "pinyin": "pú táo jiǔ",
+    "english": "wine",
+    "band": "rare",
+    "zipf": 3.96
+  },
+  {
+    "id": "豆浆-dou4-jiang1",
+    "hanzi": "豆浆",
+    "pinyin": "dòu jiāng",
+    "english": "soy milk",
+    "band": "rare",
+    "zipf": 3.26
+  },
+  {
+    "id": "酸奶-suan1-nai3",
+    "hanzi": "酸奶",
+    "pinyin": "suān nǎi",
+    "english": "yogurt",
+    "band": "rare",
+    "zipf": 3.49
+  }
+]

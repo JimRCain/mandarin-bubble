@@ -1,0 +1,282 @@
+[
+  {
+    "id": "亲戚-qin1-qi1",
+    "hanzi": "亲戚",
+    "pinyin": "qīn qī",
+    "english": "relatives",
+    "band": "mid",
+    "zipf": 4.37
+  },
+  {
+    "id": "伯伯-bo2-bo5",
+    "hanzi": "伯伯",
+    "pinyin": "bó bo",
+    "english": "uncle (father's older brother)",
+    "band": "rare",
+    "zipf": 3.5
+  },
+  {
+    "id": "侄女-zhi2-nv3",
+    "hanzi": "侄女",
+    "pinyin": "zhí nǚ",
+    "english": "niece",
+    "band": "rare",
+    "zipf": 3.53
+  },
+  {
+    "id": "侄子-zhi2-zi5",
+    "hanzi": "侄子",
+    "pinyin": "zhí zi",
+    "english": "nephew",
+    "band": "rare",
+    "zipf": 3.75
+  },
+  {
+    "id": "儿媳-er2-xi2",
+    "hanzi": "儿媳",
+    "pinyin": "ér xí",
+    "english": "daughter-in-law",
+    "band": "rare",
+    "zipf": 3.49
+  },
+  {
+    "id": "儿子-er2-zi5",
+    "hanzi": "儿子",
+    "pinyin": "ér zi",
+    "english": "son",
+    "band": "common",
+    "zipf": 5.28
+  },
+  {
+    "id": "叔叔-shu1-shu1",
+    "hanzi": "叔叔",
+    "pinyin": "shū shū",
+    "english": "uncle (father's younger brother)",
+    "band": "mid",
+    "zipf": 4.25
+  },
+  {
+    "id": "哥哥-ge1-ge5",
+    "hanzi": "哥哥",
+    "pinyin": "gē ge",
+    "english": "older brother",
+    "band": "mid",
+    "zipf": 4.93
+  },
+  {
+    "id": "堂弟-tang2-di4",
+    "hanzi": "堂弟",
+    "pinyin": "táng dì",
+    "english": "younger male cousin",
+    "band": "rare",
+    "zipf": 2.75
+  },
+  {
+    "id": "外公-wai4-gong1",
+    "hanzi": "外公",
+    "pinyin": "wài gōng",
+    "english": "maternal grandfather",
+    "band": "rare",
+    "zipf": 3.58
+  },
+  {
+    "id": "外婆-wai4-po2",
+    "hanzi": "外婆",
+    "pinyin": "wài pó",
+    "english": "maternal grandmother",
+    "band": "rare",
+    "zipf": 3.73
+  },
+  {
+    "id": "女儿-nv3-er2",
+    "hanzi": "女儿",
+    "pinyin": "nǚ ér",
+    "english": "daughter",
+    "band": "common",
+    "zipf": 5.24
+  },
+  {
+    "id": "女婿-nv3-xu4",
+    "hanzi": "女婿",
+    "pinyin": "nǚ xù",
+    "english": "son-in-law",
+    "band": "rare",
+    "zipf": 4.01
+  },
+  {
+    "id": "奶奶-nai3-nai5",
+    "hanzi": "奶奶",
+    "pinyin": "nǎi nai",
+    "english": "grandma (paternal)",
+    "band": "mid",
+    "zipf": 4.45
+  },
+  {
+    "id": "妈-ma1",
+    "hanzi": "妈",
+    "pinyin": "mā",
+    "english": "mom (informal)",
+    "band": "common",
+    "zipf": 5.02
+  },
+  {
+    "id": "妈妈-ma1-ma5",
+    "hanzi": "妈妈",
+    "pinyin": "mā ma",
+    "english": "mother",
+    "band": "common",
+    "zipf": 5.24
+  },
+  {
+    "id": "妹妹-mei4-mei5",
+    "hanzi": "妹妹",
+    "pinyin": "mèi mei",
+    "english": "younger sister",
+    "band": "mid",
+    "zipf": 4.8
+  },
+  {
+    "id": "姐姐-jie3-jie5",
+    "hanzi": "姐姐",
+    "pinyin": "jiě jie",
+    "english": "older sister",
+    "band": "mid",
+    "zipf": 4.86
+  },
+  {
+    "id": "姑姑-gu1-gu1",
+    "hanzi": "姑姑",
+    "pinyin": "gū gū",
+    "english": "aunt (father's sister)",
+    "band": "rare",
+    "zipf": 3.95
+  },
+  {
+    "id": "姨妈-yi2-ma1",
+    "hanzi": "姨妈",
+    "pinyin": "yí mā",
+    "english": "aunt (mother's sister)",
+    "band": "rare",
+    "zipf": 3.75
+  },
+  {
+    "id": "孙女-sun1-nv3",
+    "hanzi": "孙女",
+    "pinyin": "sūn nǚ",
+    "english": "granddaughter",
+    "band": "rare",
+    "zipf": 3.8
+  },
+  {
+    "id": "孙子-sun1-zi5",
+    "hanzi": "孙子",
+    "pinyin": "sūn zi",
+    "english": "grandson",
+    "band": "mid",
+    "zipf": 4.29
+  },
+  {
+    "id": "孩子-hai2-zi5",
+    "hanzi": "孩子",
+    "pinyin": "hái zi",
+    "english": "child",
+    "band": "common",
+    "zipf": 5.61
+  },
+  {
+    "id": "岳母-yue4-mu3",
+    "hanzi": "岳母",
+    "pinyin": "yuè mǔ",
+    "english": "mother-in-law (wife's mother)",
+    "band": "rare",
+    "zipf": 3.38
+  },
+  {
+    "id": "岳父-yue4-fu4",
+    "hanzi": "岳父",
+    "pinyin": "yuè fù",
+    "english": "father-in-law (wife's father)",
+    "band": "rare",
+    "zipf": 3.72
+  },
+  {
+    "id": "弟弟-di4-di5",
+    "hanzi": "弟弟",
+    "pinyin": "dì di",
+    "english": "younger brother",
+    "band": "mid",
+    "zipf": 4.7
+  },
+  {
+    "id": "爷爷-ye2-ye5",
+    "hanzi": "爷爷",
+    "pinyin": "yé ye",
+    "english": "grandpa (paternal)",
+    "band": "mid",
+    "zipf": 4.5
+  },
+  {
+    "id": "爸-ba4",
+    "hanzi": "爸",
+    "pinyin": "bà",
+    "english": "dad (informal)",
+    "band": "rare",
+    "zipf": 4.16
+  },
+  {
+    "id": "爸爸-ba4-ba5",
+    "hanzi": "爸爸",
+    "pinyin": "bà ba",
+    "english": "father",
+    "band": "mid",
+    "zipf": 4.88
+  },
+  {
+    "id": "老公-lao3-gong1",
+    "hanzi": "老公",
+    "pinyin": "lǎo gōng",
+    "english": "husband",
+    "band": "mid",
+    "zipf": 4.68
+  },
+  {
+    "id": "老婆-lao3-po2",
+    "hanzi": "老婆",
+    "pinyin": "lǎo pó",
+    "english": "wife",
+    "band": "mid",
+    "zipf": 4.98
+  },
+  {
+    "id": "舅舅-jiu4-jiu4",
+    "hanzi": "舅舅",
+    "pinyin": "jiù jiù",
+    "english": "uncle (mother's brother)",
+    "band": "rare",
+    "zipf": 3.66
+  },
+  {
+    "id": "表哥-biao3-ge1",
+    "hanzi": "表哥",
+    "pinyin": "biǎo gē",
+    "english": "older male cousin",
+    "band": "rare",
+    "zipf": 3.61
+  },
+  {
+    "id": "表姐-biao3-jie3",
+    "hanzi": "表姐",
+    "pinyin": "biǎo jiě",
+    "english": "older female cousin",
+    "band": "rare",
+    "zipf": 3.36
+  },
+  {
+    "id": "阿姨-a1-yi2",
+    "hanzi": "阿姨",
+    "pinyin": "ā yí",
+    "english": "auntie",
+    "band": "mid",
+    "zipf": 4.32
+  }
+]

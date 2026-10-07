@@ -1,0 +1,242 @@
+[
+  {
+    "id": "书房-shu1-fang2",
+    "hanzi": "书房",
+    "pinyin": "shū fáng",
+    "english": "study",
+    "band": "rare",
+    "zipf": 3.79
+  },
+  {
+    "id": "储藏室-chu3-cang2-shi4",
+    "hanzi": "储藏室",
+    "pinyin": "chǔ cáng shì",
+    "english": "pantry",
+    "band": "rare",
+    "zipf": 2.36
+  },
+  {
+    "id": "卧室-wo4-shi4",
+    "hanzi": "卧室",
+    "pinyin": "wò shì",
+    "english": "bedroom",
+    "band": "rare",
+    "zipf": 4.03
+  },
+  {
+    "id": "厕所-ce4-suo3",
+    "hanzi": "厕所",
+    "pinyin": "cè suǒ",
+    "english": "bathroom",
+    "band": "mid",
+    "zipf": 4.7
+  },
+  {
+    "id": "厨房-chu2-fang2",
+    "hanzi": "厨房",
+    "pinyin": "chú fáng",
+    "english": "kitchen",
+    "band": "mid",
+    "zipf": 4.44
+  },
+  {
+    "id": "地下室-di4-xia4-shi4",
+    "hanzi": "地下室",
+    "pinyin": "dì xià shì",
+    "english": "cellar",
+    "band": "rare",
+    "zipf": 3.75
+  },
+  {
+    "id": "地板-di4-ban3",
+    "hanzi": "地板",
+    "pinyin": "dì bǎn",
+    "english": "floor",
+    "band": "rare",
+    "zipf": 4.14
+  },
+  {
+    "id": "墙-qiang2",
+    "hanzi": "墙",
+    "pinyin": "qiáng",
+    "english": "wall",
+    "band": "mid",
+    "zipf": 4.66
+  },
+  {
+    "id": "大门-da4-men2",
+    "hanzi": "大门",
+    "pinyin": "dà mén",
+    "english": "gate",
+    "band": "mid",
+    "zipf": 4.44
+  },
+  {
+    "id": "婴儿房-ying1-er2-fang2",
+    "hanzi": "婴儿房",
+    "pinyin": "yīng ér fáng",
+    "english": "nursery",
+    "band": "rare",
+    "zipf": 3.37
+  },
+  {
+    "id": "客厅-ke4-ting1",
+    "hanzi": "客厅",
+    "pinyin": "kè tīng",
+    "english": "living room",
+    "band": "rare",
+    "zipf": 4.05
+  },
+  {
+    "id": "客房-ke4-fang2",
+    "hanzi": "客房",
+    "pinyin": "kè fáng",
+    "english": "guest room",
+    "band": "rare",
+    "zipf": 3.77
+  },
+  {
+    "id": "家庭办公室-jia1-ting2-ban4-gong1-shi4",
+    "hanzi": "家庭办公室",
+    "pinyin": "jiā tíng bàn gōng shì",
+    "english": "home office",
+    "band": "rare",
+    "zipf": 3.9
+  },
+  {
+    "id": "房间-fang2-jian1",
+    "hanzi": "房间",
+    "pinyin": "fáng jiān",
+    "english": "room",
+    "band": "mid",
+    "zipf": 4.73
+  },
+  {
+    "id": "教室-jiao4-shi4",
+    "hanzi": "教室",
+    "pinyin": "jiào shì",
+    "english": "classroom",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "桑拿房-sang1-na2-fang2",
+    "hanzi": "桑拿房",
+    "pinyin": "sāng ná fáng",
+    "english": "sauna",
+    "band": "rare",
+    "zipf": 2.21
+  },
+  {
+    "id": "棚屋-peng2-wu1",
+    "hanzi": "棚屋",
+    "pinyin": "péng wū",
+    "english": "shed",
+    "band": "rare",
+    "zipf": 2.47
+  },
+  {
+    "id": "楼梯-lou2-ti1",
+    "hanzi": "楼梯",
+    "pinyin": "lóu tī",
+    "english": "stairs",
+    "band": "rare",
+    "zipf": 4.1
+  },
+  {
+    "id": "洗衣房-xi3-yi1-fang2",
+    "hanzi": "洗衣房",
+    "pinyin": "xǐ yī fáng",
+    "english": "laundry room",
+    "band": "rare",
+    "zipf": 2.65
+  },
+  {
+    "id": "窗户-chuang1-hu4",
+    "hanzi": "窗户",
+    "pinyin": "chuāng hù",
+    "english": "window",
+    "band": "rare",
+    "zipf": 4.13
+  },
+  {
+    "id": "篱笆-li2-ba5",
+    "hanzi": "篱笆",
+    "pinyin": "lí ba",
+    "english": "fence",
+    "band": "rare",
+    "zipf": 3.47
+  },
+  {
+    "id": "花园-hua1-yuan2",
+    "hanzi": "花园",
+    "pinyin": "huā yuán",
+    "english": "garden",
+    "band": "mid",
+    "zipf": 4.49
+  },
+  {
+    "id": "车库-che1-ku4",
+    "hanzi": "车库",
+    "pinyin": "chē kù",
+    "english": "garage",
+    "band": "rare",
+    "zipf": 3.63
+  },
+  {
+    "id": "车道-che1-dao4",
+    "hanzi": "车道",
+    "pinyin": "chē dào",
+    "english": "driveway",
+    "band": "rare",
+    "zipf": 3.72
+  },
+  {
+    "id": "门-men2",
+    "hanzi": "门",
+    "pinyin": "mén",
+    "english": "door",
+    "band": "common",
+    "zipf": 5.21
+  },
+  {
+    "id": "门廊-men2-lang2",
+    "hanzi": "门廊",
+    "pinyin": "mén láng",
+    "english": "porch",
+    "band": "rare",
+    "zipf": 3.02
+  },
+  {
+    "id": "阁楼-ge2-lou2",
+    "hanzi": "阁楼",
+    "pinyin": "gé lóu",
+    "english": "attic",
+    "band": "rare",
+    "zipf": 3.64
+  },
+  {
+    "id": "阳台-yang2-tai2",
+    "hanzi": "阳台",
+    "pinyin": "yáng tái",
+    "english": "balcony",
+    "band": "rare",
+    "zipf": 3.99
+  },
+  {
+    "id": "露台-lu4-tai2",
+    "hanzi": "露台",
+    "pinyin": "lù tái",
+    "english": "patio",
+    "band": "rare",
+    "zipf": 3.08
+  },
+  {
+    "id": "餐厅-can1-ting1",
+    "hanzi": "餐厅",
+    "pinyin": "cān tīng",
+    "english": "restaurant",
+    "band": "mid",
+    "zipf": 4.67
+  }
+]

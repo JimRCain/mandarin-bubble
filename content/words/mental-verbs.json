@@ -1,0 +1,242 @@
+[
+  {
+    "id": "佩服-pei4-fu2",
+    "hanzi": "佩服",
+    "pinyin": "pèi fú",
+    "english": "to admire",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "假设-jia3-she4",
+    "hanzi": "假设",
+    "pinyin": "jiǎ shè",
+    "english": "to suppose",
+    "band": "mid",
+    "zipf": 4.54
+  },
+  {
+    "id": "决定-jue2-ding4",
+    "hanzi": "决定",
+    "pinyin": "jué dìng",
+    "english": "decide",
+    "band": "common",
+    "zipf": 5.76
+  },
+  {
+    "id": "判断-pan4-duan4",
+    "hanzi": "判断",
+    "pinyin": "pàn duàn",
+    "english": "to judge",
+    "band": "mid",
+    "zipf": 4.87
+  },
+  {
+    "id": "后悔-hou4-hui3",
+    "hanzi": "后悔",
+    "pinyin": "hòu huǐ",
+    "english": "to regret",
+    "band": "mid",
+    "zipf": 4.37
+  },
+  {
+    "id": "回想-hui2-xiang3",
+    "hanzi": "回想",
+    "pinyin": "huí xiǎng",
+    "english": "to recall",
+    "band": "rare",
+    "zipf": 3.91
+  },
+  {
+    "id": "害怕-hai4-pa4",
+    "hanzi": "害怕",
+    "pinyin": "hài pà",
+    "english": "afraid",
+    "band": "mid",
+    "zipf": 4.97
+  },
+  {
+    "id": "希望-xi1-wang4",
+    "hanzi": "希望",
+    "pinyin": "xī wàng",
+    "english": "hope",
+    "band": "common",
+    "zipf": 5.72
+  },
+  {
+    "id": "忘记-wang4-ji4",
+    "hanzi": "忘记",
+    "pinyin": "wàng jì",
+    "english": "forget",
+    "band": "mid",
+    "zipf": 4.89
+  },
+  {
+    "id": "怀疑-huai2-yi2",
+    "hanzi": "怀疑",
+    "pinyin": "huái yí",
+    "english": "doubt",
+    "band": "mid",
+    "zipf": 4.91
+  },
+  {
+    "id": "总结-zong3-jie2",
+    "hanzi": "总结",
+    "pinyin": "zǒng jié",
+    "english": "summary",
+    "band": "mid",
+    "zipf": 4.79
+  },
+  {
+    "id": "想-xiang3",
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "english": "think / consider",
+    "band": "common",
+    "zipf": 6.03
+  },
+  {
+    "id": "想象-xiang3-xiang4",
+    "hanzi": "想象",
+    "pinyin": "xiǎng xiàng",
+    "english": "to imagine",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "意识到-yi4-shi2-dao4",
+    "hanzi": "意识到",
+    "pinyin": "yì shí dào",
+    "english": "to realize",
+    "band": "rare",
+    "zipf": 4.1
+  },
+  {
+    "id": "愿望-yuan4-wang4",
+    "hanzi": "愿望",
+    "pinyin": "yuàn wàng",
+    "english": "to wish",
+    "band": "mid",
+    "zipf": 4.52
+  },
+  {
+    "id": "担心-dan1-xin1",
+    "hanzi": "担心",
+    "pinyin": "dān xīn",
+    "english": "anxious",
+    "band": "common",
+    "zipf": 5.16
+  },
+  {
+    "id": "明白-ming2-bai2",
+    "hanzi": "明白",
+    "pinyin": "míng bái",
+    "english": "to understand",
+    "band": "common",
+    "zipf": 5.24
+  },
+  {
+    "id": "期待-qi1-dai4",
+    "hanzi": "期待",
+    "pinyin": "qī dài",
+    "english": "to expect",
+    "band": "mid",
+    "zipf": 4.8
+  },
+  {
+    "id": "比较-bi3-jiao4",
+    "hanzi": "比较",
+    "pinyin": "bǐ jiào",
+    "english": "compare",
+    "band": "common",
+    "zipf": 5.48
+  },
+  {
+    "id": "猜-cai1",
+    "hanzi": "猜",
+    "pinyin": "cāi",
+    "english": "to guess",
+    "band": "mid",
+    "zipf": 4.78
+  },
+  {
+    "id": "相信-xiang1-xin4",
+    "hanzi": "相信",
+    "pinyin": "xiāng xìn",
+    "english": "believe",
+    "band": "common",
+    "zipf": 5.4
+  },
+  {
+    "id": "知道-zhi1-dao4",
+    "hanzi": "知道",
+    "pinyin": "zhī dào",
+    "english": "know (knowledge)",
+    "band": "common",
+    "zipf": 5.97
+  },
+  {
+    "id": "羡慕-xian4-mu4",
+    "hanzi": "羡慕",
+    "pinyin": "xiàn mù",
+    "english": "envious",
+    "band": "rare",
+    "zipf": 4.08
+  },
+  {
+    "id": "考虑-kao3-lv4",
+    "hanzi": "考虑",
+    "pinyin": "kǎo lǜ",
+    "english": "to consider",
+    "band": "common",
+    "zipf": 5.25
+  },
+  {
+    "id": "认出-ren4-chu1",
+    "hanzi": "认出",
+    "pinyin": "rèn chū",
+    "english": "to recognize",
+    "band": "rare",
+    "zipf": 3.88
+  },
+  {
+    "id": "记住-ji4-zhu4",
+    "hanzi": "记住",
+    "pinyin": "jì zhù",
+    "english": "to remember",
+    "band": "mid",
+    "zipf": 4.53
+  },
+  {
+    "id": "误会-wu4-hui4",
+    "hanzi": "误会",
+    "pinyin": "wù huì",
+    "english": "misunderstanding",
+    "band": "rare",
+    "zipf": 4.17
+  },
+  {
+    "id": "选择-xuan3-ze2",
+    "hanzi": "选择",
+    "pinyin": "xuǎn zé",
+    "english": "choice",
+    "band": "common",
+    "zipf": 5.55
+  },
+  {
+    "id": "集中-ji2-zhong1",
+    "hanzi": "集中",
+    "pinyin": "jí zhōng",
+    "english": "to concentrate",
+    "band": "mid",
+    "zipf": 4.94
+  },
+  {
+    "id": "预料-yu4-liao4",
+    "hanzi": "预料",
+    "pinyin": "yù liào",
+    "english": "to anticipate",
+    "band": "rare",
+    "zipf": 3.98
+  }
+]

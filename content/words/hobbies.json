@@ -1,0 +1,242 @@
+[
+  {
+    "id": "书法-shu1-fa3",
+    "hanzi": "书法",
+    "pinyin": "shū fǎ",
+    "english": "calligraphy",
+    "band": "rare",
+    "zipf": 4.06
+  },
+  {
+    "id": "冲浪-chong1-lang4",
+    "hanzi": "冲浪",
+    "pinyin": "chōng làng",
+    "english": "surfing",
+    "band": "rare",
+    "zipf": 3.47
+  },
+  {
+    "id": "击剑-ji1-jian4",
+    "hanzi": "击剑",
+    "pinyin": "jī jiàn",
+    "english": "fencing",
+    "band": "rare",
+    "zipf": 3.18
+  },
+  {
+    "id": "刺绣-ci4-xiu4",
+    "hanzi": "刺绣",
+    "pinyin": "cì xiù",
+    "english": "embroidery",
+    "band": "rare",
+    "zipf": 3.4
+  },
+  {
+    "id": "单板滑雪-dan1-ban3-hua2-xue3",
+    "hanzi": "单板滑雪",
+    "pinyin": "dān bǎn huá xuě",
+    "english": "snowboarding",
+    "band": "rare",
+    "zipf": 1.83
+  },
+  {
+    "id": "吉他-ji2-ta1",
+    "hanzi": "吉他",
+    "pinyin": "jí tā",
+    "english": "guitar",
+    "band": "rare",
+    "zipf": 4.03
+  },
+  {
+    "id": "唱歌-chang4-ge1",
+    "hanzi": "唱歌",
+    "pinyin": "chàng gē",
+    "english": "sing",
+    "band": "mid",
+    "zipf": 4.32
+  },
+  {
+    "id": "天文学-tian1-wen2-xue2",
+    "hanzi": "天文学",
+    "pinyin": "tiān wén xué",
+    "english": "astronomy",
+    "band": "rare",
+    "zipf": 3.69
+  },
+  {
+    "id": "射箭-she4-jian4",
+    "hanzi": "射箭",
+    "pinyin": "shè jiàn",
+    "english": "archery",
+    "band": "rare",
+    "zipf": 3.51
+  },
+  {
+    "id": "折纸-zhe2-zhi3",
+    "hanzi": "折纸",
+    "pinyin": "zhé zhǐ",
+    "english": "origami",
+    "band": "rare",
+    "zipf": 3.08
+  },
+  {
+    "id": "拍照-pai1-zhao4",
+    "hanzi": "拍照",
+    "pinyin": "pāi zhào",
+    "english": "take photo",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "收集钱币-shou1-ji2-qian2-bi4",
+    "hanzi": "收集钱币",
+    "pinyin": "shōu jí qián bì",
+    "english": "coin collecting",
+    "band": "rare",
+    "zipf": 2.72
+  },
+  {
+    "id": "旅行-lv3-xing2",
+    "hanzi": "旅行",
+    "pinyin": "lǚ xíng",
+    "english": "travel",
+    "band": "mid",
+    "zipf": 4.74
+  },
+  {
+    "id": "木工-mu4-gong1",
+    "hanzi": "木工",
+    "pinyin": "mù gōng",
+    "english": "woodworking",
+    "band": "rare",
+    "zipf": 3.45
+  },
+  {
+    "id": "棋-qi2",
+    "hanzi": "棋",
+    "pinyin": "qí",
+    "english": "chess",
+    "band": "rare",
+    "zipf": 3.83
+  },
+  {
+    "id": "模型制作-mo2-xing2-zhi4-zuo4",
+    "hanzi": "模型制作",
+    "pinyin": "mó xíng zhì zuò",
+    "english": "model building",
+    "band": "rare",
+    "zipf": 3.56
+  },
+  {
+    "id": "游戏-you2-xi4",
+    "hanzi": "游戏",
+    "pinyin": "yóu xì",
+    "english": "game",
+    "band": "common",
+    "zipf": 5.66
+  },
+  {
+    "id": "滑板-hua2-ban3",
+    "hanzi": "滑板",
+    "pinyin": "huá bǎn",
+    "english": "skateboard",
+    "band": "rare",
+    "zipf": 3.42
+  },
+  {
+    "id": "电影-dian4-ying3",
+    "hanzi": "电影",
+    "pinyin": "diàn yǐng",
+    "english": "movie",
+    "band": "common",
+    "zipf": 5.71
+  },
+  {
+    "id": "电视-dian4-shi4",
+    "hanzi": "电视",
+    "pinyin": "diàn shì",
+    "english": "TV",
+    "band": "common",
+    "zipf": 5.25
+  },
+  {
+    "id": "画画-hua4-hua4",
+    "hanzi": "画画",
+    "pinyin": "huà huà",
+    "english": "drawing",
+    "band": "rare",
+    "zipf": 3.78
+  },
+  {
+    "id": "缝纫-feng2-ren4",
+    "hanzi": "缝纫",
+    "pinyin": "féng rèn",
+    "english": "sewing",
+    "band": "rare",
+    "zipf": 3.02
+  },
+  {
+    "id": "观鸟-guan1-niao3",
+    "hanzi": "观鸟",
+    "pinyin": "guān niǎo",
+    "english": "birdwatching",
+    "band": "rare",
+    "zipf": 3.39
+  },
+  {
+    "id": "读书-du2-shu1",
+    "hanzi": "读书",
+    "pinyin": "dú shū",
+    "english": "reading",
+    "band": "mid",
+    "zipf": 4.6
+  },
+  {
+    "id": "跳舞-tiao4-wu3",
+    "hanzi": "跳舞",
+    "pinyin": "tiào wǔ",
+    "english": "dance",
+    "band": "mid",
+    "zipf": 4.35
+  },
+  {
+    "id": "钓鱼-diao4-yu2",
+    "hanzi": "钓鱼",
+    "pinyin": "diào yú",
+    "english": "fishing",
+    "band": "rare",
+    "zipf": 4.1
+  },
+  {
+    "id": "钢琴-gang1-qin2",
+    "hanzi": "钢琴",
+    "pinyin": "gāng qín",
+    "english": "piano",
+    "band": "mid",
+    "zipf": 4.35
+  },
+  {
+    "id": "陶艺-tao2-yi4",
+    "hanzi": "陶艺",
+    "pinyin": "táo yì",
+    "english": "pottery",
+    "band": "rare",
+    "zipf": 2.59
+  },
+  {
+    "id": "集邮-ji2-you2",
+    "hanzi": "集邮",
+    "pinyin": "jí yóu",
+    "english": "stamp collecting",
+    "band": "rare",
+    "zipf": 3.12
+  },
+  {
+    "id": "音乐-yin1-yue4",
+    "hanzi": "音乐",
+    "pinyin": "yīn yuè",
+    "english": "music",
+    "band": "common",
+    "zipf": 5.34
+  }
+]

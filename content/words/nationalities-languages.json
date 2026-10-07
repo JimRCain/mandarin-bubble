@@ -1,0 +1,242 @@
+[
+  {
+    "id": "中国人-zhong1-guo2-ren2",
+    "hanzi": "中国人",
+    "pinyin": "Zhōng guó rén",
+    "english": "Chinese",
+    "band": "common",
+    "zipf": 5.26
+  },
+  {
+    "id": "中文-zhong1-wen2",
+    "hanzi": "中文",
+    "pinyin": "Zhōng wén",
+    "english": "Chinese (language)",
+    "band": "mid",
+    "zipf": 4.96
+  },
+  {
+    "id": "俄罗斯人-luo2-si1-ren2",
+    "hanzi": "俄罗斯人",
+    "pinyin": "É luó sī rén",
+    "english": "Russian",
+    "band": "mid",
+    "zipf": 4.27
+  },
+  {
+    "id": "俄语-yu3",
+    "hanzi": "俄语",
+    "pinyin": "É yǔ",
+    "english": "Russian (language)",
+    "band": "rare",
+    "zipf": 4.05
+  },
+  {
+    "id": "印度人-yin4-du4-ren2",
+    "hanzi": "印度人",
+    "pinyin": "Yìn dù rén",
+    "english": "Indian",
+    "band": "rare",
+    "zipf": 3.89
+  },
+  {
+    "id": "外国-wai4-guo2",
+    "hanzi": "外国",
+    "pinyin": "wài guó",
+    "english": "foreign",
+    "band": "common",
+    "zipf": 5.14
+  },
+  {
+    "id": "德国人-de2-guo2-ren2",
+    "hanzi": "德国人",
+    "pinyin": "Dé guó rén",
+    "english": "German",
+    "band": "rare",
+    "zipf": 4.12
+  },
+  {
+    "id": "德语-de2-yu3",
+    "hanzi": "德语",
+    "pinyin": "Dé yǔ",
+    "english": "German (language)",
+    "band": "rare",
+    "zipf": 4.02
+  },
+  {
+    "id": "意大利人-yi4-da4-li4-ren2",
+    "hanzi": "意大利人",
+    "pinyin": "Yì dà lì rén",
+    "english": "Italian",
+    "band": "rare",
+    "zipf": 3.53
+  },
+  {
+    "id": "意大利语-yi4-da4-li4-yu3",
+    "hanzi": "意大利语",
+    "pinyin": "Yì dà lì yǔ",
+    "english": "Italian (language)",
+    "band": "rare",
+    "zipf": 3.44
+  },
+  {
+    "id": "日本人-ri4-ben3-ren2",
+    "hanzi": "日本人",
+    "pinyin": "Rì běn rén",
+    "english": "Japanese",
+    "band": "mid",
+    "zipf": 4.89
+  },
+  {
+    "id": "日语-ri4-yu3",
+    "hanzi": "日语",
+    "pinyin": "Rì yǔ",
+    "english": "Japanese (language)",
+    "band": "mid",
+    "zipf": 4.36
+  },
+  {
+    "id": "法国人-fa3-guo2-ren2",
+    "hanzi": "法国人",
+    "pinyin": "Fǎ guó rén",
+    "english": "French",
+    "band": "rare",
+    "zipf": 4.08
+  },
+  {
+    "id": "法语-fa3-yu3",
+    "hanzi": "法语",
+    "pinyin": "Fǎ yǔ",
+    "english": "French (language)",
+    "band": "mid",
+    "zipf": 4.34
+  },
+  {
+    "id": "泰国人-tai4-guo2-ren2",
+    "hanzi": "泰国人",
+    "pinyin": "Tài guó rén",
+    "english": "Thai",
+    "band": "rare",
+    "zipf": 3.34
+  },
+  {
+    "id": "泰语-tai4-yu3",
+    "hanzi": "泰语",
+    "pinyin": "Tài yǔ",
+    "english": "Thai (language)",
+    "band": "rare",
+    "zipf": 3.32
+  },
+  {
+    "id": "美国人-mei3-guo2-ren2",
+    "hanzi": "美国人",
+    "pinyin": "Měi guó rén",
+    "english": "American",
+    "band": "common",
+    "zipf": 5.04
+  },
+  {
+    "id": "英国人-ying1-guo2-ren2",
+    "hanzi": "英国人",
+    "pinyin": "Yīng guó rén",
+    "english": "English",
+    "band": "mid",
+    "zipf": 4.2
+  },
+  {
+    "id": "英语-ying1-yu3",
+    "hanzi": "英语",
+    "pinyin": "Yīng yǔ",
+    "english": "English (language)",
+    "band": "common",
+    "zipf": 5.07
+  },
+  {
+    "id": "荷兰人-he2-lan2-ren2",
+    "hanzi": "荷兰人",
+    "pinyin": "Hé lán rén",
+    "english": "Dutch",
+    "band": "rare",
+    "zipf": 3.6
+  },
+  {
+    "id": "荷兰语-he2-lan2-yu3",
+    "hanzi": "荷兰语",
+    "pinyin": "Hé lán yǔ",
+    "english": "Dutch (language)",
+    "band": "rare",
+    "zipf": 3.04
+  },
+  {
+    "id": "葡萄牙人-pu2-tao2-ya2-ren2",
+    "hanzi": "葡萄牙人",
+    "pinyin": "Pú táo yá rén",
+    "english": "Portuguese",
+    "band": "rare",
+    "zipf": 3.44
+  },
+  {
+    "id": "葡萄牙语-pu2-tao2-ya2-yu3",
+    "hanzi": "葡萄牙语",
+    "pinyin": "Pú táo yá yǔ",
+    "english": "Portuguese (language)",
+    "band": "rare",
+    "zipf": 3.8
+  },
+  {
+    "id": "西班牙人-xi1-ban1-ya2-ren2",
+    "hanzi": "西班牙人",
+    "pinyin": "Xī bān yá rén",
+    "english": "Spanish",
+    "band": "rare",
+    "zipf": 3.67
+  },
+  {
+    "id": "西班牙语-xi1-ban1-ya2-yu3",
+    "hanzi": "西班牙语",
+    "pinyin": "Xī bān yá yǔ",
+    "english": "Spanish (language)",
+    "band": "rare",
+    "zipf": 4.15
+  },
+  {
+    "id": "越南人-yue4-nan2-ren2",
+    "hanzi": "越南人",
+    "pinyin": "Yuè nán rén",
+    "english": "Vietnamese",
+    "band": "rare",
+    "zipf": 3.39
+  },
+  {
+    "id": "越南语-yue4-nan2-yu3",
+    "hanzi": "越南语",
+    "pinyin": "Yuè nán yǔ",
+    "english": "Vietnamese (language)",
+    "band": "rare",
+    "zipf": 3.6
+  },
+  {
+    "id": "阿拉伯语-la1-bo2-yu3",
+    "hanzi": "阿拉伯语",
+    "pinyin": "Ā lā bó yǔ",
+    "english": "Arabic (language)",
+    "band": "rare",
+    "zipf": 3.7
+  },
+  {
+    "id": "韩国人-han2-guo2-ren2",
+    "hanzi": "韩国人",
+    "pinyin": "Hán guó rén",
+    "english": "Korean",
+    "band": "mid",
+    "zipf": 4.41
+  },
+  {
+    "id": "韩语-han2-yu3",
+    "hanzi": "韩语",
+    "pinyin": "Hán yǔ",
+    "english": "Korean (language)",
+    "band": "rare",
+    "zipf": 3.74
+  }
+]

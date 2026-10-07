@@ -1,0 +1,242 @@
+[
+  {
+    "id": "上学-shang4-xue2",
+    "hanzi": "上学",
+    "pinyin": "shàng xué",
+    "english": "to go to school",
+    "band": "mid",
+    "zipf": 4.47
+  },
+  {
+    "id": "买-mai3",
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "english": "buy",
+    "band": "common",
+    "zipf": 5.58
+  },
+  {
+    "id": "休息-xiu1-xi5",
+    "hanzi": "休息",
+    "pinyin": "xiū xi",
+    "english": "rest",
+    "band": "mid",
+    "zipf": 4.73
+  },
+  {
+    "id": "做-zuo4",
+    "hanzi": "做",
+    "pinyin": "zuò",
+    "english": "do / make",
+    "band": "common",
+    "zipf": 6.08
+  },
+  {
+    "id": "做饭-zuo4-fan4",
+    "hanzi": "做饭",
+    "pinyin": "zuò fàn",
+    "english": "cook",
+    "band": "rare",
+    "zipf": 4.04
+  },
+  {
+    "id": "关-guan1",
+    "hanzi": "关",
+    "pinyin": "guān",
+    "english": "close",
+    "band": "common",
+    "zipf": 5.14
+  },
+  {
+    "id": "写-xie3",
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "english": "write",
+    "band": "common",
+    "zipf": 5.61
+  },
+  {
+    "id": "刷牙-shua1-ya2",
+    "hanzi": "刷牙",
+    "pinyin": "shuā yá",
+    "english": "to brush teeth",
+    "band": "rare",
+    "zipf": 3.33
+  },
+  {
+    "id": "卖-mai4",
+    "hanzi": "卖",
+    "pinyin": "mài",
+    "english": "to sell",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "去-qu4",
+    "hanzi": "去",
+    "pinyin": "qù",
+    "english": "go",
+    "band": "common",
+    "zipf": 6.16
+  },
+  {
+    "id": "吃-chi1",
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "english": "eat",
+    "band": "common",
+    "zipf": 5.65
+  },
+  {
+    "id": "喝-he1",
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "english": "drink",
+    "band": "common",
+    "zipf": 5
+  },
+  {
+    "id": "回家-hui2-jia1",
+    "hanzi": "回家",
+    "pinyin": "huí jiā",
+    "english": "to go home",
+    "band": "common",
+    "zipf": 5.06
+  },
+  {
+    "id": "学习-xue2-xi2",
+    "hanzi": "学习",
+    "pinyin": "xué xí",
+    "english": "learn / study",
+    "band": "common",
+    "zipf": 5.48
+  },
+  {
+    "id": "工作-gong1-zuo4",
+    "hanzi": "工作",
+    "pinyin": "gōng zuò",
+    "english": "work",
+    "band": "common",
+    "zipf": 5.99
+  },
+  {
+    "id": "帮-bang1",
+    "hanzi": "帮",
+    "pinyin": "bāng",
+    "english": "to help",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "开-kai1",
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "english": "open",
+    "band": "common",
+    "zipf": 5.63
+  },
+  {
+    "id": "打扫-da3-sao3",
+    "hanzi": "打扫",
+    "pinyin": "dǎ sǎo",
+    "english": "clean",
+    "band": "rare",
+    "zipf": 3.79
+  },
+  {
+    "id": "打电话-da3-dian4-hua4",
+    "hanzi": "打电话",
+    "pinyin": "dǎ diàn huà",
+    "english": "to call",
+    "band": "mid",
+    "zipf": 4.68
+  },
+  {
+    "id": "拿-na2",
+    "hanzi": "拿",
+    "pinyin": "ná",
+    "english": "to hold",
+    "band": "common",
+    "zipf": 5.42
+  },
+  {
+    "id": "有-you3",
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "english": "have / own",
+    "band": "common",
+    "zipf": 6.83
+  },
+  {
+    "id": "来-lai2",
+    "hanzi": "来",
+    "pinyin": "lái",
+    "english": "come",
+    "band": "common",
+    "zipf": 6.45
+  },
+  {
+    "id": "洗澡-xi3-zao3",
+    "hanzi": "洗澡",
+    "pinyin": "xǐ zǎo",
+    "english": "to bathe",
+    "band": "mid",
+    "zipf": 4.21
+  },
+  {
+    "id": "洗脸-xi3-lian3",
+    "hanzi": "洗脸",
+    "pinyin": "xǐ liǎn",
+    "english": "to wash face",
+    "band": "rare",
+    "zipf": 3.36
+  },
+  {
+    "id": "睡觉-shui4-jiao4",
+    "hanzi": "睡觉",
+    "pinyin": "shuì jiào",
+    "english": "sleep",
+    "band": "mid",
+    "zipf": 4.75
+  },
+  {
+    "id": "穿-chuan1",
+    "hanzi": "穿",
+    "pinyin": "chuān",
+    "english": "wear",
+    "band": "common",
+    "zipf": 5.2
+  },
+  {
+    "id": "给-gei3",
+    "hanzi": "给",
+    "pinyin": "gěi",
+    "english": "give",
+    "band": "common",
+    "zipf": 6.18
+  },
+  {
+    "id": "要-yao4",
+    "hanzi": "要",
+    "pinyin": "yào",
+    "english": "want",
+    "band": "common",
+    "zipf": 6.46
+  },
+  {
+    "id": "读-du2",
+    "hanzi": "读",
+    "pinyin": "dú",
+    "english": "read",
+    "band": "common",
+    "zipf": 5.05
+  },
+  {
+    "id": "起床-qi3-chuang2",
+    "hanzi": "起床",
+    "pinyin": "qǐ chuáng",
+    "english": "to wake up",
+    "band": "mid",
+    "zipf": 4.23
+  }
+]

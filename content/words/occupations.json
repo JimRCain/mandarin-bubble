@@ -1,0 +1,242 @@
+[
+  {
+    "id": "会计-kuai4-ji4",
+    "hanzi": "会计",
+    "pinyin": "kuài jì",
+    "english": "accountant",
+    "band": "mid",
+    "zipf": 4.34
+  },
+  {
+    "id": "作家-zuo4-jia1",
+    "hanzi": "作家",
+    "pinyin": "zuò jiā",
+    "english": "writer",
+    "band": "common",
+    "zipf": 5.08
+  },
+  {
+    "id": "军人-jun1-ren2",
+    "hanzi": "军人",
+    "pinyin": "jūn rén",
+    "english": "soldier",
+    "band": "mid",
+    "zipf": 4.62
+  },
+  {
+    "id": "农民-nong2-min2",
+    "hanzi": "农民",
+    "pinyin": "nóng mín",
+    "english": "farmer",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "分析师-fen1-xi1-shi1",
+    "hanzi": "分析师",
+    "pinyin": "fēn xī shī",
+    "english": "analyst",
+    "band": "rare",
+    "zipf": 3.99
+  },
+  {
+    "id": "医生-yi1-sheng1",
+    "hanzi": "医生",
+    "pinyin": "yī shēng",
+    "english": "doctor",
+    "band": "common",
+    "zipf": 5.06
+  },
+  {
+    "id": "厨师-chu2-shi1",
+    "hanzi": "厨师",
+    "pinyin": "chú shī",
+    "english": "cook",
+    "band": "rare",
+    "zipf": 4.04
+  },
+  {
+    "id": "司机-si1-ji1",
+    "hanzi": "司机",
+    "pinyin": "sī jī",
+    "english": "driver",
+    "band": "mid",
+    "zipf": 4.78
+  },
+  {
+    "id": "商人-shang1-ren2",
+    "hanzi": "商人",
+    "pinyin": "shāng rén",
+    "english": "business person",
+    "band": "mid",
+    "zipf": 4.59
+  },
+  {
+    "id": "学生-xue2-sheng1",
+    "hanzi": "学生",
+    "pinyin": "xué shēng",
+    "english": "student",
+    "band": "common",
+    "zipf": 5.72
+  },
+  {
+    "id": "工程师-gong1-cheng2-shi1",
+    "hanzi": "工程师",
+    "pinyin": "gōng chéng shī",
+    "english": "engineer",
+    "band": "mid",
+    "zipf": 4.61
+  },
+  {
+    "id": "建筑师-jian4-zhu4-shi1",
+    "hanzi": "建筑师",
+    "pinyin": "jiàn zhù shī",
+    "english": "architect",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "律师-lv4-shi1",
+    "hanzi": "律师",
+    "pinyin": "lǜ shī",
+    "english": "lawyer",
+    "band": "common",
+    "zipf": 5.07
+  },
+  {
+    "id": "护士-hu4-shi5",
+    "hanzi": "护士",
+    "pinyin": "hù shi",
+    "english": "nurse",
+    "band": "mid",
+    "zipf": 4.49
+  },
+  {
+    "id": "收银员-shou1-yin2-yuan2",
+    "hanzi": "收银员",
+    "pinyin": "shōu yín yuán",
+    "english": "cashier",
+    "band": "rare",
+    "zipf": 3.09
+  },
+  {
+    "id": "服务员-fu2-wu4-yuan2",
+    "hanzi": "服务员",
+    "pinyin": "fú wù yuán",
+    "english": "waiter",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "法官-fa3-guan1",
+    "hanzi": "法官",
+    "pinyin": "fǎ guān",
+    "english": "judge",
+    "band": "mid",
+    "zipf": 4.73
+  },
+  {
+    "id": "消防员-xiao1-fang2-yuan2",
+    "hanzi": "消防员",
+    "pinyin": "xiāo fáng yuán",
+    "english": "firefighter",
+    "band": "rare",
+    "zipf": 3.6
+  },
+  {
+    "id": "清洁工-qing1-jie2-gong1",
+    "hanzi": "清洁工",
+    "pinyin": "qīng jié gōng",
+    "english": "cleaner",
+    "band": "rare",
+    "zipf": 3.32
+  },
+  {
+    "id": "演员-yan3-yuan2",
+    "hanzi": "演员",
+    "pinyin": "yǎn yuán",
+    "english": "actor",
+    "band": "mid",
+    "zipf": 4.85
+  },
+  {
+    "id": "科学家-ke1-xue2-jia1",
+    "hanzi": "科学家",
+    "pinyin": "kē xué jiā",
+    "english": "scientist",
+    "band": "mid",
+    "zipf": 4.79
+  },
+  {
+    "id": "秘书-mi4-shu1",
+    "hanzi": "秘书",
+    "pinyin": "mì shū",
+    "english": "secretary",
+    "band": "mid",
+    "zipf": 4.71
+  },
+  {
+    "id": "程序员-cheng2-xu4-yuan2",
+    "hanzi": "程序员",
+    "pinyin": "chéng xù yuán",
+    "english": "programmer",
+    "band": "rare",
+    "zipf": 3.57
+  },
+  {
+    "id": "老师-lao3-shi1",
+    "hanzi": "老师",
+    "pinyin": "lǎo shī",
+    "english": "teacher",
+    "band": "common",
+    "zipf": 5.29
+  },
+  {
+    "id": "舞者-wu3-zhe3",
+    "hanzi": "舞者",
+    "pinyin": "wǔ zhě",
+    "english": "dancer",
+    "band": "rare",
+    "zipf": 3.65
+  },
+  {
+    "id": "艺术家-yi4-shu4-jia1",
+    "hanzi": "艺术家",
+    "pinyin": "yì shù jiā",
+    "english": "artist",
+    "band": "mid",
+    "zipf": 4.67
+  },
+  {
+    "id": "记者-ji4-zhe3",
+    "hanzi": "记者",
+    "pinyin": "jì zhě",
+    "english": "journalist",
+    "band": "common",
+    "zipf": 5.54
+  },
+  {
+    "id": "设计师-she4-ji4-shi1",
+    "hanzi": "设计师",
+    "pinyin": "shè jì shī",
+    "english": "designer",
+    "band": "mid",
+    "zipf": 4.54
+  },
+  {
+    "id": "警察-jing3-cha2",
+    "hanzi": "警察",
+    "pinyin": "jǐng chá",
+    "english": "police",
+    "band": "common",
+    "zipf": 5.31
+  },
+  {
+    "id": "音乐家-yin1-yue4-jia1",
+    "hanzi": "音乐家",
+    "pinyin": "yīn yuè jiā",
+    "english": "musician",
+    "band": "rare",
+    "zipf": 4.08
+  }
+]

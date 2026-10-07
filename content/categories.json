@@ -1,0 +1,302 @@
+[
+  {
+    "id": "colors",
+    "name": "Colors",
+    "group": "Nouns",
+    "order": 0
+  },
+  {
+    "id": "numbers-1-20",
+    "name": "Numbers (1-20)",
+    "group": "Nouns",
+    "order": 1
+  },
+  {
+    "id": "family",
+    "name": "Family (immediate)",
+    "group": "Nouns",
+    "order": 2
+  },
+  {
+    "id": "animals",
+    "name": "Animals",
+    "group": "Nouns",
+    "order": 3
+  },
+  {
+    "id": "fruits",
+    "name": "Fruits",
+    "group": "Nouns",
+    "order": 4
+  },
+  {
+    "id": "vegetables",
+    "name": "Vegetables",
+    "group": "Nouns",
+    "order": 5
+  },
+  {
+    "id": "food",
+    "name": "Food",
+    "group": "Nouns",
+    "order": 6
+  },
+  {
+    "id": "drinks",
+    "name": "Drinks",
+    "group": "Nouns",
+    "order": 7
+  },
+  {
+    "id": "clothing",
+    "name": "Clothing",
+    "group": "Nouns",
+    "order": 8
+  },
+  {
+    "id": "house-rooms",
+    "name": "House-rooms",
+    "group": "Nouns",
+    "order": 9
+  },
+  {
+    "id": "furniture",
+    "name": "Furniture",
+    "group": "Nouns",
+    "order": 10
+  },
+  {
+    "id": "school-objects",
+    "name": "School objects",
+    "group": "Nouns",
+    "order": 11
+  },
+  {
+    "id": "hobbies",
+    "name": "Hobbies",
+    "group": "Nouns",
+    "order": 12
+  },
+  {
+    "id": "sports",
+    "name": "Sports",
+    "group": "Nouns",
+    "order": 13
+  },
+  {
+    "id": "body-parts",
+    "name": "Body parts",
+    "group": "Nouns",
+    "order": 14
+  },
+  {
+    "id": "health",
+    "name": "Health",
+    "group": "Nouns",
+    "order": 15
+  },
+  {
+    "id": "daily-routines",
+    "name": "Daily routines",
+    "group": "Verbs & Routines",
+    "order": 16
+  },
+  {
+    "id": "body-actions",
+    "name": "Body actions (run, jump, sit, clap, etc.)",
+    "group": "Verbs & Routines",
+    "order": 17
+  },
+  {
+    "id": "communication-verbs",
+    "name": "Communication verbs",
+    "group": "Verbs & Routines",
+    "order": 18
+  },
+  {
+    "id": "mental-verbs",
+    "name": "Mental verbs",
+    "group": "Verbs & Routines",
+    "order": 19
+  },
+  {
+    "id": "sensory-verbs",
+    "name": "Sensory verbs",
+    "group": "Verbs & Routines",
+    "order": 20
+  },
+  {
+    "id": "cooking-household-verbs",
+    "name": "Cooking & household verbs",
+    "group": "Verbs & Routines",
+    "order": 21
+  },
+  {
+    "id": "modal-verbs",
+    "name": "Modal verbs",
+    "group": "Verbs & Routines",
+    "order": 22
+  },
+  {
+    "id": "emotion-state-verbs",
+    "name": "Emotion-state verbs",
+    "group": "Verbs & Routines",
+    "order": 23
+  },
+  {
+    "id": "emotions",
+    "name": "Emotions",
+    "group": "Adjectives & Emotions",
+    "order": 24
+  },
+  {
+    "id": "size-shape",
+    "name": "Size-shape",
+    "group": "Adjectives & Emotions",
+    "order": 25
+  },
+  {
+    "id": "opposites",
+    "name": "Opposites",
+    "group": "Adjectives & Emotions",
+    "order": 26
+  },
+  {
+    "id": "personality-traits",
+    "name": "Personality traits",
+    "group": "Adjectives & Emotions",
+    "order": 27
+  },
+  {
+    "id": "physical-conditions",
+    "name": "Physical conditions",
+    "group": "Adjectives & Emotions",
+    "order": 28
+  },
+  {
+    "id": "nationalities-languages",
+    "name": "Nationalities & languages",
+    "group": "Adjectives & Emotions",
+    "order": 29
+  },
+  {
+    "id": "weather",
+    "name": "Weather",
+    "group": "Time, Weather, Nature",
+    "order": 30
+  },
+  {
+    "id": "nature",
+    "name": "Nature",
+    "group": "Time, Weather, Nature",
+    "order": 31
+  },
+  {
+    "id": "days-of-week",
+    "name": "Days of week",
+    "group": "Time, Weather, Nature",
+    "order": 32
+  },
+  {
+    "id": "months-seasons",
+    "name": "Months-seasons",
+    "group": "Time, Weather, Nature",
+    "order": 33
+  },
+  {
+    "id": "time-expressions",
+    "name": "Time expressions (relative)",
+    "group": "Time, Weather, Nature",
+    "order": 34
+  },
+  {
+    "id": "frequency-adverbs",
+    "name": "Frequency adverbs",
+    "group": "Time, Weather, Nature",
+    "order": 35
+  },
+  {
+    "id": "greetings-polite-phrases",
+    "name": "Greetings-polite-phrases",
+    "group": "Social & Travel",
+    "order": 36
+  },
+  {
+    "id": "transportation",
+    "name": "Transportation",
+    "group": "Social & Travel",
+    "order": 37
+  },
+  {
+    "id": "occupations",
+    "name": "Occupations (basic)",
+    "group": "Social & Travel",
+    "order": 38
+  },
+  {
+    "id": "social-activities",
+    "name": "Social activities",
+    "group": "Social & Travel",
+    "order": 39
+  },
+  {
+    "id": "travel-directions",
+    "name": "Travel & directions",
+    "group": "Social & Travel",
+    "order": 40
+  },
+  {
+    "id": "shopping-money",
+    "name": "Shopping & money",
+    "group": "Social & Travel",
+    "order": 41
+  },
+  {
+    "id": "license-plates",
+    "name": "Chinese license plates",
+    "group": "Social & Travel",
+    "order": 42
+  },
+  {
+    "id": "hsk-1",
+    "name": "HSK 1",
+    "group": "HSK",
+    "order": 43
+  },
+  {
+    "id": "hsk-2",
+    "name": "HSK 2",
+    "group": "HSK",
+    "order": 44
+  },
+  {
+    "id": "hsk-3",
+    "name": "HSK 3",
+    "group": "HSK",
+    "order": 45
+  },
+  {
+    "id": "hsk-4",
+    "name": "HSK 4",
+    "group": "HSK",
+    "order": 46
+  },
+  {
+    "id": "hsk-5",
+    "name": "HSK 5",
+    "group": "HSK",
+    "order": 47
+  },
+  {
+    "id": "adverbs-of-degree",
+    "name": "Common adverbs of degree",
+    "group": "Grammar & Function Words",
+    "order": 48
+  },
+  {
+    "id": "prepositions-location-words",
+    "name": "Prepositions & location words",
+    "group": "Grammar & Function Words",
+    "order": 49
+  }
+]

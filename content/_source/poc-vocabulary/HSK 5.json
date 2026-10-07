@@ -1,0 +1,6043 @@
+[
+  {
+    "english": "to cherish",
+    "hanzi": "爱惜",
+    "pinyin": "ài xī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to arrange",
+    "hanzi": "安排",
+    "pinyin": "ān pái",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "safe",
+    "hanzi": "安全",
+    "pinyin": "ān quán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "on time",
+    "hanzi": "按时",
+    "pinyin": "àn shí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to grasp",
+    "hanzi": "把握",
+    "pinyin": "bǎ wò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to get rid of",
+    "hanzi": "摆脱",
+    "pinyin": "bǎi tuō",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to handle",
+    "hanzi": "办理",
+    "pinyin": "bàn lǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to include",
+    "hanzi": "包括",
+    "pinyin": "bāo kuò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to maintain",
+    "hanzi": "保持",
+    "pinyin": "bǎo chí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to protect",
+    "hanzi": "保护",
+    "pinyin": "bǎo hù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to guarantee",
+    "hanzi": "保证",
+    "pinyin": "bǎo zhèng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "sorry",
+    "hanzi": "抱歉",
+    "pinyin": "bào qiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to report",
+    "hanzi": "报道",
+    "pinyin": "bào dào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "pessimistic",
+    "hanzi": "悲观",
+    "pinyin": "bēi guān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "inevitable",
+    "hanzi": "必然",
+    "pinyin": "bì rán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "must",
+    "hanzi": "必须",
+    "pinyin": "bì xū",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to edit",
+    "hanzi": "编辑",
+    "pinyin": "biān jí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to debate",
+    "hanzi": "辩论",
+    "pinyin": "biàn lùn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "symbol",
+    "hanzi": "标志",
+    "pinyin": "biāo zhì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "museum",
+    "hanzi": "博物馆",
+    "pinyin": "bó wù guǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to compensate",
+    "hanzi": "补偿",
+    "pinyin": "bǔ cháng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "need not",
+    "hanzi": "不必",
+    "pinyin": "bú bì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "continuously",
+    "hanzi": "不断",
+    "pinyin": "bú duàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "however",
+    "hanzi": "不过",
+    "pinyin": "bú guò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "can't help",
+    "hanzi": "不禁",
+    "pinyin": "bù jīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "dissatisfied",
+    "hanzi": "不满",
+    "pinyin": "bù mǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "otherwise",
+    "hanzi": "不然",
+    "pinyin": "bù rán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "insufficient",
+    "hanzi": "不足",
+    "pinyin": "bù zú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to interview",
+    "hanzi": "采访",
+    "pinyin": "cǎi fǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to adopt",
+    "hanzi": "采取",
+    "pinyin": "cǎi qǔ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to visit",
+    "hanzi": "参观",
+    "pinyin": "cān guān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to participate",
+    "hanzi": "参加",
+    "pinyin": "cān jiā",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "cruel",
+    "hanzi": "残酷",
+    "pinyin": "cán kù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "brilliant",
+    "hanzi": "灿烂",
+    "pinyin": "càn làn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "difference",
+    "hanzi": "差别",
+    "pinyin": "chā bié",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "output",
+    "hanzi": "产量",
+    "pinyin": "chǎn liàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "long-term",
+    "hanzi": "长期",
+    "pinyin": "cháng qī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to exceed",
+    "hanzi": "超过",
+    "pinyin": "chāo guò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to quarrel",
+    "hanzi": "吵架",
+    "pinyin": "chǎo jià",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "thoroughly",
+    "hanzi": "彻底",
+    "pinyin": "chè dǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "silent",
+    "hanzi": "沉默",
+    "pinyin": "chén mò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "heavy (heart)",
+    "hanzi": "沉重",
+    "pinyin": "chén zhòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to call",
+    "hanzi": "称呼",
+    "pinyin": "chēng hū",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "achievement",
+    "hanzi": "成就",
+    "pinyin": "chéng jiù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to establish",
+    "hanzi": "成立",
+    "pinyin": "chéng lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "ripe / mature",
+    "hanzi": "成熟",
+    "pinyin": "chéng shú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to undertake",
+    "hanzi": "承担",
+    "pinyin": "chéng dān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to admit",
+    "hanzi": "承认",
+    "pinyin": "chéng rèn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to eat",
+    "hanzi": "吃饭",
+    "pinyin": "chī fàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "sufficient",
+    "hanzi": "充分",
+    "pinyin": "chōng fèn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to fill",
+    "hanzi": "充满",
+    "pinyin": "chōng mǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to repeat",
+    "hanzi": "重复",
+    "pinyin": "chóng fù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "anew",
+    "hanzi": "重新",
+    "pinyin": "chóng xīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to depart",
+    "hanzi": "出发",
+    "pinyin": "chū fā",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "way out",
+    "hanzi": "出路",
+    "pinyin": "chū lù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to appear",
+    "hanzi": "出现",
+    "pinyin": "chū xiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "kitchen",
+    "hanzi": "厨房",
+    "pinyin": "chú fáng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to handle",
+    "hanzi": "处理",
+    "pinyin": "chǔ lǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to spread",
+    "hanzi": "传播",
+    "pinyin": "chuán bō",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to create",
+    "hanzi": "创造",
+    "pinyin": "chuàng zào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to brag",
+    "hanzi": "吹牛",
+    "pinyin": "chuī niú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to resign",
+    "hanzi": "辞职",
+    "pinyin": "cí zhí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "besides",
+    "hanzi": "此外",
+    "pinyin": "cǐ wài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to stimulate",
+    "hanzi": "刺激",
+    "pinyin": "cì jī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "clever",
+    "hanzi": "聪明",
+    "pinyin": "cōng míng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to engage in",
+    "hanzi": "从事",
+    "pinyin": "cóng shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to promote",
+    "hanzi": "促进",
+    "pinyin": "cù jìn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "measure",
+    "hanzi": "措施",
+    "pinyin": "cuò shī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to promise",
+    "hanzi": "答应",
+    "pinyin": "dā yìng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to achieve",
+    "hanzi": "达到",
+    "pinyin": "dá dào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to defeat",
+    "hanzi": "打败",
+    "pinyin": "dǎ bài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to dress up",
+    "hanzi": "打扮",
+    "pinyin": "dǎ bàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to strike",
+    "hanzi": "打击",
+    "pinyin": "dǎ jī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to greet",
+    "hanzi": "打招呼",
+    "pinyin": "dǎ zhāo hū",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "bold",
+    "hanzi": "大胆",
+    "pinyin": "dà dǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "roughly",
+    "hanzi": "大概",
+    "pinyin": "dà gài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "everyone",
+    "hanzi": "大家",
+    "pinyin": "dà jiā",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "large amount",
+    "hanzi": "大量",
+    "pinyin": "dà liàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "continent",
+    "hanzi": "大陆",
+    "pinyin": "dà lù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "embassy",
+    "hanzi": "大使馆",
+    "pinyin": "dà shǐ guǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "approximately",
+    "hanzi": "大约",
+    "pinyin": "dà yuē",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to represent",
+    "hanzi": "代表",
+    "pinyin": "dài biǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to replace",
+    "hanzi": "代替",
+    "pinyin": "dài tì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to hold (a position)",
+    "hanzi": "担任",
+    "pinyin": "dān rèn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to worry",
+    "hanzi": "担心",
+    "pinyin": "dān xīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "simple",
+    "hanzi": "单纯",
+    "pinyin": "dān chún",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "monotonous",
+    "hanzi": "单调",
+    "pinyin": "dān diào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "unit",
+    "hanzi": "单位",
+    "pinyin": "dān wèi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "of course",
+    "hanzi": "当然",
+    "pinyin": "dāng rán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "at that time",
+    "hanzi": "当时",
+    "pinyin": "dāng shí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to lead to",
+    "hanzi": "导致",
+    "pinyin": "dǎo zhì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "everywhere",
+    "hanzi": "到处",
+    "pinyin": "dào chù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "after all",
+    "hanzi": "到底",
+    "pinyin": "dào dǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "morality",
+    "hanzi": "道德",
+    "pinyin": "dào dé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to get",
+    "hanzi": "得到",
+    "pinyin": "dé dào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to register",
+    "hanzi": "登记",
+    "pinyin": "dēng jì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to wait",
+    "hanzi": "等待",
+    "pinyin": "děng dài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to equal",
+    "hanzi": "等于",
+    "pinyin": "děng yú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "enemy",
+    "hanzi": "敌人",
+    "pinyin": "dí rén",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "underneath",
+    "hanzi": "底下",
+    "pinyin": "dǐ xià",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "genuine",
+    "hanzi": "地道",
+    "pinyin": "dì dào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "location",
+    "hanzi": "地点",
+    "pinyin": "dì diǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "earth",
+    "hanzi": "地球",
+    "pinyin": "dì qiú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "address",
+    "hanzi": "地址",
+    "pinyin": "dì zhǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "typical",
+    "hanzi": "典型",
+    "pinyin": "diǎn xíng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "snack",
+    "hanzi": "点心",
+    "pinyin": "diǎn xīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "TV station",
+    "hanzi": "电视台",
+    "pinyin": "diàn shì tái",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to investigate",
+    "hanzi": "调查",
+    "pinyin": "diào chá",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to transfer",
+    "hanzi": "调动",
+    "pinyin": "diào dòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "northeast",
+    "hanzi": "东北",
+    "pinyin": "dōng běi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "winter",
+    "hanzi": "冬季",
+    "pinyin": "dōng jì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to set out",
+    "hanzi": "动身",
+    "pinyin": "dòng shēn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to start work",
+    "hanzi": "动手",
+    "pinyin": "dòng shǒu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "independent",
+    "hanzi": "独立",
+    "pinyin": "dú lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to spend (time)",
+    "hanzi": "度过",
+    "pinyin": "dù guò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to treat",
+    "hanzi": "对待",
+    "pinyin": "duì dài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "the other party",
+    "hanzi": "对方",
+    "pinyin": "duì fāng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to deal with",
+    "hanzi": "对付",
+    "pinyin": "duì fu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "comparison",
+    "hanzi": "对比",
+    "pinyin": "duì bǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "dialogue",
+    "hanzi": "对话",
+    "pinyin": "duì huà",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to be worthy of",
+    "hanzi": "对得起",
+    "pinyin": "duì de qǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "how (intensifier)",
+    "hanzi": "多么",
+    "pinyin": "duō me",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "malice",
+    "hanzi": "恶意",
+    "pinyin": "è yì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "child",
+    "hanzi": "儿童",
+    "pinyin": "ér tóng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to publish",
+    "hanzi": "发表",
+    "pinyin": "fā biǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "developed",
+    "hanzi": "发达",
+    "pinyin": "fā dá",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to launch",
+    "hanzi": "发动",
+    "pinyin": "fā dòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to shiver",
+    "hanzi": "发抖",
+    "pinyin": "fā dǒu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to bring into play",
+    "hanzi": "发挥",
+    "pinyin": "fā huī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "invention",
+    "hanzi": "发明",
+    "pinyin": "fā míng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to happen",
+    "hanzi": "发生",
+    "pinyin": "fā shēng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to discover",
+    "hanzi": "发现",
+    "pinyin": "fā xiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to develop",
+    "hanzi": "发展",
+    "pinyin": "fā zhǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "fine (penalty)",
+    "hanzi": "罚款",
+    "pinyin": "fá kuǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "law",
+    "hanzi": "法律",
+    "pinyin": "fǎ lǜ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "every",
+    "hanzi": "凡是",
+    "pinyin": "fán shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "prosperous",
+    "hanzi": "繁荣",
+    "pinyin": "fán róng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to oppose",
+    "hanzi": "反对",
+    "pinyin": "fǎn duì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "repeatedly",
+    "hanzi": "反复",
+    "pinyin": "fǎn fù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "reaction",
+    "hanzi": "反应",
+    "pinyin": "fǎn yìng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to reflect",
+    "hanzi": "反映",
+    "pinyin": "fǎn yìng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "anyway",
+    "hanzi": "反正",
+    "pinyin": "fǎn zhèng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "scope",
+    "hanzi": "范围",
+    "pinyin": "fàn wéi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "plan",
+    "hanzi": "方案",
+    "pinyin": "fāng àn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "convenient",
+    "hanzi": "方便",
+    "pinyin": "fāng biàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "aspect",
+    "hanzi": "方面",
+    "pinyin": "fāng miàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "way",
+    "hanzi": "方式",
+    "pinyin": "fāng shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to prevent",
+    "hanzi": "防止",
+    "pinyin": "fáng zhǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to visit",
+    "hanzi": "访问",
+    "pinyin": "fǎng wèn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to give up",
+    "hanzi": "放弃",
+    "pinyin": "fàng qì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to relax",
+    "hanzi": "放松",
+    "pinyin": "fàng sōng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "flight",
+    "hanzi": "飞行",
+    "pinyin": "fēi xíng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "very",
+    "hanzi": "非常",
+    "pinyin": "fēi cháng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "cost",
+    "hanzi": "费用",
+    "pinyin": "fèi yòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to part",
+    "hanzi": "分别",
+    "pinyin": "fēn bié",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to distribute",
+    "hanzi": "分配",
+    "pinyin": "fēn pèi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to analyze",
+    "hanzi": "分析",
+    "pinyin": "fēn xī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to strive",
+    "hanzi": "奋斗",
+    "pinyin": "fèn dòu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "style",
+    "hanzi": "风格",
+    "pinyin": "fēng gé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "scenery",
+    "hanzi": "风景",
+    "pinyin": "fēng jǐng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to negate",
+    "hanzi": "否定",
+    "pinyin": "fǒu dìng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "otherwise",
+    "hanzi": "否则",
+    "pinyin": "fǒu zé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to conform",
+    "hanzi": "符合",
+    "pinyin": "fú hé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to serve",
+    "hanzi": "服务",
+    "pinyin": "fú wù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "burden",
+    "hanzi": "负担",
+    "pinyin": "fù dān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to be responsible",
+    "hanzi": "负责",
+    "pinyin": "fù zé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to change",
+    "hanzi": "改变",
+    "pinyin": "gǎi biàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to reform",
+    "hanzi": "改革",
+    "pinyin": "gǎi gé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to improve",
+    "hanzi": "改进",
+    "pinyin": "gǎi jìn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to improve",
+    "hanzi": "改善",
+    "pinyin": "gǎi shàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to transform",
+    "hanzi": "改造",
+    "pinyin": "gǎi zào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to correct",
+    "hanzi": "改正",
+    "pinyin": "gǎi zhèng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "cadre",
+    "hanzi": "干部",
+    "pinyin": "gàn bù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "just now",
+    "hanzi": "刚才",
+    "pinyin": "gāng cái",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "height",
+    "hanzi": "高度",
+    "pinyin": "gāo dù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to say goodbye",
+    "hanzi": "告别",
+    "pinyin": "gào bié",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to tell",
+    "hanzi": "告诉",
+    "pinyin": "gào su",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to sing",
+    "hanzi": "歌唱",
+    "pinyin": "gē chàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "individual",
+    "hanzi": "个别",
+    "pinyin": "gè bié",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "individual",
+    "hanzi": "个人",
+    "pinyin": "gè rén",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "each",
+    "hanzi": "各个",
+    "pinyin": "gè gè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "fundamental",
+    "hanzi": "根本",
+    "pinyin": "gēn běn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "even more",
+    "hanzi": "更加",
+    "pinyin": "gèng jiā",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "factory",
+    "hanzi": "工厂",
+    "pinyin": "gōng chǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "engineering",
+    "hanzi": "工程",
+    "pinyin": "gōng chéng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "labor union",
+    "hanzi": "工会",
+    "pinyin": "gōng huì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "tool",
+    "hanzi": "工具",
+    "pinyin": "gōng jù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "worker",
+    "hanzi": "工人",
+    "pinyin": "gōng rén",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "industry",
+    "hanzi": "工业",
+    "pinyin": "gōng yè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "wages",
+    "hanzi": "工资",
+    "pinyin": "gōng zī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "work",
+    "hanzi": "工作",
+    "pinyin": "gōng zuò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "public",
+    "hanzi": "公共",
+    "pinyin": "gōng gòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "public transport",
+    "hanzi": "公交",
+    "pinyin": "gōng jiāo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "company",
+    "hanzi": "公司",
+    "pinyin": "gōng sī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "just",
+    "hanzi": "公正",
+    "pinyin": "gōng zhèng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to consolidate",
+    "hanzi": "巩固",
+    "pinyin": "gǒng gù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "contribution",
+    "hanzi": "贡献",
+    "pinyin": "gòng xiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to communicate",
+    "hanzi": "沟通",
+    "pinyin": "gōu tōng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to constitute",
+    "hanzi": "构成",
+    "pinyin": "gòu chéng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to estimate",
+    "hanzi": "估计",
+    "pinyin": "gū jì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to encourage",
+    "hanzi": "鼓励",
+    "pinyin": "gǔ lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "ancient times",
+    "hanzi": "古代",
+    "pinyin": "gǔ dài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "customer",
+    "hanzi": "顾客",
+    "pinyin": "gù kè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "on purpose",
+    "hanzi": "故意",
+    "pinyin": "gù yì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to care about",
+    "hanzi": "关心",
+    "pinyin": "guān xīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "about",
+    "hanzi": "关于",
+    "pinyin": "guān yú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to observe",
+    "hanzi": "观察",
+    "pinyin": "guān chá",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "viewpoint",
+    "hanzi": "观点",
+    "pinyin": "guān diǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to manage",
+    "hanzi": "管理",
+    "pinyin": "guǎn lǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "champion",
+    "hanzi": "冠军",
+    "pinyin": "guàn jūn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "bright",
+    "hanzi": "光明",
+    "pinyin": "guāng míng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "vast",
+    "hanzi": "广大",
+    "pinyin": "guǎng dà",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "wide-ranging",
+    "hanzi": "广泛",
+    "pinyin": "guǎng fàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "rule",
+    "hanzi": "规律",
+    "pinyin": "guī lǜ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "scale",
+    "hanzi": "规模",
+    "pinyin": "guī mó",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "rule",
+    "hanzi": "规则",
+    "pinyin": "guī zé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "country",
+    "hanzi": "国家",
+    "pinyin": "guó jiā",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "indeed",
+    "hanzi": "果然",
+    "pinyin": "guǒ rán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "process",
+    "hanzi": "过程",
+    "pinyin": "guò chéng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "past",
+    "hanzi": "过去",
+    "pinyin": "guò qù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "shy",
+    "hanzi": "害羞",
+    "pinyin": "hài xiū",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to fear",
+    "hanzi": "害怕",
+    "pinyin": "hài pà",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "industry",
+    "hanzi": "行业",
+    "pinyin": "háng yè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "benefit",
+    "hanzi": "好处",
+    "pinyin": "hǎo chù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "properly",
+    "hanzi": "好好",
+    "pinyin": "hǎo hǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "as if",
+    "hanzi": "好像",
+    "pinyin": "hǎo xiàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to call for",
+    "hanzi": "号召",
+    "pinyin": "hào zhào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "qualified",
+    "hanzi": "合格",
+    "pinyin": "hé gé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "reasonable",
+    "hanzi": "合理",
+    "pinyin": "hé lǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "suitable",
+    "hanzi": "合适",
+    "pinyin": "hé shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to cooperate",
+    "hanzi": "合作",
+    "pinyin": "hé zuò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "peace",
+    "hanzi": "和平",
+    "pinyin": "hé píng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "core",
+    "hanzi": "核心",
+    "pinyin": "hé xīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "dark",
+    "hanzi": "黑暗",
+    "pinyin": "hēi àn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "consequence",
+    "hanzi": "后果",
+    "pinyin": "hòu guǒ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to regret",
+    "hanzi": "后悔",
+    "pinyin": "hòu huǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "afterwards",
+    "hanzi": "后来",
+    "pinyin": "hòu lái",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "suddenly",
+    "hanzi": "忽然",
+    "pinyin": "hū rán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to ignore",
+    "hanzi": "忽视",
+    "pinyin": "hū shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "passport",
+    "hanzi": "护照",
+    "pinyin": "hù zhào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "garden",
+    "hanzi": "花园",
+    "pinyin": "huā yuán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "chemistry",
+    "hanzi": "化学",
+    "pinyin": "huà xué",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "topic",
+    "hanzi": "话题",
+    "pinyin": "huà tí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to cherish memory",
+    "hanzi": "怀念",
+    "pinyin": "huái niàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to doubt",
+    "hanzi": "怀疑",
+    "pinyin": "huái yí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "environment",
+    "hanzi": "环境",
+    "pinyin": "huán jìng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to welcome",
+    "hanzi": "欢迎",
+    "pinyin": "huān yíng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to substitute",
+    "hanzi": "换人",
+    "pinyin": "huàn rén",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to recover",
+    "hanzi": "恢复",
+    "pinyin": "huī fù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to recall",
+    "hanzi": "回忆",
+    "pinyin": "huí yì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to report",
+    "hanzi": "汇报",
+    "pinyin": "huì bào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "meeting",
+    "hanzi": "会议",
+    "pinyin": "huì yì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "marriage",
+    "hanzi": "婚姻",
+    "pinyin": "hūn yīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "active",
+    "hanzi": "活跃",
+    "pinyin": "huó yuè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "match",
+    "hanzi": "火柴",
+    "pinyin": "huǒ chái",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "partner",
+    "hanzi": "伙伴",
+    "pinyin": "huǒ bàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "perhaps",
+    "hanzi": "或许",
+    "pinyin": "huò xǔ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "foundation",
+    "hanzi": "基础",
+    "pinyin": "jī chǔ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "airport",
+    "hanzi": "机场",
+    "pinyin": "jī chǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "excited",
+    "hanzi": "激动",
+    "pinyin": "jī dòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "positive",
+    "hanzi": "积极",
+    "pinyin": "jī jí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to accumulate",
+    "hanzi": "积累",
+    "pinyin": "jī lěi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "basically",
+    "hanzi": "基本上",
+    "pinyin": "jī běn shàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "fierce",
+    "hanzi": "激烈",
+    "pinyin": "jī liè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "market",
+    "hanzi": "集市",
+    "pinyin": "jí shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "collective",
+    "hanzi": "集体",
+    "pinyin": "jí tǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to concentrate",
+    "hanzi": "集中",
+    "pinyin": "jí zhōng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to calculate",
+    "hanzi": "计算",
+    "pinyin": "jì suàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "technology",
+    "hanzi": "技术",
+    "pinyin": "jì shù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to commemorate",
+    "hanzi": "纪念",
+    "pinyin": "jì niàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "discipline",
+    "hanzi": "纪律",
+    "pinyin": "jì lǜ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to continue",
+    "hanzi": "继续",
+    "pinyin": "jì xù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "record",
+    "hanzi": "纪录",
+    "pinyin": "jì lù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "season",
+    "hanzi": "季节",
+    "pinyin": "jì jié",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to reduce",
+    "hanzi": "减少",
+    "pinyin": "jiǎn shǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to inspect",
+    "hanzi": "检查",
+    "pinyin": "jiǎn chá",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "simple",
+    "hanzi": "简单",
+    "pinyin": "jiǎn dān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to establish",
+    "hanzi": "建立",
+    "pinyin": "jiàn lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to build",
+    "hanzi": "建设",
+    "pinyin": "jiàn shè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to suggest",
+    "hanzi": "建议",
+    "pinyin": "jiàn yì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "building",
+    "hanzi": "建筑",
+    "pinyin": "jiàn zhù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "health",
+    "hanzi": "健康",
+    "pinyin": "jiàn kāng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "future",
+    "hanzi": "将来",
+    "pinyin": "jiāng lái",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to explain",
+    "hanzi": "讲解",
+    "pinyin": "jiǎng jiě",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "bonus",
+    "hanzi": "奖金",
+    "pinyin": "jiǎng jīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to lower",
+    "hanzi": "降低",
+    "pinyin": "jiàng dī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to exchange",
+    "hanzi": "交流",
+    "pinyin": "jiāo liú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "traffic",
+    "hanzi": "交通",
+    "pinyin": "jiāo tōng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "proud",
+    "hanzi": "骄傲",
+    "pinyin": "jiāo ào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "teaching material",
+    "hanzi": "教材",
+    "pinyin": "jiào cái",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "coach",
+    "hanzi": "教练",
+    "pinyin": "jiào liàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "lesson",
+    "hanzi": "教训",
+    "pinyin": "jiào xun",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "education",
+    "hanzi": "教育",
+    "pinyin": "jiào yù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "stage",
+    "hanzi": "阶段",
+    "pinyin": "jiē duàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "result",
+    "hanzi": "结果",
+    "pinyin": "jié guǒ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to combine",
+    "hanzi": "结合",
+    "pinyin": "jié hé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to save",
+    "hanzi": "节约",
+    "pinyin": "jié yuē",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to liberate",
+    "hanzi": "解放",
+    "pinyin": "jiě fàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to solve",
+    "hanzi": "解决",
+    "pinyin": "jiě jué",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to explain",
+    "hanzi": "解释",
+    "pinyin": "jiě shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to borrow a book",
+    "hanzi": "借书",
+    "pinyin": "jiè shū",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "from now on",
+    "hanzi": "今后",
+    "pinyin": "jīn hòu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "nervous",
+    "hanzi": "紧张",
+    "pinyin": "jǐn zhāng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "progress",
+    "hanzi": "进步",
+    "pinyin": "jìn bù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "import",
+    "hanzi": "进口",
+    "pinyin": "jìn kǒu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to enter",
+    "hanzi": "进入",
+    "pinyin": "jìn rù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to proceed",
+    "hanzi": "进行",
+    "pinyin": "jìn xíng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to forbid",
+    "hanzi": "禁止",
+    "pinyin": "jìn zhǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "often",
+    "hanzi": "经常",
+    "pinyin": "jīng cháng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to pass through",
+    "hanzi": "经过",
+    "pinyin": "jīng guò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "economy",
+    "hanzi": "经济",
+    "pinyin": "jīng jì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "experience",
+    "hanzi": "经历",
+    "pinyin": "jīng lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "experience",
+    "hanzi": "经验",
+    "pinyin": "jīng yàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to manage",
+    "hanzi": "经营",
+    "pinyin": "jīng yíng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "police",
+    "hanzi": "警察",
+    "pinyin": "jǐng chá",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "competition",
+    "hanzi": "竞争",
+    "pinyin": "jìng zhēng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "after all",
+    "hanzi": "究竟",
+    "pinyin": "jiū jìng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to take office",
+    "hanzi": "就职",
+    "pinyin": "jiù zhí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to hold (event)",
+    "hanzi": "举办",
+    "pinyin": "jǔ bàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to hold (meeting)",
+    "hanzi": "举行",
+    "pinyin": "jǔ xíng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "concrete",
+    "hanzi": "具体",
+    "pinyin": "jù tǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "huge",
+    "hanzi": "巨大",
+    "pinyin": "jù dà",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to possess",
+    "hanzi": "具备",
+    "pinyin": "jù bèi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to donate",
+    "hanzi": "捐款",
+    "pinyin": "juān kuǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to decide",
+    "hanzi": "决定",
+    "pinyin": "jué dìng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "determination",
+    "hanzi": "决心",
+    "pinyin": "jué xīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "absolute",
+    "hanzi": "绝对",
+    "pinyin": "jué duì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "army",
+    "hanzi": "军队",
+    "pinyin": "jūn duì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to develop",
+    "hanzi": "开发",
+    "pinyin": "kāi fā",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to open up",
+    "hanzi": "开放",
+    "pinyin": "kāi fàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to start",
+    "hanzi": "开始",
+    "pinyin": "kāi shǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to launch",
+    "hanzi": "开展",
+    "pinyin": "kāi zhǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "opinion",
+    "hanzi": "看法",
+    "pinyin": "kàn fǎ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to consider",
+    "hanzi": "考虑",
+    "pinyin": "kǎo lǜ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "exam",
+    "hanzi": "考试",
+    "pinyin": "kǎo shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "science",
+    "hanzi": "科学",
+    "pinyin": "kē xué",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "cute",
+    "hanzi": "可爱",
+    "pinyin": "kě ài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "pitiful",
+    "hanzi": "可怜",
+    "pinyin": "kě lián",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "possible",
+    "hanzi": "可能",
+    "pinyin": "kě néng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "but",
+    "hanzi": "可是",
+    "pinyin": "kě shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "unfortunate",
+    "hanzi": "可惜",
+    "pinyin": "kě xī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "guest",
+    "hanzi": "客人",
+    "pinyin": "kè rén",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "course",
+    "hanzi": "课程",
+    "pinyin": "kè chéng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "space",
+    "hanzi": "空间",
+    "pinyin": "kōng jiān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "air",
+    "hanzi": "空气",
+    "pinyin": "kōng qì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "I'm afraid",
+    "hanzi": "恐怕",
+    "pinyin": "kǒng pà",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to control",
+    "hanzi": "控制",
+    "pinyin": "kòng zhì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to cry",
+    "hanzi": "哭泣",
+    "pinyin": "kū qì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "depressed",
+    "hanzi": "苦闷",
+    "pinyin": "kǔ mèn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to praise",
+    "hanzi": "夸奖",
+    "pinyin": "kuā jiǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "happy",
+    "hanzi": "快乐",
+    "pinyin": "kuài lè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "spacious",
+    "hanzi": "宽敞",
+    "pinyin": "kuān chang",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "difficult",
+    "hanzi": "困难",
+    "pinyin": "kùn nan",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to expand",
+    "hanzi": "扩大",
+    "pinyin": "kuò dà",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "garbage",
+    "hanzi": "垃圾",
+    "pinyin": "lā jī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "too late",
+    "hanzi": "来不及",
+    "pinyin": "lái bu jí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to waste",
+    "hanzi": "浪费",
+    "pinyin": "làng fèi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "labor",
+    "hanzi": "劳动",
+    "pinyin": "láo dòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "teacher",
+    "hanzi": "老师",
+    "pinyin": "lǎo shī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "optimistic",
+    "hanzi": "乐观",
+    "pinyin": "lè guān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "similar",
+    "hanzi": "类似",
+    "pinyin": "lèi sì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "calm",
+    "hanzi": "冷静",
+    "pinyin": "lěng jìng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to leave",
+    "hanzi": "离开",
+    "pinyin": "lí kāi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to understand",
+    "hanzi": "理解",
+    "pinyin": "lǐ jiě",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "theory",
+    "hanzi": "理论",
+    "pinyin": "lǐ lùn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "ideal",
+    "hanzi": "理想",
+    "pinyin": "lǐ xiǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "strength",
+    "hanzi": "力量",
+    "pinyin": "lì liàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to contact",
+    "hanzi": "联系",
+    "pinyin": "lián xì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "continuous",
+    "hanzi": "连续",
+    "pinyin": "lián xù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to be in love",
+    "hanzi": "恋爱",
+    "pinyin": "liàn ài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "good",
+    "hanzi": "良好",
+    "pinyin": "liáng hǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to understand",
+    "hanzi": "谅解",
+    "pinyin": "liàng jiě",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "amazing",
+    "hanzi": "了不起",
+    "pinyin": "liǎo bu qǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "neighbor",
+    "hanzi": "邻居",
+    "pinyin": "lín jū",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "temporary",
+    "hanzi": "临时",
+    "pinyin": "lín shí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "flexible",
+    "hanzi": "灵活",
+    "pinyin": "líng huó",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to lead",
+    "hanzi": "领导",
+    "pinyin": "lǐng dǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "flowing water",
+    "hanzi": "流水",
+    "pinyin": "liú shuǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "popular",
+    "hanzi": "流行",
+    "pinyin": "liú xíng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to study abroad",
+    "hanzi": "留学",
+    "pinyin": "liú xué",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to fall behind",
+    "hanzi": "落后",
+    "pinyin": "luò hòu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "troublesome",
+    "hanzi": "麻烦",
+    "pinyin": "má fan",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "immediately",
+    "hanzi": "马上",
+    "pinyin": "mǎ shàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "satisfied",
+    "hanzi": "满意",
+    "pinyin": "mǎn yì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "contradiction",
+    "hanzi": "矛盾",
+    "pinyin": "máo dùn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "trade",
+    "hanzi": "贸易",
+    "pinyin": "mào yì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "without",
+    "hanzi": "没有",
+    "pinyin": "méi yǒu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "delicious",
+    "hanzi": "美味",
+    "pinyin": "měi wèi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "dream",
+    "hanzi": "梦想",
+    "pinyin": "mèng xiǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "secret",
+    "hanzi": "秘密",
+    "pinyin": "mì mì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to face",
+    "hanzi": "面对",
+    "pinyin": "miàn duì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "area",
+    "hanzi": "面积",
+    "pinyin": "miàn jī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to confront",
+    "hanzi": "面临",
+    "pinyin": "miàn lín",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "appearance",
+    "hanzi": "面貌",
+    "pinyin": "miàn mào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to describe",
+    "hanzi": "描述",
+    "pinyin": "miáo shù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to depict",
+    "hanzi": "描写",
+    "pinyin": "miáo xiě",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "second hand",
+    "hanzi": "秒针",
+    "pinyin": "miǎo zhēn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "ethnic group",
+    "hanzi": "民族",
+    "pinyin": "mín zú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "command",
+    "hanzi": "命令",
+    "pinyin": "mìng lìng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "fate",
+    "hanzi": "命运",
+    "pinyin": "mìng yùn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to imitate",
+    "hanzi": "模仿",
+    "pinyin": "mó fǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "blurry",
+    "hanzi": "模糊",
+    "pinyin": "mó hu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "model",
+    "hanzi": "模式",
+    "pinyin": "mó shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "strange",
+    "hanzi": "陌生",
+    "pinyin": "mò shēng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "goal",
+    "hanzi": "目标",
+    "pinyin": "mù biāo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "currently",
+    "hanzi": "目前",
+    "pinyin": "mù qián",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "gaze",
+    "hanzi": "目光",
+    "pinyin": "mù guāng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "patient",
+    "hanzi": "耐心",
+    "pinyin": "nài xīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "could it be",
+    "hanzi": "难道",
+    "pinyin": "nán dào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "uncomfortable",
+    "hanzi": "难受",
+    "pinyin": "nán shòu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "inner heart",
+    "hanzi": "内心",
+    "pinyin": "nèi xīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "ability",
+    "hanzi": "能力",
+    "pinyin": "néng lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "age",
+    "hanzi": "年龄",
+    "pinyin": "nián líng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "would rather",
+    "hanzi": "宁可",
+    "pinyin": "nìng kě",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "farmer",
+    "hanzi": "农民",
+    "pinyin": "nóng mín",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "hardworking",
+    "hanzi": "努力",
+    "pinyin": "nǔ lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "warm",
+    "hanzi": "暖和",
+    "pinyin": "nuǎn huo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "occasionally",
+    "hanzi": "偶尔",
+    "pinyin": "ǒu ěr",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "mountain climbing",
+    "hanzi": "爬山",
+    "pinyin": "pá shān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to eliminate",
+    "hanzi": "排除",
+    "pinyin": "pái chú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to judge",
+    "hanzi": "判断",
+    "pinyin": "pàn duàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "training",
+    "hanzi": "培训",
+    "pinyin": "péi xùn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "compensation",
+    "hanzi": "赔偿",
+    "pinyin": "péi cháng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to admire",
+    "hanzi": "佩服",
+    "pinyin": "pèi fu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to criticize",
+    "hanzi": "批评",
+    "pinyin": "pī píng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to approve",
+    "hanzi": "批准",
+    "pinyin": "pī zhǔn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "tired",
+    "hanzi": "疲劳",
+    "pinyin": "pí láo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "one-sided",
+    "hanzi": "片面",
+    "pinyin": "piàn miàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "beautiful",
+    "hanzi": "漂亮",
+    "pinyin": "piào liang",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "usually",
+    "hanzi": "平时",
+    "pinyin": "píng shí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to evaluate",
+    "hanzi": "评价",
+    "pinyin": "píng jià",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "comment",
+    "hanzi": "评论",
+    "pinyin": "píng lùn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "universal",
+    "hanzi": "普遍",
+    "pinyin": "pǔ biàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "ordinary",
+    "hanzi": "普通",
+    "pinyin": "pǔ tōng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to expect",
+    "hanzi": "期待",
+    "pinyin": "qī dài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "period",
+    "hanzi": "期间",
+    "pinyin": "qī jiān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "actually",
+    "hanzi": "其实",
+    "pinyin": "qí shí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "other",
+    "hanzi": "其他",
+    "pinyin": "qí tā",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "enterprise",
+    "hanzi": "企业",
+    "pinyin": "qǐ yè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to inspire",
+    "hanzi": "启发",
+    "pinyin": "qǐ fā",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "atmosphere",
+    "hanzi": "气氛",
+    "pinyin": "qì fēn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "climate",
+    "hanzi": "气候",
+    "pinyin": "qì hòu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "ten million",
+    "hanzi": "千万",
+    "pinyin": "qiān wàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "prospect",
+    "hanzi": "前景",
+    "pinyin": "qián jǐng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "future",
+    "hanzi": "前途",
+    "pinyin": "qián tú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to emphasize",
+    "hanzi": "强调",
+    "pinyin": "qiáng diào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "intensity",
+    "hanzi": "强度",
+    "pinyin": "qiáng dù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "powerful",
+    "hanzi": "强有力",
+    "pinyin": "qiáng yǒu lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "kind",
+    "hanzi": "亲切",
+    "pinyin": "qīn qiè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "personally",
+    "hanzi": "亲自",
+    "pinyin": "qīn zì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "diligent",
+    "hanzi": "勤奋",
+    "pinyin": "qín fèn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "youth",
+    "hanzi": "青春",
+    "pinyin": "qīng chūn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "relaxed",
+    "hanzi": "轻松",
+    "pinyin": "qīng sōng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to clean up",
+    "hanzi": "清理",
+    "pinyin": "qīng lǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "situation",
+    "hanzi": "情况",
+    "pinyin": "qíng kuàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "mood",
+    "hanzi": "情绪",
+    "pinyin": "qíng xù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "request",
+    "hanzi": "请求",
+    "pinyin": "qǐng qiú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to celebrate",
+    "hanzi": "庆祝",
+    "pinyin": "qìng zhù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "difference",
+    "hanzi": "区别",
+    "pinyin": "qū bié",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "trend",
+    "hanzi": "趋势",
+    "pinyin": "qū shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to cancel",
+    "hanzi": "取消",
+    "pinyin": "qǔ xiāo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "comprehensive",
+    "hanzi": "全面",
+    "pinyin": "quán miàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "shortcoming",
+    "hanzi": "缺点",
+    "pinyin": "quē diǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to ensure",
+    "hanzi": "确保",
+    "pinyin": "què bǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "then",
+    "hanzi": "然后",
+    "pinyin": "rán hòu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to burn",
+    "hanzi": "燃烧",
+    "pinyin": "rán shāo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to love deeply",
+    "hanzi": "热爱",
+    "pinyin": "rè ài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "warm (reception)",
+    "hanzi": "热烈",
+    "pinyin": "rè liè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "talent",
+    "hanzi": "人才",
+    "pinyin": "rén cái",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "artificial",
+    "hanzi": "人工",
+    "pinyin": "rén gōng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "population",
+    "hanzi": "人口",
+    "pinyin": "rén kǒu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "humanity",
+    "hanzi": "人类",
+    "pinyin": "rén lèi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "people",
+    "hanzi": "人民",
+    "pinyin": "rén mín",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "any",
+    "hanzi": "任何",
+    "pinyin": "rèn hé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "task",
+    "hanzi": "任务",
+    "pinyin": "rèn wu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to know",
+    "hanzi": "认识",
+    "pinyin": "rèn shi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to think",
+    "hanzi": "认为",
+    "pinyin": "rèn wéi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "serious",
+    "hanzi": "认真",
+    "pinyin": "rèn zhēn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "still",
+    "hanzi": "仍然",
+    "pinyin": "réng rán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "daily",
+    "hanzi": "日常",
+    "pinyin": "rì cháng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "schedule",
+    "hanzi": "日程",
+    "pinyin": "rì chéng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to accommodate",
+    "hanzi": "容纳",
+    "pinyin": "róng nà",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "easy",
+    "hanzi": "容易",
+    "pinyin": "róng yì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "if",
+    "hanzi": "如果",
+    "pinyin": "rú guǒ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "software",
+    "hanzi": "软件",
+    "pinyin": "ruǎn jiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "forest",
+    "hanzi": "森林",
+    "pinyin": "sēn lín",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "desert",
+    "hanzi": "沙漠",
+    "pinyin": "shā mò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "beach",
+    "hanzi": "沙滩",
+    "pinyin": "shā tān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "kind",
+    "hanzi": "善良",
+    "pinyin": "shàn liáng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "business",
+    "hanzi": "商业",
+    "pinyin": "shāng yè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to go to work",
+    "hanzi": "上班",
+    "pinyin": "shàng bān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "teenager",
+    "hanzi": "少年",
+    "pinyin": "shào nián",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to design",
+    "hanzi": "设计",
+    "pinyin": "shè jì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to set up",
+    "hanzi": "设立",
+    "pinyin": "shè lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "society",
+    "hanzi": "社会",
+    "pinyin": "shè huì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "community",
+    "hanzi": "社区",
+    "pinyin": "shè qū",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to apply",
+    "hanzi": "申请",
+    "pinyin": "shēn qǐng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "profound",
+    "hanzi": "深刻",
+    "pinyin": "shēn kè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "what",
+    "hanzi": "什么",
+    "pinyin": "shén me",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "even",
+    "hanzi": "甚至",
+    "pinyin": "shèn zhì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to produce",
+    "hanzi": "生产",
+    "pinyin": "shēng chǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "vivid",
+    "hanzi": "生动",
+    "pinyin": "shēng dòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "life",
+    "hanzi": "生活",
+    "pinyin": "shēng huó",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "life",
+    "hanzi": "生命",
+    "pinyin": "shēng mìng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "organism",
+    "hanzi": "生物",
+    "pinyin": "shēng wù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to grow",
+    "hanzi": "生长",
+    "pinyin": "shēng zhǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "so as to avoid",
+    "hanzi": "省得",
+    "pinyin": "shěng de",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "victory",
+    "hanzi": "胜利",
+    "pinyin": "shèng lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "failure",
+    "hanzi": "失败",
+    "pinyin": "shī bài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "disappointed",
+    "hanzi": "失望",
+    "pinyin": "shī wàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "very",
+    "hanzi": "十分",
+    "pinyin": "shí fēn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "era",
+    "hanzi": "时代",
+    "pinyin": "shí dài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "time",
+    "hanzi": "时候",
+    "pinyin": "shí hou",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "time",
+    "hanzi": "时间",
+    "pinyin": "shí jiān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "period",
+    "hanzi": "时期",
+    "pinyin": "shí qī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "actual",
+    "hanzi": "实际",
+    "pinyin": "shí jì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "practice",
+    "hanzi": "实践",
+    "pinyin": "shí jiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to realize",
+    "hanzi": "实现",
+    "pinyin": "shí xiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to implement",
+    "hanzi": "实行",
+    "pinyin": "shí xíng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "experiment",
+    "hanzi": "实验",
+    "pinyin": "shí yàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "food",
+    "hanzi": "食物",
+    "pinyin": "shí wù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to use",
+    "hanzi": "使用",
+    "pinyin": "shǐ yòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "from start to finish",
+    "hanzi": "始终",
+    "pinyin": "shǐ zhōng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "cause",
+    "hanzi": "事业",
+    "pinyin": "shì yè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "fact",
+    "hanzi": "事实",
+    "pinyin": "shì shí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "affairs",
+    "hanzi": "事务",
+    "pinyin": "shì wù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "beforehand",
+    "hanzi": "事先",
+    "pinyin": "shì xiān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "exam paper",
+    "hanzi": "试卷",
+    "pinyin": "shì juàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "harvest",
+    "hanzi": "收获",
+    "pinyin": "shōu huò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "income",
+    "hanzi": "收入",
+    "pinyin": "shōu rù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to tidy up",
+    "hanzi": "收拾",
+    "pinyin": "shōu shi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "procedure",
+    "hanzi": "手续",
+    "pinyin": "shǒu xù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "mobile phone",
+    "hanzi": "手机",
+    "pinyin": "shǒu jī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "firstly",
+    "hanzi": "首先",
+    "pinyin": "shǒu xiān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to receive",
+    "hanzi": "受到",
+    "pinyin": "shòu dào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "bookstore",
+    "hanzi": "书店",
+    "pinyin": "shū diàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "comfortable",
+    "hanzi": "舒服",
+    "pinyin": "shū fu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to input",
+    "hanzi": "输入",
+    "pinyin": "shū rù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to belong to",
+    "hanzi": "属于",
+    "pinyin": "shǔ yú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "data",
+    "hanzi": "数据",
+    "pinyin": "shù jù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "quantity",
+    "hanzi": "数量",
+    "pinyin": "shù liàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "digit",
+    "hanzi": "数字",
+    "pinyin": "shù zì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "both sides",
+    "hanzi": "双方",
+    "pinyin": "shuāng fāng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "level",
+    "hanzi": "水平",
+    "pinyin": "shuǐ píng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to sleep",
+    "hanzi": "睡觉",
+    "pinyin": "shuì jiào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "conveniently",
+    "hanzi": "顺便",
+    "pinyin": "shùn biàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "smoothly",
+    "hanzi": "顺利",
+    "pinyin": "shùn lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to explain",
+    "hanzi": "说明",
+    "pinyin": "shuō míng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to think",
+    "hanzi": "思考",
+    "pinyin": "sī kǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "thought",
+    "hanzi": "思想",
+    "pinyin": "sī xiǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "private",
+    "hanzi": "私人",
+    "pinyin": "sī rén",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "speed",
+    "hanzi": "速度",
+    "pinyin": "sù dù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "plastic",
+    "hanzi": "塑料",
+    "pinyin": "sù liào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "casual",
+    "hanzi": "随便",
+    "pinyin": "suí biàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "along with",
+    "hanzi": "随着",
+    "pinyin": "suí zhe",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to damage",
+    "hanzi": "损坏",
+    "pinyin": "sǔn huài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "so",
+    "hanzi": "所以",
+    "pinyin": "suǒ yǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "all",
+    "hanzi": "所有",
+    "pinyin": "suǒ yǒu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "attitude",
+    "hanzi": "态度",
+    "pinyin": "tài du",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "negotiation",
+    "hanzi": "谈判",
+    "pinyin": "tán pàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "frank",
+    "hanzi": "坦白",
+    "pinyin": "tǎn bái",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to visit",
+    "hanzi": "探望",
+    "pinyin": "tàn wàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to discuss",
+    "hanzi": "讨论",
+    "pinyin": "tǎo lùn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "special",
+    "hanzi": "特别",
+    "pinyin": "tè bié",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "characteristic",
+    "hanzi": "特点",
+    "pinyin": "tè diǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to improve",
+    "hanzi": "提高",
+    "pinyin": "tí gāo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to provide",
+    "hanzi": "提供",
+    "pinyin": "tí gōng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "in advance",
+    "hanzi": "提前",
+    "pinyin": "tí qián",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "title",
+    "hanzi": "题目",
+    "pinyin": "tí mù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to realize",
+    "hanzi": "体会",
+    "pinyin": "tǐ huì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to embody",
+    "hanzi": "体现",
+    "pinyin": "tǐ xiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "sports",
+    "hanzi": "体育",
+    "pinyin": "tǐ yù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "natural",
+    "hanzi": "天然",
+    "pinyin": "tiān rán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "condition",
+    "hanzi": "条件",
+    "pinyin": "tiáo jiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to adjust",
+    "hanzi": "调整",
+    "pinyin": "tiáo zhěng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "challenge",
+    "hanzi": "挑战",
+    "pinyin": "tiǎo zhàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "it is said",
+    "hanzi": "听说",
+    "pinyin": "tīng shuō",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to stop",
+    "hanzi": "停止",
+    "pinyin": "tíng zhǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "usually",
+    "hanzi": "通常",
+    "pinyin": "tōng cháng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to pass through",
+    "hanzi": "通过",
+    "pinyin": "tōng guò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "communication",
+    "hanzi": "通信",
+    "pinyin": "tōng xìn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to notify",
+    "hanzi": "通知",
+    "pinyin": "tōng zhī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "simultaneously",
+    "hanzi": "同时",
+    "pinyin": "tóng shí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "colleague",
+    "hanzi": "同事",
+    "pinyin": "tóng shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to agree",
+    "hanzi": "同意",
+    "pinyin": "tóng yì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "unified",
+    "hanzi": "统一",
+    "pinyin": "tǒng yī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "painful",
+    "hanzi": "痛苦",
+    "pinyin": "tòng kǔ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to invest",
+    "hanzi": "投入",
+    "pinyin": "tóu rù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "suddenly",
+    "hanzi": "突然",
+    "pinyin": "tū rán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "library",
+    "hanzi": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "land",
+    "hanzi": "土地",
+    "pinyin": "tǔ dì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to push forward",
+    "hanzi": "推动",
+    "pinyin": "tuī dòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to popularize",
+    "hanzi": "推广",
+    "pinyin": "tuī guǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to recommend",
+    "hanzi": "推荐",
+    "pinyin": "tuī jiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to withdraw",
+    "hanzi": "退出",
+    "pinyin": "tuì chū",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to retire",
+    "hanzi": "退休",
+    "pinyin": "tuì xiū",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to complete",
+    "hanzi": "完成",
+    "pinyin": "wán chéng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "perfect",
+    "hanzi": "完善",
+    "pinyin": "wán shàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "completely",
+    "hanzi": "完全",
+    "pinyin": "wán quán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "internet",
+    "hanzi": "网络",
+    "pinyin": "wǎng luò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "often",
+    "hanzi": "往往",
+    "pinyin": "wǎng wǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to forget",
+    "hanzi": "忘记",
+    "pinyin": "wàng jì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "danger",
+    "hanzi": "危险",
+    "pinyin": "wēi xiǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "smile",
+    "hanzi": "微笑",
+    "pinyin": "wēi xiào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to surround",
+    "hanzi": "围绕",
+    "pinyin": "wéi rào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to violate",
+    "hanzi": "违反",
+    "pinyin": "wéi fǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to maintain",
+    "hanzi": "维护",
+    "pinyin": "wéi hù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "great",
+    "hanzi": "伟大",
+    "pinyin": "wěi dà",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "not necessarily",
+    "hanzi": "未必",
+    "pinyin": "wèi bì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "future",
+    "hanzi": "未来",
+    "pinyin": "wèi lái",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "position",
+    "hanzi": "位置",
+    "pinyin": "wèi zhì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "warm",
+    "hanzi": "温暖",
+    "pinyin": "wēn nuǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "culture",
+    "hanzi": "文化",
+    "pinyin": "wén huà",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "document",
+    "hanzi": "文件",
+    "pinyin": "wén jiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "civilization",
+    "hanzi": "文明",
+    "pinyin": "wén míng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "literature",
+    "hanzi": "文学",
+    "pinyin": "wén xué",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "article",
+    "hanzi": "文章",
+    "pinyin": "wén zhāng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "problem",
+    "hanzi": "问题",
+    "pinyin": "wèn tí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "pollution",
+    "hanzi": "污染",
+    "pinyin": "wū rǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "incomparable",
+    "hanzi": "无比",
+    "pinyin": "wú bǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "unable",
+    "hanzi": "无法",
+    "pinyin": "wú fǎ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "no matter",
+    "hanzi": "无论",
+    "pinyin": "wú lùn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "helpless",
+    "hanzi": "无奈",
+    "pinyin": "wú nài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "merciless",
+    "hanzi": "无情",
+    "pinyin": "wú qíng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "countless",
+    "hanzi": "无数",
+    "pinyin": "wú shù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "weapon",
+    "hanzi": "武器",
+    "pinyin": "wǔ qì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "martial arts",
+    "hanzi": "武术",
+    "pinyin": "wǔ shù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "physics",
+    "hanzi": "物理",
+    "pinyin": "wù lǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "matter",
+    "hanzi": "物质",
+    "pinyin": "wù zhì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "misunderstanding",
+    "hanzi": "误会",
+    "pinyin": "wù huì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to absorb",
+    "hanzi": "吸收",
+    "pinyin": "xī shōu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to hope",
+    "hanzi": "希望",
+    "pinyin": "xī wàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "habit",
+    "hanzi": "习惯",
+    "pinyin": "xí guàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "detail",
+    "hanzi": "细节",
+    "pinyin": "xì jié",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "system",
+    "hanzi": "系统",
+    "pinyin": "xì tǒng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "afternoon",
+    "hanzi": "下午",
+    "pinyin": "xià wǔ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "one after another",
+    "hanzi": "先后",
+    "pinyin": "xiān hòu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "phenomenon",
+    "hanzi": "现象",
+    "pinyin": "xiàn xiàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "now",
+    "hanzi": "现在",
+    "pinyin": "xiàn zài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to limit",
+    "hanzi": "限制",
+    "pinyin": "xiàn zhì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "quite",
+    "hanzi": "相当",
+    "pinyin": "xiāng dāng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "opposite",
+    "hanzi": "相反",
+    "pinyin": "xiāng fǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "relevant",
+    "hanzi": "相关",
+    "pinyin": "xiāng guān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "similar",
+    "hanzi": "相似",
+    "pinyin": "xiāng sì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "identical",
+    "hanzi": "相同",
+    "pinyin": "xiāng tóng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to believe",
+    "hanzi": "相信",
+    "pinyin": "xiāng xìn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "detailed",
+    "hanzi": "详细",
+    "pinyin": "xiáng xì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "idea",
+    "hanzi": "想法",
+    "pinyin": "xiǎng fǎ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to imagine",
+    "hanzi": "想象",
+    "pinyin": "xiǎng xiàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to consume",
+    "hanzi": "消费",
+    "pinyin": "xiāo fèi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to disappear",
+    "hanzi": "消失",
+    "pinyin": "xiāo shī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "news",
+    "hanzi": "消息",
+    "pinyin": "xiāo xi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to sell",
+    "hanzi": "销售",
+    "pinyin": "xiāo shòu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "novel",
+    "hanzi": "小说",
+    "pinyin": "xiǎo shuō",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "effect",
+    "hanzi": "效果",
+    "pinyin": "xiào guǒ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "efficiency",
+    "hanzi": "效率",
+    "pinyin": "xiào lǜ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "principal",
+    "hanzi": "校长",
+    "pinyin": "xiào zhǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "campus",
+    "hanzi": "校园",
+    "pinyin": "xiào yuán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to negotiate",
+    "hanzi": "协商",
+    "pinyin": "xié shāng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "writing",
+    "hanzi": "写作",
+    "pinyin": "xiě zuò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "psychology",
+    "hanzi": "心理",
+    "pinyin": "xīn lǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "mood",
+    "hanzi": "心情",
+    "pinyin": "xīn qíng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "hard (work)",
+    "hanzi": "辛苦",
+    "pinyin": "xīn kǔ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "new year",
+    "hanzi": "新年",
+    "pinyin": "xīn nián",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "fresh",
+    "hanzi": "新鲜",
+    "pinyin": "xīn xiān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to trust",
+    "hanzi": "信任",
+    "pinyin": "xìn rèn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "information",
+    "hanzi": "信息",
+    "pinyin": "xìn xī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "confidence",
+    "hanzi": "信心",
+    "pinyin": "xìn xīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "action",
+    "hanzi": "行动",
+    "pinyin": "xíng dòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to form",
+    "hanzi": "形成",
+    "pinyin": "xíng chéng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "situation",
+    "hanzi": "形势",
+    "pinyin": "xíng shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "image",
+    "hanzi": "形象",
+    "pinyin": "xíng xiàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "shape",
+    "hanzi": "形状",
+    "pinyin": "xíng zhuàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "interest",
+    "hanzi": "兴趣",
+    "pinyin": "xìng qù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "happiness",
+    "hanzi": "幸福",
+    "pinyin": "xìng fú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "gender",
+    "hanzi": "性别",
+    "pinyin": "xìng bié",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "nature",
+    "hanzi": "性质",
+    "pinyin": "xìng zhì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "don't think",
+    "hanzi": "休想",
+    "pinyin": "xiū xiǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to rest",
+    "hanzi": "休息",
+    "pinyin": "xiū xi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to modify",
+    "hanzi": "修改",
+    "pinyin": "xiū gǎi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to repair",
+    "hanzi": "修理",
+    "pinyin": "xiū lǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to need",
+    "hanzi": "需要",
+    "pinyin": "xū yào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "many",
+    "hanzi": "许多",
+    "pinyin": "xǔ duō",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to promote",
+    "hanzi": "宣传",
+    "pinyin": "xuān chuán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to choose",
+    "hanzi": "选择",
+    "pinyin": "xuǎn zé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "academic",
+    "hanzi": "学术",
+    "pinyin": "xué shù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to study",
+    "hanzi": "学习",
+    "pinyin": "xué xí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "school",
+    "hanzi": "学校",
+    "pinyin": "xué xiào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "rapid",
+    "hanzi": "迅速",
+    "pinyin": "xùn sù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "pressure",
+    "hanzi": "压力",
+    "pinyin": "yā lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "serious",
+    "hanzi": "严重",
+    "pinyin": "yán zhòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to research",
+    "hanzi": "研究",
+    "pinyin": "yán jiū",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "color",
+    "hanzi": "颜色",
+    "pinyin": "yán sè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "performance",
+    "hanzi": "演出",
+    "pinyin": "yǎn chū",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to demand",
+    "hanzi": "要求",
+    "pinyin": "yāo qiú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to invite",
+    "hanzi": "邀请",
+    "pinyin": "yāo qǐng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "perhaps",
+    "hanzi": "也许",
+    "pinyin": "yě xǔ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "business",
+    "hanzi": "业务",
+    "pinyin": "yè wù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "night",
+    "hanzi": "夜晚",
+    "pinyin": "yè wǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "everything",
+    "hanzi": "一切",
+    "pinyin": "yī qiè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "same",
+    "hanzi": "一样",
+    "pinyin": "yī yàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "medical",
+    "hanzi": "医疗",
+    "pinyin": "yī liáo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "doctor",
+    "hanzi": "医生",
+    "pinyin": "yī shēng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "hospital",
+    "hanzi": "医院",
+    "pinyin": "yī yuàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to rely on",
+    "hanzi": "依靠",
+    "pinyin": "yī kào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "still",
+    "hanzi": "依然",
+    "pinyin": "yī rán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "doubt",
+    "hanzi": "疑问",
+    "pinyin": "yí wèn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "already",
+    "hanzi": "已经",
+    "pinyin": "yǐ jīng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "after",
+    "hanzi": "以后",
+    "pinyin": "yǐ hòu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "before",
+    "hanzi": "以前",
+    "pinyin": "yǐ qián",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "opinion",
+    "hanzi": "意见",
+    "pinyin": "yì jiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "consciousness",
+    "hanzi": "意识",
+    "pinyin": "yì shí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "meaning",
+    "hanzi": "意思",
+    "pinyin": "yì si",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "accident",
+    "hanzi": "意外",
+    "pinyin": "yì wài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "therefore",
+    "hanzi": "因此",
+    "pinyin": "yīn cǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "because",
+    "hanzi": "因为",
+    "pinyin": "yīn wèi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "music",
+    "hanzi": "音乐",
+    "pinyin": "yīn yuè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "bank",
+    "hanzi": "银行",
+    "pinyin": "yín háng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "impression",
+    "hanzi": "印象",
+    "pinyin": "yìn xiàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "should",
+    "hanzi": "应该",
+    "pinyin": "yīng gāi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "influence",
+    "hanzi": "影响",
+    "pinyin": "yǐng xiǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to apply",
+    "hanzi": "应用",
+    "pinyin": "yìng yòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to hug",
+    "hanzi": "拥抱",
+    "pinyin": "yōng bào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to possess",
+    "hanzi": "拥有",
+    "pinyin": "yōng yǒu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "forever",
+    "hanzi": "永远",
+    "pinyin": "yǒng yuǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "brave",
+    "hanzi": "勇敢",
+    "pinyin": "yǒng gǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "advantage",
+    "hanzi": "优点",
+    "pinyin": "yōu diǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "priority",
+    "hanzi": "优先",
+    "pinyin": "yōu xiān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "especially",
+    "hanzi": "尤其",
+    "pinyin": "yóu qí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "due to",
+    "hanzi": "由于",
+    "pinyin": "yóu yú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "postal & telecom",
+    "hanzi": "邮电",
+    "pinyin": "yóu diàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "hesitant",
+    "hanzi": "犹豫",
+    "pinyin": "yóu yù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "game",
+    "hanzi": "游戏",
+    "pinyin": "yóu xì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "friendly",
+    "hanzi": "友好",
+    "pinyin": "yǒu hǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "related",
+    "hanzi": "有关",
+    "pinyin": "yǒu guān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "favorable",
+    "hanzi": "有利",
+    "pinyin": "yǒu lì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "sometimes",
+    "hanzi": "有时",
+    "pinyin": "yǒu shí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "effective",
+    "hanzi": "有效",
+    "pinyin": "yǒu xiào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "interesting",
+    "hanzi": "有趣",
+    "pinyin": "yǒu qù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "limited",
+    "hanzi": "有限",
+    "pinyin": "yǒu xiàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "some",
+    "hanzi": "有些",
+    "pinyin": "yǒu xiē",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "childish",
+    "hanzi": "幼稚",
+    "pinyin": "yòu zhì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "thereupon",
+    "hanzi": "于是",
+    "pinyin": "yú shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "entertainment",
+    "hanzi": "娱乐",
+    "pinyin": "yú lè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "pleasant",
+    "hanzi": "愉快",
+    "pinyin": "yú kuài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "leeway",
+    "hanzi": "余地",
+    "pinyin": "yú dì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "universe",
+    "hanzi": "宇宙",
+    "pinyin": "yǔ zhòu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "language",
+    "hanzi": "语言",
+    "pinyin": "yǔ yán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to encounter",
+    "hanzi": "遇到",
+    "pinyin": "yù dào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to preview",
+    "hanzi": "预习",
+    "pinyin": "yù xí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "New Year's Day",
+    "hanzi": "元旦",
+    "pinyin": "yuán dàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "originally",
+    "hanzi": "原来",
+    "pinyin": "yuán lái",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "cause",
+    "hanzi": "原因",
+    "pinyin": "yuán yīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "principle",
+    "hanzi": "原则",
+    "pinyin": "yuán zé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to read",
+    "hanzi": "阅读",
+    "pinyin": "yuè dú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to permit",
+    "hanzi": "允许",
+    "pinyin": "yǔn xǔ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "sports",
+    "hanzi": "运动",
+    "pinyin": "yùn dòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "luck",
+    "hanzi": "运气",
+    "pinyin": "yùn qi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "otherwise",
+    "hanzi": "再不",
+    "pinyin": "zài bù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "besides",
+    "hanzi": "再说",
+    "pinyin": "zài shuō",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "temporary",
+    "hanzi": "暂时",
+    "pinyin": "zàn shí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to admire",
+    "hanzi": "赞赏",
+    "pinyin": "zàn shǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "morning",
+    "hanzi": "早晨",
+    "pinyin": "zǎo chén",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to cause",
+    "hanzi": "造成",
+    "pinyin": "zào chéng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "responsibility",
+    "hanzi": "责任",
+    "pinyin": "zé rèn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to increase",
+    "hanzi": "增加",
+    "pinyin": "zēng jiā",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to grow",
+    "hanzi": "增长",
+    "pinyin": "zēng zhǎng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "debt",
+    "hanzi": "债务",
+    "pinyin": "zhài wù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "exhibition",
+    "hanzi": "展览",
+    "pinyin": "zhǎn lǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to unfold",
+    "hanzi": "展开",
+    "pinyin": "zhǎn kāi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "battle",
+    "hanzi": "战斗",
+    "pinyin": "zhàn dòu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "war",
+    "hanzi": "战争",
+    "pinyin": "zhàn zhēng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to master",
+    "hanzi": "掌握",
+    "pinyin": "zhǎng wò",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to entertain",
+    "hanzi": "招待",
+    "pinyin": "zhāo dài",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to recruit",
+    "hanzi": "招聘",
+    "pinyin": "zhāo pìn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to convene",
+    "hanzi": "召开",
+    "pinyin": "zhào kāi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to take care of",
+    "hanzi": "照顾",
+    "pinyin": "zhào gù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "photo",
+    "hanzi": "照片",
+    "pinyin": "zhào piàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "philosophy",
+    "hanzi": "哲学",
+    "pinyin": "zhé xué",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "these",
+    "hanzi": "这些",
+    "pinyin": "zhè xiē",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to target",
+    "hanzi": "针对",
+    "pinyin": "zhēn duì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "diagnosis",
+    "hanzi": "诊断",
+    "pinyin": "zhěn duàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "really",
+    "hanzi": "真的",
+    "pinyin": "zhēn de",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "argument",
+    "hanzi": "争论",
+    "pinyin": "zhēng lùn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to tidy",
+    "hanzi": "整理",
+    "pinyin": "zhěng lǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "normal",
+    "hanzi": "正常",
+    "pinyin": "zhèng cháng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "just right",
+    "hanzi": "正好",
+    "pinyin": "zhèng hǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "formal",
+    "hanzi": "正式",
+    "pinyin": "zhèng shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "policy",
+    "hanzi": "政策",
+    "pinyin": "zhèng cè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "government",
+    "hanzi": "政府",
+    "pinyin": "zhèng fǔ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "politics",
+    "hanzi": "政治",
+    "pinyin": "zhèng zhì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to support",
+    "hanzi": "支持",
+    "pinyin": "zhī chí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to know",
+    "hanzi": "知道",
+    "pinyin": "zhī dào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "knowledge",
+    "hanzi": "知识",
+    "pinyin": "zhī shi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to execute",
+    "hanzi": "执行",
+    "pinyin": "zhí xíng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "direct",
+    "hanzi": "直接",
+    "pinyin": "zhí jiē",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "occupation",
+    "hanzi": "职业",
+    "pinyin": "zhí yè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "plant",
+    "hanzi": "植物",
+    "pinyin": "zhí wù",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "as long as",
+    "hanzi": "只要",
+    "pinyin": "zhǐ yào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to guide",
+    "hanzi": "指导",
+    "pinyin": "zhǐ dǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to command",
+    "hanzi": "指挥",
+    "pinyin": "zhǐ huī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "quality",
+    "hanzi": "质量",
+    "pinyin": "zhì liàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "at least",
+    "hanzi": "至少",
+    "pinyin": "zhì shǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "as for",
+    "hanzi": "至于",
+    "pinyin": "zhì yú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to formulate",
+    "hanzi": "制订",
+    "pinyin": "zhì dìng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to manufacture",
+    "hanzi": "制造",
+    "pinyin": "zhì zào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "Chinese nation",
+    "hanzi": "中华民族",
+    "pinyin": "zhōng huá mín zú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "middle",
+    "hanzi": "中间",
+    "pinyin": "zhōng jiān",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "SME",
+    "hanzi": "中小企业",
+    "pinyin": "zhōng xiǎo qǐ yè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "center",
+    "hanzi": "中心",
+    "pinyin": "zhōng xīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "central",
+    "hanzi": "中央",
+    "pinyin": "zhōng yāng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "loyal",
+    "hanzi": "忠诚",
+    "pinyin": "zhōng chéng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "finally",
+    "hanzi": "终于",
+    "pinyin": "zhōng yú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "kind",
+    "hanzi": "种类",
+    "pinyin": "zhǒng lèi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "significant",
+    "hanzi": "重大",
+    "pinyin": "zhòng dà",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "key point",
+    "hanzi": "重点",
+    "pinyin": "zhòng diǎn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "weight",
+    "hanzi": "重量",
+    "pinyin": "zhòng liàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "thorough",
+    "hanzi": "周到",
+    "pinyin": "zhōu dào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "surroundings",
+    "hanzi": "周围",
+    "pinyin": "zhōu wéi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "main",
+    "hanzi": "主要",
+    "pinyin": "zhǔ yào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to advocate",
+    "hanzi": "主张",
+    "pinyin": "zhǔ zhāng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "housing",
+    "hanzi": "住房",
+    "pinyin": "zhù fáng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "famous",
+    "hanzi": "著名",
+    "pinyin": "zhù míng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to seize",
+    "hanzi": "抓紧",
+    "pinyin": "zhuā jǐn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "expert",
+    "hanzi": "专家",
+    "pinyin": "zhuān jiā",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "major",
+    "hanzi": "专业",
+    "pinyin": "zhuān yè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to transform",
+    "hanzi": "转变",
+    "pinyin": "zhuǎn biàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to transfer",
+    "hanzi": "转移",
+    "pinyin": "zhuǎn yí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "decoration",
+    "hanzi": "装饰",
+    "pinyin": "zhuāng shì",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to pursue",
+    "hanzi": "追求",
+    "pinyin": "zhuī qiú",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "accurate",
+    "hanzi": "准确",
+    "pinyin": "zhǔn què",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "on time",
+    "hanzi": "准时",
+    "pinyin": "zhǔn shí",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "qualification",
+    "hanzi": "资格",
+    "pinyin": "zī gé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "funds",
+    "hanzi": "资金",
+    "pinyin": "zī jīn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "material",
+    "hanzi": "资料",
+    "pinyin": "zī liào",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "resource",
+    "hanzi": "资源",
+    "pinyin": "zī yuán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "automatic",
+    "hanzi": "自动",
+    "pinyin": "zì dòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "self",
+    "hanzi": "自己",
+    "pinyin": "zì jǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "nature",
+    "hanzi": "自然",
+    "pinyin": "zì rán",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "confident",
+    "hanzi": "自信",
+    "pinyin": "zì xìn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "freedom",
+    "hanzi": "自由",
+    "pinyin": "zì yóu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "voluntary",
+    "hanzi": "自愿",
+    "pinyin": "zì yuàn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "comprehensive",
+    "hanzi": "综合",
+    "pinyin": "zōng hé",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to summarize",
+    "hanzi": "总结",
+    "pinyin": "zǒng jié",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "premier",
+    "hanzi": "总理",
+    "pinyin": "zǒng lǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "president",
+    "hanzi": "总统",
+    "pinyin": "zǒng tǒng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to tend",
+    "hanzi": "走向",
+    "pinyin": "zǒu xiàng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "motherland",
+    "hanzi": "祖国",
+    "pinyin": "zǔ guó",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to prevent",
+    "hanzi": "阻止",
+    "pinyin": "zǔ zhǐ",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to organize",
+    "hanzi": "组织",
+    "pinyin": "zǔ zhī",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "initial",
+    "hanzi": "最初",
+    "pinyin": "zuì chū",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "best",
+    "hanzi": "最好",
+    "pinyin": "zuì hǎo",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "final",
+    "hanzi": "最后",
+    "pinyin": "zuì hòu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to respect",
+    "hanzi": "尊敬",
+    "pinyin": "zūn jìng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to obey",
+    "hanzi": "遵守",
+    "pinyin": "zūn shǒu",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "work (art)",
+    "hanzi": "作品",
+    "pinyin": "zuò pǐn",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to act as",
+    "hanzi": "作为",
+    "pinyin": "zuò wéi",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "composition",
+    "hanzi": "作文",
+    "pinyin": "zuò wén",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "homework",
+    "hanzi": "作业",
+    "pinyin": "zuò yè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "function",
+    "hanzi": "作用",
+    "pinyin": "zuò yòng",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "author",
+    "hanzi": "作者",
+    "pinyin": "zuò zhě",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to conduct oneself",
+    "hanzi": "做人",
+    "pinyin": "zuò rén",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  },
+  {
+    "english": "to do homework",
+    "hanzi": "做作业",
+    "pinyin": "zuò zuò yè",
+    "difficulty": "simple",
+    "category": "HSK 5"
+  }
+]

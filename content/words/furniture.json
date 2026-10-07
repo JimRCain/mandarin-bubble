@@ -1,0 +1,242 @@
+[
+  {
+    "id": "书架-shu1-jia4",
+    "hanzi": "书架",
+    "pinyin": "shū jià",
+    "english": "bookshelf",
+    "band": "rare",
+    "zipf": 3.27
+  },
+  {
+    "id": "书桌-shu1-zhuo1",
+    "hanzi": "书桌",
+    "pinyin": "shū zhuō",
+    "english": "desk",
+    "band": "rare",
+    "zipf": 3.26
+  },
+  {
+    "id": "保险柜-bao3-xian3-gui4",
+    "hanzi": "保险柜",
+    "pinyin": "bǎo xiǎn guì",
+    "english": "safe",
+    "band": "rare",
+    "zipf": 2.76
+  },
+  {
+    "id": "凳子-deng4-zi5",
+    "hanzi": "凳子",
+    "pinyin": "dèng zi",
+    "english": "stool",
+    "band": "rare",
+    "zipf": 3.26
+  },
+  {
+    "id": "加湿器-jia1-shi1-qi4",
+    "hanzi": "加湿器",
+    "pinyin": "jiā shī qì",
+    "english": "humidifier",
+    "band": "rare",
+    "zipf": 2.07
+  },
+  {
+    "id": "吊床-diao4-chuang2",
+    "hanzi": "吊床",
+    "pinyin": "diào chuáng",
+    "english": "hammock",
+    "band": "rare",
+    "zipf": 3
+  },
+  {
+    "id": "吊灯-diao4-deng1",
+    "hanzi": "吊灯",
+    "pinyin": "diào dēng",
+    "english": "chandelier",
+    "band": "rare",
+    "zipf": 2.94
+  },
+  {
+    "id": "地毯-di4-tan3",
+    "hanzi": "地毯",
+    "pinyin": "dì tǎn",
+    "english": "rug",
+    "band": "rare",
+    "zipf": 3.84
+  },
+  {
+    "id": "床-chuang2",
+    "hanzi": "床",
+    "pinyin": "chuáng",
+    "english": "bed",
+    "band": "mid",
+    "zipf": 4.57
+  },
+  {
+    "id": "床头柜-chuang2-tou2-gui4",
+    "hanzi": "床头柜",
+    "pinyin": "chuáng tóu guì",
+    "english": "nightstand",
+    "band": "rare",
+    "zipf": 2.14
+  },
+  {
+    "id": "摇椅-yao2-yi3",
+    "hanzi": "摇椅",
+    "pinyin": "yáo yǐ",
+    "english": "rocking chair",
+    "band": "rare",
+    "zipf": 2.29
+  },
+  {
+    "id": "暖气-nuan3-qi4",
+    "hanzi": "暖气",
+    "pinyin": "nuǎn qì",
+    "english": "heater",
+    "band": "rare",
+    "zipf": 3.53
+  },
+  {
+    "id": "枕头-zhen3-tou5",
+    "hanzi": "枕头",
+    "pinyin": "zhěn tou",
+    "english": "pillow",
+    "band": "rare",
+    "zipf": 3.91
+  },
+  {
+    "id": "架子-jia4-zi5",
+    "hanzi": "架子",
+    "pinyin": "jià zi",
+    "english": "shelf",
+    "band": "rare",
+    "zipf": 3.61
+  },
+  {
+    "id": "柜子-gui4-zi5",
+    "hanzi": "柜子",
+    "pinyin": "guì zi",
+    "english": "cabinet",
+    "band": "rare",
+    "zipf": 3.48
+  },
+  {
+    "id": "桌子-zhuo1-zi5",
+    "hanzi": "桌子",
+    "pinyin": "zhuō zi",
+    "english": "table",
+    "band": "rare",
+    "zipf": 4.1
+  },
+  {
+    "id": "椅子-yi3-zi5",
+    "hanzi": "椅子",
+    "pinyin": "yǐ zi",
+    "english": "chair",
+    "band": "rare",
+    "zipf": 4.09
+  },
+  {
+    "id": "毯子-tan3-zi5",
+    "hanzi": "毯子",
+    "pinyin": "tǎn zi",
+    "english": "blanket",
+    "band": "rare",
+    "zipf": 3.13
+  },
+  {
+    "id": "沙发-sha1-fa1",
+    "hanzi": "沙发",
+    "pinyin": "shā fā",
+    "english": "sofa",
+    "band": "mid",
+    "zipf": 4.21
+  },
+  {
+    "id": "灯-deng1",
+    "hanzi": "灯",
+    "pinyin": "dēng",
+    "english": "lamp",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "灯罩-deng1-zhao4",
+    "hanzi": "灯罩",
+    "pinyin": "dēng zhào",
+    "english": "lampshade",
+    "band": "rare",
+    "zipf": 2.8
+  },
+  {
+    "id": "空调-kong1-tiao2",
+    "hanzi": "空调",
+    "pinyin": "kōng tiáo",
+    "english": "air conditioner",
+    "band": "mid",
+    "zipf": 4.29
+  },
+  {
+    "id": "窗帘-chuang1-lian2",
+    "hanzi": "窗帘",
+    "pinyin": "chuāng lián",
+    "english": "curtain",
+    "band": "rare",
+    "zipf": 3.65
+  },
+  {
+    "id": "茶几-cha2-ji1",
+    "hanzi": "茶几",
+    "pinyin": "chá jī",
+    "english": "coffee table",
+    "band": "rare",
+    "zipf": 3.05
+  },
+  {
+    "id": "衣柜-yi1-gui4",
+    "hanzi": "衣柜",
+    "pinyin": "yī guì",
+    "english": "wardrobe",
+    "band": "rare",
+    "zipf": 3.63
+  },
+  {
+    "id": "踏凳-ta4-deng4",
+    "hanzi": "踏凳",
+    "pinyin": "tà dèng",
+    "english": "ottoman",
+    "band": "rare",
+    "zipf": 1.77
+  },
+  {
+    "id": "躺椅-tang3-yi3",
+    "hanzi": "躺椅",
+    "pinyin": "tǎng yǐ",
+    "english": "recliner",
+    "band": "rare",
+    "zipf": 2.37
+  },
+  {
+    "id": "钟-zhong1",
+    "hanzi": "钟",
+    "pinyin": "zhōng",
+    "english": "clock",
+    "band": "mid",
+    "zipf": 4.62
+  },
+  {
+    "id": "镜子-jing4-zi5",
+    "hanzi": "镜子",
+    "pinyin": "jìng zi",
+    "english": "mirror",
+    "band": "mid",
+    "zipf": 4.2
+  },
+  {
+    "id": "风扇-feng1-shan4",
+    "hanzi": "风扇",
+    "pinyin": "fēng shàn",
+    "english": "fan",
+    "band": "rare",
+    "zipf": 3.62
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "亲吻-qin1-wen3",
+    "hanzi": "亲吻",
+    "pinyin": "qīn wěn",
+    "english": "to kiss",
+    "band": "rare",
+    "zipf": 4.11
+  },
+  {
+    "id": "伸懒腰-shen1-lan3-yao1",
+    "hanzi": "伸懒腰",
+    "pinyin": "shēn lǎn yāo",
+    "english": "to stretch",
+    "band": "rare",
+    "zipf": 1.51
+  },
+  {
+    "id": "偷听-tou1-ting1",
+    "hanzi": "偷听",
+    "pinyin": "tōu tīng",
+    "english": "to overhear",
+    "band": "rare",
+    "zipf": 3.25
+  },
+  {
+    "id": "出汗-chu1-han4",
+    "hanzi": "出汗",
+    "pinyin": "chū hàn",
+    "english": "to sweat",
+    "band": "rare",
+    "zipf": 3.34
+  },
+  {
+    "id": "发抖-fa1-dou3",
+    "hanzi": "发抖",
+    "pinyin": "fā dǒu",
+    "english": "to shiver",
+    "band": "rare",
+    "zipf": 3.81
+  },
+  {
+    "id": "叹气-tan4-qi4",
+    "hanzi": "叹气",
+    "pinyin": "tàn qì",
+    "english": "to sigh",
+    "band": "rare",
+    "zipf": 3.54
+  },
+  {
+    "id": "吞-tun1",
+    "hanzi": "吞",
+    "pinyin": "tūn",
+    "english": "to swallow",
+    "band": "rare",
+    "zipf": 4.02
+  },
+  {
+    "id": "听-ting1",
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "english": "listen",
+    "band": "common",
+    "zipf": 5.69
+  },
+  {
+    "id": "听见-ting1-jian4",
+    "hanzi": "听见",
+    "pinyin": "tīng jiàn",
+    "english": "to hear",
+    "band": "mid",
+    "zipf": 4.66
+  },
+  {
+    "id": "咳嗽-ke2-sou5",
+    "hanzi": "咳嗽",
+    "pinyin": "ké sou",
+    "english": "cough",
+    "band": "rare",
+    "zipf": 3.92
+  },
+  {
+    "id": "哭-ku1",
+    "hanzi": "哭",
+    "pinyin": "kū",
+    "english": "cry",
+    "band": "mid",
+    "zipf": 4.84
+  },
+  {
+    "id": "嗅-xiu4",
+    "hanzi": "嗅",
+    "pinyin": "xiù",
+    "english": "to sniff",
+    "band": "rare",
+    "zipf": 3.37
+  },
+  {
+    "id": "尝-chang2",
+    "hanzi": "尝",
+    "pinyin": "cháng",
+    "english": "taste",
+    "band": "rare",
+    "zipf": 3.91
+  },
+  {
+    "id": "感觉-gan3-jue2",
+    "hanzi": "感觉",
+    "pinyin": "gǎn jué",
+    "english": "feeling",
+    "band": "common",
+    "zipf": 5.44
+  },
+  {
+    "id": "打哈欠-da3-ha1-qian5",
+    "hanzi": "打哈欠",
+    "pinyin": "dǎ hā qian",
+    "english": "to yawn",
+    "band": "rare",
+    "zipf": 2.19
+  },
+  {
+    "id": "打喷嚏-da3-pen1-ti4",
+    "hanzi": "打喷嚏",
+    "pinyin": "dǎ pēn tì",
+    "english": "to sneeze",
+    "band": "rare",
+    "zipf": 3.26
+  },
+  {
+    "id": "抿-min3",
+    "hanzi": "抿",
+    "pinyin": "mǐn",
+    "english": "to sip",
+    "band": "rare",
+    "zipf": 2.52
+  },
+  {
+    "id": "拥抱-yong1-bao4",
+    "hanzi": "拥抱",
+    "pinyin": "yōng bào",
+    "english": "to hug",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "挥手-hui1-shou3",
+    "hanzi": "挥手",
+    "pinyin": "huī shǒu",
+    "english": "to wave",
+    "band": "rare",
+    "zipf": 3.56
+  },
+  {
+    "id": "摸-mo1",
+    "hanzi": "摸",
+    "pinyin": "mō",
+    "english": "to touch",
+    "band": "mid",
+    "zipf": 4.57
+  },
+  {
+    "id": "注意到-zhu4-yi4-dao4",
+    "hanzi": "注意到",
+    "pinyin": "zhù yì dào",
+    "english": "to notice",
+    "band": "mid",
+    "zipf": 4.32
+  },
+  {
+    "id": "盯着-ding1-zhe5",
+    "hanzi": "盯着",
+    "pinyin": "dīng zhe",
+    "english": "to stare",
+    "band": "rare",
+    "zipf": 3.21
+  },
+  {
+    "id": "看-kan4",
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "english": "see / look",
+    "band": "common",
+    "zipf": 6.16
+  },
+  {
+    "id": "看见-kan4-jian4",
+    "hanzi": "看见",
+    "pinyin": "kàn jiàn",
+    "english": "to see",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "眨眼-zha3-yan3",
+    "hanzi": "眨眼",
+    "pinyin": "zhǎ yǎn",
+    "english": "to blink",
+    "band": "rare",
+    "zipf": 3.33
+  },
+  {
+    "id": "瞥-pie1",
+    "hanzi": "瞥",
+    "pinyin": "piē",
+    "english": "to glance",
+    "band": "rare",
+    "zipf": 2.74
+  },
+  {
+    "id": "笑-xiao4",
+    "hanzi": "笑",
+    "pinyin": "xiào",
+    "english": "laugh",
+    "band": "common",
+    "zipf": 5.2
+  },
+  {
+    "id": "观察-guan1-cha2",
+    "hanzi": "观察",
+    "pinyin": "guān chá",
+    "english": "to observe",
+    "band": "mid",
+    "zipf": 4.92
+  },
+  {
+    "id": "观看-guan1-kan4",
+    "hanzi": "观看",
+    "pinyin": "guān kàn",
+    "english": "to watch",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "闻-wen2",
+    "hanzi": "闻",
+    "pinyin": "wén",
+    "english": "smell",
+    "band": "mid",
+    "zipf": 4.37
+  }
+]

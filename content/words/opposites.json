@@ -1,0 +1,242 @@
+[
+  {
+    "id": "便宜-pian2-yi5",
+    "hanzi": "便宜",
+    "pinyin": "pián yi",
+    "english": "cheap",
+    "band": "mid",
+    "zipf": 4.57
+  },
+  {
+    "id": "关-guan1",
+    "hanzi": "关",
+    "pinyin": "guān",
+    "english": "close",
+    "band": "common",
+    "zipf": 5.14
+  },
+  {
+    "id": "冷-leng3",
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "english": "cold",
+    "band": "mid",
+    "zipf": 4.63
+  },
+  {
+    "id": "坏-huai4",
+    "hanzi": "坏",
+    "pinyin": "huài",
+    "english": "bad",
+    "band": "mid",
+    "zipf": 4.93
+  },
+  {
+    "id": "大声-da4-sheng1",
+    "hanzi": "大声",
+    "pinyin": "dà shēng",
+    "english": "loud",
+    "band": "mid",
+    "zipf": 4.47
+  },
+  {
+    "id": "好-hao3",
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "english": "good",
+    "band": "common",
+    "zipf": 6.24
+  },
+  {
+    "id": "安静-an1-jing4",
+    "hanzi": "安静",
+    "pinyin": "ān jìng",
+    "english": "quiet",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "容易-rong2-yi4",
+    "hanzi": "容易",
+    "pinyin": "róng yì",
+    "english": "easy",
+    "band": "common",
+    "zipf": 5.25
+  },
+  {
+    "id": "干-gan1",
+    "hanzi": "干",
+    "pinyin": "gān",
+    "english": "dry",
+    "band": "common",
+    "zipf": 5.52
+  },
+  {
+    "id": "干净-gan1-jing4",
+    "hanzi": "干净",
+    "pinyin": "gān jìng",
+    "english": "clean",
+    "band": "mid",
+    "zipf": 4.65
+  },
+  {
+    "id": "年轻-nian2-qing1",
+    "hanzi": "年轻",
+    "pinyin": "nián qīng",
+    "english": "young",
+    "band": "common",
+    "zipf": 5.07
+  },
+  {
+    "id": "开-kai1",
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "english": "open",
+    "band": "common",
+    "zipf": 5.63
+  },
+  {
+    "id": "快-kuai4",
+    "hanzi": "快",
+    "pinyin": "kuài",
+    "english": "fast",
+    "band": "common",
+    "zipf": 5.79
+  },
+  {
+    "id": "慢-man4",
+    "hanzi": "慢",
+    "pinyin": "màn",
+    "english": "slow",
+    "band": "mid",
+    "zipf": 4.63
+  },
+  {
+    "id": "新-xin1",
+    "hanzi": "新",
+    "pinyin": "xīn",
+    "english": "new",
+    "band": "common",
+    "zipf": 6.09
+  },
+  {
+    "id": "旧-jiu4",
+    "hanzi": "旧",
+    "pinyin": "jiù",
+    "english": "old",
+    "band": "common",
+    "zipf": 5.01
+  },
+  {
+    "id": "湿-shi1",
+    "hanzi": "湿",
+    "pinyin": "shī",
+    "english": "wet",
+    "band": "mid",
+    "zipf": 4.22
+  },
+  {
+    "id": "满-man3",
+    "hanzi": "满",
+    "pinyin": "mǎn",
+    "english": "full",
+    "band": "mid",
+    "zipf": 4.75
+  },
+  {
+    "id": "热-re4",
+    "hanzi": "热",
+    "pinyin": "rè",
+    "english": "hot",
+    "band": "mid",
+    "zipf": 4.99
+  },
+  {
+    "id": "甜-tian2",
+    "hanzi": "甜",
+    "pinyin": "tián",
+    "english": "sweet",
+    "band": "mid",
+    "zipf": 4.25
+  },
+  {
+    "id": "硬-ying4",
+    "hanzi": "硬",
+    "pinyin": "yìng",
+    "english": "hard",
+    "band": "mid",
+    "zipf": 4.59
+  },
+  {
+    "id": "空-kong1",
+    "hanzi": "空",
+    "pinyin": "kōng",
+    "english": "empty",
+    "band": "mid",
+    "zipf": 4.62
+  },
+  {
+    "id": "老-lao3",
+    "hanzi": "老",
+    "pinyin": "lǎo",
+    "english": "old (person)",
+    "band": "common",
+    "zipf": 5.46
+  },
+  {
+    "id": "脏-zang1",
+    "hanzi": "脏",
+    "pinyin": "zāng",
+    "english": "dirty",
+    "band": "rare",
+    "zipf": 4.05
+  },
+  {
+    "id": "贵-gui4",
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "english": "expensive",
+    "band": "mid",
+    "zipf": 4.64
+  },
+  {
+    "id": "软-ruan3",
+    "hanzi": "软",
+    "pinyin": "ruǎn",
+    "english": "soft",
+    "band": "mid",
+    "zipf": 4.41
+  },
+  {
+    "id": "轻-qing1",
+    "hanzi": "轻",
+    "pinyin": "qīng",
+    "english": "light (weight)",
+    "band": "mid",
+    "zipf": 4.75
+  },
+  {
+    "id": "酸-suan1",
+    "hanzi": "酸",
+    "pinyin": "suān",
+    "english": "sour",
+    "band": "mid",
+    "zipf": 4.24
+  },
+  {
+    "id": "重-zhong4",
+    "hanzi": "重",
+    "pinyin": "zhòng",
+    "english": "heavy",
+    "band": "common",
+    "zipf": 5.11
+  },
+  {
+    "id": "难-nan2",
+    "hanzi": "难",
+    "pinyin": "nán",
+    "english": "difficult",
+    "band": "common",
+    "zipf": 5.19
+  }
+]

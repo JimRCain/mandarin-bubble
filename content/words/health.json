@@ -1,0 +1,242 @@
+[
+  {
+    "id": "X光-x5-guang1",
+    "hanzi": "X光",
+    "pinyin": "X guāng",
+    "english": "X-ray",
+    "band": "rare",
+    "zipf": 3.67
+  },
+  {
+    "id": "医生-yi1-sheng1",
+    "hanzi": "医生",
+    "pinyin": "yī shēng",
+    "english": "doctor",
+    "band": "common",
+    "zipf": 5.06
+  },
+  {
+    "id": "医院-yi1-yuan4",
+    "hanzi": "医院",
+    "pinyin": "yī yuàn",
+    "english": "hospital",
+    "band": "common",
+    "zipf": 5.32
+  },
+  {
+    "id": "发烧-fa1-shao1",
+    "hanzi": "发烧",
+    "pinyin": "fā shāo",
+    "english": "fever",
+    "band": "rare",
+    "zipf": 3.9
+  },
+  {
+    "id": "咳嗽-ke2-sou5",
+    "hanzi": "咳嗽",
+    "pinyin": "ké sou",
+    "english": "cough",
+    "band": "rare",
+    "zipf": 3.92
+  },
+  {
+    "id": "处方-chu3-fang1",
+    "hanzi": "处方",
+    "pinyin": "chǔ fāng",
+    "english": "prescription",
+    "band": "rare",
+    "zipf": 3.66
+  },
+  {
+    "id": "头痛-tou2-tong4",
+    "hanzi": "头痛",
+    "pinyin": "tóu tòng",
+    "english": "headache",
+    "band": "rare",
+    "zipf": 3.96
+  },
+  {
+    "id": "康复-kang1-fu4",
+    "hanzi": "康复",
+    "pinyin": "kāng fù",
+    "english": "recovery",
+    "band": "rare",
+    "zipf": 4.11
+  },
+  {
+    "id": "康复治疗-kang1-fu4-zhi4-liao2",
+    "hanzi": "康复治疗",
+    "pinyin": "kāng fù zhì liáo",
+    "english": "rehab",
+    "band": "rare",
+    "zipf": 3.07
+  },
+  {
+    "id": "感冒-gan3-mao4",
+    "hanzi": "感冒",
+    "pinyin": "gǎn mào",
+    "english": "cold (illness)",
+    "band": "rare",
+    "zipf": 4.06
+  },
+  {
+    "id": "手术-shou3-shu4",
+    "hanzi": "手术",
+    "pinyin": "shǒu shù",
+    "english": "surgery",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "打针-da3-zhen1",
+    "hanzi": "打针",
+    "pinyin": "dǎ zhēn",
+    "english": "injection",
+    "band": "rare",
+    "zipf": 3.56
+  },
+  {
+    "id": "扫描-sao3-miao2",
+    "hanzi": "扫描",
+    "pinyin": "sǎo miáo",
+    "english": "scan (CT)",
+    "band": "rare",
+    "zipf": 4.13
+  },
+  {
+    "id": "护士-hu4-shi5",
+    "hanzi": "护士",
+    "pinyin": "hù shi",
+    "english": "nurse",
+    "band": "mid",
+    "zipf": 4.49
+  },
+  {
+    "id": "拐杖-guai3-zhang4",
+    "hanzi": "拐杖",
+    "pinyin": "guǎi zhàng",
+    "english": "crutches",
+    "band": "rare",
+    "zipf": 3.48
+  },
+  {
+    "id": "救护车-jiu4-hu4-che1",
+    "hanzi": "救护车",
+    "pinyin": "jiù hù chē",
+    "english": "ambulance",
+    "band": "rare",
+    "zipf": 3.83
+  },
+  {
+    "id": "牙疼-ya2-teng2",
+    "hanzi": "牙疼",
+    "pinyin": "yá téng",
+    "english": "toothache",
+    "band": "rare",
+    "zipf": 3.05
+  },
+  {
+    "id": "生病-sheng1-bing4",
+    "hanzi": "生病",
+    "pinyin": "shēng bìng",
+    "english": "sick",
+    "band": "rare",
+    "zipf": 4.18
+  },
+  {
+    "id": "疼-teng2",
+    "hanzi": "疼",
+    "pinyin": "téng",
+    "english": "pain",
+    "band": "mid",
+    "zipf": 4.41
+  },
+  {
+    "id": "病房-bing4-fang2",
+    "hanzi": "病房",
+    "pinyin": "bìng fáng",
+    "english": "ward",
+    "band": "rare",
+    "zipf": 3.99
+  },
+  {
+    "id": "症状-zheng4-zhuang4",
+    "hanzi": "症状",
+    "pinyin": "zhèng zhuàng",
+    "english": "symptom",
+    "band": "mid",
+    "zipf": 4.45
+  },
+  {
+    "id": "肚子疼-du4-zi5-teng2",
+    "hanzi": "肚子疼",
+    "pinyin": "dù zi téng",
+    "english": "stomachache",
+    "band": "rare",
+    "zipf": 3.06
+  },
+  {
+    "id": "药-yao4",
+    "hanzi": "药",
+    "pinyin": "yào",
+    "english": "medicine",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "药店-yao4-dian4",
+    "hanzi": "药店",
+    "pinyin": "yào diàn",
+    "english": "pharmacy",
+    "band": "rare",
+    "zipf": 3.64
+  },
+  {
+    "id": "诊所-zhen3-suo3",
+    "hanzi": "诊所",
+    "pinyin": "zhěn suǒ",
+    "english": "clinic",
+    "band": "rare",
+    "zipf": 3.99
+  },
+  {
+    "id": "诊断-zhen3-duan4",
+    "hanzi": "诊断",
+    "pinyin": "zhěn duàn",
+    "english": "diagnosis",
+    "band": "mid",
+    "zipf": 4.36
+  },
+  {
+    "id": "轮椅-lun2-yi3",
+    "hanzi": "轮椅",
+    "pinyin": "lún yǐ",
+    "english": "wheelchair",
+    "band": "rare",
+    "zipf": 3.81
+  },
+  {
+    "id": "输液-shu1-ye4",
+    "hanzi": "输液",
+    "pinyin": "shū yè",
+    "english": "drip",
+    "band": "rare",
+    "zipf": 2.84
+  },
+  {
+    "id": "验尿-yan4-niao4",
+    "hanzi": "验尿",
+    "pinyin": "yàn niào",
+    "english": "urine test",
+    "band": "rare",
+    "zipf": 2.67
+  },
+  {
+    "id": "验血-yan4-xie3",
+    "hanzi": "验血",
+    "pinyin": "yàn xiě",
+    "english": "blood test",
+    "band": "rare",
+    "zipf": 2.72
+  }
+]

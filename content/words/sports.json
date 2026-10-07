@@ -1,0 +1,242 @@
+[
+  {
+    "id": "举重-ju3-zhong4",
+    "hanzi": "举重",
+    "pinyin": "jǔ zhòng",
+    "english": "weightlifting",
+    "band": "rare",
+    "zipf": 3.48
+  },
+  {
+    "id": "乒乓球-ping1-pang1-qiu2",
+    "hanzi": "乒乓球",
+    "pinyin": "pīng pāng qiú",
+    "english": "table tennis",
+    "band": "rare",
+    "zipf": 3.56
+  },
+  {
+    "id": "手球-shou3-qiu2",
+    "hanzi": "手球",
+    "pinyin": "shǒu qiú",
+    "english": "handball",
+    "band": "rare",
+    "zipf": 3.69
+  },
+  {
+    "id": "拳击-quan2-ji1",
+    "hanzi": "拳击",
+    "pinyin": "quán jī",
+    "english": "boxing",
+    "band": "rare",
+    "zipf": 3.85
+  },
+  {
+    "id": "排球-pai2-qiu2",
+    "hanzi": "排球",
+    "pinyin": "pái qiú",
+    "english": "volleyball",
+    "band": "rare",
+    "zipf": 3.6
+  },
+  {
+    "id": "摔跤-shuai1-jiao1",
+    "hanzi": "摔跤",
+    "pinyin": "shuāi jiāo",
+    "english": "wrestling",
+    "band": "rare",
+    "zipf": 3.75
+  },
+  {
+    "id": "曲棍球-qu1-gun4-qiu2",
+    "hanzi": "曲棍球",
+    "pinyin": "qū gùn qiú",
+    "english": "field hockey",
+    "band": "rare",
+    "zipf": 3.43
+  },
+  {
+    "id": "板球-ban3-qiu2",
+    "hanzi": "板球",
+    "pinyin": "bǎn qiú",
+    "english": "cricket",
+    "band": "rare",
+    "zipf": 3.42
+  },
+  {
+    "id": "柔道-rou2-dao4",
+    "hanzi": "柔道",
+    "pinyin": "róu dào",
+    "english": "judo",
+    "band": "rare",
+    "zipf": 3.27
+  },
+  {
+    "id": "橄榄球-gan3-lan3-qiu2",
+    "hanzi": "橄榄球",
+    "pinyin": "gǎn lǎn qiú",
+    "english": "rugby",
+    "band": "rare",
+    "zipf": 3.73
+  },
+  {
+    "id": "武术-wu3-shu4",
+    "hanzi": "武术",
+    "pinyin": "wǔ shù",
+    "english": "martial arts",
+    "band": "rare",
+    "zipf": 4.01
+  },
+  {
+    "id": "水球-shui3-qiu2",
+    "hanzi": "水球",
+    "pinyin": "shuǐ qiú",
+    "english": "water polo",
+    "band": "rare",
+    "zipf": 3.09
+  },
+  {
+    "id": "游泳-you2-yong3",
+    "hanzi": "游泳",
+    "pinyin": "yóu yǒng",
+    "english": "swim",
+    "band": "mid",
+    "zipf": 4.49
+  },
+  {
+    "id": "滑冰-hua2-bing1",
+    "hanzi": "滑冰",
+    "pinyin": "huá bīng",
+    "english": "ice skating",
+    "band": "rare",
+    "zipf": 3.28
+  },
+  {
+    "id": "滑雪-hua2-xue3",
+    "hanzi": "滑雪",
+    "pinyin": "huá xuě",
+    "english": "skiing",
+    "band": "rare",
+    "zipf": 3.95
+  },
+  {
+    "id": "瑜伽-yu2-jia1",
+    "hanzi": "瑜伽",
+    "pinyin": "yú jiā",
+    "english": "yoga",
+    "band": "rare",
+    "zipf": 3.82
+  },
+  {
+    "id": "相扑-xiang1-pu1",
+    "hanzi": "相扑",
+    "pinyin": "xiāng pū",
+    "english": "sumo",
+    "band": "rare",
+    "zipf": 3.2
+  },
+  {
+    "id": "空手道-kong1-shou3-dao4",
+    "hanzi": "空手道",
+    "pinyin": "kōng shǒu dào",
+    "english": "karate",
+    "band": "rare",
+    "zipf": 3.28
+  },
+  {
+    "id": "篮球-lan2-qiu2",
+    "hanzi": "篮球",
+    "pinyin": "lán qiú",
+    "english": "basketball",
+    "band": "mid",
+    "zipf": 4.54
+  },
+  {
+    "id": "网球-wang3-qiu2",
+    "hanzi": "网球",
+    "pinyin": "wǎng qiú",
+    "english": "tennis",
+    "band": "rare",
+    "zipf": 3.98
+  },
+  {
+    "id": "羽毛球-yu3-mao2-qiu2",
+    "hanzi": "羽毛球",
+    "pinyin": "yǔ máo qiú",
+    "english": "badminton",
+    "band": "rare",
+    "zipf": 3.67
+  },
+  {
+    "id": "自行车-zi4-xing2-che1",
+    "hanzi": "自行车",
+    "pinyin": "zì xíng chē",
+    "english": "bicycle",
+    "band": "mid",
+    "zipf": 4.36
+  },
+  {
+    "id": "足球-zu2-qiu2",
+    "hanzi": "足球",
+    "pinyin": "zú qiú",
+    "english": "football",
+    "band": "common",
+    "zipf": 5.24
+  },
+  {
+    "id": "跆拳道-tai2-quan2-dao4",
+    "hanzi": "跆拳道",
+    "pinyin": "tái quán dào",
+    "english": "taekwondo",
+    "band": "rare",
+    "zipf": 3.24
+  },
+  {
+    "id": "跑步-pao3-bu4",
+    "hanzi": "跑步",
+    "pinyin": "pǎo bù",
+    "english": "running",
+    "band": "rare",
+    "zipf": 3.84
+  },
+  {
+    "id": "跑酷-pao3-ku4",
+    "hanzi": "跑酷",
+    "pinyin": "pǎo kù",
+    "english": "parkour",
+    "band": "rare",
+    "zipf": 3.11
+  },
+  {
+    "id": "跳水-tiao4-shui3",
+    "hanzi": "跳水",
+    "pinyin": "tiào shuǐ",
+    "english": "diving",
+    "band": "rare",
+    "zipf": 3.63
+  },
+  {
+    "id": "运动-yun4-dong4",
+    "hanzi": "运动",
+    "pinyin": "yùn dòng",
+    "english": "sports",
+    "band": "common",
+    "zipf": 5.6
+  },
+  {
+    "id": "长曲棍球-chang2-qu1-gun4-qiu2",
+    "hanzi": "长曲棍球",
+    "pinyin": "cháng qū gùn qiú",
+    "english": "lacrosse",
+    "band": "rare",
+    "zipf": 2.43
+  },
+  {
+    "id": "高尔夫球-gao1-er3-fu1-qiu2",
+    "hanzi": "高尔夫球",
+    "pinyin": "gāo ěr fū qiú",
+    "english": "golf",
+    "band": "rare",
+    "zipf": 3.65
+  }
+]

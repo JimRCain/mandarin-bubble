@@ -1,0 +1,246 @@
+[
+  {
+    "id": "barely-jin3-jin3",
+    "hanzi": "barely",
+    "pinyin": "jǐn jǐn",
+    "english": "barely",
+    "band": "rare",
+    "zipf": 1.45
+  },
+  {
+    "id": "一点-yi1-dian3",
+    "hanzi": "一点",
+    "pinyin": "yī diǎn",
+    "english": "a little",
+    "band": "common",
+    "zipf": 5.51
+  },
+  {
+    "id": "最-zui4",
+    "hanzi": "最",
+    "pinyin": "zuì",
+    "english": "most",
+    "band": "common",
+    "zipf": 6.03
+  },
+  {
+    "id": "几乎-ji1-hu1",
+    "hanzi": "几乎",
+    "pinyin": "jī hū",
+    "english": "almost",
+    "band": "common",
+    "zipf": 5.23
+  },
+  {
+    "id": "几乎不-ji1-hu1-bu4",
+    "hanzi": "几乎不",
+    "pinyin": "jī hū bù",
+    "english": "hardly",
+    "band": "mid",
+    "zipf": 4.22
+  },
+  {
+    "id": "太-tai4",
+    "hanzi": "太",
+    "pinyin": "tài",
+    "english": "too (excessively)",
+    "band": "common",
+    "zipf": 5.64
+  },
+  {
+    "id": "完全-wan2-quan2",
+    "hanzi": "完全",
+    "pinyin": "wán quán",
+    "english": "completely",
+    "band": "common",
+    "zipf": 5.56
+  },
+  {
+    "id": "尽量-jin3-liang4",
+    "hanzi": "尽量",
+    "pinyin": "jǐn liàng",
+    "english": "as … as possible",
+    "band": "mid",
+    "zipf": 4.57
+  },
+  {
+    "id": "彻底-che4-di3",
+    "hanzi": "彻底",
+    "pinyin": "chè dǐ",
+    "english": "totally",
+    "band": "mid",
+    "zipf": 4.92
+  },
+  {
+    "id": "很-hen3",
+    "hanzi": "很",
+    "pinyin": "hěn",
+    "english": "very",
+    "band": "common",
+    "zipf": 6.27,
+    "sharedGloss": true
+  },
+  {
+    "id": "挺-ting3",
+    "hanzi": "挺",
+    "pinyin": "tǐng",
+    "english": "quite",
+    "band": "mid",
+    "zipf": 4.85,
+    "sharedGloss": true
+  },
+  {
+    "id": "显然-xian3-ran2",
+    "hanzi": "显然",
+    "pinyin": "xiǎn rán",
+    "english": "by far",
+    "band": "mid",
+    "zipf": 4.98
+  },
+  {
+    "id": "更-geng4",
+    "hanzi": "更",
+    "pinyin": "gèng",
+    "english": "more",
+    "band": "common",
+    "zipf": 6.06
+  },
+  {
+    "id": "更加-geng4-jia1",
+    "hanzi": "更加",
+    "pinyin": "gèng jiā",
+    "english": "even more",
+    "band": "common",
+    "zipf": 5.19
+  },
+  {
+    "id": "有点-you3-dian3",
+    "hanzi": "有点",
+    "pinyin": "yǒu diǎn",
+    "english": "somewhat",
+    "band": "common",
+    "zipf": 5.13
+  },
+  {
+    "id": "有点儿-you3-dianr3",
+    "hanzi": "有点儿",
+    "pinyin": "yǒu diǎnr",
+    "english": "a little / a bit",
+    "band": "rare",
+    "zipf": 3.77
+  },
+  {
+    "id": "深深-shen1-shen1",
+    "hanzi": "深深",
+    "pinyin": "shēn shēn",
+    "english": "deeply",
+    "band": "mid",
+    "zipf": 4.25
+  },
+  {
+    "id": "特别-te4-bie2",
+    "hanzi": "特别",
+    "pinyin": "tè bié",
+    "english": "special",
+    "band": "common",
+    "zipf": 5.63
+  },
+  {
+    "id": "相当-xiang1-dang1",
+    "hanzi": "相当",
+    "pinyin": "xiāng dāng",
+    "english": "quite",
+    "band": "common",
+    "zipf": 5.24,
+    "sharedGloss": true
+  },
+  {
+    "id": "真-zhen1",
+    "hanzi": "真",
+    "pinyin": "zhēn",
+    "english": "really",
+    "band": "common",
+    "zipf": 5.49
+  },
+  {
+    "id": "稍微-shao1-wei1",
+    "hanzi": "稍微",
+    "pinyin": "shāo wēi",
+    "english": "slightly",
+    "band": "mid",
+    "zipf": 4.29
+  },
+  {
+    "id": "简直-jian3-zhi2",
+    "hanzi": "简直",
+    "pinyin": "jiǎn zhí",
+    "english": "simply",
+    "band": "mid",
+    "zipf": 4.79
+  },
+  {
+    "id": "绝对-jue2-dui4",
+    "hanzi": "绝对",
+    "pinyin": "jué duì",
+    "english": "absolute",
+    "band": "common",
+    "zipf": 5.16
+  },
+  {
+    "id": "蛮-man2",
+    "hanzi": "蛮",
+    "pinyin": "mán",
+    "english": "pretty / fairly",
+    "band": "mid",
+    "zipf": 4.23
+  },
+  {
+    "id": "足够-zu2-gou4",
+    "hanzi": "足够",
+    "pinyin": "zú gòu",
+    "english": "enough / sufficiently",
+    "band": "mid",
+    "zipf": 4.87
+  },
+  {
+    "id": "过分-guo4-fen4",
+    "hanzi": "过分",
+    "pinyin": "guò fèn",
+    "english": "too much",
+    "band": "mid",
+    "zipf": 4.38
+  },
+  {
+    "id": "还算-hai2-suan4",
+    "hanzi": "还算",
+    "pinyin": "hái suàn",
+    "english": "fairly (good)",
+    "band": "rare",
+    "zipf": 4.12
+  },
+  {
+    "id": "这么-zhe4-me5",
+    "hanzi": "这么",
+    "pinyin": "zhè me",
+    "english": "so (such)",
+    "band": "common",
+    "zipf": 5.69
+  },
+  {
+    "id": "部分-bu4-fen5",
+    "hanzi": "部分",
+    "pinyin": "bù fen",
+    "english": "part",
+    "band": "common",
+    "zipf": 5.6
+  },
+  {
+    "id": "非常-fei1-chang2",
+    "hanzi": "非常",
+    "pinyin": "fēi cháng",
+    "english": "very",
+    "band": "common",
+    "zipf": 5.59,
+    "sharedGloss": true
+  }
+]

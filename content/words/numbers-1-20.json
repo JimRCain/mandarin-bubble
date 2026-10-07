@@ -1,0 +1,242 @@
+[
+  {
+    "id": "一-yi1",
+    "hanzi": "一",
+    "pinyin": "yī",
+    "english": "one",
+    "band": "common",
+    "zipf": 6.27
+  },
+  {
+    "id": "七-qi1",
+    "hanzi": "七",
+    "pinyin": "qī",
+    "english": "seven",
+    "band": "mid",
+    "zipf": 4.81
+  },
+  {
+    "id": "万-wan4",
+    "hanzi": "万",
+    "pinyin": "wàn",
+    "english": "ten thousand",
+    "band": "common",
+    "zipf": 5.7
+  },
+  {
+    "id": "三-san1",
+    "hanzi": "三",
+    "pinyin": "sān",
+    "english": "three",
+    "band": "common",
+    "zipf": 5.98
+  },
+  {
+    "id": "九-jiu3",
+    "hanzi": "九",
+    "pinyin": "jiǔ",
+    "english": "nine",
+    "band": "mid",
+    "zipf": 4.77
+  },
+  {
+    "id": "二-er4",
+    "hanzi": "二",
+    "pinyin": "èr",
+    "english": "two",
+    "band": "common",
+    "zipf": 5.39
+  },
+  {
+    "id": "二十-er4-shi2",
+    "hanzi": "二十",
+    "pinyin": "èr shí",
+    "english": "twenty",
+    "band": "mid",
+    "zipf": 4.25
+  },
+  {
+    "id": "五-wu3",
+    "hanzi": "五",
+    "pinyin": "wǔ",
+    "english": "five",
+    "band": "common",
+    "zipf": 5.13
+  },
+  {
+    "id": "八-ba1",
+    "hanzi": "八",
+    "pinyin": "bā",
+    "english": "eight",
+    "band": "mid",
+    "zipf": 4.73
+  },
+  {
+    "id": "六-liu4",
+    "hanzi": "六",
+    "pinyin": "liù",
+    "english": "six",
+    "band": "mid",
+    "zipf": 4.97
+  },
+  {
+    "id": "十-shi2",
+    "hanzi": "十",
+    "pinyin": "shí",
+    "english": "ten",
+    "band": "mid",
+    "zipf": 4.74
+  },
+  {
+    "id": "十一-shi2-yi1",
+    "hanzi": "十一",
+    "pinyin": "shí yī",
+    "english": "eleven",
+    "band": "mid",
+    "zipf": 4.2
+  },
+  {
+    "id": "十七-shi2-qi1",
+    "hanzi": "十七",
+    "pinyin": "shí qī",
+    "english": "seventeen",
+    "band": "rare",
+    "zipf": 3.83
+  },
+  {
+    "id": "十三-shi2-san1",
+    "hanzi": "十三",
+    "pinyin": "shí sān",
+    "english": "thirteen",
+    "band": "mid",
+    "zipf": 4.24
+  },
+  {
+    "id": "十九-shi2-jiu3",
+    "hanzi": "十九",
+    "pinyin": "shí jiǔ",
+    "english": "nineteen",
+    "band": "mid",
+    "zipf": 4.3
+  },
+  {
+    "id": "十二-shi2-er4",
+    "hanzi": "十二",
+    "pinyin": "shí èr",
+    "english": "twelve",
+    "band": "mid",
+    "zipf": 4.26
+  },
+  {
+    "id": "十五-shi2-wu3",
+    "hanzi": "十五",
+    "pinyin": "shí wǔ",
+    "english": "fifteen",
+    "band": "mid",
+    "zipf": 4.34
+  },
+  {
+    "id": "十八-shi2-ba1",
+    "hanzi": "十八",
+    "pinyin": "shí bā",
+    "english": "eighteen",
+    "band": "mid",
+    "zipf": 4.34
+  },
+  {
+    "id": "十六-shi2-liu4",
+    "hanzi": "十六",
+    "pinyin": "shí liù",
+    "english": "sixteen",
+    "band": "rare",
+    "zipf": 4.06
+  },
+  {
+    "id": "十四-shi2-si4",
+    "hanzi": "十四",
+    "pinyin": "shí sì",
+    "english": "fourteen",
+    "band": "rare",
+    "zipf": 4.14
+  },
+  {
+    "id": "千-qian1",
+    "hanzi": "千",
+    "pinyin": "qiān",
+    "english": "thousand",
+    "band": "mid",
+    "zipf": 4.52
+  },
+  {
+    "id": "半-ban4",
+    "hanzi": "半",
+    "pinyin": "bàn",
+    "english": "half",
+    "band": "mid",
+    "zipf": 4.97
+  },
+  {
+    "id": "双-shuang1",
+    "hanzi": "双",
+    "pinyin": "shuāng",
+    "english": "double",
+    "band": "mid",
+    "zipf": 4.98
+  },
+  {
+    "id": "四-si4",
+    "hanzi": "四",
+    "pinyin": "sì",
+    "english": "four",
+    "band": "common",
+    "zipf": 5.18
+  },
+  {
+    "id": "多少-duo1-shao3",
+    "hanzi": "多少",
+    "pinyin": "duō shǎo",
+    "english": "how many",
+    "band": "common",
+    "zipf": 5.44
+  },
+  {
+    "id": "百-bai3",
+    "hanzi": "百",
+    "pinyin": "bǎi",
+    "english": "hundred",
+    "band": "mid",
+    "zipf": 4.48
+  },
+  {
+    "id": "第一-di4-yi1",
+    "hanzi": "第一",
+    "pinyin": "dì yī",
+    "english": "first",
+    "band": "common",
+    "zipf": 5.4
+  },
+  {
+    "id": "第三-di4-san1",
+    "hanzi": "第三",
+    "pinyin": "dì sān",
+    "english": "third",
+    "band": "mid",
+    "zipf": 4.83
+  },
+  {
+    "id": "第二-di4-er4",
+    "hanzi": "第二",
+    "pinyin": "dì èr",
+    "english": "second",
+    "band": "common",
+    "zipf": 5.1
+  },
+  {
+    "id": "零-ling2",
+    "hanzi": "零",
+    "pinyin": "líng",
+    "english": "zero",
+    "band": "mid",
+    "zipf": 4.64
+  }
+]

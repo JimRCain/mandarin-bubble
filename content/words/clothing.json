@@ -1,0 +1,250 @@
+[
+  {
+    "id": "T恤-t5-xu4",
+    "hanzi": "T恤",
+    "pinyin": "T xù",
+    "english": "T-shirt",
+    "band": "rare",
+    "zipf": 2.94
+  },
+  {
+    "id": "内衣-nei4-yi1",
+    "hanzi": "内衣",
+    "pinyin": "nèi yī",
+    "english": "underwear",
+    "band": "rare",
+    "zipf": 4
+  },
+  {
+    "id": "口罩-kou3-zhao4",
+    "hanzi": "口罩",
+    "pinyin": "kǒu zhào",
+    "english": "face mask",
+    "band": "rare",
+    "zipf": 3.99
+  },
+  {
+    "id": "围巾-wei2-jin1",
+    "hanzi": "围巾",
+    "pinyin": "wéi jīn",
+    "english": "scarf",
+    "band": "rare",
+    "zipf": 3.46
+  },
+  {
+    "id": "外套-wai4-tao4",
+    "hanzi": "外套",
+    "pinyin": "wài tào",
+    "english": "coat",
+    "band": "rare",
+    "zipf": 3.89
+  },
+  {
+    "id": "大衣-da4-yi1",
+    "hanzi": "大衣",
+    "pinyin": "dà yī",
+    "english": "overcoat",
+    "band": "rare",
+    "zipf": 3.57
+  },
+  {
+    "id": "夹克-jia1-ke4",
+    "hanzi": "夹克",
+    "pinyin": "jiā kè",
+    "english": "jacket",
+    "band": "rare",
+    "zipf": 3.31
+  },
+  {
+    "id": "帽子-mao4-zi5",
+    "hanzi": "帽子",
+    "pinyin": "mào zi",
+    "english": "hat",
+    "band": "mid",
+    "zipf": 4.24
+  },
+  {
+    "id": "手套-shou3-tao4",
+    "hanzi": "手套",
+    "pinyin": "shǒu tào",
+    "english": "gloves",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "打底裤-da3-di3-ku4",
+    "hanzi": "打底裤",
+    "pinyin": "dǎ dǐ kù",
+    "english": "leggings",
+    "band": "rare",
+    "zipf": 1.78
+  },
+  {
+    "id": "拖鞋-tuo1-xie2",
+    "hanzi": "拖鞋",
+    "pinyin": "tuō xié",
+    "english": "slippers",
+    "band": "rare",
+    "zipf": 3.62
+  },
+  {
+    "id": "毛衣-mao2-yi1",
+    "hanzi": "毛衣",
+    "pinyin": "máo yī",
+    "english": "sweater",
+    "band": "rare",
+    "zipf": 3.4
+  },
+  {
+    "id": "牛仔裤-niu2-zai3-ku4",
+    "hanzi": "牛仔裤",
+    "pinyin": "niú zǎi kù",
+    "english": "jeans",
+    "band": "rare",
+    "zipf": 3.85
+  },
+  {
+    "id": "皮带-pi2-dai4",
+    "hanzi": "皮带",
+    "pinyin": "pí dài",
+    "english": "belt",
+    "band": "rare",
+    "zipf": 3.64
+  },
+  {
+    "id": "眼镜-yan3-jing4",
+    "hanzi": "眼镜",
+    "pinyin": "yǎn jìng",
+    "english": "glasses",
+    "band": "mid",
+    "zipf": 4.35
+  },
+  {
+    "id": "睡衣-shui4-yi1",
+    "hanzi": "睡衣",
+    "pinyin": "shuì yī",
+    "english": "pajamas",
+    "band": "rare",
+    "zipf": 3.71
+  },
+  {
+    "id": "短裤-duan3-ku4",
+    "hanzi": "短裤",
+    "pinyin": "duǎn kù",
+    "english": "shorts",
+    "band": "rare",
+    "zipf": 3.76
+  },
+  {
+    "id": "羽绒服-yu3-rong2-fu2",
+    "hanzi": "羽绒服",
+    "pinyin": "yǔ róng fú",
+    "english": "down jacket",
+    "band": "rare",
+    "zipf": 1.07
+  },
+  {
+    "id": "背心-bei4-xin1",
+    "hanzi": "背心",
+    "pinyin": "bèi xīn",
+    "english": "vest",
+    "band": "rare",
+    "zipf": 3.71
+  },
+  {
+    "id": "衬衫-chen4-shan1",
+    "hanzi": "衬衫",
+    "pinyin": "chèn shān",
+    "english": "shirt",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "袜子-wa4-zi5",
+    "hanzi": "袜子",
+    "pinyin": "wà zi",
+    "english": "socks",
+    "band": "rare",
+    "zipf": 3.91
+  },
+  {
+    "id": "裙子-qun2-zi5",
+    "hanzi": "裙子",
+    "pinyin": "qún zi",
+    "english": "skirt",
+    "band": "rare",
+    "zipf": 4.05
+  },
+  {
+    "id": "裤子-ku4-zi5",
+    "hanzi": "裤子",
+    "pinyin": "kù zi",
+    "english": "pants",
+    "band": "mid",
+    "zipf": 4.29
+  },
+  {
+    "id": "西装-xi1-zhuang1",
+    "hanzi": "西装",
+    "pinyin": "xī zhuāng",
+    "english": "suit",
+    "band": "rare",
+    "zipf": 3.85
+  },
+  {
+    "id": "运动鞋-yun4-dong4-xie2",
+    "hanzi": "运动鞋",
+    "pinyin": "yùn dòng xié",
+    "english": "sneakers",
+    "band": "rare",
+    "zipf": 3.38
+  },
+  {
+    "id": "连帽衫-lian2-mao4-shan1",
+    "hanzi": "连帽衫",
+    "pinyin": "lián mào shān",
+    "english": "hoodie",
+    "band": "rare",
+    "zipf": 1.39
+  },
+  {
+    "id": "连衣裙-lian2-yi1-qun2",
+    "hanzi": "连衣裙",
+    "pinyin": "lián yī qún",
+    "english": "dress",
+    "band": "rare",
+    "zipf": 3.32
+  },
+  {
+    "id": "雨伞-yu3-san3",
+    "hanzi": "雨伞",
+    "pinyin": "yǔ sǎn",
+    "english": "umbrella",
+    "band": "rare",
+    "zipf": 3.78
+  },
+  {
+    "id": "靴子-xue1-zi5",
+    "hanzi": "靴子",
+    "pinyin": "xuē zi",
+    "english": "boots",
+    "band": "rare",
+    "zipf": 3.47
+  },
+  {
+    "id": "鞋-xie2",
+    "hanzi": "鞋",
+    "pinyin": "xié",
+    "english": "shoe",
+    "band": "mid",
+    "zipf": 4.3
+  },
+  {
+    "id": "领带-ling3-dai4",
+    "hanzi": "领带",
+    "pinyin": "lǐng dài",
+    "english": "tie",
+    "band": "rare",
+    "zipf": 3.57
+  }
+]

@@ -1,0 +1,15 @@
+# Render intermediates — rebuild with tools/render.py. The MIDI and the OGG are the
+# committed artifacts; the WAVs are not.
+stems/*.wav
+*.mix.wav
+
+# The full-size fonts are never committed (see SOURCES.md for URLs + hashes).
+soundfonts/*.sf2
+soundfonts/*.SF2
+
+# Exception: the reduced, downsampled subset that DSK Music granted permission to
+# redistribute (soundfonts/PERMISSION-DSK.md). Un-ignore it once it is built and
+# actually shipped, or it will be skipped silently.
+# !soundfonts/<subset-name>.sf2
+
+__pycache__/

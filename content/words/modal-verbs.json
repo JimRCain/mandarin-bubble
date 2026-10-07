@@ -1,0 +1,244 @@
+[
+  {
+    "id": "会-hui4",
+    "hanzi": "会",
+    "pinyin": "huì",
+    "english": "can (skill)",
+    "band": "common",
+    "zipf": 6.48
+  },
+  {
+    "id": "会（用于假设）-hui4",
+    "hanzi": "会（用于假设）",
+    "pinyin": "huì",
+    "english": "would",
+    "band": "rare",
+    "zipf": 2.39
+  },
+  {
+    "id": "停止-ting2-zhi3",
+    "hanzi": "停止",
+    "pinyin": "tíng zhǐ",
+    "english": "stop",
+    "band": "common",
+    "zipf": 5.05
+  },
+  {
+    "id": "允许-yun3-xu3",
+    "hanzi": "允许",
+    "pinyin": "yǔn xǔ",
+    "english": "allow",
+    "band": "common",
+    "zipf": 5.11
+  },
+  {
+    "id": "决定-jue2-ding4",
+    "hanzi": "决定",
+    "pinyin": "jué dìng",
+    "english": "decide",
+    "band": "common",
+    "zipf": 5.76
+  },
+  {
+    "id": "可以-ke3-yi3",
+    "hanzi": "可以",
+    "pinyin": "kě yǐ",
+    "english": "can",
+    "band": "common",
+    "zipf": 6.34
+  },
+  {
+    "id": "可以（委婉）-ke3-yi3",
+    "hanzi": "可以（委婉）",
+    "pinyin": "kě yǐ",
+    "english": "could",
+    "band": "rare",
+    "zipf": 2.32
+  },
+  {
+    "id": "可能-ke3-neng2",
+    "hanzi": "可能",
+    "pinyin": "kě néng",
+    "english": "might",
+    "band": "common",
+    "zipf": 6.01
+  },
+  {
+    "id": "坚持-jian1-chi2",
+    "hanzi": "坚持",
+    "pinyin": "jiān chí",
+    "english": "insist on",
+    "band": "common",
+    "zipf": 5.27
+  },
+  {
+    "id": "完成-wan2-cheng2",
+    "hanzi": "完成",
+    "pinyin": "wán chéng",
+    "english": "finish",
+    "band": "common",
+    "zipf": 5.52
+  },
+  {
+    "id": "尝试-chang2-shi4",
+    "hanzi": "尝试",
+    "pinyin": "cháng shì",
+    "english": "try to",
+    "band": "mid",
+    "zipf": 4.82
+  },
+  {
+    "id": "应该-ying1-gai1",
+    "hanzi": "应该",
+    "pinyin": "yīng gāi",
+    "english": "should",
+    "band": "common",
+    "zipf": 5.85
+  },
+  {
+    "id": "建议-jian4-yi4",
+    "hanzi": "建议",
+    "pinyin": "jiàn yì",
+    "english": "advise",
+    "band": "common",
+    "zipf": 5.32
+  },
+  {
+    "id": "开始-kai1-shi3",
+    "hanzi": "开始",
+    "pinyin": "kāi shǐ",
+    "english": "start",
+    "band": "common",
+    "zipf": 6.03
+  },
+  {
+    "id": "得-dei3",
+    "hanzi": "得",
+    "pinyin": "děi",
+    "english": "have to",
+    "band": "common",
+    "zipf": 6.04
+  },
+  {
+    "id": "必须-bi4-xu1",
+    "hanzi": "必须",
+    "pinyin": "bì xū",
+    "english": "must",
+    "band": "common",
+    "zipf": 5.79
+  },
+  {
+    "id": "想要-xiang3-yao4",
+    "hanzi": "想要",
+    "pinyin": "xiǎng yào",
+    "english": "want",
+    "band": "common",
+    "zipf": 5.24,
+    "sharedGloss": true
+  },
+  {
+    "id": "愿意-yuan4-yi4",
+    "hanzi": "愿意",
+    "pinyin": "yuàn yì",
+    "english": "be willing to",
+    "band": "common",
+    "zipf": 5.18
+  },
+  {
+    "id": "打算-da3-suan4",
+    "hanzi": "打算",
+    "pinyin": "dǎ suàn",
+    "english": "plan to",
+    "band": "mid",
+    "zipf": 4.93
+  },
+  {
+    "id": "拒绝-ju4-jue2",
+    "hanzi": "拒绝",
+    "pinyin": "jù jué",
+    "english": "refuse",
+    "band": "common",
+    "zipf": 5.09
+  },
+  {
+    "id": "敢-gan3",
+    "hanzi": "敢",
+    "pinyin": "gǎn",
+    "english": "dare",
+    "band": "mid",
+    "zipf": 4.84
+  },
+  {
+    "id": "禁止-jin4-zhi3",
+    "hanzi": "禁止",
+    "pinyin": "jìn zhǐ",
+    "english": "forbid",
+    "band": "mid",
+    "zipf": 4.9
+  },
+  {
+    "id": "答应-da1-ying4",
+    "hanzi": "答应",
+    "pinyin": "dā yìng",
+    "english": "promise",
+    "band": "mid",
+    "zipf": 4.65
+  },
+  {
+    "id": "结束-jie2-shu4",
+    "hanzi": "结束",
+    "pinyin": "jié shù",
+    "english": "end",
+    "band": "common",
+    "zipf": 5.39
+  },
+  {
+    "id": "继续-ji4-xu4",
+    "hanzi": "继续",
+    "pinyin": "jì xù",
+    "english": "continue",
+    "band": "common",
+    "zipf": 5.64
+  },
+  {
+    "id": "能-neng2",
+    "hanzi": "能",
+    "pinyin": "néng",
+    "english": "can (ability)",
+    "band": "common",
+    "zipf": 6.29
+  },
+  {
+    "id": "要-yao4",
+    "hanzi": "要",
+    "pinyin": "yào",
+    "english": "want",
+    "band": "common",
+    "zipf": 6.46,
+    "sharedGloss": true
+  },
+  {
+    "id": "试图-shi4-tu2",
+    "hanzi": "试图",
+    "pinyin": "shì tú",
+    "english": "attempt to",
+    "band": "mid",
+    "zipf": 4.84
+  },
+  {
+    "id": "避免-bi4-mian3",
+    "hanzi": "避免",
+    "pinyin": "bì miǎn",
+    "english": "avoid",
+    "band": "common",
+    "zipf": 5.02
+  },
+  {
+    "id": "需要-xu1-yao4",
+    "hanzi": "需要",
+    "pinyin": "xū yào",
+    "english": "need",
+    "band": "common",
+    "zipf": 5.93
+  }
+]

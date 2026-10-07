@@ -1,0 +1,242 @@
+[
+  {
+    "id": "下蹲-xia4-dun1",
+    "hanzi": "下蹲",
+    "pinyin": "xià dūn",
+    "english": "to squat",
+    "band": "rare",
+    "zipf": 3.02
+  },
+  {
+    "id": "伸-shen1",
+    "hanzi": "伸",
+    "pinyin": "shēn",
+    "english": "to stretch",
+    "band": "rare",
+    "zipf": 3.85
+  },
+  {
+    "id": "倾斜-qing1-xie2",
+    "hanzi": "倾斜",
+    "pinyin": "qīng xié",
+    "english": "to lean",
+    "band": "rare",
+    "zipf": 4.19
+  },
+  {
+    "id": "冲刺-chong1-ci4",
+    "hanzi": "冲刺",
+    "pinyin": "chōng cì",
+    "english": "to sprint",
+    "band": "rare",
+    "zipf": 3.56
+  },
+  {
+    "id": "单脚跳-dan1-jiao3-tiao4",
+    "hanzi": "单脚跳",
+    "pinyin": "dān jiǎo tiào",
+    "english": "to hop",
+    "band": "rare",
+    "zipf": 2.41
+  },
+  {
+    "id": "坐-zuo4",
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "english": "sit",
+    "band": "common",
+    "zipf": 5.01
+  },
+  {
+    "id": "弯腰-wan1-yao1",
+    "hanzi": "弯腰",
+    "pinyin": "wān yāo",
+    "english": "to bend",
+    "band": "rare",
+    "zipf": 3.49
+  },
+  {
+    "id": "扭-niu3",
+    "hanzi": "扭",
+    "pinyin": "niǔ",
+    "english": "to twist",
+    "band": "rare",
+    "zipf": 3.71
+  },
+  {
+    "id": "拍手-pai1-shou3",
+    "hanzi": "拍手",
+    "pinyin": "pāi shǒu",
+    "english": "to clap",
+    "band": "rare",
+    "zipf": 3.28
+  },
+  {
+    "id": "拿-na2",
+    "hanzi": "拿",
+    "pinyin": "ná",
+    "english": "to hold",
+    "band": "common",
+    "zipf": 5.42
+  },
+  {
+    "id": "指-zhi3",
+    "hanzi": "指",
+    "pinyin": "zhǐ",
+    "english": "to point",
+    "band": "common",
+    "zipf": 5.33
+  },
+  {
+    "id": "挥手-hui1-shou3",
+    "hanzi": "挥手",
+    "pinyin": "huī shǒu",
+    "english": "to wave",
+    "band": "rare",
+    "zipf": 3.56
+  },
+  {
+    "id": "推-tui1",
+    "hanzi": "推",
+    "pinyin": "tuī",
+    "english": "push",
+    "band": "mid",
+    "zipf": 4.87
+  },
+  {
+    "id": "旋转-xuan2-zhuan3",
+    "hanzi": "旋转",
+    "pinyin": "xuán zhuǎn",
+    "english": "to spin",
+    "band": "mid",
+    "zipf": 4.24
+  },
+  {
+    "id": "游泳-you2-yong3",
+    "hanzi": "游泳",
+    "pinyin": "yóu yǒng",
+    "english": "swim",
+    "band": "mid",
+    "zipf": 4.49
+  },
+  {
+    "id": "滑-hua2",
+    "hanzi": "滑",
+    "pinyin": "huá",
+    "english": "slippery",
+    "band": "rare",
+    "zipf": 4.09
+  },
+  {
+    "id": "爬-pa2",
+    "hanzi": "爬",
+    "pinyin": "pá",
+    "english": "climb",
+    "band": "mid",
+    "zipf": 4.48
+  },
+  {
+    "id": "爬行-pa2-xing2",
+    "hanzi": "爬行",
+    "pinyin": "pá xíng",
+    "english": "to crawl",
+    "band": "rare",
+    "zipf": 3.48
+  },
+  {
+    "id": "站-zhan4",
+    "hanzi": "站",
+    "pinyin": "zhàn",
+    "english": "stand",
+    "band": "common",
+    "zipf": 5.62
+  },
+  {
+    "id": "行军-xing2-jun1",
+    "hanzi": "行军",
+    "pinyin": "xíng jūn",
+    "english": "to march",
+    "band": "rare",
+    "zipf": 3.47
+  },
+  {
+    "id": "走-zou3",
+    "hanzi": "走",
+    "pinyin": "zǒu",
+    "english": "walk",
+    "band": "common",
+    "zipf": 5.66
+  },
+  {
+    "id": "跑-pao3",
+    "hanzi": "跑",
+    "pinyin": "pǎo",
+    "english": "run",
+    "band": "common",
+    "zipf": 5.23
+  },
+  {
+    "id": "跪下-gui4-xia4",
+    "hanzi": "跪下",
+    "pinyin": "guì xià",
+    "english": "to kneel",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "跳-tiao4",
+    "hanzi": "跳",
+    "pinyin": "tiào",
+    "english": "jump",
+    "band": "mid",
+    "zipf": 4.84
+  },
+  {
+    "id": "跳跃-tiao4-yue4",
+    "hanzi": "跳跃",
+    "pinyin": "tiào yuè",
+    "english": "to skip",
+    "band": "rare",
+    "zipf": 3.82
+  },
+  {
+    "id": "踢-ti1",
+    "hanzi": "踢",
+    "pinyin": "tī",
+    "english": "kick",
+    "band": "mid",
+    "zipf": 4.46
+  },
+  {
+    "id": "蹲下-dun1-xia4",
+    "hanzi": "蹲下",
+    "pinyin": "dūn xià",
+    "english": "to crouch",
+    "band": "rare",
+    "zipf": 3.18
+  },
+  {
+    "id": "躺下-tang3-xia4",
+    "hanzi": "躺下",
+    "pinyin": "tǎng xià",
+    "english": "to lie down",
+    "band": "rare",
+    "zipf": 3.57
+  },
+  {
+    "id": "转-zhuan3",
+    "hanzi": "转",
+    "pinyin": "zhuǎn",
+    "english": "turn",
+    "band": "common",
+    "zipf": 5.18
+  },
+  {
+    "id": "飞-fei1",
+    "hanzi": "飞",
+    "pinyin": "fēi",
+    "english": "fly",
+    "band": "mid",
+    "zipf": 4.87
+  }
+]

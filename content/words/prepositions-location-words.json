@@ -1,0 +1,226 @@
+[
+  {
+    "id": "上面-shang4-mian4",
+    "hanzi": "上面",
+    "pinyin": "shàng miàn",
+    "english": "above",
+    "band": "mid",
+    "zipf": 4.92
+  },
+  {
+    "id": "下面-xia4-mian4",
+    "hanzi": "下面",
+    "pinyin": "xià miàn",
+    "english": "below",
+    "band": "mid",
+    "zipf": 4.89
+  },
+  {
+    "id": "中间-zhong1-jian1",
+    "hanzi": "中间",
+    "pinyin": "zhōng jiān",
+    "english": "among",
+    "band": "mid",
+    "zipf": 4.83
+  },
+  {
+    "id": "之间-zhi1-jian1",
+    "hanzi": "之间",
+    "pinyin": "zhī jiān",
+    "english": "between",
+    "band": "common",
+    "zipf": 5.48
+  },
+  {
+    "id": "从-cong2",
+    "hanzi": "从",
+    "pinyin": "cóng",
+    "english": "from",
+    "band": "common",
+    "zipf": 6.25
+  },
+  {
+    "id": "以外-yi3-wai4",
+    "hanzi": "以外",
+    "pinyin": "yǐ wài",
+    "english": "beyond",
+    "band": "mid",
+    "zipf": 4.76
+  },
+  {
+    "id": "前面-qian2-mian4",
+    "hanzi": "前面",
+    "pinyin": "qián miàn",
+    "english": "front",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "右边-you4-bian1",
+    "hanzi": "右边",
+    "pinyin": "yòu biān",
+    "english": "right",
+    "band": "rare",
+    "zipf": 4.08
+  },
+  {
+    "id": "后面-hou4-mian4",
+    "hanzi": "后面",
+    "pinyin": "hòu miàn",
+    "english": "behind",
+    "band": "mid",
+    "zipf": 4.87
+  },
+  {
+    "id": "周围-zhou1-wei2",
+    "hanzi": "周围",
+    "pinyin": "zhōu wéi",
+    "english": "surroundings",
+    "band": "mid",
+    "zipf": 4.78
+  },
+  {
+    "id": "在-zai4",
+    "hanzi": "在",
+    "pinyin": "zài",
+    "english": "have (doing)",
+    "band": "common",
+    "zipf": 7.16
+  },
+  {
+    "id": "在...上-zai4-shang4",
+    "hanzi": "在...上",
+    "pinyin": "zài ... shàng",
+    "english": "on / on top",
+    "band": "common",
+    "zipf": 5.45
+  },
+  {
+    "id": "在...下-zai4-xia4",
+    "hanzi": "在...下",
+    "pinyin": "zài ... xià",
+    "english": "under",
+    "band": "common",
+    "zipf": 5.06
+  },
+  {
+    "id": "在...之下-zai4-zhi1-xia4",
+    "hanzi": "在...之下",
+    "pinyin": "zài ... zhī xià",
+    "english": "beneath",
+    "band": "rare",
+    "zipf": 3.81
+  },
+  {
+    "id": "在...里-zai4-li3",
+    "hanzi": "在...里",
+    "pinyin": "zài ... lǐ",
+    "english": "in / inside",
+    "band": "common",
+    "zipf": 5.05
+  },
+  {
+    "id": "外面-wai4-mian4",
+    "hanzi": "外面",
+    "pinyin": "wài miàn",
+    "english": "outside",
+    "band": "mid",
+    "zipf": 4.6
+  },
+  {
+    "id": "对面-dui4-mian4",
+    "hanzi": "对面",
+    "pinyin": "duì miàn",
+    "english": "opposite / across from",
+    "band": "mid",
+    "zipf": 4.33
+  },
+  {
+    "id": "左边-zuo3-bian1",
+    "hanzi": "左边",
+    "pinyin": "zuǒ biān",
+    "english": "left",
+    "band": "rare",
+    "zipf": 4.09
+  },
+  {
+    "id": "往-wang3",
+    "hanzi": "往",
+    "pinyin": "wǎng",
+    "english": "to / towards",
+    "band": "common",
+    "zipf": 5.02
+  },
+  {
+    "id": "旁边-pang2-bian1",
+    "hanzi": "旁边",
+    "pinyin": "páng biān",
+    "english": "next to",
+    "band": "mid",
+    "zipf": 4.69
+  },
+  {
+    "id": "朝-chao2",
+    "hanzi": "朝",
+    "pinyin": "cháo",
+    "english": "towards",
+    "band": "mid",
+    "zipf": 4.73
+  },
+  {
+    "id": "沿着-yan2-zhe5",
+    "hanzi": "沿着",
+    "pinyin": "yán zhe",
+    "english": "along",
+    "band": "rare",
+    "zipf": 4.14
+  },
+  {
+    "id": "离...远-li2-yuan3",
+    "hanzi": "离...远",
+    "pinyin": "lí ... yuǎn",
+    "english": "far from",
+    "band": "rare",
+    "zipf": 3.77
+  },
+  {
+    "id": "穿过-chuan1-guo4",
+    "hanzi": "穿过",
+    "pinyin": "chuān guò",
+    "english": "across",
+    "band": "mid",
+    "zipf": 4.34
+  },
+  {
+    "id": "通过-tong1-guo4",
+    "hanzi": "通过",
+    "pinyin": "tōng guò",
+    "english": "through",
+    "band": "common",
+    "zipf": 5.8
+  },
+  {
+    "id": "里面-li3-mian4",
+    "hanzi": "里面",
+    "pinyin": "lǐ miàn",
+    "english": "inside",
+    "band": "common",
+    "zipf": 5.24
+  },
+  {
+    "id": "附近-fu4-jin4",
+    "hanzi": "附近",
+    "pinyin": "fù jìn",
+    "english": "near / close to",
+    "band": "common",
+    "zipf": 5.12
+  },
+  {
+    "id": "靠着-kao4-zhe5",
+    "hanzi": "靠着",
+    "pinyin": "kào zhe",
+    "english": "against",
+    "band": "rare",
+    "zipf": 3.62
+  }
+]

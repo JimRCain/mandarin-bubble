@@ -1,0 +1,242 @@
+[
+  {
+    "id": "不喜欢-bu4-xi3-huan1",
+    "hanzi": "不喜欢",
+    "pinyin": "bù xǐ huān",
+    "english": "to dislike",
+    "band": "mid",
+    "zipf": 4.69
+  },
+  {
+    "id": "佩服-pei4-fu2",
+    "hanzi": "佩服",
+    "pinyin": "pèi fú",
+    "english": "to admire",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "厌恶-yan4-wu4",
+    "hanzi": "厌恶",
+    "pinyin": "yàn wù",
+    "english": "to loathe",
+    "band": "rare",
+    "zipf": 4.12
+  },
+  {
+    "id": "原谅-yuan2-liang4",
+    "hanzi": "原谅",
+    "pinyin": "yuán liàng",
+    "english": "forgive",
+    "band": "mid",
+    "zipf": 4.28
+  },
+  {
+    "id": "可怜-ke3-lian2",
+    "hanzi": "可怜",
+    "pinyin": "kě lián",
+    "english": "pitiful",
+    "band": "mid",
+    "zipf": 4.67
+  },
+  {
+    "id": "同情-tong2-qing2",
+    "hanzi": "同情",
+    "pinyin": "tóng qíng",
+    "english": "to sympathize",
+    "band": "mid",
+    "zipf": 4.41
+  },
+  {
+    "id": "后悔-hou4-hui3",
+    "hanzi": "后悔",
+    "pinyin": "hòu huǐ",
+    "english": "to regret",
+    "band": "mid",
+    "zipf": 4.37
+  },
+  {
+    "id": "哀悼-ai1-dao4",
+    "hanzi": "哀悼",
+    "pinyin": "āi dào",
+    "english": "to mourn",
+    "band": "rare",
+    "zipf": 3.71
+  },
+  {
+    "id": "喜欢-xi3-huan1",
+    "hanzi": "喜欢",
+    "pinyin": "xǐ huān",
+    "english": "like",
+    "band": "common",
+    "zipf": 5.73
+  },
+  {
+    "id": "喜爱-xi3-ai4",
+    "hanzi": "喜爱",
+    "pinyin": "xǐ ài",
+    "english": "to adore",
+    "band": "mid",
+    "zipf": 4.54
+  },
+  {
+    "id": "失望-shi1-wang4",
+    "hanzi": "失望",
+    "pinyin": "shī wàng",
+    "english": "disappointed",
+    "band": "mid",
+    "zipf": 4.69
+  },
+  {
+    "id": "害怕-hai4-pa4",
+    "hanzi": "害怕",
+    "pinyin": "hài pà",
+    "english": "afraid",
+    "band": "mid",
+    "zipf": 4.97
+  },
+  {
+    "id": "希望-xi1-wang4",
+    "hanzi": "希望",
+    "pinyin": "xī wàng",
+    "english": "hope",
+    "band": "common",
+    "zipf": 5.72
+  },
+  {
+    "id": "庆祝-qing4-zhu4",
+    "hanzi": "庆祝",
+    "pinyin": "qìng zhù",
+    "english": "celebrate",
+    "band": "mid",
+    "zipf": 4.68
+  },
+  {
+    "id": "思念-si1-nian4",
+    "hanzi": "思念",
+    "pinyin": "sī niàn",
+    "english": "to miss",
+    "band": "rare",
+    "zipf": 3.88
+  },
+  {
+    "id": "悲伤-bei1-shang1",
+    "hanzi": "悲伤",
+    "pinyin": "bēi shāng",
+    "english": "to grieve",
+    "band": "mid",
+    "zipf": 4.34
+  },
+  {
+    "id": "感激-gan3-ji1",
+    "hanzi": "感激",
+    "pinyin": "gǎn jī",
+    "english": "to appreciate",
+    "band": "rare",
+    "zipf": 4.17
+  },
+  {
+    "id": "憎恨-zeng1-hen4",
+    "hanzi": "憎恨",
+    "pinyin": "zēng hèn",
+    "english": "to detest",
+    "band": "rare",
+    "zipf": 3.8
+  },
+  {
+    "id": "担心-dan1-xin1",
+    "hanzi": "担心",
+    "pinyin": "dān xīn",
+    "english": "anxious",
+    "band": "common",
+    "zipf": 5.16
+  },
+  {
+    "id": "欢呼-huan1-hu1",
+    "hanzi": "欢呼",
+    "pinyin": "huān hū",
+    "english": "to cheer",
+    "band": "rare",
+    "zipf": 4.01
+  },
+  {
+    "id": "欣喜-xin1-xi3",
+    "hanzi": "欣喜",
+    "pinyin": "xīn xǐ",
+    "english": "to rejoice",
+    "band": "rare",
+    "zipf": 3.64
+  },
+  {
+    "id": "渴望-ke3-wang4",
+    "hanzi": "渴望",
+    "pinyin": "kě wàng",
+    "english": "to yearn",
+    "band": "mid",
+    "zipf": 4.45
+  },
+  {
+    "id": "满意-man3-yi4",
+    "hanzi": "满意",
+    "pinyin": "mǎn yì",
+    "english": "satisfied",
+    "band": "mid",
+    "zipf": 4.74
+  },
+  {
+    "id": "爱-ai4",
+    "hanzi": "爱",
+    "pinyin": "ài",
+    "english": "love",
+    "band": "common",
+    "zipf": 5.86
+  },
+  {
+    "id": "珍惜-zhen1-xi1",
+    "hanzi": "珍惜",
+    "pinyin": "zhēn xī",
+    "english": "to cherish",
+    "band": "rare",
+    "zipf": 4.04
+  },
+  {
+    "id": "珍视-zhen1-shi4",
+    "hanzi": "珍视",
+    "pinyin": "zhēn shì",
+    "english": "to treasure",
+    "band": "rare",
+    "zipf": 3.36
+  },
+  {
+    "id": "祝福-zhu4-fu2",
+    "hanzi": "祝福",
+    "pinyin": "zhù fú",
+    "english": "to bless",
+    "band": "mid",
+    "zipf": 4.33
+  },
+  {
+    "id": "祝贺-zhu4-he4",
+    "hanzi": "祝贺",
+    "pinyin": "zhù hè",
+    "english": "congratulate",
+    "band": "rare",
+    "zipf": 4.16
+  },
+  {
+    "id": "羡慕-xian4-mu4",
+    "hanzi": "羡慕",
+    "pinyin": "xiàn mù",
+    "english": "envious",
+    "band": "rare",
+    "zipf": 4.08
+  },
+  {
+    "id": "讨厌-tao3-yan4",
+    "hanzi": "讨厌",
+    "pinyin": "tǎo yàn",
+    "english": "hate",
+    "band": "mid",
+    "zipf": 4.79
+  }
+]

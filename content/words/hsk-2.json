@@ -1,0 +1,1204 @@
+[
+  {
+    "id": "一些-yi1-xie1",
+    "hanzi": "一些",
+    "pinyin": "yī xiē",
+    "english": "some",
+    "band": "common",
+    "zipf": 5.76
+  },
+  {
+    "id": "一共-yi1-gong4",
+    "hanzi": "一共",
+    "pinyin": "yī gòng",
+    "english": "together / altogether",
+    "band": "mid",
+    "zipf": 4.27
+  },
+  {
+    "id": "一样-yi1-yang4",
+    "hanzi": "一样",
+    "pinyin": "yī yàng",
+    "english": "same",
+    "band": "common",
+    "zipf": 5.75
+  },
+  {
+    "id": "一起-yi1-qi3",
+    "hanzi": "一起",
+    "pinyin": "yī qǐ",
+    "english": "together",
+    "band": "common",
+    "zipf": 5.66
+  },
+  {
+    "id": "上-shang4",
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "english": "up / go up",
+    "band": "common",
+    "zipf": 6.55
+  },
+  {
+    "id": "上面-shang4-mian4",
+    "hanzi": "上面",
+    "pinyin": "shàng miàn",
+    "english": "above",
+    "band": "mid",
+    "zipf": 4.92
+  },
+  {
+    "id": "下-xia4",
+    "hanzi": "下",
+    "pinyin": "xià",
+    "english": "down / go down",
+    "band": "common",
+    "zipf": 6.1
+  },
+  {
+    "id": "下面-xia4-mian4",
+    "hanzi": "下面",
+    "pinyin": "xià miàn",
+    "english": "below",
+    "band": "mid",
+    "zipf": 4.89
+  },
+  {
+    "id": "中间-zhong1-jian1",
+    "hanzi": "中间",
+    "pinyin": "zhōng jiān",
+    "english": "among",
+    "band": "mid",
+    "zipf": 4.83
+  },
+  {
+    "id": "也-ye3",
+    "hanzi": "也",
+    "pinyin": "yě",
+    "english": "also",
+    "band": "common",
+    "zipf": 6.7
+  },
+  {
+    "id": "亮-liang4",
+    "hanzi": "亮",
+    "pinyin": "liàng",
+    "english": "bright",
+    "band": "mid",
+    "zipf": 4.28
+  },
+  {
+    "id": "从-cong2",
+    "hanzi": "从",
+    "pinyin": "cóng",
+    "english": "from",
+    "band": "common",
+    "zipf": 6.25
+  },
+  {
+    "id": "但是-dan4-shi4",
+    "hanzi": "但是",
+    "pinyin": "dàn shì",
+    "english": "but",
+    "band": "common",
+    "zipf": 5.85
+  },
+  {
+    "id": "便宜-pian2-yi5",
+    "hanzi": "便宜",
+    "pinyin": "pián yi",
+    "english": "cheap",
+    "band": "mid",
+    "zipf": 4.57
+  },
+  {
+    "id": "借-jie4",
+    "hanzi": "借",
+    "pinyin": "jiè",
+    "english": "borrow",
+    "band": "mid",
+    "zipf": 4.66
+  },
+  {
+    "id": "做饭-zuo4-fan4",
+    "hanzi": "做饭",
+    "pinyin": "zuò fàn",
+    "english": "cook",
+    "band": "rare",
+    "zipf": 4.04
+  },
+  {
+    "id": "像-xiang4",
+    "hanzi": "像",
+    "pinyin": "xiàng",
+    "english": "like / as",
+    "band": "common",
+    "zipf": 5.7
+  },
+  {
+    "id": "兔子-tu4-zi5",
+    "hanzi": "兔子",
+    "pinyin": "tù zi",
+    "english": "rabbit",
+    "band": "rare",
+    "zipf": 4.05
+  },
+  {
+    "id": "公司-gong1-si1",
+    "hanzi": "公司",
+    "pinyin": "gōng sī",
+    "english": "company",
+    "band": "common",
+    "zipf": 6.02
+  },
+  {
+    "id": "再-zai4",
+    "hanzi": "再",
+    "pinyin": "zài",
+    "english": "again (future)",
+    "band": "common",
+    "zipf": 5.89
+  },
+  {
+    "id": "最-zui4",
+    "hanzi": "最",
+    "pinyin": "zuì",
+    "english": "most",
+    "band": "common",
+    "zipf": 6.03
+  },
+  {
+    "id": "冰淇淋-bing1-qi2-lin2",
+    "hanzi": "冰淇淋",
+    "pinyin": "bīng qí lín",
+    "english": "ice cream",
+    "band": "rare",
+    "zipf": 3.95
+  },
+  {
+    "id": "准备-zhun3-bei4",
+    "hanzi": "准备",
+    "pinyin": "zhǔn bèi",
+    "english": "prepare",
+    "band": "common",
+    "zipf": 5.49
+  },
+  {
+    "id": "出-chu1",
+    "hanzi": "出",
+    "pinyin": "chū",
+    "english": "out / exit",
+    "band": "common",
+    "zipf": 5.92
+  },
+  {
+    "id": "刚-gang1",
+    "hanzi": "刚",
+    "pinyin": "gāng",
+    "english": "just / exactly",
+    "band": "common",
+    "zipf": 5.12
+  },
+  {
+    "id": "前面-qian2-mian4",
+    "hanzi": "前面",
+    "pinyin": "qián miàn",
+    "english": "front",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "办公室-ban4-gong1-shi4",
+    "hanzi": "办公室",
+    "pinyin": "bàn gōng shì",
+    "english": "office",
+    "band": "common",
+    "zipf": 5.07
+  },
+  {
+    "id": "卫生间-wei4-sheng1-jian1",
+    "hanzi": "卫生间",
+    "pinyin": "wèi shēng jiān",
+    "english": "bathroom",
+    "band": "rare",
+    "zipf": 3.83
+  },
+  {
+    "id": "发烧-fa1-shao1",
+    "hanzi": "发烧",
+    "pinyin": "fā shāo",
+    "english": "fever",
+    "band": "rare",
+    "zipf": 3.9
+  },
+  {
+    "id": "只-zhi3",
+    "hanzi": "只",
+    "pinyin": "zhǐ",
+    "english": "only",
+    "band": "common",
+    "zipf": 5.94
+  },
+  {
+    "id": "可乐-ke3-le4",
+    "hanzi": "可乐",
+    "pinyin": "kě lè",
+    "english": "cola",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "可能-ke3-neng2",
+    "hanzi": "可能",
+    "pinyin": "kě néng",
+    "english": "might",
+    "band": "common",
+    "zipf": 6.01
+  },
+  {
+    "id": "右边-you4-bian1",
+    "hanzi": "右边",
+    "pinyin": "yòu biān",
+    "english": "right",
+    "band": "rare",
+    "zipf": 4.08
+  },
+  {
+    "id": "后面-hou4-mian4",
+    "hanzi": "后面",
+    "pinyin": "hòu miàn",
+    "english": "behind",
+    "band": "mid",
+    "zipf": 4.87
+  },
+  {
+    "id": "咖啡-ka1-fei1",
+    "hanzi": "咖啡",
+    "pinyin": "kā fēi",
+    "english": "coffee",
+    "band": "mid",
+    "zipf": 4.66
+  },
+  {
+    "id": "咳嗽-ke2-sou5",
+    "hanzi": "咳嗽",
+    "pinyin": "ké sou",
+    "english": "cough",
+    "band": "rare",
+    "zipf": 3.92
+  },
+  {
+    "id": "唱歌-chang4-ge1",
+    "hanzi": "唱歌",
+    "pinyin": "chàng gē",
+    "english": "sing",
+    "band": "mid",
+    "zipf": 4.32
+  },
+  {
+    "id": "啤酒-pi2-jiu3",
+    "hanzi": "啤酒",
+    "pinyin": "pí jiǔ",
+    "english": "beer",
+    "band": "mid",
+    "zipf": 4.25
+  },
+  {
+    "id": "回-hui2",
+    "hanzi": "回",
+    "pinyin": "huí",
+    "english": "return",
+    "band": "common",
+    "zipf": 5.38
+  },
+  {
+    "id": "因为-yin1-wei4",
+    "hanzi": "因为",
+    "pinyin": "yīn wèi",
+    "english": "because",
+    "band": "common",
+    "zipf": 6.11
+  },
+  {
+    "id": "困-kun4",
+    "hanzi": "困",
+    "pinyin": "kùn",
+    "english": "sleepy",
+    "band": "mid",
+    "zipf": 4.25
+  },
+  {
+    "id": "地图-di4-tu2",
+    "hanzi": "地图",
+    "pinyin": "dì tú",
+    "english": "map",
+    "band": "mid",
+    "zipf": 4.84
+  },
+  {
+    "id": "外面-wai4-mian4",
+    "hanzi": "外面",
+    "pinyin": "wài miàn",
+    "english": "outside",
+    "band": "mid",
+    "zipf": 4.6
+  },
+  {
+    "id": "大象-da4-xiang4",
+    "hanzi": "大象",
+    "pinyin": "dà xiàng",
+    "english": "elephant",
+    "band": "rare",
+    "zipf": 4.02
+  },
+  {
+    "id": "头痛-tou2-tong4",
+    "hanzi": "头痛",
+    "pinyin": "tóu tòng",
+    "english": "headache",
+    "band": "rare",
+    "zipf": 3.96
+  },
+  {
+    "id": "如果-ru2-guo3",
+    "hanzi": "如果",
+    "pinyin": "rú guǒ",
+    "english": "if",
+    "band": "common",
+    "zipf": 5.97
+  },
+  {
+    "id": "字典-zi4-dian3",
+    "hanzi": "字典",
+    "pinyin": "zì diǎn",
+    "english": "dictionary",
+    "band": "rare",
+    "zipf": 3.77
+  },
+  {
+    "id": "完-wan2",
+    "hanzi": "完",
+    "pinyin": "wán",
+    "english": "finish / complete",
+    "band": "common",
+    "zipf": 5.2
+  },
+  {
+    "id": "容易-rong2-yi4",
+    "hanzi": "容易",
+    "pinyin": "róng yì",
+    "english": "easy",
+    "band": "common",
+    "zipf": 5.25
+  },
+  {
+    "id": "对-dui4",
+    "hanzi": "对",
+    "pinyin": "duì",
+    "english": "correct / right",
+    "band": "common",
+    "zipf": 6.63
+  },
+  {
+    "id": "左边-zuo3-bian1",
+    "hanzi": "左边",
+    "pinyin": "zuǒ biān",
+    "english": "left",
+    "band": "rare",
+    "zipf": 4.09
+  },
+  {
+    "id": "巧克力-qiao3-ke4-li4",
+    "hanzi": "巧克力",
+    "pinyin": "qiǎo kè lì",
+    "english": "chocolate",
+    "band": "mid",
+    "zipf": 4.23
+  },
+  {
+    "id": "已经-yi3-jing1",
+    "hanzi": "已经",
+    "pinyin": "yǐ jīng",
+    "english": "already",
+    "band": "common",
+    "zipf": 6.06
+  },
+  {
+    "id": "带-dai4",
+    "hanzi": "带",
+    "pinyin": "dài",
+    "english": "take / bring",
+    "band": "common",
+    "zipf": 5.66
+  },
+  {
+    "id": "干净-gan1-jing4",
+    "hanzi": "干净",
+    "pinyin": "gān jìng",
+    "english": "clean",
+    "band": "mid",
+    "zipf": 4.65,
+    "sharedGloss": true
+  },
+  {
+    "id": "年轻-nian2-qing1",
+    "hanzi": "年轻",
+    "pinyin": "nián qīng",
+    "english": "young",
+    "band": "common",
+    "zipf": 5.07
+  },
+  {
+    "id": "开始-kai1-shi3",
+    "hanzi": "开始",
+    "pinyin": "kāi shǐ",
+    "english": "start",
+    "band": "common",
+    "zipf": 6.03
+  },
+  {
+    "id": "往-wang3",
+    "hanzi": "往",
+    "pinyin": "wǎng",
+    "english": "to / towards",
+    "band": "common",
+    "zipf": 5.02
+  },
+  {
+    "id": "忘记-wang4-ji4",
+    "hanzi": "忘记",
+    "pinyin": "wàng jì",
+    "english": "forget",
+    "band": "mid",
+    "zipf": 4.89
+  },
+  {
+    "id": "忙-mang2",
+    "hanzi": "忙",
+    "pinyin": "máng",
+    "english": "busy",
+    "band": "mid",
+    "zipf": 4.87
+  },
+  {
+    "id": "快-kuai4",
+    "hanzi": "快",
+    "pinyin": "kuài",
+    "english": "fast",
+    "band": "common",
+    "zipf": 5.79
+  },
+  {
+    "id": "快乐-kuai4-le4",
+    "hanzi": "快乐",
+    "pinyin": "kuài lè",
+    "english": "happy",
+    "band": "common",
+    "zipf": 5.11
+  },
+  {
+    "id": "想-xiang3",
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "english": "think / consider",
+    "band": "common",
+    "zipf": 6.03
+  },
+  {
+    "id": "感冒-gan3-mao4",
+    "hanzi": "感冒",
+    "pinyin": "gǎn mào",
+    "english": "cold (illness)",
+    "band": "rare",
+    "zipf": 4.06
+  },
+  {
+    "id": "慢-man4",
+    "hanzi": "慢",
+    "pinyin": "màn",
+    "english": "slow",
+    "band": "mid",
+    "zipf": 4.63
+  },
+  {
+    "id": "所以-suo3-yi3",
+    "hanzi": "所以",
+    "pinyin": "suǒ yǐ",
+    "english": "so",
+    "band": "common",
+    "zipf": 5.78
+  },
+  {
+    "id": "打扫-da3-sao3",
+    "hanzi": "打扫",
+    "pinyin": "dǎ sǎo",
+    "english": "clean",
+    "band": "rare",
+    "zipf": 3.79,
+    "sharedGloss": true
+  },
+  {
+    "id": "找-zhao3",
+    "hanzi": "找",
+    "pinyin": "zhǎo",
+    "english": "find / look for",
+    "band": "common",
+    "zipf": 5.51
+  },
+  {
+    "id": "报纸-bao4-zhi3",
+    "hanzi": "报纸",
+    "pinyin": "bào zhǐ",
+    "english": "newspaper",
+    "band": "mid",
+    "zipf": 4.82
+  },
+  {
+    "id": "换-huan4",
+    "hanzi": "换",
+    "pinyin": "huàn",
+    "english": "change",
+    "band": "common",
+    "zipf": 5.03
+  },
+  {
+    "id": "接-jie1",
+    "hanzi": "接",
+    "pinyin": "jiē",
+    "english": "meet / welcome",
+    "band": "mid",
+    "zipf": 4.93
+  },
+  {
+    "id": "教室-jiao4-shi4",
+    "hanzi": "教室",
+    "pinyin": "jiào shì",
+    "english": "classroom",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "旁边-pang2-bian1",
+    "hanzi": "旁边",
+    "pinyin": "páng biān",
+    "english": "next to",
+    "band": "mid",
+    "zipf": 4.69
+  },
+  {
+    "id": "暗-an4",
+    "hanzi": "暗",
+    "pinyin": "àn",
+    "english": "dark",
+    "band": "mid",
+    "zipf": 4.36
+  },
+  {
+    "id": "更-geng4",
+    "hanzi": "更",
+    "pinyin": "gèng",
+    "english": "more",
+    "band": "common",
+    "zipf": 6.06
+  },
+  {
+    "id": "机场-ji1-chang3",
+    "hanzi": "机场",
+    "pinyin": "jī chǎng",
+    "english": "airport",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "果汁-guo3-zhi1",
+    "hanzi": "果汁",
+    "pinyin": "guǒ zhī",
+    "english": "juice",
+    "band": "rare",
+    "zipf": 3.65
+  },
+  {
+    "id": "桃子-tao2-zi5",
+    "hanzi": "桃子",
+    "pinyin": "táo zi",
+    "english": "peach",
+    "band": "rare",
+    "zipf": 3.65
+  },
+  {
+    "id": "梨-li2",
+    "hanzi": "梨",
+    "pinyin": "lí",
+    "english": "pear",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "橙子-cheng2-zi5",
+    "hanzi": "橙子",
+    "pinyin": "chéng zi",
+    "english": "orange",
+    "band": "rare",
+    "zipf": 2.66
+  },
+  {
+    "id": "歌-ge1",
+    "hanzi": "歌",
+    "pinyin": "gē",
+    "english": "song",
+    "band": "mid",
+    "zipf": 4.78
+  },
+  {
+    "id": "每-mei3",
+    "hanzi": "每",
+    "pinyin": "měi",
+    "english": "each",
+    "band": "common",
+    "zipf": 5.48
+  },
+  {
+    "id": "比-bi3",
+    "hanzi": "比",
+    "pinyin": "bǐ",
+    "english": "than / compared to",
+    "band": "common",
+    "zipf": 5.78
+  },
+  {
+    "id": "比赛-bi3-sai4",
+    "hanzi": "比赛",
+    "pinyin": "bǐ sài",
+    "english": "game / match",
+    "band": "common",
+    "zipf": 5.37
+  },
+  {
+    "id": "汤-tang1",
+    "hanzi": "汤",
+    "pinyin": "tāng",
+    "english": "soup",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "洗-xi3",
+    "hanzi": "洗",
+    "pinyin": "xǐ",
+    "english": "wash",
+    "band": "mid",
+    "zipf": 4.62
+  },
+  {
+    "id": "渴-ke3",
+    "hanzi": "渴",
+    "pinyin": "kě",
+    "english": "thirsty",
+    "band": "rare",
+    "zipf": 3.42
+  },
+  {
+    "id": "游泳-you2-yong3",
+    "hanzi": "游泳",
+    "pinyin": "yóu yǒng",
+    "english": "swim",
+    "band": "mid",
+    "zipf": 4.49
+  },
+  {
+    "id": "熊猫-xiong2-mao1",
+    "hanzi": "熊猫",
+    "pinyin": "xióng māo",
+    "english": "panda",
+    "band": "rare",
+    "zipf": 4.03
+  },
+  {
+    "id": "牛-niu2",
+    "hanzi": "牛",
+    "pinyin": "niú",
+    "english": "cow",
+    "band": "mid",
+    "zipf": 4.84
+  },
+  {
+    "id": "狗-gou3",
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "english": "dog",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "猫-mao1",
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "english": "cat",
+    "band": "mid",
+    "zipf": 4.73
+  },
+  {
+    "id": "猴子-hou2-zi5",
+    "hanzi": "猴子",
+    "pinyin": "hóu zi",
+    "english": "monkey",
+    "band": "rare",
+    "zipf": 4.07
+  },
+  {
+    "id": "电影-dian4-ying3",
+    "hanzi": "电影",
+    "pinyin": "diàn yǐng",
+    "english": "movie",
+    "band": "common",
+    "zipf": 5.71
+  },
+  {
+    "id": "瘦-shou4",
+    "hanzi": "瘦",
+    "pinyin": "shòu",
+    "english": "thin",
+    "band": "rare",
+    "zipf": 4.16
+  },
+  {
+    "id": "白色-bai2-se4",
+    "hanzi": "白色",
+    "pinyin": "bái sè",
+    "english": "white",
+    "band": "mid",
+    "zipf": 4.6
+  },
+  {
+    "id": "真的-zhen1-de5",
+    "hanzi": "真的",
+    "pinyin": "zhēn de",
+    "english": "really",
+    "band": "common",
+    "zipf": 5.84
+  },
+  {
+    "id": "短-duan3",
+    "hanzi": "短",
+    "pinyin": "duǎn",
+    "english": "short (length)",
+    "band": "mid",
+    "zipf": 4.86
+  },
+  {
+    "id": "穿-chuan1",
+    "hanzi": "穿",
+    "pinyin": "chuān",
+    "english": "wear",
+    "band": "common",
+    "zipf": 5.2
+  },
+  {
+    "id": "篮球-lan2-qiu2",
+    "hanzi": "篮球",
+    "pinyin": "lán qiú",
+    "english": "basketball",
+    "band": "mid",
+    "zipf": 4.54
+  },
+  {
+    "id": "糖-tang2",
+    "hanzi": "糖",
+    "pinyin": "táng",
+    "english": "candy",
+    "band": "mid",
+    "zipf": 4.47
+  },
+  {
+    "id": "红色-hong2-se4",
+    "hanzi": "红色",
+    "pinyin": "hóng sè",
+    "english": "red",
+    "band": "mid",
+    "zipf": 4.81
+  },
+  {
+    "id": "累-lei4",
+    "hanzi": "累",
+    "pinyin": "lèi",
+    "english": "tired",
+    "band": "mid",
+    "zipf": 4.5
+  },
+  {
+    "id": "经常-jing1-chang2",
+    "hanzi": "经常",
+    "pinyin": "jīng cháng",
+    "english": "often",
+    "band": "common",
+    "zipf": 5.16
+  },
+  {
+    "id": "绿色-lv4-se4",
+    "hanzi": "绿色",
+    "pinyin": "lǜ sè",
+    "english": "green",
+    "band": "mid",
+    "zipf": 4.83
+  },
+  {
+    "id": "羊-yang2",
+    "hanzi": "羊",
+    "pinyin": "yáng",
+    "english": "sheep",
+    "band": "mid",
+    "zipf": 4.2
+  },
+  {
+    "id": "老-lao3",
+    "hanzi": "老",
+    "pinyin": "lǎo",
+    "english": "old (person)",
+    "band": "common",
+    "zipf": 5.46
+  },
+  {
+    "id": "老虎-lao3-hu3",
+    "hanzi": "老虎",
+    "pinyin": "lǎo hǔ",
+    "english": "tiger",
+    "band": "mid",
+    "zipf": 4.29
+  },
+  {
+    "id": "胖-pang4",
+    "hanzi": "胖",
+    "pinyin": "pàng",
+    "english": "fat",
+    "band": "mid",
+    "zipf": 4.21
+  },
+  {
+    "id": "脏-zang1",
+    "hanzi": "脏",
+    "pinyin": "zāng",
+    "english": "dirty",
+    "band": "rare",
+    "zipf": 4.05
+  },
+  {
+    "id": "苹果-ping2-guo3",
+    "hanzi": "苹果",
+    "pinyin": "píng guǒ",
+    "english": "apple",
+    "band": "common",
+    "zipf": 5
+  },
+  {
+    "id": "草莓-cao3-mei2",
+    "hanzi": "草莓",
+    "pinyin": "cǎo méi",
+    "english": "strawberry",
+    "band": "rare",
+    "zipf": 3.94
+  },
+  {
+    "id": "药-yao4",
+    "hanzi": "药",
+    "pinyin": "yào",
+    "english": "medicine",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "葡萄-pu2-tao5",
+    "hanzi": "葡萄",
+    "pinyin": "pú tao",
+    "english": "grape",
+    "band": "rare",
+    "zipf": 4.11
+  },
+  {
+    "id": "葡萄酒-pu2-tao2-jiu3",
+    "hanzi": "葡萄酒",
+    "pinyin": "pú táo jiǔ",
+    "english": "wine",
+    "band": "rare",
+    "zipf": 3.96
+  },
+  {
+    "id": "蓝色-lan2-se4",
+    "hanzi": "蓝色",
+    "pinyin": "lán sè",
+    "english": "blue",
+    "band": "mid",
+    "zipf": 4.55
+  },
+  {
+    "id": "蛇-she2",
+    "hanzi": "蛇",
+    "pinyin": "shé",
+    "english": "snake",
+    "band": "mid",
+    "zipf": 4.42
+  },
+  {
+    "id": "蛋糕-dan4-gao1",
+    "hanzi": "蛋糕",
+    "pinyin": "dàn gāo",
+    "english": "cake",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "西瓜-xi1-gua1",
+    "hanzi": "西瓜",
+    "pinyin": "xī guā",
+    "english": "watermelon",
+    "band": "rare",
+    "zipf": 3.91
+  },
+  {
+    "id": "记-ji4",
+    "hanzi": "记",
+    "pinyin": "jì",
+    "english": "remember",
+    "band": "mid",
+    "zipf": 4.85
+  },
+  {
+    "id": "豆腐-dou4-fu5",
+    "hanzi": "豆腐",
+    "pinyin": "dòu fu",
+    "english": "tofu",
+    "band": "rare",
+    "zipf": 4.03
+  },
+  {
+    "id": "贵-gui4",
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "english": "expensive",
+    "band": "mid",
+    "zipf": 4.64
+  },
+  {
+    "id": "超市-chao1-shi4",
+    "hanzi": "超市",
+    "pinyin": "chāo shì",
+    "english": "supermarket",
+    "band": "mid",
+    "zipf": 4.37
+  },
+  {
+    "id": "足球-zu2-qiu2",
+    "hanzi": "足球",
+    "pinyin": "zú qiú",
+    "english": "football",
+    "band": "common",
+    "zipf": 5.24
+  },
+  {
+    "id": "跳舞-tiao4-wu3",
+    "hanzi": "跳舞",
+    "pinyin": "tiào wǔ",
+    "english": "dance",
+    "band": "mid",
+    "zipf": 4.35
+  },
+  {
+    "id": "运动-yun4-dong4",
+    "hanzi": "运动",
+    "pinyin": "yùn dòng",
+    "english": "sports",
+    "band": "common",
+    "zipf": 5.6
+  },
+  {
+    "id": "近-jin4",
+    "hanzi": "近",
+    "pinyin": "jìn",
+    "english": "near",
+    "band": "common",
+    "zipf": 5.2
+  },
+  {
+    "id": "还-hai2",
+    "hanzi": "还",
+    "pinyin": "hái",
+    "english": "still",
+    "band": "common",
+    "zipf": 6.38
+  },
+  {
+    "id": "进-jin4",
+    "hanzi": "进",
+    "pinyin": "jìn",
+    "english": "enter",
+    "band": "common",
+    "zipf": 5.49
+  },
+  {
+    "id": "远-yuan3",
+    "hanzi": "远",
+    "pinyin": "yuǎn",
+    "english": "far",
+    "band": "common",
+    "zipf": 5.12
+  },
+  {
+    "id": "送-song4",
+    "hanzi": "送",
+    "pinyin": "sòng",
+    "english": "send / deliver",
+    "band": "common",
+    "zipf": 5.35
+  },
+  {
+    "id": "选-xuan3",
+    "hanzi": "选",
+    "pinyin": "xuǎn",
+    "english": "choose / select",
+    "band": "common",
+    "zipf": 5.19
+  },
+  {
+    "id": "邮局-you2-ju2",
+    "hanzi": "邮局",
+    "pinyin": "yóu jú",
+    "english": "post office",
+    "band": "rare",
+    "zipf": 3.83
+  },
+  {
+    "id": "都-dou1",
+    "hanzi": "都",
+    "pinyin": "dōu",
+    "english": "all / both",
+    "band": "common",
+    "zipf": 6.59
+  },
+  {
+    "id": "酒店-jiu3-dian4",
+    "hanzi": "酒店",
+    "pinyin": "jiǔ diàn",
+    "english": "hotel",
+    "band": "mid",
+    "zipf": 4.88
+  },
+  {
+    "id": "里面-li3-mian4",
+    "hanzi": "里面",
+    "pinyin": "lǐ miàn",
+    "english": "inside",
+    "band": "common",
+    "zipf": 5.24
+  },
+  {
+    "id": "银行-yin2-hang2",
+    "hanzi": "银行",
+    "pinyin": "yín háng",
+    "english": "bank",
+    "band": "common",
+    "zipf": 5.34
+  },
+  {
+    "id": "错-cuo4",
+    "hanzi": "错",
+    "pinyin": "cuò",
+    "english": "wrong / mistaken",
+    "band": "common",
+    "zipf": 5.13
+  },
+  {
+    "id": "锻炼-duan4-lian4",
+    "hanzi": "锻炼",
+    "pinyin": "duàn liàn",
+    "english": "exercise",
+    "band": "mid",
+    "zipf": 4.33
+  },
+  {
+    "id": "长-chang2",
+    "hanzi": "长",
+    "pinyin": "cháng",
+    "english": "long",
+    "band": "common",
+    "zipf": 5.77
+  },
+  {
+    "id": "难-nan2",
+    "hanzi": "难",
+    "pinyin": "nán",
+    "english": "difficult",
+    "band": "common",
+    "zipf": 5.19
+  },
+  {
+    "id": "饺子-jiao3-zi5",
+    "hanzi": "饺子",
+    "pinyin": "jiǎo zi",
+    "english": "dumpling",
+    "band": "rare",
+    "zipf": 3.62
+  },
+  {
+    "id": "饿-e4",
+    "hanzi": "饿",
+    "pinyin": "è",
+    "english": "hungry",
+    "band": "mid",
+    "zipf": 4.58
+  },
+  {
+    "id": "香蕉-xiang1-jiao1",
+    "hanzi": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "english": "banana",
+    "band": "rare",
+    "zipf": 4.16
+  },
+  {
+    "id": "马-ma3",
+    "hanzi": "马",
+    "pinyin": "mǎ",
+    "english": "horse",
+    "band": "common",
+    "zipf": 5.44
+  },
+  {
+    "id": "鱼-yu2",
+    "hanzi": "鱼",
+    "pinyin": "yú",
+    "english": "fish",
+    "band": "mid",
+    "zipf": 4.81
+  },
+  {
+    "id": "鸟-niao3",
+    "hanzi": "鸟",
+    "pinyin": "niǎo",
+    "english": "bird",
+    "band": "mid",
+    "zipf": 4.71
+  },
+  {
+    "id": "鸡蛋-ji1-dan4",
+    "hanzi": "鸡蛋",
+    "pinyin": "jī dàn",
+    "english": "egg",
+    "band": "mid",
+    "zipf": 4.26
+  },
+  {
+    "id": "黄色-huang2-se4",
+    "hanzi": "黄色",
+    "pinyin": "huáng sè",
+    "english": "yellow",
+    "band": "mid",
+    "zipf": 4.51
+  },
+  {
+    "id": "黑色-hei1-se4",
+    "hanzi": "黑色",
+    "pinyin": "hēi sè",
+    "english": "black",
+    "band": "mid",
+    "zipf": 4.7
+  }
+]

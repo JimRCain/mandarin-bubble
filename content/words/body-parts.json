@@ -1,0 +1,250 @@
+[
+  {
+    "id": "下巴-xia4-ba5",
+    "hanzi": "下巴",
+    "pinyin": "xià ba",
+    "english": "chin",
+    "band": "rare",
+    "zipf": 3.68
+  },
+  {
+    "id": "嗓子-sang3-zi5",
+    "hanzi": "嗓子",
+    "pinyin": "sǎng zi",
+    "english": "throat",
+    "band": "rare",
+    "zipf": 3.53
+  },
+  {
+    "id": "嘴-zui3",
+    "hanzi": "嘴",
+    "pinyin": "zuǐ",
+    "english": "mouth",
+    "band": "mid",
+    "zipf": 4.69
+  },
+  {
+    "id": "嘴唇-zui3-chun2",
+    "hanzi": "嘴唇",
+    "pinyin": "zuǐ chún",
+    "english": "lip",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "大腿-da4-tui3",
+    "hanzi": "大腿",
+    "pinyin": "dà tuǐ",
+    "english": "thigh",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "头-tou2",
+    "hanzi": "头",
+    "pinyin": "tóu",
+    "english": "head",
+    "band": "common",
+    "zipf": 5.07
+  },
+  {
+    "id": "头发-tou2-fa5",
+    "hanzi": "头发",
+    "pinyin": "tóu fa",
+    "english": "hair",
+    "band": "mid",
+    "zipf": 4.67
+  },
+  {
+    "id": "小腿-xiao3-tui3",
+    "hanzi": "小腿",
+    "pinyin": "xiǎo tuǐ",
+    "english": "calf",
+    "band": "rare",
+    "zipf": 3.39
+  },
+  {
+    "id": "手-shou3",
+    "hanzi": "手",
+    "pinyin": "shǒu",
+    "english": "hand",
+    "band": "common",
+    "zipf": 5.26
+  },
+  {
+    "id": "手指-shou3-zhi3",
+    "hanzi": "手指",
+    "pinyin": "shǒu zhǐ",
+    "english": "finger",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "手掌-shou3-zhang3",
+    "hanzi": "手掌",
+    "pinyin": "shǒu zhǎng",
+    "english": "palm",
+    "band": "rare",
+    "zipf": 3.68
+  },
+  {
+    "id": "指甲-zhi3-jia3",
+    "hanzi": "指甲",
+    "pinyin": "zhǐ jiǎ",
+    "english": "fingernail",
+    "band": "rare",
+    "zipf": 3.79
+  },
+  {
+    "id": "牙-ya2",
+    "hanzi": "牙",
+    "pinyin": "yá",
+    "english": "tooth",
+    "band": "mid",
+    "zipf": 4.29
+  },
+  {
+    "id": "眉毛-mei2-mao5",
+    "hanzi": "眉毛",
+    "pinyin": "méi mao",
+    "english": "eyebrow",
+    "band": "rare",
+    "zipf": 3.69
+  },
+  {
+    "id": "眼睛-yan3-jing1",
+    "hanzi": "眼睛",
+    "pinyin": "yǎn jīng",
+    "english": "eye",
+    "band": "mid",
+    "zipf": 4.95
+  },
+  {
+    "id": "耳朵-er3-duo5",
+    "hanzi": "耳朵",
+    "pinyin": "ěr duo",
+    "english": "ear",
+    "band": "mid",
+    "zipf": 4.29
+  },
+  {
+    "id": "肚子-du4-zi5",
+    "hanzi": "肚子",
+    "pinyin": "dù zi",
+    "english": "stomach",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "肩膀-jian1-bang3",
+    "hanzi": "肩膀",
+    "pinyin": "jiān bǎng",
+    "english": "shoulder",
+    "band": "rare",
+    "zipf": 4.04
+  },
+  {
+    "id": "背-bei4",
+    "hanzi": "背",
+    "pinyin": "bèi",
+    "english": "back (body)",
+    "band": "mid",
+    "zipf": 4.58
+  },
+  {
+    "id": "胳膊-ge1-bo5",
+    "hanzi": "胳膊",
+    "pinyin": "gē bo",
+    "english": "arm",
+    "band": "rare",
+    "zipf": 3.85
+  },
+  {
+    "id": "胸-xiong1",
+    "hanzi": "胸",
+    "pinyin": "xiōng",
+    "english": "chest",
+    "band": "mid",
+    "zipf": 4.35
+  },
+  {
+    "id": "脖子-bo2-zi5",
+    "hanzi": "脖子",
+    "pinyin": "bó zi",
+    "english": "neck",
+    "band": "mid",
+    "zipf": 4.26
+  },
+  {
+    "id": "脚-jiao3",
+    "hanzi": "脚",
+    "pinyin": "jiǎo",
+    "english": "foot",
+    "band": "mid",
+    "zipf": 4.86
+  },
+  {
+    "id": "脸-lian3",
+    "hanzi": "脸",
+    "pinyin": "liǎn",
+    "english": "face",
+    "band": "common",
+    "zipf": 5.05
+  },
+  {
+    "id": "脸颊-lian3-jia2",
+    "hanzi": "脸颊",
+    "pinyin": "liǎn jiá",
+    "english": "cheek",
+    "band": "rare",
+    "zipf": 3.61
+  },
+  {
+    "id": "腰-yao1",
+    "hanzi": "腰",
+    "pinyin": "yāo",
+    "english": "waist",
+    "band": "rare",
+    "zipf": 4.15
+  },
+  {
+    "id": "腿-tui3",
+    "hanzi": "腿",
+    "pinyin": "tuǐ",
+    "english": "leg",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "膝盖-xi1-gai4",
+    "hanzi": "膝盖",
+    "pinyin": "xī gài",
+    "english": "knee",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "舌头-she2-tou5",
+    "hanzi": "舌头",
+    "pinyin": "shé tou",
+    "english": "tongue",
+    "band": "rare",
+    "zipf": 4.16
+  },
+  {
+    "id": "额头-e2-tou2",
+    "hanzi": "额头",
+    "pinyin": "é tóu",
+    "english": "forehead",
+    "band": "rare",
+    "zipf": 3.71
+  },
+  {
+    "id": "鼻子-bi2-zi5",
+    "hanzi": "鼻子",
+    "pinyin": "bí zi",
+    "english": "nose",
+    "band": "mid",
+    "zipf": 4.21
+  }
+]

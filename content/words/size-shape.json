@@ -1,0 +1,236 @@
+[
+  {
+    "id": "光滑-guang1-hua2",
+    "hanzi": "光滑",
+    "pinyin": "guāng huá",
+    "english": "smooth",
+    "band": "rare",
+    "zipf": 3.69
+  },
+  {
+    "id": "厚-hou4",
+    "hanzi": "厚",
+    "pinyin": "hòu",
+    "english": "thick",
+    "band": "mid",
+    "zipf": 4.2
+  },
+  {
+    "id": "圆-yuan2",
+    "hanzi": "圆",
+    "pinyin": "yuán",
+    "english": "round",
+    "band": "mid",
+    "zipf": 4.32
+  },
+  {
+    "id": "大-da4",
+    "hanzi": "大",
+    "pinyin": "dà",
+    "english": "big",
+    "band": "common",
+    "zipf": 6.23
+  },
+  {
+    "id": "宽-kuan1",
+    "hanzi": "宽",
+    "pinyin": "kuān",
+    "english": "wide",
+    "band": "mid",
+    "zipf": 4.67
+  },
+  {
+    "id": "小-xiao3",
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "english": "small",
+    "band": "common",
+    "zipf": 5.89
+  },
+  {
+    "id": "尖-jian1",
+    "hanzi": "尖",
+    "pinyin": "jiān",
+    "english": "pointed",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "巨人般的-ju4-ren2-ban1-de5",
+    "hanzi": "巨人般的",
+    "pinyin": "jù rén bān de",
+    "english": "gigantic",
+    "band": "rare",
+    "zipf": 2.97
+  },
+  {
+    "id": "巨大-ju4-da4",
+    "hanzi": "巨大",
+    "pinyin": "jù dà",
+    "english": "huge",
+    "band": "common",
+    "zipf": 5.01
+  },
+  {
+    "id": "平-ping2",
+    "hanzi": "平",
+    "pinyin": "píng",
+    "english": "flat",
+    "band": "mid",
+    "zipf": 4.78
+  },
+  {
+    "id": "庞大-pang2-da4",
+    "hanzi": "庞大",
+    "pinyin": "páng dà",
+    "english": "massive",
+    "band": "mid",
+    "zipf": 4.5
+  },
+  {
+    "id": "弯曲-wan1-qu1",
+    "hanzi": "弯曲",
+    "pinyin": "wān qū",
+    "english": "curved",
+    "band": "rare",
+    "zipf": 3.85
+  },
+  {
+    "id": "弯曲的-wan1-qu1-de5",
+    "hanzi": "弯曲的",
+    "pinyin": "wān qū de",
+    "english": "bent",
+    "band": "rare",
+    "zipf": 2.85
+  },
+  {
+    "id": "微型-wei1-xing2",
+    "hanzi": "微型",
+    "pinyin": "wēi xíng",
+    "english": "miniature",
+    "band": "rare",
+    "zipf": 3.88
+  },
+  {
+    "id": "方-fang1",
+    "hanzi": "方",
+    "pinyin": "fāng",
+    "english": "square",
+    "band": "mid",
+    "zipf": 4.91
+  },
+  {
+    "id": "极小-ji2-xiao3",
+    "hanzi": "极小",
+    "pinyin": "jí xiǎo",
+    "english": "tiny",
+    "band": "rare",
+    "zipf": 3.41
+  },
+  {
+    "id": "浅-qian3",
+    "hanzi": "浅",
+    "pinyin": "qiǎn",
+    "english": "shallow",
+    "band": "rare",
+    "zipf": 4.13
+  },
+  {
+    "id": "深-shen1",
+    "hanzi": "深",
+    "pinyin": "shēn",
+    "english": "deep",
+    "band": "mid",
+    "zipf": 4.87
+  },
+  {
+    "id": "瘦-shou4",
+    "hanzi": "瘦",
+    "pinyin": "shòu",
+    "english": "thin",
+    "band": "rare",
+    "zipf": 4.16,
+    "sharedGloss": true
+  },
+  {
+    "id": "直-zhi2",
+    "hanzi": "直",
+    "pinyin": "zhí",
+    "english": "straight",
+    "band": "mid",
+    "zipf": 4.68
+  },
+  {
+    "id": "矮-ai3",
+    "hanzi": "矮",
+    "pinyin": "ǎi",
+    "english": "short",
+    "band": "rare",
+    "zipf": 4.04
+  },
+  {
+    "id": "窄-zhai3",
+    "hanzi": "窄",
+    "pinyin": "zhǎi",
+    "english": "narrow",
+    "band": "rare",
+    "zipf": 3.75
+  },
+  {
+    "id": "粗糙-cu1-cao1",
+    "hanzi": "粗糙",
+    "pinyin": "cū cāo",
+    "english": "rough",
+    "band": "rare",
+    "zipf": 3.77
+  },
+  {
+    "id": "胖-pang4",
+    "hanzi": "胖",
+    "pinyin": "pàng",
+    "english": "fat",
+    "band": "mid",
+    "zipf": 4.21
+  },
+  {
+    "id": "薄-bao2",
+    "hanzi": "薄",
+    "pinyin": "báo",
+    "english": "thin",
+    "band": "mid",
+    "zipf": 4.26,
+    "sharedGloss": true
+  },
+  {
+    "id": "钝-dun4",
+    "hanzi": "钝",
+    "pinyin": "dùn",
+    "english": "dull",
+    "band": "rare",
+    "zipf": 3.4
+  },
+  {
+    "id": "锋利-feng1-li4",
+    "hanzi": "锋利",
+    "pinyin": "fēng lì",
+    "english": "sharp",
+    "band": "rare",
+    "zipf": 3.44
+  },
+  {
+    "id": "长-chang2",
+    "hanzi": "长",
+    "pinyin": "cháng",
+    "english": "long",
+    "band": "common",
+    "zipf": 5.77
+  },
+  {
+    "id": "高-gao1",
+    "hanzi": "高",
+    "pinyin": "gāo",
+    "english": "tall",
+    "band": "common",
+    "zipf": 5.75
+  }
+]

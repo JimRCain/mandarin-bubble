@@ -1,0 +1,242 @@
+[
+  {
+    "id": "下午-xia4-wu3",
+    "hanzi": "下午",
+    "pinyin": "xià wǔ",
+    "english": "afternoon",
+    "band": "common",
+    "zipf": 5.01
+  },
+  {
+    "id": "世纪-shi4-ji4",
+    "hanzi": "世纪",
+    "pinyin": "shì jì",
+    "english": "century",
+    "band": "common",
+    "zipf": 5.41
+  },
+  {
+    "id": "今天-jin1-tian1",
+    "hanzi": "今天",
+    "pinyin": "jīn tiān",
+    "english": "today",
+    "band": "common",
+    "zipf": 5.65
+  },
+  {
+    "id": "假期-jia4-qi1",
+    "hanzi": "假期",
+    "pinyin": "jià qī",
+    "english": "holiday",
+    "band": "mid",
+    "zipf": 4.35
+  },
+  {
+    "id": "分钟-fen1-zhong1",
+    "hanzi": "分钟",
+    "pinyin": "fēn zhōng",
+    "english": "minute",
+    "band": "common",
+    "zipf": 5.23
+  },
+  {
+    "id": "十年-shi2-nian2",
+    "hanzi": "十年",
+    "pinyin": "shí nián",
+    "english": "decade",
+    "band": "mid",
+    "zipf": 4.81
+  },
+  {
+    "id": "周-zhou1",
+    "hanzi": "周",
+    "pinyin": "zhōu",
+    "english": "week",
+    "band": "mid",
+    "zipf": 4.99
+  },
+  {
+    "id": "周一-zhou1-yi1",
+    "hanzi": "周一",
+    "pinyin": "zhōu yī",
+    "english": "Monday",
+    "band": "rare",
+    "zipf": 4.16
+  },
+  {
+    "id": "周三-zhou1-san1",
+    "hanzi": "周三",
+    "pinyin": "zhōu sān",
+    "english": "Wednesday",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "周二-zhou1-er4",
+    "hanzi": "周二",
+    "pinyin": "zhōu èr",
+    "english": "Tuesday",
+    "band": "rare",
+    "zipf": 4.06
+  },
+  {
+    "id": "周五-zhou1-wu3",
+    "hanzi": "周五",
+    "pinyin": "zhōu wǔ",
+    "english": "Friday",
+    "band": "mid",
+    "zipf": 4.2
+  },
+  {
+    "id": "周六-zhou1-liu4",
+    "hanzi": "周六",
+    "pinyin": "zhōu liù",
+    "english": "Saturday",
+    "band": "rare",
+    "zipf": 4.18
+  },
+  {
+    "id": "周四-zhou1-si4",
+    "hanzi": "周四",
+    "pinyin": "zhōu sì",
+    "english": "Thursday",
+    "band": "rare",
+    "zipf": 3.95
+  },
+  {
+    "id": "周年-zhou1-nian2",
+    "hanzi": "周年",
+    "pinyin": "zhōu nián",
+    "english": "anniversary",
+    "band": "mid",
+    "zipf": 4.82
+  },
+  {
+    "id": "周日-zhou1-ri4",
+    "hanzi": "周日",
+    "pinyin": "zhōu rì",
+    "english": "Sunday",
+    "band": "mid",
+    "zipf": 4.23
+  },
+  {
+    "id": "周末-zhou1-mo4",
+    "hanzi": "周末",
+    "pinyin": "zhōu mò",
+    "english": "weekend",
+    "band": "mid",
+    "zipf": 4.65
+  },
+  {
+    "id": "夜晚-ye4-wan3",
+    "hanzi": "夜晚",
+    "pinyin": "yè wǎn",
+    "english": "night",
+    "band": "mid",
+    "zipf": 4.27
+  },
+  {
+    "id": "天-tian1",
+    "hanzi": "天",
+    "pinyin": "tiān",
+    "english": "day",
+    "band": "common",
+    "zipf": 5.55
+  },
+  {
+    "id": "小时-xiao3-shi2",
+    "hanzi": "小时",
+    "pinyin": "xiǎo shí",
+    "english": "hour",
+    "band": "common",
+    "zipf": 5.45
+  },
+  {
+    "id": "工作日-gong1-zuo4-ri4",
+    "hanzi": "工作日",
+    "pinyin": "gōng zuò rì",
+    "english": "weekday",
+    "band": "rare",
+    "zipf": 3.71
+  },
+  {
+    "id": "年-nian2",
+    "hanzi": "年",
+    "pinyin": "nián",
+    "english": "year",
+    "band": "common",
+    "zipf": 6.64
+  },
+  {
+    "id": "截止日期-jie2-zhi3-ri4-qi1",
+    "hanzi": "截止日期",
+    "pinyin": "jié zhǐ rì qī",
+    "english": "deadline",
+    "band": "rare",
+    "zipf": 3.22
+  },
+  {
+    "id": "日程-ri4-cheng2",
+    "hanzi": "日程",
+    "pinyin": "rì chéng",
+    "english": "schedule",
+    "band": "rare",
+    "zipf": 3.75
+  },
+  {
+    "id": "早上-zao3-shang5",
+    "hanzi": "早上",
+    "pinyin": "zǎo shang",
+    "english": "morning",
+    "band": "mid",
+    "zipf": 4.92
+  },
+  {
+    "id": "明天-ming2-tian1",
+    "hanzi": "明天",
+    "pinyin": "míng tiān",
+    "english": "tomorrow",
+    "band": "common",
+    "zipf": 5.08
+  },
+  {
+    "id": "昨天-zuo2-tian1",
+    "hanzi": "昨天",
+    "pinyin": "zuó tiān",
+    "english": "yesterday",
+    "band": "mid",
+    "zipf": 4.93
+  },
+  {
+    "id": "晚上-wan3-shang5",
+    "hanzi": "晚上",
+    "pinyin": "wǎn shang",
+    "english": "evening",
+    "band": "common",
+    "zipf": 5.14
+  },
+  {
+    "id": "月-yue4",
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "english": "month",
+    "band": "common",
+    "zipf": 6.44
+  },
+  {
+    "id": "生日-sheng1-ri4",
+    "hanzi": "生日",
+    "pinyin": "shēng rì",
+    "english": "birthday",
+    "band": "mid",
+    "zipf": 4.66
+  },
+  {
+    "id": "秒-miao3",
+    "hanzi": "秒",
+    "pinyin": "miǎo",
+    "english": "second",
+    "band": "mid",
+    "zipf": 4.85
+  }
+]

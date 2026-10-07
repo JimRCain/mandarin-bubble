@@ -1,0 +1,242 @@
+[
+  {
+    "id": "一月-yi1-yue4",
+    "hanzi": "一月",
+    "pinyin": "yī yuè",
+    "english": "January",
+    "band": "rare",
+    "zipf": 4.12
+  },
+  {
+    "id": "七月-qi1-yue4",
+    "hanzi": "七月",
+    "pinyin": "qī yuè",
+    "english": "July",
+    "band": "mid",
+    "zipf": 4.32
+  },
+  {
+    "id": "三月-san1-yue4",
+    "hanzi": "三月",
+    "pinyin": "sān yuè",
+    "english": "March",
+    "band": "mid",
+    "zipf": 4.38
+  },
+  {
+    "id": "九月-jiu3-yue4",
+    "hanzi": "九月",
+    "pinyin": "jiǔ yuè",
+    "english": "September",
+    "band": "mid",
+    "zipf": 4.32
+  },
+  {
+    "id": "二月-er4-yue4",
+    "hanzi": "二月",
+    "pinyin": "èr yuè",
+    "english": "February",
+    "band": "mid",
+    "zipf": 4.22
+  },
+  {
+    "id": "五月-wu3-yue4",
+    "hanzi": "五月",
+    "pinyin": "wǔ yuè",
+    "english": "May",
+    "band": "mid",
+    "zipf": 4.65
+  },
+  {
+    "id": "八月-ba1-yue4",
+    "hanzi": "八月",
+    "pinyin": "bā yuè",
+    "english": "August",
+    "band": "mid",
+    "zipf": 4.33
+  },
+  {
+    "id": "六月-liu4-yue4",
+    "hanzi": "六月",
+    "pinyin": "liù yuè",
+    "english": "June",
+    "band": "mid",
+    "zipf": 4.42
+  },
+  {
+    "id": "农历-nong2-li4",
+    "hanzi": "农历",
+    "pinyin": "nóng lì",
+    "english": "lunar",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "冬天-dong1-tian1",
+    "hanzi": "冬天",
+    "pinyin": "dōng tiān",
+    "english": "winter",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "冬至-dong1-zhi4",
+    "hanzi": "冬至",
+    "pinyin": "dōng zhì",
+    "english": "solstice (winter)",
+    "band": "rare",
+    "zipf": 3.19
+  },
+  {
+    "id": "十一月-shi2-yi1-yue4",
+    "hanzi": "十一月",
+    "pinyin": "shí yī yuè",
+    "english": "November",
+    "band": "rare",
+    "zipf": 4.07
+  },
+  {
+    "id": "十二月-shi2-er4-yue4",
+    "hanzi": "十二月",
+    "pinyin": "shí èr yuè",
+    "english": "December",
+    "band": "rare",
+    "zipf": 4.11
+  },
+  {
+    "id": "十月-shi2-yue4",
+    "hanzi": "十月",
+    "pinyin": "shí yuè",
+    "english": "October",
+    "band": "mid",
+    "zipf": 4.27
+  },
+  {
+    "id": "四月-si4-yue4",
+    "hanzi": "四月",
+    "pinyin": "sì yuè",
+    "english": "April",
+    "band": "mid",
+    "zipf": 4.37
+  },
+  {
+    "id": "夏天-xia4-tian1",
+    "hanzi": "夏天",
+    "pinyin": "xià tiān",
+    "english": "summer",
+    "band": "mid",
+    "zipf": 4.63
+  },
+  {
+    "id": "夏至-xia4-zhi4",
+    "hanzi": "夏至",
+    "pinyin": "xià zhì",
+    "english": "solstice (summer)",
+    "band": "rare",
+    "zipf": 3
+  },
+  {
+    "id": "开花-kai1-hua1",
+    "hanzi": "开花",
+    "pinyin": "kāi huā",
+    "english": "bloom",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "收获-shou1-huo4",
+    "hanzi": "收获",
+    "pinyin": "shōu huò",
+    "english": "harvest",
+    "band": "mid",
+    "zipf": 4.34
+  },
+  {
+    "id": "新年-xin1-nian2",
+    "hanzi": "新年",
+    "pinyin": "xīn nián",
+    "english": "new year",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "日历-ri4-li4",
+    "hanzi": "日历",
+    "pinyin": "rì lì",
+    "english": "calendar",
+    "band": "rare",
+    "zipf": 3.76
+  },
+  {
+    "id": "旱季-han4-ji4",
+    "hanzi": "旱季",
+    "pinyin": "hàn jì",
+    "english": "dry season",
+    "band": "rare",
+    "zipf": 3.01
+  },
+  {
+    "id": "春分-chun1-fen1",
+    "hanzi": "春分",
+    "pinyin": "chūn fēn",
+    "english": "equinox",
+    "band": "rare",
+    "zipf": 3.31
+  },
+  {
+    "id": "春天-chun1-tian1",
+    "hanzi": "春天",
+    "pinyin": "chūn tiān",
+    "english": "spring",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "湿季-shi1-ji4",
+    "hanzi": "湿季",
+    "pinyin": "shī jì",
+    "english": "wet season",
+    "band": "rare",
+    "zipf": 3.03
+  },
+  {
+    "id": "秋天-qiu1-tian1",
+    "hanzi": "秋天",
+    "pinyin": "qiū tiān",
+    "english": "autumn",
+    "band": "rare",
+    "zipf": 4.07
+  },
+  {
+    "id": "至日-zhi4-ri4",
+    "hanzi": "至日",
+    "pinyin": "zhì rì",
+    "english": "solstice",
+    "band": "mid",
+    "zipf": 4.62
+  },
+  {
+    "id": "闰年-run4-nian2",
+    "hanzi": "闰年",
+    "pinyin": "rùn nián",
+    "english": "leap year",
+    "band": "rare",
+    "zipf": 2.11
+  },
+  {
+    "id": "雨季-yu3-ji4",
+    "hanzi": "雨季",
+    "pinyin": "yǔ jì",
+    "english": "monsoon",
+    "band": "rare",
+    "zipf": 3.58
+  },
+  {
+    "id": "霜降-shuang1-jiang4",
+    "hanzi": "霜降",
+    "pinyin": "shuāng jiàng",
+    "english": "frost season",
+    "band": "rare",
+    "zipf": 2.59
+  }
+]

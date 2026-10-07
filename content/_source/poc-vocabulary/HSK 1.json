@@ -1,0 +1,1115 @@
+[
+  {
+    "english": "I / me",
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "you",
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "he / him",
+    "hanzi": "他",
+    "pinyin": "tā",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "she / her",
+    "hanzi": "她",
+    "pinyin": "tā",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "it",
+    "hanzi": "它",
+    "pinyin": "tā",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "we / us",
+    "hanzi": "我们",
+    "pinyin": "wǒ men",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "they / them",
+    "hanzi": "他们",
+    "pinyin": "tā men",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "this",
+    "hanzi": "这",
+    "pinyin": "zhè",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "that",
+    "hanzi": "那",
+    "pinyin": "nà",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "who",
+    "hanzi": "谁",
+    "pinyin": "shéi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "what",
+    "hanzi": "什么",
+    "pinyin": "shén me",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "which",
+    "hanzi": "哪",
+    "pinyin": "nǎ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "where",
+    "hanzi": "哪儿",
+    "pinyin": "nǎr",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "why",
+    "hanzi": "为什么",
+    "pinyin": "wèi shén me",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "how",
+    "hanzi": "怎么",
+    "pinyin": "zěn me",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "how many",
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "how much",
+    "hanzi": "多少",
+    "pinyin": "duō shǎo",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "a / an / one",
+    "hanzi": "一",
+    "pinyin": "yī",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "two",
+    "hanzi": "二",
+    "pinyin": "èr",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "three",
+    "hanzi": "三",
+    "pinyin": "sān",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "four",
+    "hanzi": "四",
+    "pinyin": "sì",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "five",
+    "hanzi": "五",
+    "pinyin": "wǔ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "six",
+    "hanzi": "六",
+    "pinyin": "liù",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "seven",
+    "hanzi": "七",
+    "pinyin": "qī",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "eight",
+    "hanzi": "八",
+    "pinyin": "bā",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "nine",
+    "hanzi": "九",
+    "pinyin": "jiǔ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "ten",
+    "hanzi": "十",
+    "pinyin": "shí",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "hundred",
+    "hanzi": "百",
+    "pinyin": "bǎi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "zero",
+    "hanzi": "零",
+    "pinyin": "líng",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "half",
+    "hanzi": "半",
+    "pinyin": "bàn",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "person / people",
+    "hanzi": "人",
+    "pinyin": "rén",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "man / male",
+    "hanzi": "男",
+    "pinyin": "nán",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "woman / female",
+    "hanzi": "女",
+    "pinyin": "nǚ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "child",
+    "hanzi": "孩子",
+    "pinyin": "hái zi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "friend",
+    "hanzi": "朋友",
+    "pinyin": "péng you",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "father",
+    "hanzi": "爸爸",
+    "pinyin": "bà ba",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "mother",
+    "hanzi": "妈妈",
+    "pinyin": "mā ma",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "older brother",
+    "hanzi": "哥哥",
+    "pinyin": "gē ge",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "older sister",
+    "hanzi": "姐姐",
+    "pinyin": "jiě jie",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "teacher",
+    "hanzi": "老师",
+    "pinyin": "lǎo shī",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "student",
+    "hanzi": "学生",
+    "pinyin": "xué shēng",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "doctor",
+    "hanzi": "医生",
+    "pinyin": "yī shēng",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "China",
+    "hanzi": "中国",
+    "pinyin": "Zhōng guó",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "Chinese (language)",
+    "hanzi": "汉语",
+    "pinyin": "Hàn yǔ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "name",
+    "hanzi": "名字",
+    "pinyin": "míng zi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "hello",
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "thank you",
+    "hanzi": "谢谢",
+    "pinyin": "xiè xie",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "sorry",
+    "hanzi": "对不起",
+    "pinyin": "duì bu qǐ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "goodbye",
+    "hanzi": "再见",
+    "pinyin": "zài jiàn",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "please",
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "welcome",
+    "hanzi": "不用谢",
+    "pinyin": "bú yòng xiè",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "okay",
+    "hanzi": "行",
+    "pinyin": "xíng",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "good / fine",
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "bad",
+    "hanzi": "坏",
+    "pinyin": "huài",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "big",
+    "hanzi": "大",
+    "pinyin": "dà",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "small",
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "many / much",
+    "hanzi": "多",
+    "pinyin": "duō",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "few / little",
+    "hanzi": "少",
+    "pinyin": "shǎo",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "hot (temperature)",
+    "hanzi": "热",
+    "pinyin": "rè",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "cold",
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "happy",
+    "hanzi": "高兴",
+    "pinyin": "gāo xìng",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "beautiful",
+    "hanzi": "漂亮",
+    "pinyin": "piào liang",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "big / old (senior)",
+    "hanzi": "老",
+    "pinyin": "lǎo",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "new",
+    "hanzi": "新",
+    "pinyin": "xīn",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "early",
+    "hanzi": "早",
+    "pinyin": "zǎo",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "now",
+    "hanzi": "现在",
+    "pinyin": "xiàn zài",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "today",
+    "hanzi": "今天",
+    "pinyin": "jīn tiān",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "yesterday",
+    "hanzi": "昨天",
+    "pinyin": "zuó tiān",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "tomorrow",
+    "hanzi": "明天",
+    "pinyin": "míng tiān",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "year",
+    "hanzi": "年",
+    "pinyin": "nián",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "month",
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "day",
+    "hanzi": "天",
+    "pinyin": "tiān",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "week",
+    "hanzi": "星期",
+    "pinyin": "xīng qī",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "hour",
+    "hanzi": "小时",
+    "pinyin": "xiǎo shí",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "minute",
+    "hanzi": "分钟",
+    "pinyin": "fēn zhōng",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "Monday",
+    "hanzi": "星期一",
+    "pinyin": "xīng qī yī",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "Tuesday",
+    "hanzi": "星期二",
+    "pinyin": "xīng qī èr",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "Wednesday",
+    "hanzi": "星期三",
+    "pinyin": "xīng qī sān",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "Thursday",
+    "hanzi": "星期四",
+    "pinyin": "xīng qī sì",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "Friday",
+    "hanzi": "星期五",
+    "pinyin": "xīng qī wǔ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "Saturday",
+    "hanzi": "星期六",
+    "pinyin": "xīng qī liù",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "Sunday",
+    "hanzi": "星期天",
+    "pinyin": "xīng qī tiān",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "go",
+    "hanzi": "去",
+    "pinyin": "qù",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "come",
+    "hanzi": "来",
+    "pinyin": "lái",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "eat",
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "drink",
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "sleep",
+    "hanzi": "睡觉",
+    "pinyin": "shuì jiào",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "read",
+    "hanzi": "读",
+    "pinyin": "dú",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "write",
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "speak / say",
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "listen",
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "see / look",
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "buy",
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "open",
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "close",
+    "hanzi": "关",
+    "pinyin": "guān",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "sit",
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "stand",
+    "hanzi": "站",
+    "pinyin": "zhàn",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "walk",
+    "hanzi": "走",
+    "pinyin": "zǒu",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "run",
+    "hanzi": "跑",
+    "pinyin": "pǎo",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "live",
+    "hanzi": "住",
+    "pinyin": "zhù",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "have / own",
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "like",
+    "hanzi": "喜欢",
+    "pinyin": "xǐ huān",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "want",
+    "hanzi": "要",
+    "pinyin": "yào",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "can / may",
+    "hanzi": "可以",
+    "pinyin": "kě yǐ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "can / will",
+    "hanzi": "会",
+    "pinyin": "huì",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "know (knowledge)",
+    "hanzi": "知道",
+    "pinyin": "zhī dào",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "recognize / know",
+    "hanzi": "认识",
+    "pinyin": "rèn shi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "call / name",
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "help",
+    "hanzi": "帮助",
+    "pinyin": "bāng zhù",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "love",
+    "hanzi": "爱",
+    "pinyin": "ài",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "think / feel",
+    "hanzi": "觉得",
+    "pinyin": "jué de",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "be / to be (am is are)",
+    "hanzi": "是",
+    "pinyin": "shì",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "have (doing)",
+    "hanzi": "在",
+    "pinyin": "zài",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "do / make",
+    "hanzi": "做",
+    "pinyin": "zuò",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "use",
+    "hanzi": "用",
+    "pinyin": "yòng",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "work",
+    "hanzi": "工作",
+    "pinyin": "gōng zuò",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "learn / study",
+    "hanzi": "学习",
+    "pinyin": "xué xí",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "rest",
+    "hanzi": "休息",
+    "pinyin": "xiū xi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "give",
+    "hanzi": "给",
+    "pinyin": "gěi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "tell / inform",
+    "hanzi": "告诉",
+    "pinyin": "gào su",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "wait",
+    "hanzi": "等",
+    "pinyin": "děng",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "ask",
+    "hanzi": "问",
+    "pinyin": "wèn",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "answer",
+    "hanzi": "回答",
+    "pinyin": "huí dá",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "return / give back",
+    "hanzi": "还",
+    "pinyin": "hái",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "money",
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "book",
+    "hanzi": "书",
+    "pinyin": "shū",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "pen",
+    "hanzi": "笔",
+    "pinyin": "bǐ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "desk / table",
+    "hanzi": "桌子",
+    "pinyin": "zhuō zi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "chair",
+    "hanzi": "椅子",
+    "pinyin": "yǐ zi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "room",
+    "hanzi": "房间",
+    "pinyin": "fáng jiān",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "door",
+    "hanzi": "门",
+    "pinyin": "mén",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "window",
+    "hanzi": "窗户",
+    "pinyin": "chuāng hù",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "computer",
+    "hanzi": "电脑",
+    "pinyin": "diàn nǎo",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "telephone",
+    "hanzi": "电话",
+    "pinyin": "diàn huà",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "TV",
+    "hanzi": "电视",
+    "pinyin": "diàn shì",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "clothes",
+    "hanzi": "衣服",
+    "pinyin": "yī fu",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "shoe",
+    "hanzi": "鞋",
+    "pinyin": "xié",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "hat / cap",
+    "hanzi": "帽子",
+    "pinyin": "mào zi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "water",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "tea",
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "milk",
+    "hanzi": "牛奶",
+    "pinyin": "niú nǎi",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "rice (cooked)",
+    "hanzi": "米饭",
+    "pinyin": "mǐ fàn",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "bread",
+    "hanzi": "面包",
+    "pinyin": "miàn bāo",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "fruit",
+    "hanzi": "水果",
+    "pinyin": "shuǐ guǒ",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "vegetable",
+    "hanzi": "蔬菜",
+    "pinyin": "shū cài",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "meat",
+    "hanzi": "肉",
+    "pinyin": "ròu",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "noodles",
+    "hanzi": "面条",
+    "pinyin": "miàn tiáo",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "airplane",
+    "hanzi": "飞机",
+    "pinyin": "fēi jī",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "car",
+    "hanzi": "车",
+    "pinyin": "chē",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "subway",
+    "hanzi": "地铁",
+    "pinyin": "dì tiě",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "bus",
+    "hanzi": "公交车",
+    "pinyin": "gōng jiāo chē",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "taxi",
+    "hanzi": "出租车",
+    "pinyin": "chū zū chē",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "bicycle",
+    "hanzi": "自行车",
+    "pinyin": "zì xíng chē",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "hospital",
+    "hanzi": "医院",
+    "pinyin": "yī yuàn",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "restaurant",
+    "hanzi": "饭店",
+    "pinyin": "fàn diàn",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "school",
+    "hanzi": "学校",
+    "pinyin": "xué xiào",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "store / shop",
+    "hanzi": "商店",
+    "pinyin": "shāng diàn",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "library",
+    "hanzi": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  },
+  {
+    "english": "home / family",
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "difficulty": "simple",
+    "category": "HSK 1"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "乐坏了-le4-huai4-le5",
+    "hanzi": "乐坏了",
+    "pinyin": "lè huài le",
+    "english": "ecstatic",
+    "band": "rare",
+    "zipf": 2.55
+  },
+  {
+    "id": "兴奋-xing1-fen4",
+    "hanzi": "兴奋",
+    "pinyin": "xīng fèn",
+    "english": "excited",
+    "band": "mid",
+    "zipf": 4.7
+  },
+  {
+    "id": "吃惊-chi1-jing1",
+    "hanzi": "吃惊",
+    "pinyin": "chī jīng",
+    "english": "surprised",
+    "band": "rare",
+    "zipf": 4.02
+  },
+  {
+    "id": "哭-ku1",
+    "hanzi": "哭",
+    "pinyin": "kū",
+    "english": "cry",
+    "band": "mid",
+    "zipf": 4.84
+  },
+  {
+    "id": "失望-shi1-wang4",
+    "hanzi": "失望",
+    "pinyin": "shī wàng",
+    "english": "disappointed",
+    "band": "mid",
+    "zipf": 4.69
+  },
+  {
+    "id": "嫉妒-ji2-du4",
+    "hanzi": "嫉妒",
+    "pinyin": "jí dù",
+    "english": "jealous",
+    "band": "rare",
+    "zipf": 4.03
+  },
+  {
+    "id": "孤单-gu1-dan1",
+    "hanzi": "孤单",
+    "pinyin": "gū dān",
+    "english": "lonely",
+    "band": "rare",
+    "zipf": 4.01
+  },
+  {
+    "id": "宁静-ning2-jing4",
+    "hanzi": "宁静",
+    "pinyin": "níng jìng",
+    "english": "serene",
+    "band": "rare",
+    "zipf": 4.01
+  },
+  {
+    "id": "害怕-hai4-pa4",
+    "hanzi": "害怕",
+    "pinyin": "hài pà",
+    "english": "afraid",
+    "band": "mid",
+    "zipf": 4.97
+  },
+  {
+    "id": "害羞-hai4-xiu1",
+    "hanzi": "害羞",
+    "pinyin": "hài xiū",
+    "english": "shy",
+    "band": "rare",
+    "zipf": 3.95
+  },
+  {
+    "id": "希望-xi1-wang4",
+    "hanzi": "希望",
+    "pinyin": "xī wàng",
+    "english": "hope",
+    "band": "common",
+    "zipf": 5.72
+  },
+  {
+    "id": "平静-ping2-jing4",
+    "hanzi": "平静",
+    "pinyin": "píng jìng",
+    "english": "calm",
+    "band": "mid",
+    "zipf": 4.34
+  },
+  {
+    "id": "开心-kai1-xin1",
+    "hanzi": "开心",
+    "pinyin": "kāi xīn",
+    "english": "joyful",
+    "band": "mid",
+    "zipf": 4.96
+  },
+  {
+    "id": "感谢-gan3-xie4",
+    "hanzi": "感谢",
+    "pinyin": "gǎn xiè",
+    "english": "thank",
+    "band": "common",
+    "zipf": 5.06
+  },
+  {
+    "id": "担心-dan1-xin1",
+    "hanzi": "担心",
+    "pinyin": "dān xīn",
+    "english": "anxious",
+    "band": "common",
+    "zipf": 5.16
+  },
+  {
+    "id": "放松-fang4-song1",
+    "hanzi": "放松",
+    "pinyin": "fàng sōng",
+    "english": "relaxed",
+    "band": "mid",
+    "zipf": 4.41
+  },
+  {
+    "id": "无奈-wu2-nai4",
+    "hanzi": "无奈",
+    "pinyin": "wú nài",
+    "english": "helpless",
+    "band": "mid",
+    "zipf": 4.23
+  },
+  {
+    "id": "无聊-wu2-liao2",
+    "hanzi": "无聊",
+    "pinyin": "wú liáo",
+    "english": "bored",
+    "band": "mid",
+    "zipf": 4.42
+  },
+  {
+    "id": "气死了-qi4-si3-le5",
+    "hanzi": "气死了",
+    "pinyin": "qì sǐ le",
+    "english": "furious",
+    "band": "rare",
+    "zipf": 2.41
+  },
+  {
+    "id": "爱-ai4",
+    "hanzi": "爱",
+    "pinyin": "ài",
+    "english": "love",
+    "band": "common",
+    "zipf": 5.86
+  },
+  {
+    "id": "生气-sheng1-qi4",
+    "hanzi": "生气",
+    "pinyin": "shēng qì",
+    "english": "angry",
+    "band": "mid",
+    "zipf": 4.64
+  },
+  {
+    "id": "痛苦-tong4-ku3",
+    "hanzi": "痛苦",
+    "pinyin": "tòng kǔ",
+    "english": "painful",
+    "band": "mid",
+    "zipf": 4.86
+  },
+  {
+    "id": "笑-xiao4",
+    "hanzi": "笑",
+    "pinyin": "xiào",
+    "english": "laugh",
+    "band": "common",
+    "zipf": 5.2
+  },
+  {
+    "id": "紧张-jin3-zhang1",
+    "hanzi": "紧张",
+    "pinyin": "jǐn zhāng",
+    "english": "nervous",
+    "band": "mid",
+    "zipf": 4.94
+  },
+  {
+    "id": "累-lei4",
+    "hanzi": "累",
+    "pinyin": "lèi",
+    "english": "tired",
+    "band": "mid",
+    "zipf": 4.5
+  },
+  {
+    "id": "羡慕-xian4-mu4",
+    "hanzi": "羡慕",
+    "pinyin": "xiàn mù",
+    "english": "envious",
+    "band": "rare",
+    "zipf": 4.08
+  },
+  {
+    "id": "讨厌-tao3-yan4",
+    "hanzi": "讨厌",
+    "pinyin": "tǎo yàn",
+    "english": "hate",
+    "band": "mid",
+    "zipf": 4.79
+  },
+  {
+    "id": "难过-nan2-guo4",
+    "hanzi": "难过",
+    "pinyin": "nán guò",
+    "english": "sad",
+    "band": "mid",
+    "zipf": 4.61
+  },
+  {
+    "id": "骄傲-jiao1-ao4",
+    "hanzi": "骄傲",
+    "pinyin": "jiāo ào",
+    "english": "proud",
+    "band": "mid",
+    "zipf": 4.55
+  },
+  {
+    "id": "高兴-gao1-xing4",
+    "hanzi": "高兴",
+    "pinyin": "gāo xìng",
+    "english": "happy",
+    "band": "common",
+    "zipf": 5
+  }
+]

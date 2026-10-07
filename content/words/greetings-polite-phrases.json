@@ -1,0 +1,234 @@
+[
+  {
+    "id": "下午好-xia4-wu3-hao3",
+    "hanzi": "下午好",
+    "pinyin": "xià wǔ hǎo",
+    "english": "good afternoon",
+    "band": "rare",
+    "zipf": 3.98
+  },
+  {
+    "id": "不好意思-bu4-hao3-yi4-si5",
+    "hanzi": "不好意思",
+    "pinyin": "bù hǎo yì si",
+    "english": "excuse me",
+    "band": "mid",
+    "zipf": 4.21
+  },
+  {
+    "id": "不客气-bu2-ke4-qi4",
+    "hanzi": "不客气",
+    "pinyin": "bú kè qì",
+    "english": "you're welcome",
+    "band": "rare",
+    "zipf": 3.32
+  },
+  {
+    "id": "久仰-jiu3-yang3",
+    "hanzi": "久仰",
+    "pinyin": "jiǔ yǎng",
+    "english": "how do you do",
+    "band": "rare",
+    "zipf": 2.2
+  },
+  {
+    "id": "你好-ni3-hao3",
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "english": "hello",
+    "band": "mid",
+    "zipf": 4.69
+  },
+  {
+    "id": "你好吗-ni3-hao3-ma5",
+    "hanzi": "你好吗",
+    "pinyin": "nǐ hǎo ma",
+    "english": "how are you?",
+    "band": "rare",
+    "zipf": 3.68
+  },
+  {
+    "id": "保佑你-bao3-you4-ni3",
+    "hanzi": "保佑你",
+    "pinyin": "bǎo yòu nǐ",
+    "english": "bless you",
+    "band": "rare",
+    "zipf": 2.95
+  },
+  {
+    "id": "保重-bao3-zhong4",
+    "hanzi": "保重",
+    "pinyin": "bǎo zhòng",
+    "english": "take care",
+    "band": "rare",
+    "zipf": 3.6
+  },
+  {
+    "id": "再见-zai4-jian4",
+    "hanzi": "再见",
+    "pinyin": "zài jiàn",
+    "english": "goodbye",
+    "band": "mid",
+    "zipf": 4.47
+  },
+  {
+    "id": "回头见-hui2-tou2-jian4",
+    "hanzi": "回头见",
+    "pinyin": "huí tóu jiàn",
+    "english": "see you later",
+    "band": "rare",
+    "zipf": 3.4
+  },
+  {
+    "id": "好久不见-hao3-jiu3-bu2-jian4",
+    "hanzi": "好久不见",
+    "pinyin": "hǎo jiǔ bú jiàn",
+    "english": "long time no see",
+    "band": "rare",
+    "zipf": 3.57
+  },
+  {
+    "id": "好运-hao3-yun4",
+    "hanzi": "好运",
+    "pinyin": "hǎo yùn",
+    "english": "good luck",
+    "band": "mid",
+    "zipf": 4.21
+  },
+  {
+    "id": "对不起-dui4-bu4-qi3",
+    "hanzi": "对不起",
+    "pinyin": "duì bù qǐ",
+    "english": "sorry",
+    "band": "mid",
+    "zipf": 4.66
+  },
+  {
+    "id": "干杯-gan1-bei1",
+    "hanzi": "干杯",
+    "pinyin": "gān bēi",
+    "english": "cheers",
+    "band": "rare",
+    "zipf": 3.06
+  },
+  {
+    "id": "恭喜-gong1-xi3",
+    "hanzi": "恭喜",
+    "pinyin": "gōng xǐ",
+    "english": "congratulations",
+    "band": "mid",
+    "zipf": 4.36
+  },
+  {
+    "id": "拜拜-bai2-bai2",
+    "hanzi": "拜拜",
+    "pinyin": "bái bái",
+    "english": "bye bye",
+    "band": "rare",
+    "zipf": 3.43
+  },
+  {
+    "id": "新年快乐-xin1-nian2-kuai4-le4",
+    "hanzi": "新年快乐",
+    "pinyin": "xīn nián kuài lè",
+    "english": "happy new year",
+    "band": "rare",
+    "zipf": 3.58
+  },
+  {
+    "id": "早上好-zao3-shang4-hao3",
+    "hanzi": "早上好",
+    "pinyin": "zǎo shàng hǎo",
+    "english": "good morning",
+    "band": "rare",
+    "zipf": 3.74
+  },
+  {
+    "id": "晚上好-wan3-shang4-hao3",
+    "hanzi": "晚上好",
+    "pinyin": "wǎn shàng hǎo",
+    "english": "good evening",
+    "band": "rare",
+    "zipf": 4.11
+  },
+  {
+    "id": "欢迎-huan1-ying2",
+    "hanzi": "欢迎",
+    "pinyin": "huān yíng",
+    "english": "welcome",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "没事-mei2-shi4",
+    "hanzi": "没事",
+    "pinyin": "méi shì",
+    "english": "it's okay",
+    "band": "mid",
+    "zipf": 4.52
+  },
+  {
+    "id": "没关系-mei2-guan1-xi4",
+    "hanzi": "没关系",
+    "pinyin": "méi guān xì",
+    "english": "never mind",
+    "band": "mid",
+    "zipf": 4.41
+  },
+  {
+    "id": "没问题-mei2-wen4-ti2",
+    "hanzi": "没问题",
+    "pinyin": "méi wèn tí",
+    "english": "no problem",
+    "band": "mid",
+    "zipf": 4.82
+  },
+  {
+    "id": "生日快乐-sheng1-ri4-kuai4-le4",
+    "hanzi": "生日快乐",
+    "pinyin": "shēng rì kuài lè",
+    "english": "happy birthday",
+    "band": "rare",
+    "zipf": 3.96
+  },
+  {
+    "id": "祝好-zhu4-hao3",
+    "hanzi": "祝好",
+    "pinyin": "zhù hǎo",
+    "english": "have a nice day",
+    "band": "rare",
+    "zipf": 3.56
+  },
+  {
+    "id": "认识你很高兴-ren4-shi5-ni3-hen3-gao1-xing4",
+    "hanzi": "认识你很高兴",
+    "pinyin": "rèn shi nǐ hěn gāo xìng",
+    "english": "nice to meet you",
+    "band": "rare",
+    "zipf": 1.85
+  },
+  {
+    "id": "请-qing3",
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "english": "please",
+    "band": "common",
+    "zipf": 5.77
+  },
+  {
+    "id": "请再说一遍-qing3-zai4-shuo1-yi1-bian4",
+    "hanzi": "请再说一遍",
+    "pinyin": "qǐng zài shuō yī biàn",
+    "english": "pardon me",
+    "band": "rare",
+    "zipf": 2.17
+  },
+  {
+    "id": "谢谢-xie4-xie5",
+    "hanzi": "谢谢",
+    "pinyin": "xiè xie",
+    "english": "thank you",
+    "band": "common",
+    "zipf": 5.16
+  }
+]

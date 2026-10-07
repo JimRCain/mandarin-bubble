@@ -1,0 +1,242 @@
+[
+  {
+    "id": "冰川-bing1-chuan1",
+    "hanzi": "冰川",
+    "pinyin": "bīng chuān",
+    "english": "glacier",
+    "band": "rare",
+    "zipf": 3.86
+  },
+  {
+    "id": "土-tu3",
+    "hanzi": "土",
+    "pinyin": "tǔ",
+    "english": "earth",
+    "band": "mid",
+    "zipf": 4.46
+  },
+  {
+    "id": "天空-tian1-kong1",
+    "hanzi": "天空",
+    "pinyin": "tiān kōng",
+    "english": "sky",
+    "band": "mid",
+    "zipf": 4.61
+  },
+  {
+    "id": "太阳-tai4-yang2",
+    "hanzi": "太阳",
+    "pinyin": "tài yáng",
+    "english": "sun",
+    "band": "mid",
+    "zipf": 4.89
+  },
+  {
+    "id": "小山-xiao3-shan1",
+    "hanzi": "小山",
+    "pinyin": "xiǎo shān",
+    "english": "hill",
+    "band": "rare",
+    "zipf": 3.31
+  },
+  {
+    "id": "山-shan1",
+    "hanzi": "山",
+    "pinyin": "shān",
+    "english": "mountain",
+    "band": "mid",
+    "zipf": 4.99
+  },
+  {
+    "id": "山谷-shan1-gu3",
+    "hanzi": "山谷",
+    "pinyin": "shān gǔ",
+    "english": "valley",
+    "band": "rare",
+    "zipf": 3.9
+  },
+  {
+    "id": "岛-dao3",
+    "hanzi": "岛",
+    "pinyin": "dǎo",
+    "english": "island",
+    "band": "mid",
+    "zipf": 4.85
+  },
+  {
+    "id": "岸边-an4-bian1",
+    "hanzi": "岸边",
+    "pinyin": "àn biān",
+    "english": "shore",
+    "band": "rare",
+    "zipf": 3.68
+  },
+  {
+    "id": "彩虹-cai3-hong2",
+    "hanzi": "彩虹",
+    "pinyin": "cǎi hóng",
+    "english": "rainbow",
+    "band": "rare",
+    "zipf": 4.1
+  },
+  {
+    "id": "悬崖-xuan2-ya2",
+    "hanzi": "悬崖",
+    "pinyin": "xuán yá",
+    "english": "cliff",
+    "band": "rare",
+    "zipf": 3.92
+  },
+  {
+    "id": "星星-xing1-xing5",
+    "hanzi": "星星",
+    "pinyin": "xīng xing",
+    "english": "star",
+    "band": "rare",
+    "zipf": 4.12
+  },
+  {
+    "id": "月亮-yue4-liang4",
+    "hanzi": "月亮",
+    "pinyin": "yuè liàng",
+    "english": "moon",
+    "band": "mid",
+    "zipf": 4.26
+  },
+  {
+    "id": "树-shu4",
+    "hanzi": "树",
+    "pinyin": "shù",
+    "english": "tree",
+    "band": "mid",
+    "zipf": 4.66
+  },
+  {
+    "id": "森林-sen1-lin2",
+    "hanzi": "森林",
+    "pinyin": "sēn lín",
+    "english": "forest",
+    "band": "mid",
+    "zipf": 4.85
+  },
+  {
+    "id": "水-shui3",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "english": "water",
+    "band": "common",
+    "zipf": 5.3
+  },
+  {
+    "id": "池塘-chi2-tang2",
+    "hanzi": "池塘",
+    "pinyin": "chí táng",
+    "english": "pond",
+    "band": "rare",
+    "zipf": 3.72
+  },
+  {
+    "id": "沙漠-sha1-mo4",
+    "hanzi": "沙漠",
+    "pinyin": "shā mò",
+    "english": "desert",
+    "band": "mid",
+    "zipf": 4.39
+  },
+  {
+    "id": "河-he2",
+    "hanzi": "河",
+    "pinyin": "hé",
+    "english": "river",
+    "band": "mid",
+    "zipf": 4.74
+  },
+  {
+    "id": "洞穴-dong4-xue2",
+    "hanzi": "洞穴",
+    "pinyin": "dòng xué",
+    "english": "cave",
+    "band": "rare",
+    "zipf": 3.92
+  },
+  {
+    "id": "海-hai3",
+    "hanzi": "海",
+    "pinyin": "hǎi",
+    "english": "sea",
+    "band": "mid",
+    "zipf": 4.86
+  },
+  {
+    "id": "海岸-hai3-an4",
+    "hanzi": "海岸",
+    "pinyin": "hǎi àn",
+    "english": "coast",
+    "band": "mid",
+    "zipf": 4.37
+  },
+  {
+    "id": "湖-hu2",
+    "hanzi": "湖",
+    "pinyin": "hú",
+    "english": "lake",
+    "band": "mid",
+    "zipf": 4.49
+  },
+  {
+    "id": "溪流-xi1-liu2",
+    "hanzi": "溪流",
+    "pinyin": "xī liú",
+    "english": "stream",
+    "band": "rare",
+    "zipf": 3.25
+  },
+  {
+    "id": "瀑布-pu4-bu4",
+    "hanzi": "瀑布",
+    "pinyin": "pù bù",
+    "english": "waterfall",
+    "band": "rare",
+    "zipf": 4.06
+  },
+  {
+    "id": "火-huo3",
+    "hanzi": "火",
+    "pinyin": "huǒ",
+    "english": "fire",
+    "band": "mid",
+    "zipf": 4.65
+  },
+  {
+    "id": "火山-huo3-shan1",
+    "hanzi": "火山",
+    "pinyin": "huǒ shān",
+    "english": "volcano",
+    "band": "mid",
+    "zipf": 4.27
+  },
+  {
+    "id": "石头-shi2-tou5",
+    "hanzi": "石头",
+    "pinyin": "shí tou",
+    "english": "stone",
+    "band": "mid",
+    "zipf": 4.5
+  },
+  {
+    "id": "花-hua1",
+    "hanzi": "花",
+    "pinyin": "huā",
+    "english": "flower",
+    "band": "common",
+    "zipf": 5.16
+  },
+  {
+    "id": "草-cao3",
+    "hanzi": "草",
+    "pinyin": "cǎo",
+    "english": "grass",
+    "band": "mid",
+    "zipf": 4.74
+  }
+]

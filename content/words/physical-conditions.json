@@ -1,0 +1,242 @@
+[
+  {
+    "id": "不新鲜-bu4-xin1-xian1",
+    "hanzi": "不新鲜",
+    "pinyin": "bù xīn xiān",
+    "english": "stale",
+    "band": "rare",
+    "zipf": 3.43
+  },
+  {
+    "id": "亮-liang4",
+    "hanzi": "亮",
+    "pinyin": "liàng",
+    "english": "bright",
+    "band": "mid",
+    "zipf": 4.28
+  },
+  {
+    "id": "光滑-guang1-hua2",
+    "hanzi": "光滑",
+    "pinyin": "guāng huá",
+    "english": "smooth",
+    "band": "rare",
+    "zipf": 3.69
+  },
+  {
+    "id": "冷-leng3",
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "english": "cold",
+    "band": "mid",
+    "zipf": 4.63
+  },
+  {
+    "id": "冷冻-leng3-dong4",
+    "hanzi": "冷冻",
+    "pinyin": "lěng dòng",
+    "english": "frozen",
+    "band": "rare",
+    "zipf": 3.71
+  },
+  {
+    "id": "凉快-liang2-kuai5",
+    "hanzi": "凉快",
+    "pinyin": "liáng kuai",
+    "english": "cool",
+    "band": "rare",
+    "zipf": 3.23
+  },
+  {
+    "id": "吵-chao3",
+    "hanzi": "吵",
+    "pinyin": "chǎo",
+    "english": "noisy",
+    "band": "rare",
+    "zipf": 4.13
+  },
+  {
+    "id": "坏了-huai4-le5",
+    "hanzi": "坏了",
+    "pinyin": "huài le",
+    "english": "broken",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "安静-an1-jing4",
+    "hanzi": "安静",
+    "pinyin": "ān jìng",
+    "english": "quiet",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "干-gan1",
+    "hanzi": "干",
+    "pinyin": "gān",
+    "english": "dry",
+    "band": "common",
+    "zipf": 5.52
+  },
+  {
+    "id": "干净-gan1-jing4",
+    "hanzi": "干净",
+    "pinyin": "gān jìng",
+    "english": "clean",
+    "band": "mid",
+    "zipf": 4.65
+  },
+  {
+    "id": "新鲜-xin1-xian1",
+    "hanzi": "新鲜",
+    "pinyin": "xīn xiān",
+    "english": "fresh",
+    "band": "mid",
+    "zipf": 4.43
+  },
+  {
+    "id": "暖和-nuan3-huo5",
+    "hanzi": "暖和",
+    "pinyin": "nuǎn huo",
+    "english": "warm",
+    "band": "rare",
+    "zipf": 3.49
+  },
+  {
+    "id": "暗-an4",
+    "hanzi": "暗",
+    "pinyin": "àn",
+    "english": "dark",
+    "band": "mid",
+    "zipf": 4.36
+  },
+  {
+    "id": "松-song1",
+    "hanzi": "松",
+    "pinyin": "sōng",
+    "english": "loose",
+    "band": "mid",
+    "zipf": 4.53
+  },
+  {
+    "id": "湿-shi1",
+    "hanzi": "湿",
+    "pinyin": "shī",
+    "english": "wet",
+    "band": "mid",
+    "zipf": 4.22
+  },
+  {
+    "id": "滑-hua2",
+    "hanzi": "滑",
+    "pinyin": "huá",
+    "english": "slippery",
+    "band": "rare",
+    "zipf": 4.09
+  },
+  {
+    "id": "满-man3",
+    "hanzi": "满",
+    "pinyin": "mǎn",
+    "english": "full",
+    "band": "mid",
+    "zipf": 4.75
+  },
+  {
+    "id": "热-re4",
+    "hanzi": "热",
+    "pinyin": "rè",
+    "english": "hot",
+    "band": "mid",
+    "zipf": 4.99
+  },
+  {
+    "id": "熟-shu2",
+    "hanzi": "熟",
+    "pinyin": "shú",
+    "english": "ripe",
+    "band": "mid",
+    "zipf": 4.43
+  },
+  {
+    "id": "生-sheng1",
+    "hanzi": "生",
+    "pinyin": "shēng",
+    "english": "raw",
+    "band": "common",
+    "zipf": 5.3
+  },
+  {
+    "id": "空-kong1",
+    "hanzi": "空",
+    "pinyin": "kōng",
+    "english": "empty",
+    "band": "mid",
+    "zipf": 4.62
+  },
+  {
+    "id": "粗糙-cu1-cao1",
+    "hanzi": "粗糙",
+    "pinyin": "cū cāo",
+    "english": "rough",
+    "band": "rare",
+    "zipf": 3.77
+  },
+  {
+    "id": "粘-zhan1",
+    "hanzi": "粘",
+    "pinyin": "zhān",
+    "english": "sticky",
+    "band": "rare",
+    "zipf": 4.04
+  },
+  {
+    "id": "紧-jin3",
+    "hanzi": "紧",
+    "pinyin": "jǐn",
+    "english": "tight",
+    "band": "mid",
+    "zipf": 4.63
+  },
+  {
+    "id": "脏-zang1",
+    "hanzi": "脏",
+    "pinyin": "zāng",
+    "english": "dirty",
+    "band": "rare",
+    "zipf": 4.05
+  },
+  {
+    "id": "舒服-shu1-fu5",
+    "hanzi": "舒服",
+    "pinyin": "shū fu",
+    "english": "comfortable",
+    "band": "mid",
+    "zipf": 4.56
+  },
+  {
+    "id": "融化-rong2-hua4",
+    "hanzi": "融化",
+    "pinyin": "róng huà",
+    "english": "melted",
+    "band": "rare",
+    "zipf": 3.86
+  },
+  {
+    "id": "钝-dun4",
+    "hanzi": "钝",
+    "pinyin": "dùn",
+    "english": "dull",
+    "band": "rare",
+    "zipf": 3.4
+  },
+  {
+    "id": "锋利-feng1-li4",
+    "hanzi": "锋利",
+    "pinyin": "fēng lì",
+    "english": "sharp",
+    "band": "rare",
+    "zipf": 3.44
+  }
+]

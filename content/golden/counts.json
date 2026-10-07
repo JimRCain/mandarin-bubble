@@ -1,0 +1,667 @@
+{
+  "generatedBy": "scripts/content-migrate.mjs — do not edit by hand; CI diffs this file",
+  "source": "POC corpus snapshot 2026-10-05 + 45 expansion words",
+  "totals": {
+    "decks": 50,
+    "entries": 3081,
+    "duplicateEntries": 736,
+    "uniqueWords": 2345,
+    "bands": {
+      "common": 1057,
+      "mid": 1138,
+      "rare": 886
+    }
+  },
+  "decks": [
+    {
+      "id": "colors",
+      "name": "Colors",
+      "group": "Nouns",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 0,
+        "mid": 6,
+        "rare": 24
+      },
+      "usableBands": 2
+    },
+    {
+      "id": "numbers-1-20",
+      "name": "Numbers (1-20)",
+      "group": "Nouns",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 9,
+        "mid": 18,
+        "rare": 3
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "family",
+      "name": "Family (immediate)",
+      "group": "Nouns",
+      "entries": 35,
+      "uniqueWords": 35,
+      "bands": {
+        "common": 5,
+        "mid": 13,
+        "rare": 17
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "animals",
+      "name": "Animals",
+      "group": "Nouns",
+      "entries": 48,
+      "uniqueWords": 48,
+      "bands": {
+        "common": 2,
+        "mid": 12,
+        "rare": 34
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "fruits",
+      "name": "Fruits",
+      "group": "Nouns",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 1,
+        "mid": 0,
+        "rare": 29
+      },
+      "usableBands": 2
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "group": "Nouns",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 0,
+        "mid": 1,
+        "rare": 29
+      },
+      "usableBands": 2
+    },
+    {
+      "id": "food",
+      "name": "Food",
+      "group": "Nouns",
+      "entries": 32,
+      "uniqueWords": 32,
+      "bands": {
+        "common": 0,
+        "mid": 8,
+        "rare": 24
+      },
+      "usableBands": 2
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "group": "Nouns",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 1,
+        "mid": 4,
+        "rare": 25
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "group": "Nouns",
+      "entries": 31,
+      "uniqueWords": 31,
+      "bands": {
+        "common": 0,
+        "mid": 4,
+        "rare": 27
+      },
+      "usableBands": 2
+    },
+    {
+      "id": "house-rooms",
+      "name": "House-rooms",
+      "group": "Nouns",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 1,
+        "mid": 8,
+        "rare": 21
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "furniture",
+      "name": "Furniture",
+      "group": "Nouns",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 0,
+        "mid": 6,
+        "rare": 24
+      },
+      "usableBands": 2
+    },
+    {
+      "id": "school-objects",
+      "name": "School objects",
+      "group": "Nouns",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 3,
+        "mid": 4,
+        "rare": 23
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "hobbies",
+      "name": "Hobbies",
+      "group": "Nouns",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 4,
+        "mid": 6,
+        "rare": 20
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "group": "Nouns",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 2,
+        "mid": 3,
+        "rare": 25
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "body-parts",
+      "name": "Body parts",
+      "group": "Nouns",
+      "entries": 31,
+      "uniqueWords": 31,
+      "bands": {
+        "common": 3,
+        "mid": 13,
+        "rare": 15
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "group": "Nouns",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 2,
+        "mid": 6,
+        "rare": 22
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "daily-routines",
+      "name": "Daily routines",
+      "group": "Verbs & Routines",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 20,
+        "mid": 6,
+        "rare": 4
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "body-actions",
+      "name": "Body actions (run, jump, sit, clap, etc.)",
+      "group": "Verbs & Routines",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 7,
+        "mid": 7,
+        "rare": 16
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "communication-verbs",
+      "name": "Communication verbs",
+      "group": "Verbs & Routines",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 16,
+        "mid": 8,
+        "rare": 6
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "mental-verbs",
+      "name": "Mental verbs",
+      "group": "Verbs & Routines",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 10,
+        "mid": 13,
+        "rare": 7
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "sensory-verbs",
+      "name": "Sensory verbs",
+      "group": "Verbs & Routines",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 5,
+        "mid": 8,
+        "rare": 17
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "cooking-household-verbs",
+      "name": "Cooking & household verbs",
+      "group": "Verbs & Routines",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 0,
+        "mid": 10,
+        "rare": 20
+      },
+      "usableBands": 2
+    },
+    {
+      "id": "modal-verbs",
+      "name": "Modal verbs",
+      "group": "Verbs & Routines",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 22,
+        "mid": 6,
+        "rare": 2
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "emotion-state-verbs",
+      "name": "Emotion-state verbs",
+      "group": "Verbs & Routines",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 4,
+        "mid": 14,
+        "rare": 12
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "emotions",
+      "name": "Emotions",
+      "group": "Adjectives & Emotions",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 6,
+        "mid": 16,
+        "rare": 8
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "size-shape",
+      "name": "Size-shape",
+      "group": "Adjectives & Emotions",
+      "entries": 29,
+      "uniqueWords": 29,
+      "bands": {
+        "common": 5,
+        "mid": 10,
+        "rare": 14
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "opposites",
+      "name": "Opposites",
+      "group": "Adjectives & Emotions",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 12,
+        "mid": 17,
+        "rare": 1
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "personality-traits",
+      "name": "Personality traits",
+      "group": "Adjectives & Emotions",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 1,
+        "mid": 13,
+        "rare": 16
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "physical-conditions",
+      "name": "Physical conditions",
+      "group": "Adjectives & Emotions",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 2,
+        "mid": 14,
+        "rare": 14
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "nationalities-languages",
+      "name": "Nationalities & languages",
+      "group": "Adjectives & Emotions",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 4,
+        "mid": 7,
+        "rare": 19
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "group": "Time, Weather, Nature",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 1,
+        "mid": 8,
+        "rare": 21
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "group": "Time, Weather, Nature",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 2,
+        "mid": 17,
+        "rare": 11
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "days-of-week",
+      "name": "Days of week",
+      "group": "Time, Weather, Nature",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 10,
+        "mid": 12,
+        "rare": 8
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "months-seasons",
+      "name": "Months-seasons",
+      "group": "Time, Weather, Nature",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 0,
+        "mid": 15,
+        "rare": 15
+      },
+      "usableBands": 2
+    },
+    {
+      "id": "time-expressions",
+      "name": "Time expressions (relative)",
+      "group": "Time, Weather, Nature",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 16,
+        "mid": 12,
+        "rare": 2
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "frequency-adverbs",
+      "name": "Frequency adverbs",
+      "group": "Time, Weather, Nature",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 10,
+        "mid": 14,
+        "rare": 6
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "greetings-polite-phrases",
+      "name": "Greetings-polite-phrases",
+      "group": "Social & Travel",
+      "entries": 29,
+      "uniqueWords": 29,
+      "bands": {
+        "common": 3,
+        "mid": 9,
+        "rare": 17
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "transportation",
+      "name": "Transportation",
+      "group": "Social & Travel",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 2,
+        "mid": 6,
+        "rare": 22
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "occupations",
+      "name": "Occupations (basic)",
+      "group": "Social & Travel",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 8,
+        "mid": 12,
+        "rare": 10
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "social-activities",
+      "name": "Social activities",
+      "group": "Social & Travel",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 3,
+        "mid": 11,
+        "rare": 16
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "travel-directions",
+      "name": "Travel & directions",
+      "group": "Social & Travel",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 3,
+        "mid": 13,
+        "rare": 14
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "shopping-money",
+      "name": "Shopping & money",
+      "group": "Social & Travel",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 3,
+        "mid": 12,
+        "rare": 15
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "license-plates",
+      "name": "Chinese license plates",
+      "group": "Social & Travel",
+      "entries": 33,
+      "uniqueWords": 33,
+      "bands": {
+        "common": 3,
+        "mid": 11,
+        "rare": 19
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "hsk-1",
+      "name": "HSK 1",
+      "group": "HSK",
+      "entries": 159,
+      "uniqueWords": 159,
+      "bands": {
+        "common": 105,
+        "mid": 42,
+        "rare": 12
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "hsk-2",
+      "name": "HSK 2",
+      "group": "HSK",
+      "entries": 150,
+      "uniqueWords": 150,
+      "bands": {
+        "common": 62,
+        "mid": 57,
+        "rare": 31
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "hsk-3",
+      "name": "HSK 3",
+      "group": "HSK",
+      "entries": 257,
+      "uniqueWords": 257,
+      "bands": {
+        "common": 133,
+        "mid": 97,
+        "rare": 27
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "hsk-4",
+      "name": "HSK 4",
+      "group": "HSK",
+      "entries": 276,
+      "uniqueWords": 276,
+      "bands": {
+        "common": 130,
+        "mid": 109,
+        "rare": 37
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "hsk-5",
+      "name": "HSK 5",
+      "group": "HSK",
+      "entries": 863,
+      "uniqueWords": 863,
+      "bands": {
+        "common": 390,
+        "mid": 397,
+        "rare": 76
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "adverbs-of-degree",
+      "name": "Common adverbs of degree",
+      "group": "Grammar & Function Words",
+      "entries": 30,
+      "uniqueWords": 30,
+      "bands": {
+        "common": 16,
+        "mid": 11,
+        "rare": 3
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "prepositions-location-words",
+      "name": "Prepositions & location words",
+      "group": "Grammar & Function Words",
+      "entries": 28,
+      "uniqueWords": 28,
+      "bands": {
+        "common": 10,
+        "mid": 12,
+        "rare": 6
+      },
+      "usableBands": 3
+    }
+  ]
+}

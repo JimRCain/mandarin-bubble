@@ -1,0 +1,242 @@
+[
+  {
+    "id": "一次-yi1-ci4",
+    "hanzi": "一次",
+    "pinyin": "yī cì",
+    "english": "once",
+    "band": "common",
+    "zipf": 5.54
+  },
+  {
+    "id": "一直-yi1-zhi2",
+    "hanzi": "一直",
+    "pinyin": "yī zhí",
+    "english": "all the time",
+    "band": "common",
+    "zipf": 5.64
+  },
+  {
+    "id": "三次-san1-ci4",
+    "hanzi": "三次",
+    "pinyin": "sān cì",
+    "english": "three times",
+    "band": "mid",
+    "zipf": 4.43
+  },
+  {
+    "id": "不断-bu4-duan4",
+    "hanzi": "不断",
+    "pinyin": "bù duàn",
+    "english": "constantly",
+    "band": "common",
+    "zipf": 5.46
+  },
+  {
+    "id": "两次-liang3-ci4",
+    "hanzi": "两次",
+    "pinyin": "liǎng cì",
+    "english": "twice",
+    "band": "mid",
+    "zipf": 4.68
+  },
+  {
+    "id": "从不-cong2-bu4",
+    "hanzi": "从不",
+    "pinyin": "cóng bù",
+    "english": "never",
+    "band": "mid",
+    "zipf": 4.39
+  },
+  {
+    "id": "偶尔-ou3-er3",
+    "hanzi": "偶尔",
+    "pinyin": "ǒu ěr",
+    "english": "occasionally",
+    "band": "mid",
+    "zipf": 4.42
+  },
+  {
+    "id": "再-zai4",
+    "hanzi": "再",
+    "pinyin": "zài",
+    "english": "again (future)",
+    "band": "common",
+    "zipf": 5.89
+  },
+  {
+    "id": "几乎不-ji1-hu1-bu4",
+    "hanzi": "几乎不",
+    "pinyin": "jī hū bù",
+    "english": "hardly",
+    "band": "mid",
+    "zipf": 4.22
+  },
+  {
+    "id": "几次-ji3-ci4",
+    "hanzi": "几次",
+    "pinyin": "jǐ cì",
+    "english": "several times",
+    "band": "mid",
+    "zipf": 4.49
+  },
+  {
+    "id": "又-you4",
+    "hanzi": "又",
+    "pinyin": "yòu",
+    "english": "again",
+    "band": "common",
+    "zipf": 6.14
+  },
+  {
+    "id": "反复-fan3-fu4",
+    "hanzi": "反复",
+    "pinyin": "fǎn fù",
+    "english": "repeatedly",
+    "band": "mid",
+    "zipf": 4.35
+  },
+  {
+    "id": "很少-hen3-shao3",
+    "hanzi": "很少",
+    "pinyin": "hěn shǎo",
+    "english": "rarely",
+    "band": "mid",
+    "zipf": 4.69
+  },
+  {
+    "id": "总是-zong3-shi4",
+    "hanzi": "总是",
+    "pinyin": "zǒng shì",
+    "english": "always",
+    "band": "common",
+    "zipf": 5.2
+  },
+  {
+    "id": "日复一日-ri4-fu4-yi1-ri4",
+    "hanzi": "日复一日",
+    "pinyin": "rì fù yī rì",
+    "english": "day after day",
+    "band": "rare",
+    "zipf": 3.37
+  },
+  {
+    "id": "时不时-shi2-bu4-shi2",
+    "hanzi": "时不时",
+    "pinyin": "shí bù shí",
+    "english": "from time to time",
+    "band": "rare",
+    "zipf": 3.61
+  },
+  {
+    "id": "有时候-you3-shi2-hou5",
+    "hanzi": "有时候",
+    "pinyin": "yǒu shí hou",
+    "english": "sometimes",
+    "band": "mid",
+    "zipf": 4.62
+  },
+  {
+    "id": "每周-mei3-zhou1",
+    "hanzi": "每周",
+    "pinyin": "měi zhōu",
+    "english": "every week",
+    "band": "mid",
+    "zipf": 4.45
+  },
+  {
+    "id": "每周一次-mei3-zhou1-yi1-ci4",
+    "hanzi": "每周一次",
+    "pinyin": "měi zhōu yī cì",
+    "english": "weekly",
+    "band": "rare",
+    "zipf": 3.42
+  },
+  {
+    "id": "每天-mei3-tian1",
+    "hanzi": "每天",
+    "pinyin": "měi tiān",
+    "english": "every day",
+    "band": "common",
+    "zipf": 5.19
+  },
+  {
+    "id": "每年-mei3-nian2",
+    "hanzi": "每年",
+    "pinyin": "měi nián",
+    "english": "every year",
+    "band": "common",
+    "zipf": 5.15
+  },
+  {
+    "id": "每年一次-mei3-nian2-yi1-ci4",
+    "hanzi": "每年一次",
+    "pinyin": "měi nián yī cì",
+    "english": "yearly",
+    "band": "rare",
+    "zipf": 4
+  },
+  {
+    "id": "每月-mei3-yue4",
+    "hanzi": "每月",
+    "pinyin": "měi yuè",
+    "english": "every month",
+    "band": "mid",
+    "zipf": 4.43
+  },
+  {
+    "id": "每月一次-mei3-yue4-yi1-ci4",
+    "hanzi": "每月一次",
+    "pinyin": "měi yuè yī cì",
+    "english": "monthly",
+    "band": "rare",
+    "zipf": 3.4
+  },
+  {
+    "id": "经常-jing1-chang2",
+    "hanzi": "经常",
+    "pinyin": "jīng cháng",
+    "english": "often",
+    "band": "common",
+    "zipf": 5.16
+  },
+  {
+    "id": "还没-hai2-mei2",
+    "hanzi": "还没",
+    "pinyin": "hái méi",
+    "english": "not yet",
+    "band": "mid",
+    "zipf": 4.9
+  },
+  {
+    "id": "通常-tong1-chang2",
+    "hanzi": "通常",
+    "pinyin": "tōng cháng",
+    "english": "usually",
+    "band": "common",
+    "zipf": 5.08
+  },
+  {
+    "id": "难得-nan2-de2",
+    "hanzi": "难得",
+    "pinyin": "nán dé",
+    "english": "seldom",
+    "band": "mid",
+    "zipf": 4.25
+  },
+  {
+    "id": "频繁-pin2-fan2",
+    "hanzi": "频繁",
+    "pinyin": "pín fán",
+    "english": "frequently",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "鲜少-xian1-shao3",
+    "hanzi": "鲜少",
+    "pinyin": "xiān shǎo",
+    "english": "seldom (formal)",
+    "band": "rare",
+    "zipf": 2.82
+  }
+]

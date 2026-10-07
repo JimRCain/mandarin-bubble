@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+
+# build output (the POC committed dist/: defect 6, do not repeat it)
+dist/
+coverage/
+*.tsbuildinfo
+
+# test artifacts
+playwright-report/
+test-results/
+blob-report/
+
+# large dev-only audio renders; never shipped (see docs/HANDOFF.md)
+music/preview/
+music/loops/
+music/stems/
+music/soundfonts/*.SF2
+
+# uncompressed renders: regenerable from the .mid/.mod sources next to them, and
+# ~30 MiB of WAV has no business in a repo that deploys to Pages. Blunt on
+# purpose: no WAV anywhere in this project is a shipped artifact.
+*.wav
+
+# local
+.env
+.env.local
+.DS_Store
+nano.save

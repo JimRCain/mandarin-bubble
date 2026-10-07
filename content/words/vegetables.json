@@ -1,0 +1,242 @@
+[
+  {
+    "id": "南瓜-nan2-gua1",
+    "hanzi": "南瓜",
+    "pinyin": "nán guā",
+    "english": "pumpkin",
+    "band": "rare",
+    "zipf": 3.69
+  },
+  {
+    "id": "卷心菜-juan3-xin1-cai4",
+    "hanzi": "卷心菜",
+    "pinyin": "juǎn xīn cài",
+    "english": "cabbage",
+    "band": "rare",
+    "zipf": 2.4
+  },
+  {
+    "id": "土豆-tu3-dou4",
+    "hanzi": "土豆",
+    "pinyin": "tǔ dòu",
+    "english": "potato",
+    "band": "rare",
+    "zipf": 4.08
+  },
+  {
+    "id": "大蒜-da4-suan4",
+    "hanzi": "大蒜",
+    "pinyin": "dà suàn",
+    "english": "garlic",
+    "band": "rare",
+    "zipf": 3.35
+  },
+  {
+    "id": "姜-jiang1",
+    "hanzi": "姜",
+    "pinyin": "jiāng",
+    "english": "ginger",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "洋葱-yang2-cong1",
+    "hanzi": "洋葱",
+    "pinyin": "yáng cōng",
+    "english": "onion",
+    "band": "rare",
+    "zipf": 3.67
+  },
+  {
+    "id": "洋蓟-yang2-ji4",
+    "hanzi": "洋蓟",
+    "pinyin": "yáng jì",
+    "english": "artichoke",
+    "band": "rare",
+    "zipf": 2.11
+  },
+  {
+    "id": "玉米-yu4-mi3",
+    "hanzi": "玉米",
+    "pinyin": "yù mǐ",
+    "english": "corn",
+    "band": "mid",
+    "zipf": 4.3
+  },
+  {
+    "id": "生菜-sheng1-cai4",
+    "hanzi": "生菜",
+    "pinyin": "shēng cài",
+    "english": "lettuce",
+    "band": "rare",
+    "zipf": 3.54
+  },
+  {
+    "id": "秋葵-qiu1-kui2",
+    "hanzi": "秋葵",
+    "pinyin": "qiū kuí",
+    "english": "okra",
+    "band": "rare",
+    "zipf": 2.13
+  },
+  {
+    "id": "竹笋-zhu2-sun3",
+    "hanzi": "竹笋",
+    "pinyin": "zhú sǔn",
+    "english": "bamboo shoot",
+    "band": "rare",
+    "zipf": 1.88
+  },
+  {
+    "id": "红薯-hong2-shu3",
+    "hanzi": "红薯",
+    "pinyin": "hóng shǔ",
+    "english": "sweet potato",
+    "band": "rare",
+    "zipf": 3.21
+  },
+  {
+    "id": "胡萝卜-hu2-luo2-bo5",
+    "hanzi": "胡萝卜",
+    "pinyin": "hú luó bo",
+    "english": "carrot",
+    "band": "rare",
+    "zipf": 3.71
+  },
+  {
+    "id": "芦笋-lu2-sun3",
+    "hanzi": "芦笋",
+    "pinyin": "lú sǔn",
+    "english": "asparagus",
+    "band": "rare",
+    "zipf": 1.59
+  },
+  {
+    "id": "芹菜-qin2-cai4",
+    "hanzi": "芹菜",
+    "pinyin": "qín cài",
+    "english": "celery",
+    "band": "rare",
+    "zipf": 1.65
+  },
+  {
+    "id": "茄子-qie2-zi5",
+    "hanzi": "茄子",
+    "pinyin": "qié zi",
+    "english": "eggplant",
+    "band": "rare",
+    "zipf": 3.53
+  },
+  {
+    "id": "菜花-cai4-hua1",
+    "hanzi": "菜花",
+    "pinyin": "cài huā",
+    "english": "cauliflower",
+    "band": "rare",
+    "zipf": 3.51
+  },
+  {
+    "id": "菠菜-bo1-cai4",
+    "hanzi": "菠菜",
+    "pinyin": "bō cài",
+    "english": "spinach",
+    "band": "rare",
+    "zipf": 3.46
+  },
+  {
+    "id": "萝卜-luo2-bo5",
+    "hanzi": "萝卜",
+    "pinyin": "luó bo",
+    "english": "radish",
+    "band": "rare",
+    "zipf": 3.59
+  },
+  {
+    "id": "蘑菇-mo2-gu5",
+    "hanzi": "蘑菇",
+    "pinyin": "mó gu",
+    "english": "mushroom",
+    "band": "rare",
+    "zipf": 3.92
+  },
+  {
+    "id": "西兰花-xi1-lan2-hua1",
+    "hanzi": "西兰花",
+    "pinyin": "xī lán huā",
+    "english": "broccoli",
+    "band": "rare",
+    "zipf": 2.59
+  },
+  {
+    "id": "西红柿-xi1-hong2-shi4",
+    "hanzi": "西红柿",
+    "pinyin": "xī hóng shì",
+    "english": "tomato",
+    "band": "rare",
+    "zipf": 3.59
+  },
+  {
+    "id": "西葫芦-xi1-hu2-lu5",
+    "hanzi": "西葫芦",
+    "pinyin": "xī hú lu",
+    "english": "zucchini",
+    "band": "rare",
+    "zipf": 2.6
+  },
+  {
+    "id": "豆芽-dou4-ya2",
+    "hanzi": "豆芽",
+    "pinyin": "dòu yá",
+    "english": "bean sprout",
+    "band": "rare",
+    "zipf": 2.35
+  },
+  {
+    "id": "豆角-dou4-jiao3",
+    "hanzi": "豆角",
+    "pinyin": "dòu jiǎo",
+    "english": "green bean",
+    "band": "rare",
+    "zipf": 2.77
+  },
+  {
+    "id": "豌豆-wan1-dou4",
+    "hanzi": "豌豆",
+    "pinyin": "wān dòu",
+    "english": "pea",
+    "band": "rare",
+    "zipf": 3.37
+  },
+  {
+    "id": "辣椒-la4-jiao1",
+    "hanzi": "辣椒",
+    "pinyin": "là jiāo",
+    "english": "chili pepper",
+    "band": "rare",
+    "zipf": 3.83
+  },
+  {
+    "id": "青椒-qing1-jiao1",
+    "hanzi": "青椒",
+    "pinyin": "qīng jiāo",
+    "english": "pepper (bell)",
+    "band": "rare",
+    "zipf": 2.19
+  },
+  {
+    "id": "韭葱-jiu3-cong1",
+    "hanzi": "韭葱",
+    "pinyin": "jiǔ cōng",
+    "english": "leek",
+    "band": "rare",
+    "zipf": 1.42
+  },
+  {
+    "id": "黄瓜-huang2-gua1",
+    "hanzi": "黄瓜",
+    "pinyin": "huáng guā",
+    "english": "cucumber",
+    "band": "rare",
+    "zipf": 3.64
+  }
+]

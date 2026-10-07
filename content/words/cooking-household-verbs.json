@@ -1,0 +1,242 @@
+[
+  {
+    "id": "修-xiu1",
+    "hanzi": "修",
+    "pinyin": "xiū",
+    "english": "repair",
+    "band": "mid",
+    "zipf": 4.65
+  },
+  {
+    "id": "做饭-zuo4-fan4",
+    "hanzi": "做饭",
+    "pinyin": "zuò fàn",
+    "english": "cook",
+    "band": "rare",
+    "zipf": 4.04
+  },
+  {
+    "id": "冲洗-chong1-xi3",
+    "hanzi": "冲洗",
+    "pinyin": "chōng xǐ",
+    "english": "to rinse",
+    "band": "rare",
+    "zipf": 3.5
+  },
+  {
+    "id": "切-qie1",
+    "hanzi": "切",
+    "pinyin": "qiē",
+    "english": "cut",
+    "band": "mid",
+    "zipf": 4.44
+  },
+  {
+    "id": "刷-shua1",
+    "hanzi": "刷",
+    "pinyin": "shuā",
+    "english": "paint",
+    "band": "mid",
+    "zipf": 4.52
+  },
+  {
+    "id": "剁-duo4",
+    "hanzi": "剁",
+    "pinyin": "duò",
+    "english": "to chop",
+    "band": "rare",
+    "zipf": 3.42
+  },
+  {
+    "id": "削皮-xiao1-pi2",
+    "hanzi": "削皮",
+    "pinyin": "xiāo pí",
+    "english": "to peel",
+    "band": "rare",
+    "zipf": 2.51
+  },
+  {
+    "id": "叠-die2",
+    "hanzi": "叠",
+    "pinyin": "dié",
+    "english": "to fold",
+    "band": "rare",
+    "zipf": 3.72
+  },
+  {
+    "id": "吸尘-xi1-chen2",
+    "hanzi": "吸尘",
+    "pinyin": "xī chén",
+    "english": "to vacuum",
+    "band": "rare",
+    "zipf": 2.53
+  },
+  {
+    "id": "打扫-da3-sao3",
+    "hanzi": "打扫",
+    "pinyin": "dǎ sǎo",
+    "english": "clean",
+    "band": "rare",
+    "zipf": 3.79
+  },
+  {
+    "id": "扫-sao3",
+    "hanzi": "扫",
+    "pinyin": "sǎo",
+    "english": "sweep",
+    "band": "rare",
+    "zipf": 4.17
+  },
+  {
+    "id": "拖地-tuo1-di4",
+    "hanzi": "拖地",
+    "pinyin": "tuō dì",
+    "english": "to mop",
+    "band": "rare",
+    "zipf": 3.55
+  },
+  {
+    "id": "挂-gua4",
+    "hanzi": "挂",
+    "pinyin": "guà",
+    "english": "to hang (laundry)",
+    "band": "mid",
+    "zipf": 4.9
+  },
+  {
+    "id": "搅拌-jiao3-ban4",
+    "hanzi": "搅拌",
+    "pinyin": "jiǎo bàn",
+    "english": "to stir",
+    "band": "rare",
+    "zipf": 3.63
+  },
+  {
+    "id": "摆桌子-bai3-zhuo1-zi5",
+    "hanzi": "摆桌子",
+    "pinyin": "bǎi zhuō zi",
+    "english": "to set the table",
+    "band": "rare",
+    "zipf": 2.98
+  },
+  {
+    "id": "擦-ca1",
+    "hanzi": "擦",
+    "pinyin": "cā",
+    "english": "to wipe",
+    "band": "mid",
+    "zipf": 4.38
+  },
+  {
+    "id": "整理-zheng3-li3",
+    "hanzi": "整理",
+    "pinyin": "zhěng lǐ",
+    "english": "to tidy",
+    "band": "mid",
+    "zipf": 4.66
+  },
+  {
+    "id": "泡茶-pao4-cha2",
+    "hanzi": "泡茶",
+    "pinyin": "pào chá",
+    "english": "to make tea",
+    "band": "rare",
+    "zipf": 3.18
+  },
+  {
+    "id": "洗-xi3",
+    "hanzi": "洗",
+    "pinyin": "xǐ",
+    "english": "wash",
+    "band": "mid",
+    "zipf": 4.62
+  },
+  {
+    "id": "洗碗-xi3-wan3",
+    "hanzi": "洗碗",
+    "pinyin": "xǐ wǎn",
+    "english": "to wash dishes",
+    "band": "rare",
+    "zipf": 3.09
+  },
+  {
+    "id": "洗衣服-xi3-yi1-fu5",
+    "hanzi": "洗衣服",
+    "pinyin": "xǐ yī fu",
+    "english": "to do laundry",
+    "band": "rare",
+    "zipf": 3.35
+  },
+  {
+    "id": "炒-chao3",
+    "hanzi": "炒",
+    "pinyin": "chǎo",
+    "english": "fry",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "烤-kao3",
+    "hanzi": "烤",
+    "pinyin": "kǎo",
+    "english": "bake",
+    "band": "mid",
+    "zipf": 4.24
+  },
+  {
+    "id": "烧水-shao1-shui3",
+    "hanzi": "烧水",
+    "pinyin": "shāo shuǐ",
+    "english": "to boil water",
+    "band": "rare",
+    "zipf": 3.4
+  },
+  {
+    "id": "烧烤-shao1-kao3",
+    "hanzi": "烧烤",
+    "pinyin": "shāo kǎo",
+    "english": "to grill",
+    "band": "rare",
+    "zipf": 3.79
+  },
+  {
+    "id": "烫衣服-tang4-yi1-fu5",
+    "hanzi": "烫衣服",
+    "pinyin": "tàng yī fu",
+    "english": "to iron",
+    "band": "rare",
+    "zipf": 2.93
+  },
+  {
+    "id": "煮-zhu3",
+    "hanzi": "煮",
+    "pinyin": "zhǔ",
+    "english": "boil",
+    "band": "mid",
+    "zipf": 4.37
+  },
+  {
+    "id": "蒸-zheng1",
+    "hanzi": "蒸",
+    "pinyin": "zhēng",
+    "english": "steam",
+    "band": "rare",
+    "zipf": 3.67
+  },
+  {
+    "id": "解冻-jie3-dong4",
+    "hanzi": "解冻",
+    "pinyin": "jiě dòng",
+    "english": "to defrost",
+    "band": "rare",
+    "zipf": 3.47
+  },
+  {
+    "id": "调味-tiao2-wei4",
+    "hanzi": "调味",
+    "pinyin": "tiáo wèi",
+    "english": "to season",
+    "band": "rare",
+    "zipf": 3.46
+  }
+]

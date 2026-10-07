@@ -1,0 +1,242 @@
+[
+  {
+    "id": "下午-xia4-wu3",
+    "hanzi": "下午",
+    "pinyin": "xià wǔ",
+    "english": "afternoon",
+    "band": "common",
+    "zipf": 5.01
+  },
+  {
+    "id": "中午-zhong1-wu3",
+    "hanzi": "中午",
+    "pinyin": "zhōng wǔ",
+    "english": "noon",
+    "band": "mid",
+    "zipf": 4.42
+  },
+  {
+    "id": "之前-zhi1-qian2",
+    "hanzi": "之前",
+    "pinyin": "zhī qián",
+    "english": "before",
+    "band": "common",
+    "zipf": 5.45
+  },
+  {
+    "id": "之后-zhi1-hou4",
+    "hanzi": "之后",
+    "pinyin": "zhī hòu",
+    "english": "after",
+    "band": "common",
+    "zipf": 5.63
+  },
+  {
+    "id": "今天-jin1-tian1",
+    "hanzi": "今天",
+    "pinyin": "jīn tiān",
+    "english": "today",
+    "band": "common",
+    "zipf": 5.65
+  },
+  {
+    "id": "从此-cong2-ci3",
+    "hanzi": "从此",
+    "pinyin": "cóng cǐ",
+    "english": "from now on",
+    "band": "mid",
+    "zipf": 4.55
+  },
+  {
+    "id": "最后-zui4-hou4",
+    "hanzi": "最后",
+    "pinyin": "zuì hòu",
+    "english": "final",
+    "band": "common",
+    "zipf": 5.64
+  },
+  {
+    "id": "最近-zui4-jin4",
+    "hanzi": "最近",
+    "pinyin": "zuì jìn",
+    "english": "lately",
+    "band": "common",
+    "zipf": 5.28
+  },
+  {
+    "id": "刚才-gang1-cai2",
+    "hanzi": "刚才",
+    "pinyin": "gāng cái",
+    "english": "just now",
+    "band": "mid",
+    "zipf": 4.85
+  },
+  {
+    "id": "半夜-ban4-ye4",
+    "hanzi": "半夜",
+    "pinyin": "bàn yè",
+    "english": "midnight",
+    "band": "rare",
+    "zipf": 4.09
+  },
+  {
+    "id": "原来-yuan2-lai2",
+    "hanzi": "原来",
+    "pinyin": "yuán lái",
+    "english": "originally",
+    "band": "common",
+    "zipf": 5.22
+  },
+  {
+    "id": "将来-jiang1-lai2",
+    "hanzi": "将来",
+    "pinyin": "jiāng lái",
+    "english": "future",
+    "band": "mid",
+    "zipf": 4.71
+  },
+  {
+    "id": "已经-yi3-jing1",
+    "hanzi": "已经",
+    "pinyin": "yǐ jīng",
+    "english": "already",
+    "band": "common",
+    "zipf": 6.06
+  },
+  {
+    "id": "很快-hen3-kuai4",
+    "hanzi": "很快",
+    "pinyin": "hěn kuài",
+    "english": "soon",
+    "band": "mid",
+    "zipf": 4.99
+  },
+  {
+    "id": "早-zao3",
+    "hanzi": "早",
+    "pinyin": "zǎo",
+    "english": "early",
+    "band": "common",
+    "zipf": 5.16
+  },
+  {
+    "id": "早上-zao3-shang5",
+    "hanzi": "早上",
+    "pinyin": "zǎo shang",
+    "english": "morning",
+    "band": "mid",
+    "zipf": 4.92
+  },
+  {
+    "id": "明天-ming2-tian1",
+    "hanzi": "明天",
+    "pinyin": "míng tiān",
+    "english": "tomorrow",
+    "band": "common",
+    "zipf": 5.08
+  },
+  {
+    "id": "昨天-zuo2-tian1",
+    "hanzi": "昨天",
+    "pinyin": "zuó tiān",
+    "english": "yesterday",
+    "band": "mid",
+    "zipf": 4.93
+  },
+  {
+    "id": "晚-wan3",
+    "hanzi": "晚",
+    "pinyin": "wǎn",
+    "english": "late",
+    "band": "mid",
+    "zipf": 4.74
+  },
+  {
+    "id": "晚上-wan3-shang5",
+    "hanzi": "晚上",
+    "pinyin": "wǎn shang",
+    "english": "evening",
+    "band": "common",
+    "zipf": 5.14
+  },
+  {
+    "id": "渐渐-jian4-jian4",
+    "hanzi": "渐渐",
+    "pinyin": "jiàn jiàn",
+    "english": "gradually",
+    "band": "mid",
+    "zipf": 4.47
+  },
+  {
+    "id": "然后-ran2-hou4",
+    "hanzi": "然后",
+    "pinyin": "rán hòu",
+    "english": "then",
+    "band": "common",
+    "zipf": 5.55
+  },
+  {
+    "id": "现在-xian4-zai4",
+    "hanzi": "现在",
+    "pinyin": "xiàn zài",
+    "english": "now",
+    "band": "common",
+    "zipf": 6.1
+  },
+  {
+    "id": "突然-tu1-ran2",
+    "hanzi": "突然",
+    "pinyin": "tū rán",
+    "english": "suddenly",
+    "band": "common",
+    "zipf": 5.13
+  },
+  {
+    "id": "立刻-li4-ke4",
+    "hanzi": "立刻",
+    "pinyin": "lì kè",
+    "english": "at once",
+    "band": "mid",
+    "zipf": 4.76
+  },
+  {
+    "id": "等一会儿-deng3-yi1-huir4",
+    "hanzi": "等一会儿",
+    "pinyin": "děng yī huìr",
+    "english": "later",
+    "band": "rare",
+    "zipf": 3.51
+  },
+  {
+    "id": "过去-guo4-qu4",
+    "hanzi": "过去",
+    "pinyin": "guò qù",
+    "english": "past",
+    "band": "common",
+    "zipf": 5.57
+  },
+  {
+    "id": "还-hai2",
+    "hanzi": "还",
+    "pinyin": "hái",
+    "english": "still",
+    "band": "common",
+    "zipf": 6.38
+  },
+  {
+    "id": "那时-na4-shi2",
+    "hanzi": "那时",
+    "pinyin": "nà shí",
+    "english": "at that time",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "马上-ma3-shang4",
+    "hanzi": "马上",
+    "pinyin": "mǎ shàng",
+    "english": "immediately",
+    "band": "mid",
+    "zipf": 4.81
+  }
+]

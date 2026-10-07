@@ -1,0 +1,258 @@
+[
+  {
+    "id": "三明治-san1-ming2-zhi4",
+    "hanzi": "三明治",
+    "pinyin": "sān míng zhì",
+    "english": "sandwich",
+    "band": "rare",
+    "zipf": 3.59
+  },
+  {
+    "id": "冰淇淋-bing1-qi2-lin2",
+    "hanzi": "冰淇淋",
+    "pinyin": "bīng qí lín",
+    "english": "ice cream",
+    "band": "rare",
+    "zipf": 3.95
+  },
+  {
+    "id": "包子-bao1-zi5",
+    "hanzi": "包子",
+    "pinyin": "bāo zi",
+    "english": "steamed bun",
+    "band": "rare",
+    "zipf": 3.5
+  },
+  {
+    "id": "巧克力-qiao3-ke4-li4",
+    "hanzi": "巧克力",
+    "pinyin": "qiǎo kè lì",
+    "english": "chocolate",
+    "band": "mid",
+    "zipf": 4.23
+  },
+  {
+    "id": "披萨-pi1-sa4",
+    "hanzi": "披萨",
+    "pinyin": "pī sà",
+    "english": "pizza",
+    "band": "rare",
+    "zipf": 3.72
+  },
+  {
+    "id": "汉堡-han4-bao3",
+    "hanzi": "汉堡",
+    "pinyin": "hàn bǎo",
+    "english": "hamburger",
+    "band": "rare",
+    "zipf": 4.15
+  },
+  {
+    "id": "汤-tang1",
+    "hanzi": "汤",
+    "pinyin": "tāng",
+    "english": "soup",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "沙拉-sha1-la1",
+    "hanzi": "沙拉",
+    "pinyin": "shā lā",
+    "english": "salad",
+    "band": "rare",
+    "zipf": 3.59
+  },
+  {
+    "id": "火腿-huo3-tui3",
+    "hanzi": "火腿",
+    "pinyin": "huǒ tuǐ",
+    "english": "ham",
+    "band": "rare",
+    "zipf": 3.66
+  },
+  {
+    "id": "火锅-huo3-guo1",
+    "hanzi": "火锅",
+    "pinyin": "huǒ guō",
+    "english": "hotpot",
+    "band": "rare",
+    "zipf": 3.8
+  },
+  {
+    "id": "炒饭-chao3-fan4",
+    "hanzi": "炒饭",
+    "pinyin": "chǎo fàn",
+    "english": "fried rice",
+    "band": "rare",
+    "zipf": 3.16
+  },
+  {
+    "id": "煎饼-jian1-bing3",
+    "hanzi": "煎饼",
+    "pinyin": "jiān bǐng",
+    "english": "pancake",
+    "band": "rare",
+    "zipf": 3.36
+  },
+  {
+    "id": "牛排-niu2-pai2",
+    "hanzi": "牛排",
+    "pinyin": "niú pái",
+    "english": "steak",
+    "band": "rare",
+    "zipf": 3.2
+  },
+  {
+    "id": "牛肉-niu2-rou4",
+    "hanzi": "牛肉",
+    "pinyin": "niú ròu",
+    "english": "beef",
+    "band": "rare",
+    "zipf": 4.16
+  },
+  {
+    "id": "猪肉-zhu1-rou4",
+    "hanzi": "猪肉",
+    "pinyin": "zhū ròu",
+    "english": "pork",
+    "band": "rare",
+    "zipf": 4.14
+  },
+  {
+    "id": "盐-yan2",
+    "hanzi": "盐",
+    "pinyin": "yán",
+    "english": "salt",
+    "band": "mid",
+    "zipf": 4.34
+  },
+  {
+    "id": "米饭-mi3-fan4",
+    "hanzi": "米饭",
+    "pinyin": "mǐ fàn",
+    "english": "rice (cooked)",
+    "band": "rare",
+    "zipf": 3.68
+  },
+  {
+    "id": "粥-zhou1",
+    "hanzi": "粥",
+    "pinyin": "zhōu",
+    "english": "congee",
+    "band": "rare",
+    "zipf": 3.83
+  },
+  {
+    "id": "糖-tang2",
+    "hanzi": "糖",
+    "pinyin": "táng",
+    "english": "candy",
+    "band": "mid",
+    "zipf": 4.47
+  },
+  {
+    "id": "肉-rou4",
+    "hanzi": "肉",
+    "pinyin": "ròu",
+    "english": "meat",
+    "band": "mid",
+    "zipf": 4.81
+  },
+  {
+    "id": "薯条-shu3-tiao2",
+    "hanzi": "薯条",
+    "pinyin": "shǔ tiáo",
+    "english": "fries",
+    "band": "rare",
+    "zipf": 3.42
+  },
+  {
+    "id": "蛋糕-dan4-gao1",
+    "hanzi": "蛋糕",
+    "pinyin": "dàn gāo",
+    "english": "cake",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "豆腐-dou4-fu5",
+    "hanzi": "豆腐",
+    "pinyin": "dòu fu",
+    "english": "tofu",
+    "band": "rare",
+    "zipf": 4.03
+  },
+  {
+    "id": "酱油-jiang4-you2",
+    "hanzi": "酱油",
+    "pinyin": "jiàng yóu",
+    "english": "soy sauce",
+    "band": "rare",
+    "zipf": 3.61
+  },
+  {
+    "id": "醋-cu4",
+    "hanzi": "醋",
+    "pinyin": "cù",
+    "english": "vinegar",
+    "band": "rare",
+    "zipf": 3.7
+  },
+  {
+    "id": "面包-mian4-bao1",
+    "hanzi": "面包",
+    "pinyin": "miàn bāo",
+    "english": "bread",
+    "band": "mid",
+    "zipf": 4.41
+  },
+  {
+    "id": "面条-mian4-tiao2",
+    "hanzi": "面条",
+    "pinyin": "miàn tiáo",
+    "english": "noodles",
+    "band": "rare",
+    "zipf": 3.78
+  },
+  {
+    "id": "饺子-jiao3-zi5",
+    "hanzi": "饺子",
+    "pinyin": "jiǎo zi",
+    "english": "dumpling",
+    "band": "rare",
+    "zipf": 3.62
+  },
+  {
+    "id": "饼干-bing3-gan1",
+    "hanzi": "饼干",
+    "pinyin": "bǐng gān",
+    "english": "cookie",
+    "band": "rare",
+    "zipf": 3.85
+  },
+  {
+    "id": "香肠-xiang1-chang2",
+    "hanzi": "香肠",
+    "pinyin": "xiāng cháng",
+    "english": "sausage",
+    "band": "rare",
+    "zipf": 3.46
+  },
+  {
+    "id": "鸡肉-ji1-rou4",
+    "hanzi": "鸡肉",
+    "pinyin": "jī ròu",
+    "english": "chicken meat",
+    "band": "rare",
+    "zipf": 3.78
+  },
+  {
+    "id": "鸡蛋-ji1-dan4",
+    "hanzi": "鸡蛋",
+    "pinyin": "jī dàn",
+    "english": "egg",
+    "band": "mid",
+    "zipf": 4.26
+  }
+]

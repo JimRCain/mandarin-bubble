@@ -1,0 +1,386 @@
+[
+  {
+    "id": "乌龟-wu1-gui1",
+    "hanzi": "乌龟",
+    "pinyin": "wū guī",
+    "english": "turtle",
+    "band": "rare",
+    "zipf": 3.81
+  },
+  {
+    "id": "仓鼠-cang1-shu3",
+    "hanzi": "仓鼠",
+    "pinyin": "cāng shǔ",
+    "english": "hamster",
+    "band": "rare",
+    "zipf": 3.27
+  },
+  {
+    "id": "企鹅-qi3-e2",
+    "hanzi": "企鹅",
+    "pinyin": "qǐ é",
+    "english": "penguin",
+    "band": "rare",
+    "zipf": 3.99
+  },
+  {
+    "id": "兔子-tu4-zi5",
+    "hanzi": "兔子",
+    "pinyin": "tù zi",
+    "english": "rabbit",
+    "band": "rare",
+    "zipf": 4.05
+  },
+  {
+    "id": "公鸡-gong1-ji1",
+    "hanzi": "公鸡",
+    "pinyin": "gōng jī",
+    "english": "rooster",
+    "band": "rare",
+    "zipf": 3.45
+  },
+  {
+    "id": "大象-da4-xiang4",
+    "hanzi": "大象",
+    "pinyin": "dà xiàng",
+    "english": "elephant",
+    "band": "rare",
+    "zipf": 4.02
+  },
+  {
+    "id": "山羊-shan1-yang2",
+    "hanzi": "山羊",
+    "pinyin": "shān yáng",
+    "english": "goat",
+    "band": "rare",
+    "zipf": 3.71
+  },
+  {
+    "id": "斑马-ban1-ma3",
+    "hanzi": "斑马",
+    "pinyin": "bān mǎ",
+    "english": "zebra",
+    "band": "rare",
+    "zipf": 3.41
+  },
+  {
+    "id": "松鼠-song1-shu3",
+    "hanzi": "松鼠",
+    "pinyin": "sōng shǔ",
+    "english": "squirrel",
+    "band": "rare",
+    "zipf": 3.59
+  },
+  {
+    "id": "母鸡-mu3-ji1",
+    "hanzi": "母鸡",
+    "pinyin": "mǔ jī",
+    "english": "hen",
+    "band": "rare",
+    "zipf": 3.38
+  },
+  {
+    "id": "水牛-shui3-niu2",
+    "hanzi": "水牛",
+    "pinyin": "shuǐ niú",
+    "english": "buffalo",
+    "band": "rare",
+    "zipf": 3.33
+  },
+  {
+    "id": "河马-he2-ma3",
+    "hanzi": "河马",
+    "pinyin": "hé mǎ",
+    "english": "hippopotamus",
+    "band": "rare",
+    "zipf": 3.39
+  },
+  {
+    "id": "海豚-hai3-tun2",
+    "hanzi": "海豚",
+    "pinyin": "hǎi tún",
+    "english": "dolphin",
+    "band": "rare",
+    "zipf": 3.85
+  },
+  {
+    "id": "火鸡-huo3-ji1",
+    "hanzi": "火鸡",
+    "pinyin": "huǒ jī",
+    "english": "turkey",
+    "band": "rare",
+    "zipf": 3.52
+  },
+  {
+    "id": "熊-xiong2",
+    "hanzi": "熊",
+    "pinyin": "xióng",
+    "english": "bear",
+    "band": "mid",
+    "zipf": 4.3
+  },
+  {
+    "id": "熊猫-xiong2-mao1",
+    "hanzi": "熊猫",
+    "pinyin": "xióng māo",
+    "english": "panda",
+    "band": "rare",
+    "zipf": 4.03
+  },
+  {
+    "id": "牛-niu2",
+    "hanzi": "牛",
+    "pinyin": "niú",
+    "english": "cow",
+    "band": "mid",
+    "zipf": 4.84
+  },
+  {
+    "id": "犀牛-xi1-niu2",
+    "hanzi": "犀牛",
+    "pinyin": "xī niú",
+    "english": "rhinoceros",
+    "band": "rare",
+    "zipf": 3.55
+  },
+  {
+    "id": "狐狸-hu2-li5",
+    "hanzi": "狐狸",
+    "pinyin": "hú li",
+    "english": "fox",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "狗-gou3",
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "english": "dog",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "狮子-shi1-zi5",
+    "hanzi": "狮子",
+    "pinyin": "shī zi",
+    "english": "lion",
+    "band": "mid",
+    "zipf": 4.43
+  },
+  {
+    "id": "狼-lang2",
+    "hanzi": "狼",
+    "pinyin": "láng",
+    "english": "wolf",
+    "band": "mid",
+    "zipf": 4.48
+  },
+  {
+    "id": "猪-zhu1",
+    "hanzi": "猪",
+    "pinyin": "zhū",
+    "english": "pig",
+    "band": "mid",
+    "zipf": 4.77
+  },
+  {
+    "id": "猫-mao1",
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "english": "cat",
+    "band": "mid",
+    "zipf": 4.73
+  },
+  {
+    "id": "猫头鹰-mao1-tou2-ying1",
+    "hanzi": "猫头鹰",
+    "pinyin": "māo tóu yīng",
+    "english": "owl",
+    "band": "rare",
+    "zipf": 3.54
+  },
+  {
+    "id": "猴子-hou2-zi5",
+    "hanzi": "猴子",
+    "pinyin": "hóu zi",
+    "english": "monkey",
+    "band": "rare",
+    "zipf": 4.07
+  },
+  {
+    "id": "羊-yang2",
+    "hanzi": "羊",
+    "pinyin": "yáng",
+    "english": "sheep",
+    "band": "mid",
+    "zipf": 4.2
+  },
+  {
+    "id": "老虎-lao3-hu3",
+    "hanzi": "老虎",
+    "pinyin": "lǎo hǔ",
+    "english": "tiger",
+    "band": "mid",
+    "zipf": 4.29
+  },
+  {
+    "id": "老鹰-lao3-ying1",
+    "hanzi": "老鹰",
+    "pinyin": "lǎo yīng",
+    "english": "eagle",
+    "band": "rare",
+    "zipf": 3.5
+  },
+  {
+    "id": "老鼠-lao3-shu3",
+    "hanzi": "老鼠",
+    "pinyin": "lǎo shǔ",
+    "english": "mouse",
+    "band": "rare",
+    "zipf": 4.11
+  },
+  {
+    "id": "蛇-she2",
+    "hanzi": "蛇",
+    "pinyin": "shé",
+    "english": "snake",
+    "band": "mid",
+    "zipf": 4.42
+  },
+  {
+    "id": "蝙蝠-bian1-fu2",
+    "hanzi": "蝙蝠",
+    "pinyin": "biān fú",
+    "english": "bat",
+    "band": "rare",
+    "zipf": 3.84
+  },
+  {
+    "id": "袋鼠-dai4-shu3",
+    "hanzi": "袋鼠",
+    "pinyin": "dài shǔ",
+    "english": "kangaroo",
+    "band": "rare",
+    "zipf": 3.51
+  },
+  {
+    "id": "金鱼-jin1-yu2",
+    "hanzi": "金鱼",
+    "pinyin": "jīn yú",
+    "english": "goldfish",
+    "band": "rare",
+    "zipf": 3.46
+  },
+  {
+    "id": "长颈鹿-chang2-jing3-lu4",
+    "hanzi": "长颈鹿",
+    "pinyin": "cháng jǐng lù",
+    "english": "giraffe",
+    "band": "rare",
+    "zipf": 3.28
+  },
+  {
+    "id": "马-ma3",
+    "hanzi": "马",
+    "pinyin": "mǎ",
+    "english": "horse",
+    "band": "common",
+    "zipf": 5.44
+  },
+  {
+    "id": "驴-lv2",
+    "hanzi": "驴",
+    "pinyin": "lǘ",
+    "english": "donkey",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "骆驼-luo4-tuo5",
+    "hanzi": "骆驼",
+    "pinyin": "luò tuo",
+    "english": "camel",
+    "band": "rare",
+    "zipf": 3.99
+  },
+  {
+    "id": "鱼-yu2",
+    "hanzi": "鱼",
+    "pinyin": "yú",
+    "english": "fish",
+    "band": "mid",
+    "zipf": 4.81
+  },
+  {
+    "id": "鲨鱼-sha1-yu2",
+    "hanzi": "鲨鱼",
+    "pinyin": "shā yú",
+    "english": "shark",
+    "band": "rare",
+    "zipf": 4.14
+  },
+  {
+    "id": "鲸鱼-jing1-yu2",
+    "hanzi": "鲸鱼",
+    "pinyin": "jīng yú",
+    "english": "whale",
+    "band": "rare",
+    "zipf": 3.71
+  },
+  {
+    "id": "鳄鱼-e4-yu2",
+    "hanzi": "鳄鱼",
+    "pinyin": "è yú",
+    "english": "crocodile",
+    "band": "rare",
+    "zipf": 3.73
+  },
+  {
+    "id": "鸟-niao3",
+    "hanzi": "鸟",
+    "pinyin": "niǎo",
+    "english": "bird",
+    "band": "mid",
+    "zipf": 4.71
+  },
+  {
+    "id": "鸡-ji1",
+    "hanzi": "鸡",
+    "pinyin": "jī",
+    "english": "chicken",
+    "band": "mid",
+    "zipf": 4.7
+  },
+  {
+    "id": "鸭子-ya1-zi5",
+    "hanzi": "鸭子",
+    "pinyin": "yā zi",
+    "english": "duck",
+    "band": "rare",
+    "zipf": 3.82
+  },
+  {
+    "id": "鹅-e2",
+    "hanzi": "鹅",
+    "pinyin": "é",
+    "english": "goose",
+    "band": "rare",
+    "zipf": 3.69
+  },
+  {
+    "id": "鹦鹉-ying1-wu3",
+    "hanzi": "鹦鹉",
+    "pinyin": "yīng wǔ",
+    "english": "parrot",
+    "band": "rare",
+    "zipf": 3.68
+  },
+  {
+    "id": "鹿-lu4",
+    "hanzi": "鹿",
+    "pinyin": "lù",
+    "english": "deer",
+    "band": "rare",
+    "zipf": 3.94
+  }
+]

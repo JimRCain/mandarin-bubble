@@ -1,0 +1,242 @@
+[
+  {
+    "id": "品红色-pin3-hong2-se4",
+    "hanzi": "品红色",
+    "pinyin": "pǐn hóng sè",
+    "english": "magenta",
+    "band": "rare",
+    "zipf": 3.32
+  },
+  {
+    "id": "奶油色-nai3-you2-se4",
+    "hanzi": "奶油色",
+    "pinyin": "nǎi yóu sè",
+    "english": "cream",
+    "band": "rare",
+    "zipf": 2.75
+  },
+  {
+    "id": "柠檬绿-ning2-meng2-lv4",
+    "hanzi": "柠檬绿",
+    "pinyin": "níng méng lǜ",
+    "english": "lime",
+    "band": "rare",
+    "zipf": 2.74
+  },
+  {
+    "id": "栗色-li4-se4",
+    "hanzi": "栗色",
+    "pinyin": "lì sè",
+    "english": "maroon",
+    "band": "rare",
+    "zipf": 2.57
+  },
+  {
+    "id": "棕色-zong1-se4",
+    "hanzi": "棕色",
+    "pinyin": "zōng sè",
+    "english": "brown",
+    "band": "rare",
+    "zipf": 3.73
+  },
+  {
+    "id": "棕褐色-zong1-he4-se4",
+    "hanzi": "棕褐色",
+    "pinyin": "zōng hè sè",
+    "english": "tan",
+    "band": "rare",
+    "zipf": 2.18
+  },
+  {
+    "id": "橄榄色-gan3-lan3-se4",
+    "hanzi": "橄榄色",
+    "pinyin": "gǎn lǎn sè",
+    "english": "olive",
+    "band": "rare",
+    "zipf": 2.61
+  },
+  {
+    "id": "橙色-cheng2-se4",
+    "hanzi": "橙色",
+    "pinyin": "chéng sè",
+    "english": "orange",
+    "band": "rare",
+    "zipf": 3.6
+  },
+  {
+    "id": "深蓝色-shen1-lan2-se4",
+    "hanzi": "深蓝色",
+    "pinyin": "shēn lán sè",
+    "english": "navy",
+    "band": "rare",
+    "zipf": 3.06
+  },
+  {
+    "id": "灰色-hui1-se4",
+    "hanzi": "灰色",
+    "pinyin": "huī sè",
+    "english": "gray",
+    "band": "rare",
+    "zipf": 4.07
+  },
+  {
+    "id": "珊瑚色-shan1-hu2-se4",
+    "hanzi": "珊瑚色",
+    "pinyin": "shān hú sè",
+    "english": "coral",
+    "band": "rare",
+    "zipf": 2.76
+  },
+  {
+    "id": "白色-bai2-se4",
+    "hanzi": "白色",
+    "pinyin": "bái sè",
+    "english": "white",
+    "band": "mid",
+    "zipf": 4.6
+  },
+  {
+    "id": "米色-mi3-se4",
+    "hanzi": "米色",
+    "pinyin": "mǐ sè",
+    "english": "beige",
+    "band": "rare",
+    "zipf": 3.65
+  },
+  {
+    "id": "粉色-fen3-se4",
+    "hanzi": "粉色",
+    "pinyin": "fěn sè",
+    "english": "pink",
+    "band": "rare",
+    "zipf": 3.7
+  },
+  {
+    "id": "红色-hong2-se4",
+    "hanzi": "红色",
+    "pinyin": "hóng sè",
+    "english": "red",
+    "band": "mid",
+    "zipf": 4.81
+  },
+  {
+    "id": "紫罗兰-zi3-luo2-lan2",
+    "hanzi": "紫罗兰",
+    "pinyin": "zǐ luó lán",
+    "english": "violet",
+    "band": "rare",
+    "zipf": 2.25
+  },
+  {
+    "id": "紫色-zi3-se4",
+    "hanzi": "紫色",
+    "pinyin": "zǐ sè",
+    "english": "purple",
+    "band": "rare",
+    "zipf": 3.91
+  },
+  {
+    "id": "绿色-lv4-se4",
+    "hanzi": "绿色",
+    "pinyin": "lǜ sè",
+    "english": "green",
+    "band": "mid",
+    "zipf": 4.83
+  },
+  {
+    "id": "蓝绿色-lan2-lv4-se4",
+    "hanzi": "蓝绿色",
+    "pinyin": "lán lǜ sè",
+    "english": "turquoise",
+    "band": "rare",
+    "zipf": 3.4
+  },
+  {
+    "id": "蓝色-lan2-se4",
+    "hanzi": "蓝色",
+    "pinyin": "lán sè",
+    "english": "blue",
+    "band": "mid",
+    "zipf": 4.55
+  },
+  {
+    "id": "象牙色-xiang4-ya2-se4",
+    "hanzi": "象牙色",
+    "pinyin": "xiàng yá sè",
+    "english": "ivory",
+    "band": "rare",
+    "zipf": 2.54
+  },
+  {
+    "id": "金色-jin1-se4",
+    "hanzi": "金色",
+    "pinyin": "jīn sè",
+    "english": "gold",
+    "band": "rare",
+    "zipf": 4.11
+  },
+  {
+    "id": "铜色-tong2-se4",
+    "hanzi": "铜色",
+    "pinyin": "tóng sè",
+    "english": "copper",
+    "band": "rare",
+    "zipf": 3
+  },
+  {
+    "id": "银色-yin2-se4",
+    "hanzi": "银色",
+    "pinyin": "yín sè",
+    "english": "silver",
+    "band": "rare",
+    "zipf": 3.72
+  },
+  {
+    "id": "青色-qing1-se4",
+    "hanzi": "青色",
+    "pinyin": "qīng sè",
+    "english": "cyan",
+    "band": "rare",
+    "zipf": 3.38
+  },
+  {
+    "id": "青铜色-qing1-tong2-se4",
+    "hanzi": "青铜色",
+    "pinyin": "qīng tóng sè",
+    "english": "bronze",
+    "band": "rare",
+    "zipf": 2.61
+  },
+  {
+    "id": "靛蓝色-dian4-lan2-se4",
+    "hanzi": "靛蓝色",
+    "pinyin": "diàn lán sè",
+    "english": "indigo",
+    "band": "rare",
+    "zipf": 1.86
+  },
+  {
+    "id": "鸭绿色-ya1-lv4-se4",
+    "hanzi": "鸭绿色",
+    "pinyin": "yā lǜ sè",
+    "english": "teal",
+    "band": "rare",
+    "zipf": 3.1
+  },
+  {
+    "id": "黄色-huang2-se4",
+    "hanzi": "黄色",
+    "pinyin": "huáng sè",
+    "english": "yellow",
+    "band": "mid",
+    "zipf": 4.51
+  },
+  {
+    "id": "黑色-hei1-se4",
+    "hanzi": "黑色",
+    "pinyin": "hēi sè",
+    "english": "black",
+    "band": "mid",
+    "zipf": 4.7
+  }
+]

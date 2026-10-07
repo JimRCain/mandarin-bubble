@@ -1,0 +1,266 @@
+[
+  {
+    "id": "云-yun2-plate",
+    "hanzi": "云",
+    "pinyin": "yún",
+    "english": "Yunnan (plate abbreviation)",
+    "band": "common",
+    "zipf": 5
+  },
+  {
+    "id": "京-jing1",
+    "hanzi": "京",
+    "pinyin": "jīng",
+    "english": "Beijing",
+    "band": "mid",
+    "zipf": 4.48
+  },
+  {
+    "id": "冀-ji4",
+    "hanzi": "冀",
+    "pinyin": "jì",
+    "english": "Hebei",
+    "band": "rare",
+    "zipf": 3.51
+  },
+  {
+    "id": "吉-ji2",
+    "hanzi": "吉",
+    "pinyin": "jí",
+    "english": "Jilin",
+    "band": "mid",
+    "zipf": 4.45
+  },
+  {
+    "id": "宁-ning2",
+    "hanzi": "宁",
+    "pinyin": "níng",
+    "english": "Ningxia",
+    "band": "mid",
+    "zipf": 4.28
+  },
+  {
+    "id": "川-chuan1",
+    "hanzi": "川",
+    "pinyin": "chuān",
+    "english": "Sichuan",
+    "band": "mid",
+    "zipf": 4.29
+  },
+  {
+    "id": "新-xin1-plate",
+    "hanzi": "新",
+    "pinyin": "xīn",
+    "english": "Xinjiang (plate abbreviation)",
+    "band": "common",
+    "zipf": 6.09
+  },
+  {
+    "id": "晋-jin4",
+    "hanzi": "晋",
+    "pinyin": "jìn",
+    "english": "Shanxi",
+    "band": "rare",
+    "zipf": 3.98
+  },
+  {
+    "id": "桂-gui4",
+    "hanzi": "桂",
+    "pinyin": "guì",
+    "english": "Guangxi",
+    "band": "rare",
+    "zipf": 3.49
+  },
+  {
+    "id": "沪-hu4",
+    "hanzi": "沪",
+    "pinyin": "hù",
+    "english": "Shanghai",
+    "band": "rare",
+    "zipf": 4.12
+  },
+  {
+    "id": "津-jin1",
+    "hanzi": "津",
+    "pinyin": "jīn",
+    "english": "Tianjin",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "浙-zhe4",
+    "hanzi": "浙",
+    "pinyin": "zhè",
+    "english": "Zhejiang",
+    "band": "rare",
+    "zipf": 3.48
+  },
+  {
+    "id": "渝-yu2",
+    "hanzi": "渝",
+    "pinyin": "yú",
+    "english": "Chongqing",
+    "band": "rare",
+    "zipf": 3.68
+  },
+  {
+    "id": "港-gang3",
+    "hanzi": "港",
+    "pinyin": "gǎng",
+    "english": "Hong Kong",
+    "band": "mid",
+    "zipf": 4.67
+  },
+  {
+    "id": "湘-xiang1",
+    "hanzi": "湘",
+    "pinyin": "xiāng",
+    "english": "Hunan",
+    "band": "rare",
+    "zipf": 3.72
+  },
+  {
+    "id": "澳-ao4",
+    "hanzi": "澳",
+    "pinyin": "ào",
+    "english": "Macau",
+    "band": "rare",
+    "zipf": 4.11
+  },
+  {
+    "id": "琼-qiong2",
+    "hanzi": "琼",
+    "pinyin": "qióng",
+    "english": "Hainan",
+    "band": "rare",
+    "zipf": 3.7
+  },
+  {
+    "id": "甘-gan1",
+    "hanzi": "甘",
+    "pinyin": "gān",
+    "english": "Gansu",
+    "band": "rare",
+    "zipf": 3.99
+  },
+  {
+    "id": "皖-wan3",
+    "hanzi": "皖",
+    "pinyin": "wǎn",
+    "english": "Anhui",
+    "band": "rare",
+    "zipf": 3.28
+  },
+  {
+    "id": "粤-yue4",
+    "hanzi": "粤",
+    "pinyin": "yuè",
+    "english": "Guangdong",
+    "band": "rare",
+    "zipf": 3.98
+  },
+  {
+    "id": "苏-su1",
+    "hanzi": "苏",
+    "pinyin": "sū",
+    "english": "Jiangsu",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "蒙-meng3",
+    "hanzi": "蒙",
+    "pinyin": "měng",
+    "english": "Inner Mongolia",
+    "band": "mid",
+    "zipf": 4.29
+  },
+  {
+    "id": "藏-zang4",
+    "hanzi": "藏",
+    "pinyin": "zàng",
+    "english": "Tibet",
+    "band": "mid",
+    "zipf": 4.76
+  },
+  {
+    "id": "豫-yu4",
+    "hanzi": "豫",
+    "pinyin": "yù",
+    "english": "Henan",
+    "band": "rare",
+    "zipf": 3.55
+  },
+  {
+    "id": "贵-gui4-plate",
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "english": "Guizhou (plate abbreviation)",
+    "band": "mid",
+    "zipf": 4.64
+  },
+  {
+    "id": "赣-gan4",
+    "hanzi": "赣",
+    "pinyin": "gàn",
+    "english": "Jiangxi",
+    "band": "rare",
+    "zipf": 3.88
+  },
+  {
+    "id": "辽-liao2",
+    "hanzi": "辽",
+    "pinyin": "liáo",
+    "english": "Liaoning",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "鄂-e4",
+    "hanzi": "鄂",
+    "pinyin": "è",
+    "english": "Hubei",
+    "band": "rare",
+    "zipf": 3.84
+  },
+  {
+    "id": "闽-min3",
+    "hanzi": "闽",
+    "pinyin": "mǐn",
+    "english": "Fujian",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "陕-shan3",
+    "hanzi": "陕",
+    "pinyin": "shǎn",
+    "english": "Shaanxi",
+    "band": "rare",
+    "zipf": 3.61
+  },
+  {
+    "id": "青-qing1",
+    "hanzi": "青",
+    "pinyin": "qīng",
+    "english": "Qinghai",
+    "band": "mid",
+    "zipf": 4.47
+  },
+  {
+    "id": "鲁-lu3",
+    "hanzi": "鲁",
+    "pinyin": "lǔ",
+    "english": "Shandong",
+    "band": "mid",
+    "zipf": 4.56
+  },
+  {
+    "id": "黑-hei1",
+    "hanzi": "黑",
+    "pinyin": "hēi",
+    "english": "Heilongjiang",
+    "band": "common",
+    "zipf": 5.17
+  }
+]

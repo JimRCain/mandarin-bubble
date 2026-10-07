@@ -1,0 +1,2060 @@
+[
+  {
+    "id": "一些-yi1-xie1",
+    "hanzi": "一些",
+    "pinyin": "yī xiē",
+    "english": "some",
+    "band": "common",
+    "zipf": 5.76
+  },
+  {
+    "id": "一点-yi1-dian3",
+    "hanzi": "一点",
+    "pinyin": "yī diǎn",
+    "english": "a little",
+    "band": "common",
+    "zipf": 5.51
+  },
+  {
+    "id": "一起-yi1-qi3",
+    "hanzi": "一起",
+    "pinyin": "yī qǐ",
+    "english": "together",
+    "band": "common",
+    "zipf": 5.66
+  },
+  {
+    "id": "上去-shang4-qu4",
+    "hanzi": "上去",
+    "pinyin": "shàng qù",
+    "english": "go up",
+    "band": "mid",
+    "zipf": 4.55
+  },
+  {
+    "id": "下来-xia4-lai2",
+    "hanzi": "下来",
+    "pinyin": "xià lái",
+    "english": "come down",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "不及格-bu4-ji2-ge2",
+    "hanzi": "不及格",
+    "pinyin": "bù jí gé",
+    "english": "fail",
+    "band": "rare",
+    "zipf": 3.19
+  },
+  {
+    "id": "不同意-bu4-tong2-yi4",
+    "hanzi": "不同意",
+    "pinyin": "bù tóng yì",
+    "english": "disagree",
+    "band": "rare",
+    "zipf": 4.14
+  },
+  {
+    "id": "专心-zhuan1-xin1",
+    "hanzi": "专心",
+    "pinyin": "zhuān xīn",
+    "english": "pay attention",
+    "band": "rare",
+    "zipf": 3.99
+  },
+  {
+    "id": "东-dong1",
+    "hanzi": "东",
+    "pinyin": "dōng",
+    "english": "east",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "丢-diu1",
+    "hanzi": "丢",
+    "pinyin": "diū",
+    "english": "lose",
+    "band": "mid",
+    "zipf": 4.77
+  },
+  {
+    "id": "为什么-wei4-shen2-me5",
+    "hanzi": "为什么",
+    "pinyin": "wèi shén me",
+    "english": "why",
+    "band": "common",
+    "zipf": 5.76
+  },
+  {
+    "id": "之间-zhi1-jian1",
+    "hanzi": "之间",
+    "pinyin": "zhī jiān",
+    "english": "between",
+    "band": "common",
+    "zipf": 5.48
+  },
+  {
+    "id": "也-ye3",
+    "hanzi": "也",
+    "pinyin": "yě",
+    "english": "also",
+    "band": "common",
+    "zipf": 6.7
+  },
+  {
+    "id": "也许-ye3-xu3",
+    "hanzi": "也许",
+    "pinyin": "yě xǔ",
+    "english": "maybe",
+    "band": "common",
+    "zipf": 5.19
+  },
+  {
+    "id": "了解-liao3-jie3",
+    "hanzi": "了解",
+    "pinyin": "liǎo jiě",
+    "english": "know (a person)",
+    "band": "common",
+    "zipf": 5.44
+  },
+  {
+    "id": "交换-jiao1-huan4",
+    "hanzi": "交换",
+    "pinyin": "jiāo huàn",
+    "english": "exchange",
+    "band": "mid",
+    "zipf": 4.83
+  },
+  {
+    "id": "介绍-jie4-shao4",
+    "hanzi": "介绍",
+    "pinyin": "jiè shào",
+    "english": "introduce",
+    "band": "common",
+    "zipf": 5.27
+  },
+  {
+    "id": "从不-cong2-bu4",
+    "hanzi": "从不",
+    "pinyin": "cóng bù",
+    "english": "never",
+    "band": "mid",
+    "zipf": 4.39
+  },
+  {
+    "id": "仔细-zi3-xi4",
+    "hanzi": "仔细",
+    "pinyin": "zǐ xì",
+    "english": "carefully",
+    "band": "mid",
+    "zipf": 4.59
+  },
+  {
+    "id": "付-fu4",
+    "hanzi": "付",
+    "pinyin": "fù",
+    "english": "pay",
+    "band": "mid",
+    "zipf": 4.5
+  },
+  {
+    "id": "以前-yi3-qian2",
+    "hanzi": "以前",
+    "pinyin": "yǐ qián",
+    "english": "before",
+    "band": "common",
+    "zipf": 5.29
+  },
+  {
+    "id": "以后-yi3-hou4",
+    "hanzi": "以后",
+    "pinyin": "yǐ hòu",
+    "english": "after",
+    "band": "common",
+    "zipf": 5.46
+  },
+  {
+    "id": "仿佛-fang3-fu2",
+    "hanzi": "仿佛",
+    "pinyin": "fǎng fú",
+    "english": "as if",
+    "band": "mid",
+    "zipf": 4.27
+  },
+  {
+    "id": "但是-dan4-shi4",
+    "hanzi": "但是",
+    "pinyin": "dàn shì",
+    "english": "but",
+    "band": "common",
+    "zipf": 5.85,
+    "sharedGloss": true
+  },
+  {
+    "id": "使用-shi3-yong4",
+    "hanzi": "使用",
+    "pinyin": "shǐ yòng",
+    "english": "use",
+    "band": "common",
+    "zipf": 5.87
+  },
+  {
+    "id": "保护-bao3-hu4",
+    "hanzi": "保护",
+    "pinyin": "bǎo hù",
+    "english": "protect",
+    "band": "common",
+    "zipf": 5.51
+  },
+  {
+    "id": "修-xiu1",
+    "hanzi": "修",
+    "pinyin": "xiū",
+    "english": "repair",
+    "band": "mid",
+    "zipf": 4.65
+  },
+  {
+    "id": "修理-xiu1-li3",
+    "hanzi": "修理",
+    "pinyin": "xiū lǐ",
+    "english": "fix",
+    "band": "rare",
+    "zipf": 4.13
+  },
+  {
+    "id": "借-jie4",
+    "hanzi": "借",
+    "pinyin": "jiè",
+    "english": "borrow",
+    "band": "mid",
+    "zipf": 4.66
+  },
+  {
+    "id": "借给-jie4-gei3",
+    "hanzi": "借给",
+    "pinyin": "jiè gěi",
+    "english": "lend",
+    "band": "rare",
+    "zipf": 3.6
+  },
+  {
+    "id": "做饭-zuo4-fan4",
+    "hanzi": "做饭",
+    "pinyin": "zuò fàn",
+    "english": "cook",
+    "band": "rare",
+    "zipf": 4.04
+  },
+  {
+    "id": "停-ting2",
+    "hanzi": "停",
+    "pinyin": "tíng",
+    "english": "stop",
+    "band": "mid",
+    "zipf": 4.7
+  },
+  {
+    "id": "允许-yun3-xu3",
+    "hanzi": "允许",
+    "pinyin": "yǔn xǔ",
+    "english": "allow",
+    "band": "common",
+    "zipf": 5.11
+  },
+  {
+    "id": "公园-gong1-yuan2",
+    "hanzi": "公园",
+    "pinyin": "gōng yuán",
+    "english": "park",
+    "band": "common",
+    "zipf": 5.01
+  },
+  {
+    "id": "关系-guan1-xi4",
+    "hanzi": "关系",
+    "pinyin": "guān xì",
+    "english": "relationship",
+    "band": "common",
+    "zipf": 5.69
+  },
+  {
+    "id": "其中-qi2-zhong1",
+    "hanzi": "其中",
+    "pinyin": "qí zhōng",
+    "english": "among",
+    "band": "common",
+    "zipf": 5.75
+  },
+  {
+    "id": "其他-qi2-ta1",
+    "hanzi": "其他",
+    "pinyin": "qí tā",
+    "english": "other",
+    "band": "common",
+    "zipf": 5.83
+  },
+  {
+    "id": "其实-qi2-shi2",
+    "hanzi": "其实",
+    "pinyin": "qí shí",
+    "english": "actually",
+    "band": "common",
+    "zipf": 5.43
+  },
+  {
+    "id": "最-zui4",
+    "hanzi": "最",
+    "pinyin": "zuì",
+    "english": "most",
+    "band": "common",
+    "zipf": 6.03
+  },
+  {
+    "id": "冬天-dong1-tian1",
+    "hanzi": "冬天",
+    "pinyin": "dōng tiān",
+    "english": "winter",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "决定-jue2-ding4",
+    "hanzi": "决定",
+    "pinyin": "jué dìng",
+    "english": "decide",
+    "band": "common",
+    "zipf": 5.76
+  },
+  {
+    "id": "准备-zhun3-bei4",
+    "hanzi": "准备",
+    "pinyin": "zhǔn bèi",
+    "english": "prepare",
+    "band": "common",
+    "zipf": 5.49
+  },
+  {
+    "id": "出去-chu1-qu4",
+    "hanzi": "出去",
+    "pinyin": "chū qù",
+    "english": "go out",
+    "band": "mid",
+    "zipf": 4.93
+  },
+  {
+    "id": "出现-chu1-xian4",
+    "hanzi": "出现",
+    "pinyin": "chū xiàn",
+    "english": "appear",
+    "band": "common",
+    "zipf": 5.76
+  },
+  {
+    "id": "分享-fen1-xiang3",
+    "hanzi": "分享",
+    "pinyin": "fēn xiǎng",
+    "english": "share",
+    "band": "common",
+    "zipf": 5.15
+  },
+  {
+    "id": "切-qie1",
+    "hanzi": "切",
+    "pinyin": "qiē",
+    "english": "cut",
+    "band": "mid",
+    "zipf": 4.44
+  },
+  {
+    "id": "刚才-gang1-cai2",
+    "hanzi": "刚才",
+    "pinyin": "gāng cái",
+    "english": "just now",
+    "band": "mid",
+    "zipf": 4.85
+  },
+  {
+    "id": "到达-dao4-da2",
+    "hanzi": "到达",
+    "pinyin": "dào dá",
+    "english": "arrive",
+    "band": "mid",
+    "zipf": 4.7
+  },
+  {
+    "id": "刷-shua1",
+    "hanzi": "刷",
+    "pinyin": "shuā",
+    "english": "paint",
+    "band": "mid",
+    "zipf": 4.52
+  },
+  {
+    "id": "包括-bao1-kuo4",
+    "hanzi": "包括",
+    "pinyin": "bāo kuò",
+    "english": "including",
+    "band": "common",
+    "zipf": 5.77
+  },
+  {
+    "id": "北-bei3",
+    "hanzi": "北",
+    "pinyin": "běi",
+    "english": "north",
+    "band": "mid",
+    "zipf": 4.98
+  },
+  {
+    "id": "南-nan2",
+    "hanzi": "南",
+    "pinyin": "nán",
+    "english": "south",
+    "band": "common",
+    "zipf": 5.06
+  },
+  {
+    "id": "卧室-wo4-shi4",
+    "hanzi": "卧室",
+    "pinyin": "wò shì",
+    "english": "bedroom",
+    "band": "rare",
+    "zipf": 4.03
+  },
+  {
+    "id": "卫生间-wei4-sheng1-jian1",
+    "hanzi": "卫生间",
+    "pinyin": "wèi shēng jiān",
+    "english": "bathroom",
+    "band": "rare",
+    "zipf": 3.83
+  },
+  {
+    "id": "原谅-yuan2-liang4",
+    "hanzi": "原谅",
+    "pinyin": "yuán liàng",
+    "english": "forgive",
+    "band": "mid",
+    "zipf": 4.28
+  },
+  {
+    "id": "厨房-chu2-fang2",
+    "hanzi": "厨房",
+    "pinyin": "chú fáng",
+    "english": "kitchen",
+    "band": "mid",
+    "zipf": 4.44
+  },
+  {
+    "id": "又-you4",
+    "hanzi": "又",
+    "pinyin": "yòu",
+    "english": "again",
+    "band": "common",
+    "zipf": 6.14
+  },
+  {
+    "id": "发展-fa1-zhan3",
+    "hanzi": "发展",
+    "pinyin": "fā zhǎn",
+    "english": "develop",
+    "band": "common",
+    "zipf": 6.03
+  },
+  {
+    "id": "发生-fa1-sheng1",
+    "hanzi": "发生",
+    "pinyin": "fā shēng",
+    "english": "happen",
+    "band": "common",
+    "zipf": 5.83
+  },
+  {
+    "id": "发邮件-fa1-you2-jian4",
+    "hanzi": "发邮件",
+    "pinyin": "fā yóu jiàn",
+    "english": "email",
+    "band": "rare",
+    "zipf": 3.33
+  },
+  {
+    "id": "取决于-qu3-jue2-yu2",
+    "hanzi": "取决于",
+    "pinyin": "qǔ jué yú",
+    "english": "depend",
+    "band": "rare",
+    "zipf": 4.1
+  },
+  {
+    "id": "只-zhi3",
+    "hanzi": "只",
+    "pinyin": "zhǐ",
+    "english": "only",
+    "band": "common",
+    "zipf": 5.94
+  },
+  {
+    "id": "可以-ke3-yi3",
+    "hanzi": "可以",
+    "pinyin": "kě yǐ",
+    "english": "can",
+    "band": "common",
+    "zipf": 6.34
+  },
+  {
+    "id": "可是-ke3-shi4",
+    "hanzi": "可是",
+    "pinyin": "kě shì",
+    "english": "but",
+    "band": "common",
+    "zipf": 5.31,
+    "sharedGloss": true
+  },
+  {
+    "id": "可能-ke3-neng2",
+    "hanzi": "可能",
+    "pinyin": "kě néng",
+    "english": "might",
+    "band": "common",
+    "zipf": 6.01
+  },
+  {
+    "id": "合适-he2-shi4",
+    "hanzi": "合适",
+    "pinyin": "hé shì",
+    "english": "fit",
+    "band": "mid",
+    "zipf": 4.66
+  },
+  {
+    "id": "同意-tong2-yi4",
+    "hanzi": "同意",
+    "pinyin": "tóng yì",
+    "english": "agree",
+    "band": "common",
+    "zipf": 5.15
+  },
+  {
+    "id": "同时-tong2-shi2",
+    "hanzi": "同时",
+    "pinyin": "tóng shí",
+    "english": "simultaneously",
+    "band": "common",
+    "zipf": 5.79
+  },
+  {
+    "id": "听起来-ting1-qi3-lai2",
+    "hanzi": "听起来",
+    "pinyin": "tīng qǐ lái",
+    "english": "sound",
+    "band": "mid",
+    "zipf": 4.41
+  },
+  {
+    "id": "告诉-gao4-su4",
+    "hanzi": "告诉",
+    "pinyin": "gào sù",
+    "english": "tell",
+    "band": "common",
+    "zipf": 5.42
+  },
+  {
+    "id": "商量-shang1-liang2",
+    "hanzi": "商量",
+    "pinyin": "shāng liáng",
+    "english": "discuss (formal)",
+    "band": "rare",
+    "zipf": 4.12
+  },
+  {
+    "id": "啥-sha2",
+    "hanzi": "啥",
+    "pinyin": "shá",
+    "english": "what (dialect)",
+    "band": "mid",
+    "zipf": 4.83
+  },
+  {
+    "id": "喜欢-xi3-huan1",
+    "hanzi": "喜欢",
+    "pinyin": "xǐ huān",
+    "english": "like",
+    "band": "common",
+    "zipf": 5.73
+  },
+  {
+    "id": "回答-hui2-da2",
+    "hanzi": "回答",
+    "pinyin": "huí dá",
+    "english": "answer",
+    "band": "common",
+    "zipf": 5.04
+  },
+  {
+    "id": "因为-yin1-wei4",
+    "hanzi": "因为",
+    "pinyin": "yīn wèi",
+    "english": "because",
+    "band": "common",
+    "zipf": 6.11
+  },
+  {
+    "id": "坐-zuo4",
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "english": "sit",
+    "band": "common",
+    "zipf": 5.01
+  },
+  {
+    "id": "夏天-xia4-tian1",
+    "hanzi": "夏天",
+    "pinyin": "xià tiān",
+    "english": "summer",
+    "band": "mid",
+    "zipf": 4.63
+  },
+  {
+    "id": "大声-da4-sheng1",
+    "hanzi": "大声",
+    "pinyin": "dà shēng",
+    "english": "loud",
+    "band": "mid",
+    "zipf": 4.47
+  },
+  {
+    "id": "大概-da4-gai4",
+    "hanzi": "大概",
+    "pinyin": "dà gài",
+    "english": "roughly",
+    "band": "mid",
+    "zipf": 4.88
+  },
+  {
+    "id": "太-tai4",
+    "hanzi": "太",
+    "pinyin": "tài",
+    "english": "too (excessively)",
+    "band": "common",
+    "zipf": 5.64
+  },
+  {
+    "id": "失败-shi1-bai4",
+    "hanzi": "失败",
+    "pinyin": "shī bài",
+    "english": "failure",
+    "band": "common",
+    "zipf": 5.11
+  },
+  {
+    "id": "好像-hao3-xiang4",
+    "hanzi": "好像",
+    "pinyin": "hǎo xiàng",
+    "english": "seem",
+    "band": "common",
+    "zipf": 5.15
+  },
+  {
+    "id": "好笑-hao3-xiao4",
+    "hanzi": "好笑",
+    "pinyin": "hǎo xiào",
+    "english": "funny",
+    "band": "rare",
+    "zipf": 4
+  },
+  {
+    "id": "如果-ru2-guo3",
+    "hanzi": "如果",
+    "pinyin": "rú guǒ",
+    "english": "if",
+    "band": "common",
+    "zipf": 5.97
+  },
+  {
+    "id": "安排-an1-pai2",
+    "hanzi": "安排",
+    "pinyin": "ān pái",
+    "english": "arrange",
+    "band": "common",
+    "zipf": 5.03
+  },
+  {
+    "id": "安静-an1-jing4",
+    "hanzi": "安静",
+    "pinyin": "ān jìng",
+    "english": "quiet",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "完成-wan2-cheng2",
+    "hanzi": "完成",
+    "pinyin": "wán chéng",
+    "english": "finish",
+    "band": "common",
+    "zipf": 5.52
+  },
+  {
+    "id": "客厅-ke4-ting1",
+    "hanzi": "客厅",
+    "pinyin": "kè tīng",
+    "english": "living room",
+    "band": "rare",
+    "zipf": 4.05
+  },
+  {
+    "id": "害怕-hai4-pa4",
+    "hanzi": "害怕",
+    "pinyin": "hài pà",
+    "english": "afraid",
+    "band": "mid",
+    "zipf": 4.97
+  },
+  {
+    "id": "容易-rong2-yi4",
+    "hanzi": "容易",
+    "pinyin": "róng yì",
+    "english": "easy",
+    "band": "common",
+    "zipf": 5.25
+  },
+  {
+    "id": "宾馆-bin1-guan3",
+    "hanzi": "宾馆",
+    "pinyin": "bīn guǎn",
+    "english": "hotel",
+    "band": "rare",
+    "zipf": 4.19
+  },
+  {
+    "id": "寄-ji4",
+    "hanzi": "寄",
+    "pinyin": "jì",
+    "english": "send",
+    "band": "mid",
+    "zipf": 4.41
+  },
+  {
+    "id": "尝-chang2",
+    "hanzi": "尝",
+    "pinyin": "cháng",
+    "english": "taste",
+    "band": "rare",
+    "zipf": 3.91
+  },
+  {
+    "id": "层-ceng2",
+    "hanzi": "层",
+    "pinyin": "céng",
+    "english": "floor (storey)",
+    "band": "mid",
+    "zipf": 4.88
+  },
+  {
+    "id": "山-shan1",
+    "hanzi": "山",
+    "pinyin": "shān",
+    "english": "mountain",
+    "band": "mid",
+    "zipf": 4.99
+  },
+  {
+    "id": "岸-an4",
+    "hanzi": "岸",
+    "pinyin": "àn",
+    "english": "bank (river)",
+    "band": "rare",
+    "zipf": 3.91
+  },
+  {
+    "id": "已经-yi3-jing1",
+    "hanzi": "已经",
+    "pinyin": "yǐ jīng",
+    "english": "already",
+    "band": "common",
+    "zipf": 6.06
+  },
+  {
+    "id": "希望-xi1-wang4",
+    "hanzi": "希望",
+    "pinyin": "xī wàng",
+    "english": "hope",
+    "band": "common",
+    "zipf": 5.72
+  },
+  {
+    "id": "庆祝-qing4-zhu4",
+    "hanzi": "庆祝",
+    "pinyin": "qìng zhù",
+    "english": "celebrate",
+    "band": "mid",
+    "zipf": 4.68
+  },
+  {
+    "id": "应该-ying1-gai1",
+    "hanzi": "应该",
+    "pinyin": "yīng gāi",
+    "english": "should",
+    "band": "common",
+    "zipf": 5.85
+  },
+  {
+    "id": "建-jian4",
+    "hanzi": "建",
+    "pinyin": "jiàn",
+    "english": "build",
+    "band": "mid",
+    "zipf": 4.89
+  },
+  {
+    "id": "建议-jian4-yi4",
+    "hanzi": "建议",
+    "pinyin": "jiàn yì",
+    "english": "advise",
+    "band": "common",
+    "zipf": 5.32
+  },
+  {
+    "id": "开始-kai1-shi3",
+    "hanzi": "开始",
+    "pinyin": "kāi shǐ",
+    "english": "start",
+    "band": "common",
+    "zipf": 6.03
+  },
+  {
+    "id": "开车-kai1-che1",
+    "hanzi": "开车",
+    "pinyin": "kāi chē",
+    "english": "drive",
+    "band": "mid",
+    "zipf": 4.57
+  },
+  {
+    "id": "当然-dang1-ran2",
+    "hanzi": "当然",
+    "pinyin": "dāng rán",
+    "english": "sure",
+    "band": "common",
+    "zipf": 5.5
+  },
+  {
+    "id": "很-hen3",
+    "hanzi": "很",
+    "pinyin": "hěn",
+    "english": "very",
+    "band": "common",
+    "zipf": 6.27
+  },
+  {
+    "id": "心情-xin1-qing2",
+    "hanzi": "心情",
+    "pinyin": "xīn qíng",
+    "english": "mood",
+    "band": "mid",
+    "zipf": 4.69
+  },
+  {
+    "id": "必须-bi4-xu1",
+    "hanzi": "必须",
+    "pinyin": "bì xū",
+    "english": "must",
+    "band": "common",
+    "zipf": 5.79
+  },
+  {
+    "id": "忘记-wang4-ji4",
+    "hanzi": "忘记",
+    "pinyin": "wàng jì",
+    "english": "forget",
+    "band": "mid",
+    "zipf": 4.89
+  },
+  {
+    "id": "快-kuai4",
+    "hanzi": "快",
+    "pinyin": "kuài",
+    "english": "fast",
+    "band": "common",
+    "zipf": 5.79
+  },
+  {
+    "id": "怀疑-huai2-yi2",
+    "hanzi": "怀疑",
+    "pinyin": "huái yí",
+    "english": "doubt",
+    "band": "mid",
+    "zipf": 4.91
+  },
+  {
+    "id": "怎样-zen3-yang4",
+    "hanzi": "怎样",
+    "pinyin": "zěn yàng",
+    "english": "how",
+    "band": "common",
+    "zipf": 5.39
+  },
+  {
+    "id": "怪-guai4",
+    "hanzi": "怪",
+    "pinyin": "guài",
+    "english": "blame",
+    "band": "mid",
+    "zipf": 4.74
+  },
+  {
+    "id": "总是-zong3-shi4",
+    "hanzi": "总是",
+    "pinyin": "zǒng shì",
+    "english": "always",
+    "band": "common",
+    "zipf": 5.2
+  },
+  {
+    "id": "惊讶-jing1-ya4",
+    "hanzi": "惊讶",
+    "pinyin": "jīng yà",
+    "english": "surprised",
+    "band": "mid",
+    "zipf": 4.44
+  },
+  {
+    "id": "想念-xiang3-nian4",
+    "hanzi": "想念",
+    "pinyin": "xiǎng niàn",
+    "english": "miss (yearn)",
+    "band": "mid",
+    "zipf": 4.27
+  },
+  {
+    "id": "想要-xiang3-yao4",
+    "hanzi": "想要",
+    "pinyin": "xiǎng yào",
+    "english": "want",
+    "band": "common",
+    "zipf": 5.24
+  },
+  {
+    "id": "感觉-gan3-jue2",
+    "hanzi": "感觉",
+    "pinyin": "gǎn jué",
+    "english": "feeling",
+    "band": "common",
+    "zipf": 5.44
+  },
+  {
+    "id": "感谢-gan3-xie4",
+    "hanzi": "感谢",
+    "pinyin": "gǎn xiè",
+    "english": "thank",
+    "band": "common",
+    "zipf": 5.06
+  },
+  {
+    "id": "慢慢-man4-man4",
+    "hanzi": "慢慢",
+    "pinyin": "màn màn",
+    "english": "slowly",
+    "band": "mid",
+    "zipf": 4.71
+  },
+  {
+    "id": "成功-cheng2-gong1",
+    "hanzi": "成功",
+    "pinyin": "chéng gōng",
+    "english": "succeed",
+    "band": "common",
+    "zipf": 5.48
+  },
+  {
+    "id": "所以-suo3-yi3",
+    "hanzi": "所以",
+    "pinyin": "suǒ yǐ",
+    "english": "so",
+    "band": "common",
+    "zipf": 5.78
+  },
+  {
+    "id": "所有-suo3-you3",
+    "hanzi": "所有",
+    "pinyin": "suǒ yǒu",
+    "english": "all",
+    "band": "common",
+    "zipf": 5.78
+  },
+  {
+    "id": "打扫-da3-sao3",
+    "hanzi": "打扫",
+    "pinyin": "dǎ sǎo",
+    "english": "clean",
+    "band": "rare",
+    "zipf": 3.79
+  },
+  {
+    "id": "扔-reng1",
+    "hanzi": "扔",
+    "pinyin": "rēng",
+    "english": "throw",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "扫-sao3",
+    "hanzi": "扫",
+    "pinyin": "sǎo",
+    "english": "sweep",
+    "band": "rare",
+    "zipf": 4.17
+  },
+  {
+    "id": "批评-pi1-ping2",
+    "hanzi": "批评",
+    "pinyin": "pī píng",
+    "english": "criticize",
+    "band": "common",
+    "zipf": 5.05
+  },
+  {
+    "id": "找到-zhao3-dao4",
+    "hanzi": "找到",
+    "pinyin": "zhǎo dào",
+    "english": "find",
+    "band": "common",
+    "zipf": 5.27
+  },
+  {
+    "id": "抱-bao4",
+    "hanzi": "抱",
+    "pinyin": "bào",
+    "english": "hold",
+    "band": "mid",
+    "zipf": 4.74
+  },
+  {
+    "id": "担心-dan1-xin1",
+    "hanzi": "担心",
+    "pinyin": "dān xīn",
+    "english": "anxious",
+    "band": "common",
+    "zipf": 5.16
+  },
+  {
+    "id": "拉-la1",
+    "hanzi": "拉",
+    "pinyin": "lā",
+    "english": "pull",
+    "band": "common",
+    "zipf": 5.22
+  },
+  {
+    "id": "拍照-pai1-zhao4",
+    "hanzi": "拍照",
+    "pinyin": "pāi zhào",
+    "english": "take photo",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "拒绝-ju4-jue2",
+    "hanzi": "拒绝",
+    "pinyin": "jù jué",
+    "english": "refuse",
+    "band": "common",
+    "zipf": 5.09
+  },
+  {
+    "id": "拖-tuo1",
+    "hanzi": "拖",
+    "pinyin": "tuō",
+    "english": "mop",
+    "band": "mid",
+    "zipf": 4.56
+  },
+  {
+    "id": "按-an4",
+    "hanzi": "按",
+    "pinyin": "àn",
+    "english": "press",
+    "band": "common",
+    "zipf": 5.24
+  },
+  {
+    "id": "挣-zheng4",
+    "hanzi": "挣",
+    "pinyin": "zhèng",
+    "english": "earn",
+    "band": "rare",
+    "zipf": 4.18
+  },
+  {
+    "id": "挺-ting3",
+    "hanzi": "挺",
+    "pinyin": "tǐng",
+    "english": "quite",
+    "band": "mid",
+    "zipf": 4.85
+  },
+  {
+    "id": "捡-jian3",
+    "hanzi": "捡",
+    "pinyin": "jiǎn",
+    "english": "pick up",
+    "band": "mid",
+    "zipf": 4.29
+  },
+  {
+    "id": "掉-diao4",
+    "hanzi": "掉",
+    "pinyin": "diào",
+    "english": "fall",
+    "band": "mid",
+    "zipf": 4.93
+  },
+  {
+    "id": "控制-kong4-zhi4",
+    "hanzi": "控制",
+    "pinyin": "kòng zhì",
+    "english": "control",
+    "band": "common",
+    "zipf": 5.39
+  },
+  {
+    "id": "推-tui1",
+    "hanzi": "推",
+    "pinyin": "tuī",
+    "english": "push",
+    "band": "mid",
+    "zipf": 4.87
+  },
+  {
+    "id": "提醒-ti2-xing3",
+    "hanzi": "提醒",
+    "pinyin": "tí xǐng",
+    "english": "remind",
+    "band": "mid",
+    "zipf": 4.78
+  },
+  {
+    "id": "提高-ti2-gao1",
+    "hanzi": "提高",
+    "pinyin": "tí gāo",
+    "english": "raise",
+    "band": "common",
+    "zipf": 5.27
+  },
+  {
+    "id": "搬-ban1",
+    "hanzi": "搬",
+    "pinyin": "bān",
+    "english": "carry",
+    "band": "mid",
+    "zipf": 4.59
+  },
+  {
+    "id": "收到-shou1-dao4",
+    "hanzi": "收到",
+    "pinyin": "shōu dào",
+    "english": "receive",
+    "band": "mid",
+    "zipf": 4.93
+  },
+  {
+    "id": "改变-gai3-bian4",
+    "hanzi": "改变",
+    "pinyin": "gǎi biàn",
+    "english": "change",
+    "band": "common",
+    "zipf": 5.47
+  },
+  {
+    "id": "改正-gai3-zheng4",
+    "hanzi": "改正",
+    "pinyin": "gǎi zhèng",
+    "english": "correct (verb)",
+    "band": "rare",
+    "zipf": 3.88
+  },
+  {
+    "id": "数-shu3",
+    "hanzi": "数",
+    "pinyin": "shǔ",
+    "english": "count",
+    "band": "common",
+    "zipf": 5.1
+  },
+  {
+    "id": "旅行-lv3-xing2",
+    "hanzi": "旅行",
+    "pinyin": "lǚ xíng",
+    "english": "travel",
+    "band": "mid",
+    "zipf": 4.74
+  },
+  {
+    "id": "无聊-wu2-liao2",
+    "hanzi": "无聊",
+    "pinyin": "wú liáo",
+    "english": "bored",
+    "band": "mid",
+    "zipf": 4.42
+  },
+  {
+    "id": "春天-chun1-tian1",
+    "hanzi": "春天",
+    "pinyin": "chūn tiān",
+    "english": "spring",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "更-geng4",
+    "hanzi": "更",
+    "pinyin": "gèng",
+    "english": "more",
+    "band": "common",
+    "zipf": 6.06
+  },
+  {
+    "id": "曾经-ceng2-jing1",
+    "hanzi": "曾经",
+    "pinyin": "céng jīng",
+    "english": "once",
+    "band": "common",
+    "zipf": 5.22
+  },
+  {
+    "id": "有意思-you3-yi4-si5",
+    "hanzi": "有意思",
+    "pinyin": "yǒu yì si",
+    "english": "interesting",
+    "band": "mid",
+    "zipf": 4.38
+  },
+  {
+    "id": "有时-you3-shi2",
+    "hanzi": "有时",
+    "pinyin": "yǒu shí",
+    "english": "sometimes",
+    "band": "common",
+    "zipf": 5.03
+  },
+  {
+    "id": "服务-fu2-wu4",
+    "hanzi": "服务",
+    "pinyin": "fú wù",
+    "english": "serve",
+    "band": "common",
+    "zipf": 5.67
+  },
+  {
+    "id": "机场-ji1-chang3",
+    "hanzi": "机场",
+    "pinyin": "jī chǎng",
+    "english": "airport",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "根据-gen1-ju4",
+    "hanzi": "根据",
+    "pinyin": "gēn jù",
+    "english": "according to",
+    "band": "common",
+    "zipf": 5.68
+  },
+  {
+    "id": "桥-qiao2",
+    "hanzi": "桥",
+    "pinyin": "qiáo",
+    "english": "bridge",
+    "band": "mid",
+    "zipf": 4.61
+  },
+  {
+    "id": "检查-jian3-cha2",
+    "hanzi": "检查",
+    "pinyin": "jiǎn chá",
+    "english": "check",
+    "band": "common",
+    "zipf": 5.1
+  },
+  {
+    "id": "楼-lou2",
+    "hanzi": "楼",
+    "pinyin": "lóu",
+    "english": "building",
+    "band": "mid",
+    "zipf": 4.82
+  },
+  {
+    "id": "正好-zheng4-hao3",
+    "hanzi": "正好",
+    "pinyin": "zhèng hǎo",
+    "english": "just right",
+    "band": "mid",
+    "zipf": 4.47
+  },
+  {
+    "id": "每-mei3",
+    "hanzi": "每",
+    "pinyin": "měi",
+    "english": "each",
+    "band": "common",
+    "zipf": 5.48
+  },
+  {
+    "id": "比较-bi3-jiao4",
+    "hanzi": "比较",
+    "pinyin": "bǐ jiào",
+    "english": "compare",
+    "band": "common",
+    "zipf": 5.48
+  },
+  {
+    "id": "河-he2",
+    "hanzi": "河",
+    "pinyin": "hé",
+    "english": "river",
+    "band": "mid",
+    "zipf": 4.74
+  },
+  {
+    "id": "注意-zhu4-yi4",
+    "hanzi": "注意",
+    "pinyin": "zhù yì",
+    "english": "take care (oneself)",
+    "band": "common",
+    "zipf": 5.35
+  },
+  {
+    "id": "洗-xi3",
+    "hanzi": "洗",
+    "pinyin": "xǐ",
+    "english": "wash",
+    "band": "mid",
+    "zipf": 4.62
+  },
+  {
+    "id": "消失-xiao1-shi1",
+    "hanzi": "消失",
+    "pinyin": "xiāo shī",
+    "english": "disappear",
+    "band": "mid",
+    "zipf": 4.9
+  },
+  {
+    "id": "清楚-qing1-chu3",
+    "hanzi": "清楚",
+    "pinyin": "qīng chǔ",
+    "english": "clearly",
+    "band": "common",
+    "zipf": 5.16
+  },
+  {
+    "id": "游泳-you2-yong3",
+    "hanzi": "游泳",
+    "pinyin": "yóu yǒng",
+    "english": "swim",
+    "band": "mid",
+    "zipf": 4.49
+  },
+  {
+    "id": "火车站-huo3-che1-zhan4",
+    "hanzi": "火车站",
+    "pinyin": "huǒ chē zhàn",
+    "english": "train station",
+    "band": "mid",
+    "zipf": 4.33
+  },
+  {
+    "id": "炒-chao3",
+    "hanzi": "炒",
+    "pinyin": "chǎo",
+    "english": "fry",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "烤-kao3",
+    "hanzi": "烤",
+    "pinyin": "kǎo",
+    "english": "bake",
+    "band": "mid",
+    "zipf": 4.24
+  },
+  {
+    "id": "然后-ran2-hou4",
+    "hanzi": "然后",
+    "pinyin": "rán hòu",
+    "english": "then",
+    "band": "common",
+    "zipf": 5.55
+  },
+  {
+    "id": "煮-zhu3",
+    "hanzi": "煮",
+    "pinyin": "zhǔ",
+    "english": "boil",
+    "band": "mid",
+    "zipf": 4.37
+  },
+  {
+    "id": "照顾-zhao4-gu4",
+    "hanzi": "照顾",
+    "pinyin": "zhào gù",
+    "english": "take care of",
+    "band": "mid",
+    "zipf": 4.84
+  },
+  {
+    "id": "蒸-zheng1",
+    "hanzi": "蒸",
+    "pinyin": "zhēng",
+    "english": "steam",
+    "band": "rare",
+    "zipf": 3.67
+  },
+  {
+    "id": "爬-pa2",
+    "hanzi": "爬",
+    "pinyin": "pá",
+    "english": "climb",
+    "band": "mid",
+    "zipf": 4.48
+  },
+  {
+    "id": "特别-te4-bie2",
+    "hanzi": "特别",
+    "pinyin": "tè bié",
+    "english": "special",
+    "band": "common",
+    "zipf": 5.63
+  },
+  {
+    "id": "理解-li3-jie3",
+    "hanzi": "理解",
+    "pinyin": "lǐ jiě",
+    "english": "understand",
+    "band": "common",
+    "zipf": 5.18
+  },
+  {
+    "id": "生气-sheng1-qi4",
+    "hanzi": "生气",
+    "pinyin": "shēng qì",
+    "english": "angry",
+    "band": "mid",
+    "zipf": 4.64
+  },
+  {
+    "id": "画-hua4",
+    "hanzi": "画",
+    "pinyin": "huà",
+    "english": "draw",
+    "band": "mid",
+    "zipf": 4.93
+  },
+  {
+    "id": "相信-xiang1-xin4",
+    "hanzi": "相信",
+    "pinyin": "xiāng xìn",
+    "english": "believe",
+    "band": "common",
+    "zipf": 5.4
+  },
+  {
+    "id": "省-sheng3",
+    "hanzi": "省",
+    "pinyin": "shěng",
+    "english": "save",
+    "band": "common",
+    "zipf": 5.46
+  },
+  {
+    "id": "看起来-kan4-qi3-lai2",
+    "hanzi": "看起来",
+    "pinyin": "kàn qǐ lái",
+    "english": "look (appearance)",
+    "band": "mid",
+    "zipf": 4.77
+  },
+  {
+    "id": "真-zhen1",
+    "hanzi": "真",
+    "pinyin": "zhēn",
+    "english": "really",
+    "band": "common",
+    "zipf": 5.49
+  },
+  {
+    "id": "着急-zhao2-ji2",
+    "hanzi": "着急",
+    "pinyin": "zháo jí",
+    "english": "worry",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "研究-yan2-jiu1",
+    "hanzi": "研究",
+    "pinyin": "yán jiū",
+    "english": "study",
+    "band": "common",
+    "zipf": 5.69
+  },
+  {
+    "id": "祝贺-zhu4-he4",
+    "hanzi": "祝贺",
+    "pinyin": "zhù hè",
+    "english": "congratulate",
+    "band": "rare",
+    "zipf": 4.16
+  },
+  {
+    "id": "禁止-jin4-zhi3",
+    "hanzi": "禁止",
+    "pinyin": "jìn zhǐ",
+    "english": "forbid",
+    "band": "mid",
+    "zipf": 4.9
+  },
+  {
+    "id": "离开-li2-kai1",
+    "hanzi": "离开",
+    "pinyin": "lí kāi",
+    "english": "leave",
+    "band": "common",
+    "zipf": 5.35
+  },
+  {
+    "id": "秋天-qiu1-tian1",
+    "hanzi": "秋天",
+    "pinyin": "qiū tiān",
+    "english": "autumn",
+    "band": "rare",
+    "zipf": 4.07
+  },
+  {
+    "id": "突然-tu1-ran2",
+    "hanzi": "突然",
+    "pinyin": "tū rán",
+    "english": "suddenly",
+    "band": "common",
+    "zipf": 5.13
+  },
+  {
+    "id": "站-zhan4",
+    "hanzi": "站",
+    "pinyin": "zhàn",
+    "english": "stand",
+    "band": "common",
+    "zipf": 5.62
+  },
+  {
+    "id": "等-deng3",
+    "hanzi": "等",
+    "pinyin": "děng",
+    "english": "wait",
+    "band": "common",
+    "zipf": 6.33
+  },
+  {
+    "id": "答应-da1-ying4",
+    "hanzi": "答应",
+    "pinyin": "dā yìng",
+    "english": "promise",
+    "band": "mid",
+    "zipf": 4.65
+  },
+  {
+    "id": "管理-guan3-li3",
+    "hanzi": "管理",
+    "pinyin": "guǎn lǐ",
+    "english": "manage",
+    "band": "common",
+    "zipf": 5.54
+  },
+  {
+    "id": "练习-lian4-xi2",
+    "hanzi": "练习",
+    "pinyin": "liàn xí",
+    "english": "practice",
+    "band": "mid",
+    "zipf": 4.44
+  },
+  {
+    "id": "组织-zu3-zhi1",
+    "hanzi": "组织",
+    "pinyin": "zǔ zhī",
+    "english": "organize",
+    "band": "common",
+    "zipf": 5.84
+  },
+  {
+    "id": "终于-zhong1-yu2",
+    "hanzi": "终于",
+    "pinyin": "zhōng yú",
+    "english": "finally",
+    "band": "common",
+    "zipf": 5.24
+  },
+  {
+    "id": "经常-jing1-chang2",
+    "hanzi": "经常",
+    "pinyin": "jīng cháng",
+    "english": "often",
+    "band": "common",
+    "zipf": 5.16
+  },
+  {
+    "id": "经过-jing1-guo4",
+    "hanzi": "经过",
+    "pinyin": "jīng guò",
+    "english": "pass",
+    "band": "common",
+    "zipf": 5.38
+  },
+  {
+    "id": "继续-ji4-xu4",
+    "hanzi": "继续",
+    "pinyin": "jì xù",
+    "english": "continue",
+    "band": "common",
+    "zipf": 5.64
+  },
+  {
+    "id": "考试-kao3-shi4",
+    "hanzi": "考试",
+    "pinyin": "kǎo shì",
+    "english": "exam",
+    "band": "mid",
+    "zipf": 4.91
+  },
+  {
+    "id": "花（钱）-hua1-qian2",
+    "hanzi": "花（钱）",
+    "pinyin": "huā (qián)",
+    "english": "cost",
+    "band": "rare",
+    "zipf": 4.05
+  },
+  {
+    "id": "花园-hua1-yuan2",
+    "hanzi": "花园",
+    "pinyin": "huā yuán",
+    "english": "garden",
+    "band": "mid",
+    "zipf": 4.49
+  },
+  {
+    "id": "虽然-sui1-ran2",
+    "hanzi": "虽然",
+    "pinyin": "suī rán",
+    "english": "although",
+    "band": "common",
+    "zipf": 5.66
+  },
+  {
+    "id": "街-jie1",
+    "hanzi": "街",
+    "pinyin": "jiē",
+    "english": "street",
+    "band": "mid",
+    "zipf": 4.96
+  },
+  {
+    "id": "表扬-biao3-yang2",
+    "hanzi": "表扬",
+    "pinyin": "biǎo yáng",
+    "english": "praise",
+    "band": "rare",
+    "zipf": 3.88
+  },
+  {
+    "id": "西-xi1",
+    "hanzi": "西",
+    "pinyin": "xī",
+    "english": "west",
+    "band": "common",
+    "zipf": 5.2
+  },
+  {
+    "id": "觉得-jue2-de5",
+    "hanzi": "觉得",
+    "pinyin": "jué de",
+    "english": "feel (emotion)",
+    "band": "common",
+    "zipf": 5.75
+  },
+  {
+    "id": "解释-jie3-shi4",
+    "hanzi": "解释",
+    "pinyin": "jiě shì",
+    "english": "explain",
+    "band": "common",
+    "zipf": 5.3
+  },
+  {
+    "id": "计划-ji4-hua4",
+    "hanzi": "计划",
+    "pinyin": "jì huà",
+    "english": "plan",
+    "band": "common",
+    "zipf": 5.94
+  },
+  {
+    "id": "认为-ren4-wei2",
+    "hanzi": "认为",
+    "pinyin": "rèn wéi",
+    "english": "think",
+    "band": "common",
+    "zipf": 5.93
+  },
+  {
+    "id": "讨厌-tao3-yan4",
+    "hanzi": "讨厌",
+    "pinyin": "tǎo yàn",
+    "english": "hate",
+    "band": "mid",
+    "zipf": 4.79
+  },
+  {
+    "id": "讨论-tao3-lun4",
+    "hanzi": "讨论",
+    "pinyin": "tǎo lùn",
+    "english": "discuss",
+    "band": "common",
+    "zipf": 5.29
+  },
+  {
+    "id": "训练-xun4-lian4",
+    "hanzi": "训练",
+    "pinyin": "xùn liàn",
+    "english": "train",
+    "band": "common",
+    "zipf": 5.12
+  },
+  {
+    "id": "记得-ji4-de5",
+    "hanzi": "记得",
+    "pinyin": "jì de",
+    "english": "remember",
+    "band": "common",
+    "zipf": 5.07
+  },
+  {
+    "id": "访问-fang3-wen4",
+    "hanzi": "访问",
+    "pinyin": "fǎng wèn",
+    "english": "visit",
+    "band": "mid",
+    "zipf": 4.98
+  },
+  {
+    "id": "试-shi4",
+    "hanzi": "试",
+    "pinyin": "shì",
+    "english": "try",
+    "band": "mid",
+    "zipf": 4.73
+  },
+  {
+    "id": "谈话-tan2-hua4",
+    "hanzi": "谈话",
+    "pinyin": "tán huà",
+    "english": "talk",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "走-zou3",
+    "hanzi": "走",
+    "pinyin": "zǒu",
+    "english": "walk",
+    "band": "common",
+    "zipf": 5.66
+  },
+  {
+    "id": "跑-pao3",
+    "hanzi": "跑",
+    "pinyin": "pǎo",
+    "english": "run",
+    "band": "common",
+    "zipf": 5.23
+  },
+  {
+    "id": "路-lu4",
+    "hanzi": "路",
+    "pinyin": "lù",
+    "english": "road",
+    "band": "common",
+    "zipf": 5.43
+  },
+  {
+    "id": "跳-tiao4",
+    "hanzi": "跳",
+    "pinyin": "tiào",
+    "english": "jump",
+    "band": "mid",
+    "zipf": 4.84
+  },
+  {
+    "id": "踢-ti1",
+    "hanzi": "踢",
+    "pinyin": "tī",
+    "english": "kick",
+    "band": "mid",
+    "zipf": 4.46
+  },
+  {
+    "id": "躺-tang3",
+    "hanzi": "躺",
+    "pinyin": "tǎng",
+    "english": "lie",
+    "band": "mid",
+    "zipf": 4.58
+  },
+  {
+    "id": "转-zhuan3",
+    "hanzi": "转",
+    "pinyin": "zhuǎn",
+    "english": "turn",
+    "band": "common",
+    "zipf": 5.18
+  },
+  {
+    "id": "过-guo4",
+    "hanzi": "过",
+    "pinyin": "guò",
+    "english": "cross",
+    "band": "common",
+    "zipf": 6.1
+  },
+  {
+    "id": "返回-fan3-hui2",
+    "hanzi": "返回",
+    "pinyin": "fǎn huí",
+    "english": "return",
+    "band": "mid",
+    "zipf": 4.53
+  },
+  {
+    "id": "还-hai2",
+    "hanzi": "还",
+    "pinyin": "hái",
+    "english": "still",
+    "band": "common",
+    "zipf": 6.38
+  },
+  {
+    "id": "进入-jin4-ru4",
+    "hanzi": "进入",
+    "pinyin": "jìn rù",
+    "english": "enter",
+    "band": "common",
+    "zipf": 5.54
+  },
+  {
+    "id": "进来-jin4-lai2",
+    "hanzi": "进来",
+    "pinyin": "jìn lái",
+    "english": "come in",
+    "band": "mid",
+    "zipf": 4.79
+  },
+  {
+    "id": "适合-shi4-he2",
+    "hanzi": "适合",
+    "pinyin": "shì hé",
+    "english": "suit",
+    "band": "common",
+    "zipf": 5.02
+  },
+  {
+    "id": "选择-xuan3-ze2",
+    "hanzi": "选择",
+    "pinyin": "xuǎn zé",
+    "english": "choice",
+    "band": "common",
+    "zipf": 5.55
+  },
+  {
+    "id": "通常-tong1-chang2",
+    "hanzi": "通常",
+    "pinyin": "tōng cháng",
+    "english": "usually",
+    "band": "common",
+    "zipf": 5.08
+  },
+  {
+    "id": "通过-tong1-guo4",
+    "hanzi": "通过",
+    "pinyin": "tōng guò",
+    "english": "through",
+    "band": "common",
+    "zipf": 5.8
+  },
+  {
+    "id": "遇到-yu4-dao4",
+    "hanzi": "遇到",
+    "pinyin": "yù dào",
+    "english": "meet",
+    "band": "mid",
+    "zipf": 4.96
+  },
+  {
+    "id": "道歉-dao4-qian4",
+    "hanzi": "道歉",
+    "pinyin": "dào qiàn",
+    "english": "apologize",
+    "band": "mid",
+    "zipf": 4.64
+  },
+  {
+    "id": "邀请-yao1-qing3",
+    "hanzi": "邀请",
+    "pinyin": "yāo qǐng",
+    "english": "invite",
+    "band": "common",
+    "zipf": 5
+  },
+  {
+    "id": "邻居-lin2-ju1",
+    "hanzi": "邻居",
+    "pinyin": "lín jū",
+    "english": "neighbor",
+    "band": "mid",
+    "zipf": 4.51
+  },
+  {
+    "id": "配-pei4",
+    "hanzi": "配",
+    "pinyin": "pèi",
+    "english": "match",
+    "band": "mid",
+    "zipf": 4.57
+  },
+  {
+    "id": "重要-zhong4-yao4",
+    "hanzi": "重要",
+    "pinyin": "zhòng yào",
+    "english": "important",
+    "band": "common",
+    "zipf": 5.75
+  },
+  {
+    "id": "问-wen4",
+    "hanzi": "问",
+    "pinyin": "wèn",
+    "english": "ask",
+    "band": "common",
+    "zipf": 5.63
+  },
+  {
+    "id": "闻-wen2",
+    "hanzi": "闻",
+    "pinyin": "wén",
+    "english": "smell",
+    "band": "mid",
+    "zipf": 4.37
+  },
+  {
+    "id": "阳台-yang2-tai2",
+    "hanzi": "阳台",
+    "pinyin": "yáng tái",
+    "english": "balcony",
+    "band": "rare",
+    "zipf": 3.99
+  },
+  {
+    "id": "除了-chu2-le5",
+    "hanzi": "除了",
+    "pinyin": "chú le",
+    "english": "except",
+    "band": "common",
+    "zipf": 5.35
+  },
+  {
+    "id": "难-nan2",
+    "hanzi": "难",
+    "pinyin": "nán",
+    "english": "difficult",
+    "band": "common",
+    "zipf": 5.19
+  },
+  {
+    "id": "难过-nan2-guo4",
+    "hanzi": "难过",
+    "pinyin": "nán guò",
+    "english": "sad",
+    "band": "mid",
+    "zipf": 4.61
+  },
+  {
+    "id": "需要-xu1-yao4",
+    "hanzi": "需要",
+    "pinyin": "xū yào",
+    "english": "need",
+    "band": "common",
+    "zipf": 5.93
+  },
+  {
+    "id": "靠-kao4",
+    "hanzi": "靠",
+    "pinyin": "kào",
+    "english": "rely on",
+    "band": "common",
+    "zipf": 5.23
+  },
+  {
+    "id": "顺便-shun4-bian4",
+    "hanzi": "顺便",
+    "pinyin": "shùn biàn",
+    "english": "by the way",
+    "band": "mid",
+    "zipf": 4.24
+  },
+  {
+    "id": "飞-fei1",
+    "hanzi": "飞",
+    "pinyin": "fēi",
+    "english": "fly",
+    "band": "mid",
+    "zipf": 4.87
+  },
+  {
+    "id": "马上-ma3-shang4",
+    "hanzi": "马上",
+    "pinyin": "mǎ shàng",
+    "english": "immediately",
+    "band": "mid",
+    "zipf": 4.81
+  },
+  {
+    "id": "骑-qi2",
+    "hanzi": "骑",
+    "pinyin": "qí",
+    "english": "ride",
+    "band": "mid",
+    "zipf": 4.54
+  },
+  {
+    "id": "高兴-gao1-xing4",
+    "hanzi": "高兴",
+    "pinyin": "gāo xìng",
+    "english": "happy",
+    "band": "common",
+    "zipf": 5
+  },
+  {
+    "id": "鼓励-gu3-li4",
+    "hanzi": "鼓励",
+    "pinyin": "gǔ lì",
+    "english": "encourage",
+    "band": "mid",
+    "zipf": 4.99
+  }
+]

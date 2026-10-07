@@ -1,0 +1,2658 @@
+{
+  "generatedBy": "scripts/content-migrate.mjs",
+  "source": "content/_source/poc-vocabulary + scripts/data/added-words.json",
+  "inFileDuplicatesRemoved": [
+    {
+      "file": "Size-shape.json",
+      "id": "庞大-pang2-da4"
+    },
+    {
+      "file": "Greetings-polite-phrases.json",
+      "id": "不客气-bu2-ke4-qi4"
+    },
+    {
+      "file": "HSK 2.json",
+      "id": "游泳-you2-yong3"
+    },
+    {
+      "file": "HSK 3.json",
+      "id": "注意-zhu4-yi4"
+    },
+    {
+      "file": "Prepositions & location words.json",
+      "id": "旁边-pang2-bian1"
+    },
+    {
+      "file": "Prepositions & location words.json",
+      "id": "在...上-zai4-shang4"
+    }
+  ],
+  "expansionWordsAdded": [
+    {
+      "deck": "family",
+      "id": "外公-wai4-gong1"
+    },
+    {
+      "deck": "family",
+      "id": "外婆-wai4-po2"
+    },
+    {
+      "deck": "family",
+      "id": "叔叔-shu1-shu1"
+    },
+    {
+      "deck": "family",
+      "id": "伯伯-bo2-bo5"
+    },
+    {
+      "deck": "family",
+      "id": "姑姑-gu1-gu1"
+    },
+    {
+      "deck": "family",
+      "id": "舅舅-jiu4-jiu4"
+    },
+    {
+      "deck": "family",
+      "id": "姨妈-yi2-ma1"
+    },
+    {
+      "deck": "family",
+      "id": "表哥-biao3-ge1"
+    },
+    {
+      "deck": "family",
+      "id": "表姐-biao3-jie3"
+    },
+    {
+      "deck": "family",
+      "id": "堂弟-tang2-di4"
+    },
+    {
+      "deck": "family",
+      "id": "孙子-sun1-zi5"
+    },
+    {
+      "deck": "family",
+      "id": "孙女-sun1-nv3"
+    },
+    {
+      "deck": "family",
+      "id": "侄子-zhi2-zi5"
+    },
+    {
+      "deck": "family",
+      "id": "侄女-zhi2-nv3"
+    },
+    {
+      "deck": "family",
+      "id": "岳父-yue4-fu4"
+    },
+    {
+      "deck": "family",
+      "id": "岳母-yue4-mu3"
+    },
+    {
+      "deck": "family",
+      "id": "女婿-nv3-xu4"
+    },
+    {
+      "deck": "family",
+      "id": "儿媳-er2-xi2"
+    },
+    {
+      "deck": "family",
+      "id": "亲戚-qin1-qi1"
+    },
+    {
+      "deck": "family",
+      "id": "阿姨-a1-yi2"
+    },
+    {
+      "deck": "drinks",
+      "id": "可乐-ke3-le4"
+    },
+    {
+      "deck": "drinks",
+      "id": "橙汁-cheng2-zhi1"
+    },
+    {
+      "deck": "drinks",
+      "id": "矿泉水-kuang4-quan2-shui3"
+    },
+    {
+      "deck": "drinks",
+      "id": "白开水-bai2-kai1-shui3"
+    },
+    {
+      "deck": "drinks",
+      "id": "白酒-bai2-jiu3"
+    },
+    {
+      "deck": "drinks",
+      "id": "汤力水-tang1-li4-shui3"
+    },
+    {
+      "deck": "drinks",
+      "id": "拿铁-na2-tie3"
+    },
+    {
+      "deck": "drinks",
+      "id": "美式咖啡-mei3-shi4-ka1-fei1"
+    },
+    {
+      "deck": "drinks",
+      "id": "椰汁-ye1-zhi1"
+    },
+    {
+      "deck": "drinks",
+      "id": "能量饮料-neng2-liang4-yin3-liao4"
+    },
+    {
+      "deck": "drinks",
+      "id": "冰水-bing1-shui3"
+    },
+    {
+      "deck": "drinks",
+      "id": "果茶-guo3-cha2"
+    },
+    {
+      "deck": "clothing",
+      "id": "内衣-nei4-yi1"
+    },
+    {
+      "deck": "clothing",
+      "id": "睡衣-shui4-yi1"
+    },
+    {
+      "deck": "clothing",
+      "id": "大衣-da4-yi1"
+    },
+    {
+      "deck": "clothing",
+      "id": "羽绒服-yu3-rong2-fu2"
+    },
+    {
+      "deck": "clothing",
+      "id": "口罩-kou3-zhao4"
+    },
+    {
+      "deck": "food",
+      "id": "牛肉-niu2-rou4"
+    },
+    {
+      "deck": "food",
+      "id": "猪肉-zhu1-rou4"
+    },
+    {
+      "deck": "food",
+      "id": "鸡肉-ji1-rou4"
+    },
+    {
+      "deck": "food",
+      "id": "盐-yan2"
+    },
+    {
+      "deck": "food",
+      "id": "酱油-jiang4-you2"
+    },
+    {
+      "deck": "food",
+      "id": "醋-cu4"
+    },
+    {
+      "deck": "body-parts",
+      "id": "指甲-zhi3-jia3"
+    },
+    {
+      "deck": "body-parts",
+      "id": "嗓子-sang3-zi5"
+    }
+  ],
+  "ambiguousGlosses": [
+    {
+      "deck": "modal-verbs",
+      "english": "want",
+      "ids": [
+        "要-yao4",
+        "想要-xiang3-yao4"
+      ]
+    },
+    {
+      "deck": "size-shape",
+      "english": "thin",
+      "ids": [
+        "薄-bao2",
+        "瘦-shou4"
+      ]
+    },
+    {
+      "deck": "hsk-1",
+      "english": "how many",
+      "ids": [
+        "几-ji3",
+        "多少-duo1-shao3"
+      ]
+    },
+    {
+      "deck": "hsk-2",
+      "english": "clean",
+      "ids": [
+        "干净-gan1-jing4",
+        "打扫-da3-sao3"
+      ]
+    },
+    {
+      "deck": "hsk-3",
+      "english": "but",
+      "ids": [
+        "但是-dan4-shi4",
+        "可是-ke3-shi4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "on time",
+      "ids": [
+        "按时-an4-shi2",
+        "准时-zhun3-shi2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to handle",
+      "ids": [
+        "办理-ban4-li3",
+        "处理-chu3-li3"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to report",
+      "ids": [
+        "报道-bao4-dao4",
+        "汇报-hui4-bao4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "otherwise",
+      "ids": [
+        "不然-bu4-ran2",
+        "否则-fou3-ze2",
+        "再不-zai4-bu4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to visit",
+      "ids": [
+        "参观-can1-guan1",
+        "探望-tan4-wang4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "difference",
+      "ids": [
+        "差别-cha1-bie2",
+        "区别-qu1-bie2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to establish",
+      "ids": [
+        "成立-cheng2-li4",
+        "建立-jian4-li4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "besides",
+      "ids": [
+        "此外-ci3-wai4",
+        "再说-zai4-shuo1"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to promote",
+      "ids": [
+        "促进-cu4-jin4",
+        "宣传-xuan1-chuan2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "simple",
+      "ids": [
+        "单纯-dan1-chun2",
+        "简单-jian3-dan1"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "after all",
+      "ids": [
+        "到底-dao4-di3",
+        "究竟-jiu1-jing4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to transfer",
+      "ids": [
+        "调动-diao4-dong4",
+        "转移-zhuan3-yi2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to launch",
+      "ids": [
+        "发动-fa1-dong4",
+        "开展-kai1-zhan3"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to prevent",
+      "ids": [
+        "防止-fang2-zhi3",
+        "阻止-zu3-zhi3"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "relaxed",
+      "ids": [
+        "放松-fang4-song1",
+        "轻松-qing1-song1"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "very",
+      "ids": [
+        "非常-fei1-chang2",
+        "十分-shi2-fen1"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to improve",
+      "ids": [
+        "改进-gai3-jin4",
+        "改善-gai3-shan4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to transform",
+      "ids": [
+        "改造-gai3-zao4",
+        "转变-zhuan3-bian4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "individual",
+      "ids": [
+        "个别-ge4-bie2",
+        "个人-ge4-ren2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "industry",
+      "ids": [
+        "工业-gong1-ye4",
+        "行业-hang2-ye4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "rule",
+      "ids": [
+        "规律-gui1-lv4",
+        "规则-gui1-ze2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "suddenly",
+      "ids": [
+        "忽然-hu1-ran2",
+        "突然-tu1-ran2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "doubt",
+      "ids": [
+        "怀疑-huai2-yi2",
+        "疑问-yi2-wen4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "future",
+      "ids": [
+        "将来-jiang1-lai2",
+        "前途-qian2-tu2",
+        "未来-wei4-lai2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to explain",
+      "ids": [
+        "讲解-jiang3-jie3",
+        "说明-shuo1-ming2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "often",
+      "ids": [
+        "经常-jing1-chang2",
+        "往往-wang3-wang3"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "experience",
+      "ids": [
+        "经历-jing1-li4",
+        "经验-jing1-yan4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to possess",
+      "ids": [
+        "具备-ju4-bei4",
+        "拥有-yong1-you3"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "opinion",
+      "ids": [
+        "看法-kan4-fa3",
+        "意见-yi4-jian4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "similar",
+      "ids": [
+        "类似-lei4-si4",
+        "相似-xiang1-si4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "temporary",
+      "ids": [
+        "临时-lin2-shi2",
+        "暂时-zan4-shi2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "warm",
+      "ids": [
+        "暖和-nuan3-huo5",
+        "温暖-wen1-nuan3"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to admire",
+      "ids": [
+        "佩服-pei4-fu5",
+        "赞赏-zan4-shang3"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "usually",
+      "ids": [
+        "平时-ping2-shi2",
+        "通常-tong1-chang2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "period",
+      "ids": [
+        "期间-qi1-jian1",
+        "时期-shi2-qi1"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "kind",
+      "ids": [
+        "亲切-qin1-qie4",
+        "善良-shan4-liang2",
+        "种类-zhong3-lei4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "situation",
+      "ids": [
+        "情况-qing2-kuang4",
+        "形势-xing2-shi4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "mood",
+      "ids": [
+        "情绪-qing2-xu4",
+        "心情-xin1-qing2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "comprehensive",
+      "ids": [
+        "全面-quan2-mian4",
+        "综合-zong1-he2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "serious",
+      "ids": [
+        "认真-ren4-zhen1",
+        "严重-yan2-zhong4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "still",
+      "ids": [
+        "仍然-reng2-ran2",
+        "依然-yi1-ran2"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "business",
+      "ids": [
+        "商业-shang1-ye4",
+        "业务-ye4-wu4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "life",
+      "ids": [
+        "生活-sheng1-huo2",
+        "生命-sheng1-ming4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to grow",
+      "ids": [
+        "生长-sheng1-zhang3",
+        "增长-zeng1-zhang3"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "time",
+      "ids": [
+        "时候-shi2-hou5",
+        "时间-shi2-jian1"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "to realize",
+      "ids": [
+        "实现-shi2-xian4",
+        "体会-ti3-hui4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "cause",
+      "ids": [
+        "事业-shi4-ye4",
+        "原因-yuan2-yin1"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "sports",
+      "ids": [
+        "体育-ti3-yu4",
+        "运动-yun4-dong4"
+      ]
+    },
+    {
+      "deck": "hsk-5",
+      "english": "nature",
+      "ids": [
+        "性质-xing4-zhi4",
+        "自然-zi4-ran2"
+      ]
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "english": "very",
+      "ids": [
+        "很-hen3",
+        "非常-fei1-chang2"
+      ]
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "english": "quite",
+      "ids": [
+        "挺-ting3",
+        "相当-xiang1-dang1"
+      ]
+    }
+  ],
+  "sameDeckHanziPairs": [],
+  "zipfMismatches": [],
+  "zeroFrequency": [],
+  "splitIdsApplied": [
+    {
+      "deck": "license-plates",
+      "from": "新-xin1",
+      "to": "新-xin1-plate",
+      "english": "Xinjiang (plate abbreviation)"
+    },
+    {
+      "deck": "license-plates",
+      "from": "贵-gui4",
+      "to": "贵-gui4-plate",
+      "english": "Guizhou (plate abbreviation)"
+    },
+    {
+      "deck": "license-plates",
+      "from": "云-yun2",
+      "to": "云-yun2-plate",
+      "english": "Yunnan (plate abbreviation)"
+    }
+  ],
+  "glossConflictsResolved": [
+    {
+      "deck": "family",
+      "id": "孩子-hai2-zi5",
+      "from": "children",
+      "to": "child"
+    },
+    {
+      "deck": "clothing",
+      "id": "鞋-xie2",
+      "from": "shoes",
+      "to": "shoe"
+    },
+    {
+      "deck": "house-rooms",
+      "id": "餐厅-can1-ting1",
+      "from": "dining room",
+      "to": "restaurant"
+    },
+    {
+      "deck": "hobbies",
+      "id": "唱歌-chang4-ge1",
+      "from": "to sing",
+      "to": "sing"
+    },
+    {
+      "deck": "hobbies",
+      "id": "跳舞-tiao4-wu3",
+      "from": "to dance",
+      "to": "dance"
+    },
+    {
+      "deck": "hobbies",
+      "id": "拍照-pai1-zhao4",
+      "from": "photography",
+      "to": "take photo"
+    },
+    {
+      "deck": "hobbies",
+      "id": "旅行-lv3-xing2",
+      "from": "travelling",
+      "to": "travel"
+    },
+    {
+      "deck": "hobbies",
+      "id": "滑板-hua2-ban3",
+      "from": "skateboarding",
+      "to": "skateboard"
+    },
+    {
+      "deck": "sports",
+      "id": "游泳-you2-yong3",
+      "from": "swimming",
+      "to": "swim"
+    },
+    {
+      "deck": "sports",
+      "id": "自行车-zi4-xing2-che1",
+      "from": "cycling",
+      "to": "bicycle"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "吃-chi1",
+      "from": "to eat",
+      "to": "eat"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "喝-he1",
+      "from": "to drink",
+      "to": "drink"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "睡觉-shui4-jiao4",
+      "from": "to sleep",
+      "to": "sleep"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "做饭-zuo4-fan4",
+      "from": "to cook",
+      "to": "cook"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "打扫-da3-sao3",
+      "from": "to clean",
+      "to": "clean"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "学习-xue2-xi2",
+      "from": "to study",
+      "to": "learn / study"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "工作-gong1-zuo4",
+      "from": "to work",
+      "to": "work"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "休息-xiu1-xi5",
+      "from": "to rest",
+      "to": "rest"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "读-du2",
+      "from": "to read",
+      "to": "read"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "写-xie3",
+      "from": "to write",
+      "to": "write"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "有-you3",
+      "from": "to have",
+      "to": "have / own"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "要-yao4",
+      "from": "to want",
+      "to": "want"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "去-qu4",
+      "from": "to go",
+      "to": "go"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "来-lai2",
+      "from": "to come",
+      "to": "come"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "买-mai3",
+      "from": "to buy",
+      "to": "buy"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "穿-chuan1",
+      "from": "to wear",
+      "to": "wear"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "拿-na2",
+      "from": "to take",
+      "to": "to hold"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "给-gei3",
+      "from": "to give",
+      "to": "give"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "做-zuo4",
+      "from": "to make",
+      "to": "do / make"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "开-kai1",
+      "from": "to turn on",
+      "to": "open"
+    },
+    {
+      "deck": "daily-routines",
+      "id": "关-guan1",
+      "from": "to turn off",
+      "to": "close"
+    },
+    {
+      "deck": "body-actions",
+      "id": "走-zou3",
+      "from": "to walk",
+      "to": "walk"
+    },
+    {
+      "deck": "body-actions",
+      "id": "跑-pao3",
+      "from": "to run",
+      "to": "run"
+    },
+    {
+      "deck": "body-actions",
+      "id": "跳-tiao4",
+      "from": "to jump",
+      "to": "jump"
+    },
+    {
+      "deck": "body-actions",
+      "id": "坐-zuo4",
+      "from": "to sit",
+      "to": "sit"
+    },
+    {
+      "deck": "body-actions",
+      "id": "站-zhan4",
+      "from": "to stand",
+      "to": "stand"
+    },
+    {
+      "deck": "body-actions",
+      "id": "爬-pa2",
+      "from": "to climb",
+      "to": "climb"
+    },
+    {
+      "deck": "body-actions",
+      "id": "游泳-you2-yong3",
+      "from": "to swim",
+      "to": "swim"
+    },
+    {
+      "deck": "body-actions",
+      "id": "飞-fei1",
+      "from": "to fly",
+      "to": "fly"
+    },
+    {
+      "deck": "body-actions",
+      "id": "踢-ti1",
+      "from": "to kick",
+      "to": "kick"
+    },
+    {
+      "deck": "body-actions",
+      "id": "推-tui1",
+      "from": "to push",
+      "to": "push"
+    },
+    {
+      "deck": "body-actions",
+      "id": "转-zhuan3",
+      "from": "to turn",
+      "to": "turn"
+    },
+    {
+      "deck": "body-actions",
+      "id": "滑-hua2",
+      "from": "to slide",
+      "to": "slippery"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "说-shuo1",
+      "from": "to say",
+      "to": "speak / say"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "问-wen4",
+      "from": "to ask",
+      "to": "ask"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "回答-hui2-da2",
+      "from": "to answer",
+      "to": "answer"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "告诉-gao4-su4",
+      "from": "to tell",
+      "to": "tell"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "叫-jiao4",
+      "from": "to call",
+      "to": "call / name"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "讨论-tao3-lun4",
+      "from": "to discuss",
+      "to": "discuss"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "解释-jie3-shi4",
+      "from": "to explain",
+      "to": "explain"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "介绍-jie4-shao4",
+      "from": "to introduce",
+      "to": "introduce"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "邀请-yao1-qing3",
+      "from": "to invite",
+      "to": "invite"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "答应-da1-ying4",
+      "from": "to promise",
+      "to": "promise"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "拒绝-ju4-jue2",
+      "from": "to refuse",
+      "to": "refuse"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "建议-jian4-yi4",
+      "from": "to advise",
+      "to": "advise"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "提醒-ti2-xing3",
+      "from": "to remind",
+      "to": "remind"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "表扬-biao3-yang2",
+      "from": "to praise",
+      "to": "praise"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "批评-pi1-ping2",
+      "from": "to criticize",
+      "to": "criticize"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "报告-bao4-gao4",
+      "from": "to report",
+      "to": "report"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "道歉-dao4-qian4",
+      "from": "to apologize",
+      "to": "apologize"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "感谢-gan3-xie4",
+      "from": "to thank",
+      "to": "thank"
+    },
+    {
+      "deck": "communication-verbs",
+      "id": "谈判-tan2-pan4",
+      "from": "to negotiate",
+      "to": "negotiate"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "想-xiang3",
+      "from": "to think",
+      "to": "think / consider"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "知道-zhi1-dao4",
+      "from": "to know",
+      "to": "know (knowledge)"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "忘记-wang4-ji4",
+      "from": "to forget",
+      "to": "forget"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "相信-xiang1-xin4",
+      "from": "to believe",
+      "to": "believe"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "怀疑-huai2-yi2",
+      "from": "to doubt",
+      "to": "doubt"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "决定-jue2-ding4",
+      "from": "to decide",
+      "to": "decide"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "选择-xuan3-ze2",
+      "from": "to choose",
+      "to": "choice"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "希望-xi1-wang4",
+      "from": "to hope",
+      "to": "hope"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "误会-wu4-hui4",
+      "from": "to misunderstand",
+      "to": "misunderstanding"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "比较-bi3-jiao4",
+      "from": "to compare",
+      "to": "compare"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "担心-dan1-xin1",
+      "from": "to worry",
+      "to": "anxious"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "害怕-hai4-pa4",
+      "from": "to fear",
+      "to": "afraid"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "羡慕-xian4-mu4",
+      "from": "to envy",
+      "to": "envious"
+    },
+    {
+      "deck": "mental-verbs",
+      "id": "总结-zong3-jie2",
+      "from": "to conclude",
+      "to": "summary"
+    },
+    {
+      "deck": "sensory-verbs",
+      "id": "闻-wen2",
+      "from": "to smell",
+      "to": "smell"
+    },
+    {
+      "deck": "sensory-verbs",
+      "id": "尝-chang2",
+      "from": "to taste",
+      "to": "taste"
+    },
+    {
+      "deck": "sensory-verbs",
+      "id": "感觉-gan3-jue2",
+      "from": "to feel (by touch)",
+      "to": "feeling"
+    },
+    {
+      "deck": "sensory-verbs",
+      "id": "看-kan4",
+      "from": "to look at",
+      "to": "see / look"
+    },
+    {
+      "deck": "sensory-verbs",
+      "id": "听-ting1",
+      "from": "to listen",
+      "to": "listen"
+    },
+    {
+      "deck": "sensory-verbs",
+      "id": "哭-ku1",
+      "from": "to cry",
+      "to": "cry"
+    },
+    {
+      "deck": "sensory-verbs",
+      "id": "笑-xiao4",
+      "from": "to laugh",
+      "to": "laugh"
+    },
+    {
+      "deck": "sensory-verbs",
+      "id": "咳嗽-ke2-sou5",
+      "from": "to cough",
+      "to": "cough"
+    },
+    {
+      "deck": "cooking-household-verbs",
+      "id": "做饭-zuo4-fan4",
+      "from": "to cook",
+      "to": "cook"
+    },
+    {
+      "deck": "cooking-household-verbs",
+      "id": "洗-xi3",
+      "from": "to wash",
+      "to": "wash"
+    },
+    {
+      "deck": "cooking-household-verbs",
+      "id": "打扫-da3-sao3",
+      "from": "to clean",
+      "to": "clean"
+    },
+    {
+      "deck": "cooking-household-verbs",
+      "id": "切-qie1",
+      "from": "to cut",
+      "to": "cut"
+    },
+    {
+      "deck": "cooking-household-verbs",
+      "id": "煮-zhu3",
+      "from": "to boil",
+      "to": "boil"
+    },
+    {
+      "deck": "cooking-household-verbs",
+      "id": "扫-sao3",
+      "from": "to sweep",
+      "to": "sweep"
+    },
+    {
+      "deck": "cooking-household-verbs",
+      "id": "炒-chao3",
+      "from": "to fry",
+      "to": "fry"
+    },
+    {
+      "deck": "cooking-household-verbs",
+      "id": "蒸-zheng1",
+      "from": "to steam",
+      "to": "steam"
+    },
+    {
+      "deck": "cooking-household-verbs",
+      "id": "烤-kao3",
+      "from": "to bake / roast",
+      "to": "bake"
+    },
+    {
+      "deck": "cooking-household-verbs",
+      "id": "刷-shua1",
+      "from": "to scrub",
+      "to": "paint"
+    },
+    {
+      "deck": "cooking-household-verbs",
+      "id": "整理-zheng3-li3",
+      "from": "to organize",
+      "to": "to tidy"
+    },
+    {
+      "deck": "cooking-household-verbs",
+      "id": "修-xiu1",
+      "from": "to repair",
+      "to": "repair"
+    },
+    {
+      "deck": "modal-verbs",
+      "id": "可以-ke3-yi3",
+      "from": "may",
+      "to": "can"
+    },
+    {
+      "deck": "modal-verbs",
+      "id": "允许-yun3-xu3",
+      "from": "be allowed to",
+      "to": "allow"
+    },
+    {
+      "deck": "modal-verbs",
+      "id": "想要-xiang3-yao4",
+      "from": "hope / want to",
+      "to": "want"
+    },
+    {
+      "deck": "modal-verbs",
+      "id": "决定-jue2-ding4",
+      "from": "decide to",
+      "to": "decide"
+    },
+    {
+      "deck": "modal-verbs",
+      "id": "建议-jian4-yi4",
+      "from": "suggest",
+      "to": "advise"
+    },
+    {
+      "deck": "modal-verbs",
+      "id": "继续-ji4-xu4",
+      "from": "continue to",
+      "to": "continue"
+    },
+    {
+      "deck": "modal-verbs",
+      "id": "开始-kai1-shi3",
+      "from": "begin / start to",
+      "to": "start"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "喜欢-xi3-huan1",
+      "from": "to like",
+      "to": "like"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "爱-ai4",
+      "from": "to love",
+      "to": "love"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "讨厌-tao3-yan4",
+      "from": "to hate",
+      "to": "hate"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "害怕-hai4-pa4",
+      "from": "to fear",
+      "to": "afraid"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "希望-xi1-wang4",
+      "from": "to hope",
+      "to": "hope"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "担心-dan1-xin1",
+      "from": "to worry",
+      "to": "anxious"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "羡慕-xian4-mu4",
+      "from": "to envy",
+      "to": "envious"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "原谅-yuan2-liang4",
+      "from": "to forgive",
+      "to": "forgive"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "可怜-ke3-lian2",
+      "from": "to pity",
+      "to": "pitiful"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "庆祝-qing4-zhu4",
+      "from": "to celebrate",
+      "to": "celebrate"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "祝贺-zhu4-he4",
+      "from": "to congratulate",
+      "to": "congratulate"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "满意-man3-yi4",
+      "from": "to be satisfied",
+      "to": "satisfied"
+    },
+    {
+      "deck": "emotion-state-verbs",
+      "id": "失望-shi1-wang4",
+      "from": "to be disappointed",
+      "to": "disappointed"
+    },
+    {
+      "deck": "emotions",
+      "id": "害怕-hai4-pa4",
+      "from": "scared",
+      "to": "afraid"
+    },
+    {
+      "deck": "emotions",
+      "id": "感谢-gan3-xie4",
+      "from": "grateful",
+      "to": "thank"
+    },
+    {
+      "deck": "emotions",
+      "id": "希望-xi1-wang4",
+      "from": "hopeful",
+      "to": "hope"
+    },
+    {
+      "deck": "emotions",
+      "id": "无奈-wu2-nai4",
+      "from": "frustrated",
+      "to": "helpless"
+    },
+    {
+      "deck": "emotions",
+      "id": "痛苦-tong4-ku3",
+      "from": "miserable",
+      "to": "painful"
+    },
+    {
+      "deck": "size-shape",
+      "id": "瘦-shou4",
+      "from": "skinny",
+      "to": "thin"
+    },
+    {
+      "deck": "size-shape",
+      "id": "钝-dun4",
+      "from": "blunt",
+      "to": "dull"
+    },
+    {
+      "deck": "opposites",
+      "id": "关-guan1",
+      "from": "closed",
+      "to": "close"
+    },
+    {
+      "deck": "weather",
+      "id": "热-re4",
+      "from": "hot (weather)",
+      "to": "hot"
+    },
+    {
+      "deck": "weather",
+      "id": "冷-leng3",
+      "from": "cold (weather)",
+      "to": "cold"
+    },
+    {
+      "deck": "months-seasons",
+      "id": "新年-xin1-nian2",
+      "from": "new year season",
+      "to": "new year"
+    },
+    {
+      "deck": "time-expressions",
+      "id": "最后-zui4-hou4",
+      "from": "finally",
+      "to": "final"
+    },
+    {
+      "deck": "time-expressions",
+      "id": "将来-jiang1-lai2",
+      "from": "in the future",
+      "to": "future"
+    },
+    {
+      "deck": "time-expressions",
+      "id": "过去-guo4-qu4",
+      "from": "in the past",
+      "to": "past"
+    },
+    {
+      "deck": "frequency-adverbs",
+      "id": "几乎不-ji1-hu1-bu4",
+      "from": "hardly ever",
+      "to": "hardly"
+    },
+    {
+      "deck": "social-activities",
+      "id": "邀请-yao1-qing3",
+      "from": "to invite",
+      "to": "invite"
+    },
+    {
+      "deck": "social-activities",
+      "id": "约会-yue1-hui4",
+      "from": "to date",
+      "to": "appointment"
+    },
+    {
+      "deck": "social-activities",
+      "id": "庆祝-qing4-zhu4",
+      "from": "to celebrate",
+      "to": "celebrate"
+    },
+    {
+      "deck": "social-activities",
+      "id": "交换-jiao1-huan4",
+      "from": "to exchange",
+      "to": "exchange"
+    },
+    {
+      "deck": "social-activities",
+      "id": "介绍-jie4-shao4",
+      "from": "to introduce",
+      "to": "introduce"
+    },
+    {
+      "deck": "social-activities",
+      "id": "跳舞-tiao4-wu3",
+      "from": "to dance",
+      "to": "dance"
+    },
+    {
+      "deck": "social-activities",
+      "id": "唱歌-chang4-ge1",
+      "from": "to sing",
+      "to": "sing"
+    },
+    {
+      "deck": "social-activities",
+      "id": "祝贺-zhu4-he4",
+      "from": "to congratulate",
+      "to": "congratulate"
+    },
+    {
+      "deck": "social-activities",
+      "id": "干杯-gan1-bei1",
+      "from": "to raise a toast",
+      "to": "cheers"
+    },
+    {
+      "deck": "social-activities",
+      "id": "欢迎-huan1-ying2",
+      "from": "to welcome",
+      "to": "welcome"
+    },
+    {
+      "deck": "travel-directions",
+      "id": "到达-dao4-da2",
+      "from": "arrival",
+      "to": "arrive"
+    },
+    {
+      "deck": "shopping-money",
+      "id": "买-mai3",
+      "from": "to buy",
+      "to": "buy"
+    },
+    {
+      "deck": "shopping-money",
+      "id": "合适-he2-shi4",
+      "from": "to fit",
+      "to": "fit"
+    },
+    {
+      "deck": "shopping-money",
+      "id": "集市-ji2-shi4",
+      "from": "market / fair",
+      "to": "market"
+    },
+    {
+      "deck": "hsk-1",
+      "id": "多少-duo1-shao3",
+      "from": "how much",
+      "to": "how many"
+    },
+    {
+      "deck": "hsk-1",
+      "id": "一-yi1",
+      "from": "a / an / one",
+      "to": "one"
+    },
+    {
+      "deck": "hsk-1",
+      "id": "好-hao3",
+      "from": "good / fine",
+      "to": "good"
+    },
+    {
+      "deck": "hsk-1",
+      "id": "热-re4",
+      "from": "hot (temperature)",
+      "to": "hot"
+    },
+    {
+      "deck": "hsk-1",
+      "id": "老-lao3",
+      "from": "big / old (senior)",
+      "to": "old (person)"
+    },
+    {
+      "deck": "hsk-1",
+      "id": "可以-ke3-yi3",
+      "from": "can / may",
+      "to": "can"
+    },
+    {
+      "deck": "hsk-1",
+      "id": "会-hui4",
+      "from": "can / will",
+      "to": "can (skill)"
+    },
+    {
+      "deck": "hsk-1",
+      "id": "觉得-jue2-de5",
+      "from": "think / feel",
+      "to": "feel (emotion)"
+    },
+    {
+      "deck": "hsk-1",
+      "id": "还-hai2",
+      "from": "return / give back",
+      "to": "still"
+    },
+    {
+      "deck": "hsk-1",
+      "id": "桌子-zhuo1-zi5",
+      "from": "desk / table",
+      "to": "table"
+    },
+    {
+      "deck": "hsk-1",
+      "id": "帽子-mao4-zi5",
+      "from": "hat / cap",
+      "to": "hat"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "卫生间-wei4-sheng1-jian1",
+      "from": "toilet / bathroom",
+      "to": "bathroom"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "足球-zu2-qiu2",
+      "from": "football / soccer",
+      "to": "football"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "游泳-you2-yong3",
+      "from": "swimming",
+      "to": "swim"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "可乐-ke3-le4",
+      "from": "cola / soda",
+      "to": "cola"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "糖-tang2",
+      "from": "sugar / candy",
+      "to": "candy"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "快-kuai4",
+      "from": "quick / fast",
+      "to": "fast"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "亮-liang4",
+      "from": "bright / light",
+      "to": "bright"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "快乐-kuai4-le4",
+      "from": "happy / glad",
+      "to": "happy"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "后面-hou4-mian4",
+      "from": "back / behind",
+      "to": "behind"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "上面-shang4-mian4",
+      "from": "above / on",
+      "to": "above"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "下面-xia4-mian4",
+      "from": "below / under",
+      "to": "below"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "中间-zhong1-jian1",
+      "from": "middle",
+      "to": "among"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "最-zui4",
+      "from": "most / -est",
+      "to": "most"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "每-mei3",
+      "from": "every / each",
+      "to": "each"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "一些-yi1-xie1",
+      "from": "some / a few",
+      "to": "some"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "经常-jing1-chang2",
+      "from": "usually",
+      "to": "often"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "还-hai2",
+      "from": "still / yet",
+      "to": "still"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "也-ye3",
+      "from": "also / too",
+      "to": "also"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "真的-zhen1-de5",
+      "from": "really / indeed",
+      "to": "really"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "可能-ke3-neng2",
+      "from": "maybe / perhaps",
+      "to": "might"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "所以-suo3-yi3",
+      "from": "so / therefore",
+      "to": "so"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "但是-dan4-shi4",
+      "from": "but / however",
+      "to": "but"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "旁边-pang2-bian1",
+      "from": "to the side",
+      "to": "next to"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "再-zai4",
+      "from": "again / another",
+      "to": "again (future)"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "开始-kai1-shi3",
+      "from": "start / begin",
+      "to": "start"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "借-jie4",
+      "from": "borrow / lend",
+      "to": "borrow"
+    },
+    {
+      "deck": "hsk-2",
+      "id": "打扫-da3-sao3",
+      "from": "clean / sweep",
+      "to": "clean"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "邻居-lin2-ju1",
+      "from": "neighbour",
+      "to": "neighbor"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "担心-dan1-xin1",
+      "from": "worried",
+      "to": "anxious"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "无聊-wu2-liao2",
+      "from": "boring",
+      "to": "bored"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "可能-ke3-neng2",
+      "from": "possible",
+      "to": "might"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "可是-ke3-shi4",
+      "from": "however",
+      "to": "but"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "同时-tong2-shi2",
+      "from": "at the same time",
+      "to": "simultaneously"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "大概-da4-gai4",
+      "from": "about (approximately)",
+      "to": "roughly"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "正好-zheng4-hao3",
+      "from": "just (exactly)",
+      "to": "just right"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "快-kuai4",
+      "from": "quickly",
+      "to": "fast"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "大声-da4-sheng1",
+      "from": "loudly",
+      "to": "loud"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "安静-an1-jing4",
+      "from": "quietly",
+      "to": "quiet"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "高兴-gao1-xing4",
+      "from": "happily",
+      "to": "happy"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "难过-nan2-guo4",
+      "from": "sadly",
+      "to": "sad"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "必须-bi4-xu1",
+      "from": "have to",
+      "to": "must"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "选择-xuan3-ze2",
+      "from": "choose",
+      "to": "choice"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "提高-ti2-gao1",
+      "from": "improve",
+      "to": "raise"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "考试-kao3-shi4",
+      "from": "test",
+      "to": "exam"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "通过-tong1-guo4",
+      "from": "pass exam",
+      "to": "through"
+    },
+    {
+      "deck": "hsk-3",
+      "id": "失败-shi1-bai4",
+      "from": "fail (to do)",
+      "to": "failure"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "缺点-que1-dian3",
+      "from": "disadvantage",
+      "to": "shortcoming"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "建议-jian4-yi4",
+      "from": "suggestion",
+      "to": "advise"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "决定-jue2-ding4",
+      "from": "decision",
+      "to": "decide"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "现在-xian4-zai4",
+      "from": "present",
+      "to": "now"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "习惯-xi2-guan4",
+      "from": "custom",
+      "to": "habit"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "研究-yan2-jiu1",
+      "from": "research",
+      "to": "study"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "方式-fang1-shi4",
+      "from": "way / manner",
+      "to": "way"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "职业-zhi2-ye4",
+      "from": "profession",
+      "to": "occupation"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "工资-gong1-zi1",
+      "from": "salary",
+      "to": "wages"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "国家-guo2-jia1",
+      "from": "country (nation)",
+      "to": "country"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "预订-yu4-ding4",
+      "from": "reservation",
+      "to": "booking"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "转-zhuan3",
+      "from": "transfer",
+      "to": "turn"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "平-ping2",
+      "from": "tie (score)",
+      "to": "flat"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "组织-zu3-zhi1",
+      "from": "organization",
+      "to": "organize"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "总理-zong3-li3",
+      "from": "prime minister",
+      "to": "premier"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "种类-zhong3-lei4",
+      "from": "sort / kind",
+      "to": "kind"
+    },
+    {
+      "deck": "hsk-4",
+      "id": "实践-shi2-jian4",
+      "from": "practice (vs theory)",
+      "to": "practice"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "安排-an1-pai2",
+      "from": "to arrange",
+      "to": "arrange"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "包括-bao1-kuo4",
+      "from": "to include",
+      "to": "including"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "保持-bao3-chi2",
+      "from": "to maintain",
+      "to": "maintain"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "保护-bao3-hu4",
+      "from": "to protect",
+      "to": "protect"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "吵架-chao3-jia4",
+      "from": "to quarrel",
+      "to": "to argue"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "彻底-che4-di3",
+      "from": "thoroughly",
+      "to": "totally"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "出发-chu1-fa1",
+      "from": "to depart",
+      "to": "departure"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "出现-chu1-xian4",
+      "from": "to appear",
+      "to": "appear"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "答应-da1-ying4",
+      "from": "to promise",
+      "to": "promise"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "担心-dan1-xin1",
+      "from": "to worry",
+      "to": "anxious"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "当然-dang1-ran2",
+      "from": "of course",
+      "to": "sure"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "发生-fa1-sheng1",
+      "from": "to happen",
+      "to": "happen"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "发展-fa1-zhan3",
+      "from": "to develop",
+      "to": "develop"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "访问-fang3-wen4",
+      "from": "to visit",
+      "to": "visit"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "放松-fang4-song1",
+      "from": "to relax",
+      "to": "relaxed"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "分析-fen1-xi1",
+      "from": "to analyze",
+      "to": "analysis"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "服务-fu2-wu4",
+      "from": "to serve",
+      "to": "serve"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "改变-gai3-bian4",
+      "from": "to change",
+      "to": "change"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "改正-gai3-zheng4",
+      "from": "to correct",
+      "to": "correct (verb)"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "告诉-gao4-su5",
+      "from": "to tell",
+      "to": "tell / inform"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "鼓励-gu3-li4",
+      "from": "to encourage",
+      "to": "encourage"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "管理-guan3-li3",
+      "from": "to manage",
+      "to": "manage"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "害怕-hai4-pa4",
+      "from": "to fear",
+      "to": "afraid"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "好像-hao3-xiang4",
+      "from": "as if",
+      "to": "seem"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "合适-he2-shi4",
+      "from": "suitable",
+      "to": "fit"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "合作-he2-zuo4",
+      "from": "to cooperate",
+      "to": "cooperate"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "怀疑-huai2-yi2",
+      "from": "to doubt",
+      "to": "doubt"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "欢迎-huan1-ying2",
+      "from": "to welcome",
+      "to": "welcome"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "基础-ji1-chu3",
+      "from": "foundation",
+      "to": "basis"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "继续-ji4-xu4",
+      "from": "to continue",
+      "to": "continue"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "减少-jian3-shao3",
+      "from": "to reduce",
+      "to": "reduce"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "检查-jian3-cha2",
+      "from": "to inspect",
+      "to": "check"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "建议-jian4-yi4",
+      "from": "to suggest",
+      "to": "advise"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "降低-jiang4-di1",
+      "from": "to lower",
+      "to": "lower"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "交流-jiao1-liu2",
+      "from": "to exchange",
+      "to": "communicate"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "结合-jie2-he2",
+      "from": "to combine",
+      "to": "combine"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "解释-jie3-shi4",
+      "from": "to explain",
+      "to": "explain"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "进入-jin4-ru4",
+      "from": "to enter",
+      "to": "enter"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "禁止-jin4-zhi3",
+      "from": "to forbid",
+      "to": "forbid"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "经过-jing1-guo4",
+      "from": "to pass through",
+      "to": "pass"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "竞争-jing4-zheng1",
+      "from": "competition",
+      "to": "compete"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "决定-jue2-ding4",
+      "from": "to decide",
+      "to": "decide"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "开始-kai1-shi3",
+      "from": "to start",
+      "to": "start"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "可能-ke3-neng2",
+      "from": "possible",
+      "to": "might"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "控制-kong4-zhi4",
+      "from": "to control",
+      "to": "control"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "扩大-kuo4-da4",
+      "from": "to expand",
+      "to": "expand"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "浪费-lang4-fei4",
+      "from": "to waste",
+      "to": "waste"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "离开-li2-kai1",
+      "from": "to leave",
+      "to": "leave"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "理解-li3-jie3",
+      "from": "to understand",
+      "to": "understand"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "批评-pi1-ping2",
+      "from": "to criticize",
+      "to": "criticize"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "普通-pu3-tong1",
+      "from": "ordinary",
+      "to": "common"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "庆祝-qing4-zhu4",
+      "from": "to celebrate",
+      "to": "celebrate"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "取消-qu3-xiao1",
+      "from": "to cancel",
+      "to": "cancel"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "认识-ren4-shi5",
+      "from": "to know",
+      "to": "recognize / know"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "认为-ren4-wei2",
+      "from": "to think",
+      "to": "think"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "申请-shen1-qing3",
+      "from": "to apply",
+      "to": "apply"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "使用-shi3-yong4",
+      "from": "to use",
+      "to": "use"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "手机-shou3-ji1",
+      "from": "mobile phone",
+      "to": "phone"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "数量-shu4-liang4",
+      "from": "quantity",
+      "to": "amount"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "睡觉-shui4-jiao4",
+      "from": "to sleep",
+      "to": "sleep"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "顺便-shun4-bian4",
+      "from": "conveniently",
+      "to": "by the way"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "谈判-tan2-pan4",
+      "from": "negotiation",
+      "to": "negotiate"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "讨论-tao3-lun4",
+      "from": "to discuss",
+      "to": "discuss"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "特点-te4-dian3",
+      "from": "characteristic",
+      "to": "feature"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "提高-ti2-gao1",
+      "from": "to improve",
+      "to": "raise"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "提前-ti2-qian2",
+      "from": "in advance",
+      "to": "advance"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "停止-ting2-zhi3",
+      "from": "to stop",
+      "to": "stop"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "通过-tong1-guo4",
+      "from": "to pass through",
+      "to": "through"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "同意-tong2-yi4",
+      "from": "to agree",
+      "to": "agree"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "完成-wan2-cheng2",
+      "from": "to complete",
+      "to": "finish"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "忘记-wang4-ji4",
+      "from": "to forget",
+      "to": "forget"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "希望-xi1-wang4",
+      "from": "to hope",
+      "to": "hope"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "相信-xiang1-xin4",
+      "from": "to believe",
+      "to": "believe"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "消失-xiao1-shi1",
+      "from": "to disappear",
+      "to": "disappear"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "休息-xiu1-xi5",
+      "from": "to rest",
+      "to": "rest"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "修理-xiu1-li3",
+      "from": "to repair",
+      "to": "fix"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "需要-xu1-yao4",
+      "from": "to need",
+      "to": "need"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "选择-xuan3-ze2",
+      "from": "to choose",
+      "to": "choice"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "学习-xue2-xi2",
+      "from": "to study",
+      "to": "learn / study"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "研究-yan2-jiu1",
+      "from": "to research",
+      "to": "study"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "邀请-yao1-qing3",
+      "from": "to invite",
+      "to": "invite"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "也许-ye3-xu3",
+      "from": "perhaps",
+      "to": "maybe"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "有趣-you3-qu4",
+      "from": "interesting",
+      "to": "funny"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "遇到-yu4-dao4",
+      "from": "to encounter",
+      "to": "meet"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "允许-yun3-xu3",
+      "from": "to permit",
+      "to": "allow"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "增加-zeng1-jia1",
+      "from": "to increase",
+      "to": "increase"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "照顾-zhao4-gu4",
+      "from": "to take care of",
+      "to": "take care of"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "知道-zhi1-dao4",
+      "from": "to know",
+      "to": "know (knowledge)"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "中间-zhong1-jian1",
+      "from": "middle",
+      "to": "among"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "总结-zong3-jie2",
+      "from": "to summarize",
+      "to": "summary"
+    },
+    {
+      "deck": "hsk-5",
+      "id": "组织-zu3-zhi1",
+      "from": "to organize",
+      "to": "organize"
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "id": "很-hen3",
+      "from": "very / quite",
+      "to": "very"
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "id": "非常-fei1-chang2",
+      "from": "extremely",
+      "to": "very"
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "id": "挺-ting3",
+      "from": "quite / rather",
+      "to": "quite"
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "id": "真-zhen1",
+      "from": "really / truly",
+      "to": "really"
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "id": "特别-te4-bie2",
+      "from": "especially",
+      "to": "special"
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "id": "更-geng4",
+      "from": "even more",
+      "to": "more"
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "id": "最-zui4",
+      "from": "the most",
+      "to": "most"
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "id": "一点-yi1-dian3",
+      "from": "a little (quantity)",
+      "to": "a little"
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "id": "相当-xiang1-dang1",
+      "from": "quite / fairly",
+      "to": "quite"
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "id": "部分-bu4-fen5",
+      "from": "partially",
+      "to": "part"
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "id": "绝对-jue2-dui4",
+      "from": "absolutely",
+      "to": "absolute"
+    },
+    {
+      "deck": "adverbs-of-degree",
+      "id": "更加-geng4-jia1",
+      "from": "all the more",
+      "to": "even more"
+    },
+    {
+      "deck": "prepositions-location-words",
+      "id": "前面-qian2-mian4",
+      "from": "in front of",
+      "to": "front"
+    },
+    {
+      "deck": "prepositions-location-words",
+      "id": "左边-zuo3-bian1",
+      "from": "left side",
+      "to": "left"
+    },
+    {
+      "deck": "prepositions-location-words",
+      "id": "右边-you4-bian1",
+      "from": "right side",
+      "to": "right"
+    },
+    {
+      "deck": "prepositions-location-words",
+      "id": "周围-zhou1-wei2",
+      "from": "around / about",
+      "to": "surroundings"
+    },
+    {
+      "deck": "prepositions-location-words",
+      "id": "从-cong2",
+      "from": "from (starting point)",
+      "to": "from"
+    },
+    {
+      "deck": "prepositions-location-words",
+      "id": "在-zai4",
+      "from": "at (location)",
+      "to": "have (doing)"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "交换-jiao1-huan4",
+    "hanzi": "交换",
+    "pinyin": "jiāo huàn",
+    "english": "exchange",
+    "band": "mid",
+    "zipf": 4.83
+  },
+  {
+    "id": "交朋友-jiao1-peng2-you5",
+    "hanzi": "交朋友",
+    "pinyin": "jiāo péng you",
+    "english": "to make friends",
+    "band": "rare",
+    "zipf": 3.48
+  },
+  {
+    "id": "介绍-jie4-shao4",
+    "hanzi": "介绍",
+    "pinyin": "jiè shào",
+    "english": "introduce",
+    "band": "common",
+    "zipf": 5.27
+  },
+  {
+    "id": "出游-chu1-you2",
+    "hanzi": "出游",
+    "pinyin": "chū yóu",
+    "english": "to go on a trip",
+    "band": "rare",
+    "zipf": 3.58
+  },
+  {
+    "id": "唱歌-chang4-ge1",
+    "hanzi": "唱歌",
+    "pinyin": "chàng gē",
+    "english": "sing",
+    "band": "mid",
+    "zipf": 4.32
+  },
+  {
+    "id": "团聚-tuan2-ju4",
+    "hanzi": "团聚",
+    "pinyin": "tuán jù",
+    "english": "to get together",
+    "band": "rare",
+    "zipf": 3.79
+  },
+  {
+    "id": "宴会-yan4-hui4",
+    "hanzi": "宴会",
+    "pinyin": "yàn huì",
+    "english": "banquet",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "干杯-gan1-bei1",
+    "hanzi": "干杯",
+    "pinyin": "gān bēi",
+    "english": "cheers",
+    "band": "rare",
+    "zipf": 3.06
+  },
+  {
+    "id": "庆祝-qing4-zhu4",
+    "hanzi": "庆祝",
+    "pinyin": "qìng zhù",
+    "english": "celebrate",
+    "band": "mid",
+    "zipf": 4.68
+  },
+  {
+    "id": "打招呼-da3-zhao1-hu1",
+    "hanzi": "打招呼",
+    "pinyin": "dǎ zhāo hū",
+    "english": "to greet",
+    "band": "rare",
+    "zipf": 3.92
+  },
+  {
+    "id": "拜访-bai4-fang3",
+    "hanzi": "拜访",
+    "pinyin": "bài fǎng",
+    "english": "to visit",
+    "band": "rare",
+    "zipf": 4.16
+  },
+  {
+    "id": "握手-wo4-shou3",
+    "hanzi": "握手",
+    "pinyin": "wò shǒu",
+    "english": "to shake hands",
+    "band": "rare",
+    "zipf": 3.89
+  },
+  {
+    "id": "欢迎-huan1-ying2",
+    "hanzi": "欢迎",
+    "pinyin": "huān yíng",
+    "english": "welcome",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "派对-pai4-dui4",
+    "hanzi": "派对",
+    "pinyin": "pài duì",
+    "english": "party",
+    "band": "rare",
+    "zipf": 4.17
+  },
+  {
+    "id": "玩游戏-wan2-you2-xi4",
+    "hanzi": "玩游戏",
+    "pinyin": "wán yóu xì",
+    "english": "to play games",
+    "band": "rare",
+    "zipf": 3.85
+  },
+  {
+    "id": "社交-she4-jiao1",
+    "hanzi": "社交",
+    "pinyin": "shè jiāo",
+    "english": "to socialize",
+    "band": "mid",
+    "zipf": 4.55
+  },
+  {
+    "id": "祝福-zhu4-fu2",
+    "hanzi": "祝福",
+    "pinyin": "zhù fú",
+    "english": "to bless",
+    "band": "mid",
+    "zipf": 4.33
+  },
+  {
+    "id": "祝贺-zhu4-he4",
+    "hanzi": "祝贺",
+    "pinyin": "zhù hè",
+    "english": "congratulate",
+    "band": "rare",
+    "zipf": 4.16
+  },
+  {
+    "id": "约会-yue1-hui4",
+    "hanzi": "约会",
+    "pinyin": "yuē huì",
+    "english": "appointment",
+    "band": "mid",
+    "zipf": 4.3
+  },
+  {
+    "id": "聊天-liao2-tian1",
+    "hanzi": "聊天",
+    "pinyin": "liáo tiān",
+    "english": "to chat",
+    "band": "mid",
+    "zipf": 4.61
+  },
+  {
+    "id": "聚会-ju4-hui4",
+    "hanzi": "聚会",
+    "pinyin": "jù huì",
+    "english": "to gather",
+    "band": "mid",
+    "zipf": 4.44
+  },
+  {
+    "id": "聚餐-ju4-can1",
+    "hanzi": "聚餐",
+    "pinyin": "jù cān",
+    "english": "to have dinner together",
+    "band": "rare",
+    "zipf": 3.37
+  },
+  {
+    "id": "节日-jie2-ri4",
+    "hanzi": "节日",
+    "pinyin": "jié rì",
+    "english": "festival",
+    "band": "mid",
+    "zipf": 4.48
+  },
+  {
+    "id": "见面-jian4-mian4",
+    "hanzi": "见面",
+    "pinyin": "jiàn miàn",
+    "english": "to meet",
+    "band": "mid",
+    "zipf": 4.66
+  },
+  {
+    "id": "请客-qing3-ke4",
+    "hanzi": "请客",
+    "pinyin": "qǐng kè",
+    "english": "to treat (someone)",
+    "band": "rare",
+    "zipf": 3.6
+  },
+  {
+    "id": "跳舞-tiao4-wu3",
+    "hanzi": "跳舞",
+    "pinyin": "tiào wǔ",
+    "english": "dance",
+    "band": "mid",
+    "zipf": 4.35
+  },
+  {
+    "id": "送别-song4-bie2",
+    "hanzi": "送别",
+    "pinyin": "sòng bié",
+    "english": "to bid farewell",
+    "band": "rare",
+    "zipf": 3.24
+  },
+  {
+    "id": "送礼-song4-li3",
+    "hanzi": "送礼",
+    "pinyin": "sòng lǐ",
+    "english": "to give a gift",
+    "band": "rare",
+    "zipf": 3.61
+  },
+  {
+    "id": "邀请-yao1-qing3",
+    "hanzi": "邀请",
+    "pinyin": "yāo qǐng",
+    "english": "invite",
+    "band": "common",
+    "zipf": 5
+  },
+  {
+    "id": "陪伴-pei2-ban4",
+    "hanzi": "陪伴",
+    "pinyin": "péi bàn",
+    "english": "to accompany",
+    "band": "rare",
+    "zipf": 4.07
+  }
+]

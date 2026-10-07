@@ -1,0 +1,242 @@
+[
+  {
+    "id": "不耐烦-bu2-nai4-fan2",
+    "hanzi": "不耐烦",
+    "pinyin": "bú nài fán",
+    "english": "impatient",
+    "band": "rare",
+    "zipf": 3.46
+  },
+  {
+    "id": "严格-yan2-ge2",
+    "hanzi": "严格",
+    "pinyin": "yán gé",
+    "english": "strict",
+    "band": "mid",
+    "zipf": 4.88
+  },
+  {
+    "id": "乐观-le4-guan1",
+    "hanzi": "乐观",
+    "pinyin": "lè guān",
+    "english": "optimistic",
+    "band": "mid",
+    "zipf": 4.37
+  },
+  {
+    "id": "勇敢-yong3-gan3",
+    "hanzi": "勇敢",
+    "pinyin": "yǒng gǎn",
+    "english": "brave",
+    "band": "mid",
+    "zipf": 4.54
+  },
+  {
+    "id": "勇敢的-yong3-gan3-de5",
+    "hanzi": "勇敢的",
+    "pinyin": "yǒng gǎn de",
+    "english": "courageous",
+    "band": "rare",
+    "zipf": 3.54
+  },
+  {
+    "id": "勤劳-qin2-lao2",
+    "hanzi": "勤劳",
+    "pinyin": "qín láo",
+    "english": "hardworking",
+    "band": "rare",
+    "zipf": 3.88
+  },
+  {
+    "id": "友好-you3-hao3",
+    "hanzi": "友好",
+    "pinyin": "yǒu hǎo",
+    "english": "friendly",
+    "band": "mid",
+    "zipf": 4.48
+  },
+  {
+    "id": "可靠-ke3-kao4",
+    "hanzi": "可靠",
+    "pinyin": "kě kào",
+    "english": "reliable",
+    "band": "mid",
+    "zipf": 4.55
+  },
+  {
+    "id": "善良-shan4-liang2",
+    "hanzi": "善良",
+    "pinyin": "shàn liáng",
+    "english": "kind",
+    "band": "mid",
+    "zipf": 4.23
+  },
+  {
+    "id": "固执-gu4-zhi2",
+    "hanzi": "固执",
+    "pinyin": "gù zhí",
+    "english": "stubborn",
+    "band": "rare",
+    "zipf": 3.86
+  },
+  {
+    "id": "大方-da4-fang1",
+    "hanzi": "大方",
+    "pinyin": "dà fāng",
+    "english": "generous",
+    "band": "rare",
+    "zipf": 3.81
+  },
+  {
+    "id": "害羞-hai4-xiu1",
+    "hanzi": "害羞",
+    "pinyin": "hài xiū",
+    "english": "shy",
+    "band": "rare",
+    "zipf": 3.95
+  },
+  {
+    "id": "悲观-bei1-guan1",
+    "hanzi": "悲观",
+    "pinyin": "bēi guān",
+    "english": "pessimistic",
+    "band": "rare",
+    "zipf": 3.9
+  },
+  {
+    "id": "懒-lan3",
+    "hanzi": "懒",
+    "pinyin": "lǎn",
+    "english": "lazy",
+    "band": "rare",
+    "zipf": 4.01
+  },
+  {
+    "id": "明智-ming2-zhi4",
+    "hanzi": "明智",
+    "pinyin": "míng zhì",
+    "english": "wise",
+    "band": "rare",
+    "zipf": 3.86
+  },
+  {
+    "id": "有趣-you3-qu4",
+    "hanzi": "有趣",
+    "pinyin": "yǒu qù",
+    "english": "funny",
+    "band": "mid",
+    "zipf": 4.83
+  },
+  {
+    "id": "温柔-wen1-rou2",
+    "hanzi": "温柔",
+    "pinyin": "wēn róu",
+    "english": "gentle",
+    "band": "mid",
+    "zipf": 4.32
+  },
+  {
+    "id": "礼貌-li3-mao4",
+    "hanzi": "礼貌",
+    "pinyin": "lǐ mào",
+    "english": "polite",
+    "band": "mid",
+    "zipf": 4.21
+  },
+  {
+    "id": "粗心-cu1-xin1",
+    "hanzi": "粗心",
+    "pinyin": "cū xīn",
+    "english": "careless",
+    "band": "rare",
+    "zipf": 3.19
+  },
+  {
+    "id": "粗鲁-cu1-lu3",
+    "hanzi": "粗鲁",
+    "pinyin": "cū lǔ",
+    "english": "rude",
+    "band": "rare",
+    "zipf": 3.79
+  },
+  {
+    "id": "细心-xi4-xin1",
+    "hanzi": "细心",
+    "pinyin": "xì xīn",
+    "english": "careful",
+    "band": "rare",
+    "zipf": 3.83
+  },
+  {
+    "id": "耐心-nai4-xin1",
+    "hanzi": "耐心",
+    "pinyin": "nài xīn",
+    "english": "patient",
+    "band": "mid",
+    "zipf": 4.32
+  },
+  {
+    "id": "聪明-cong1-ming2",
+    "hanzi": "聪明",
+    "pinyin": "cōng míng",
+    "english": "clever",
+    "band": "mid",
+    "zipf": 4.65
+  },
+  {
+    "id": "自信-zi4-xin4",
+    "hanzi": "自信",
+    "pinyin": "zì xìn",
+    "english": "confident",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "自私-zi4-si1",
+    "hanzi": "自私",
+    "pinyin": "zì sī",
+    "english": "selfish",
+    "band": "rare",
+    "zipf": 4.11
+  },
+  {
+    "id": "认真-ren4-zhen1",
+    "hanzi": "认真",
+    "pinyin": "rèn zhēn",
+    "english": "serious",
+    "band": "common",
+    "zipf": 5.01
+  },
+  {
+    "id": "诚实-cheng2-shi2",
+    "hanzi": "诚实",
+    "pinyin": "chéng shí",
+    "english": "honest",
+    "band": "rare",
+    "zipf": 4.13
+  },
+  {
+    "id": "调皮-tiao2-pi2",
+    "hanzi": "调皮",
+    "pinyin": "tiáo pí",
+    "english": "naughty",
+    "band": "rare",
+    "zipf": 3.57
+  },
+  {
+    "id": "谦虚-qian1-xu1",
+    "hanzi": "谦虚",
+    "pinyin": "qiān xū",
+    "english": "modest",
+    "band": "rare",
+    "zipf": 3.69
+  },
+  {
+    "id": "骄傲-jiao1-ao4",
+    "hanzi": "骄傲",
+    "pinyin": "jiāo ào",
+    "english": "proud",
+    "band": "mid",
+    "zipf": 4.55
+  }
+]

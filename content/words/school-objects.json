@@ -1,0 +1,242 @@
+[
+  {
+    "id": "书-shu1",
+    "hanzi": "书",
+    "pinyin": "shū",
+    "english": "book",
+    "band": "common",
+    "zipf": 5.38
+  },
+  {
+    "id": "书包-shu1-bao1",
+    "hanzi": "书包",
+    "pinyin": "shū bāo",
+    "english": "backpack",
+    "band": "rare",
+    "zipf": 3.62
+  },
+  {
+    "id": "便利贴-bian4-li4-tie1",
+    "hanzi": "便利贴",
+    "pinyin": "biàn lì tiē",
+    "english": "sticky note",
+    "band": "rare",
+    "zipf": 3.19
+  },
+  {
+    "id": "储物柜-chu3-wu4-gui4",
+    "hanzi": "储物柜",
+    "pinyin": "chǔ wù guì",
+    "english": "locker",
+    "band": "rare",
+    "zipf": 1.42
+  },
+  {
+    "id": "圆规-yuan2-gui1",
+    "hanzi": "圆规",
+    "pinyin": "yuán guī",
+    "english": "compass",
+    "band": "rare",
+    "zipf": 2.97
+  },
+  {
+    "id": "地图-di4-tu2",
+    "hanzi": "地图",
+    "pinyin": "dì tú",
+    "english": "map",
+    "band": "mid",
+    "zipf": 4.84
+  },
+  {
+    "id": "字典-zi4-dian3",
+    "hanzi": "字典",
+    "pinyin": "zì diǎn",
+    "english": "dictionary",
+    "band": "rare",
+    "zipf": 3.77
+  },
+  {
+    "id": "尺子-chi3-zi5",
+    "hanzi": "尺子",
+    "pinyin": "chǐ zi",
+    "english": "ruler",
+    "band": "rare",
+    "zipf": 2.75
+  },
+  {
+    "id": "布告板-bu4-gao4-ban3",
+    "hanzi": "布告板",
+    "pinyin": "bù gào bǎn",
+    "english": "bulletin board",
+    "band": "rare",
+    "zipf": 2.35
+  },
+  {
+    "id": "手机-shou3-ji1",
+    "hanzi": "手机",
+    "pinyin": "shǒu jī",
+    "english": "phone",
+    "band": "common",
+    "zipf": 5.42
+  },
+  {
+    "id": "打孔器-da3-kong3-qi4",
+    "hanzi": "打孔器",
+    "pinyin": "dǎ kǒng qì",
+    "english": "hole puncher",
+    "band": "rare",
+    "zipf": 2
+  },
+  {
+    "id": "报纸-bao4-zhi3",
+    "hanzi": "报纸",
+    "pinyin": "bào zhǐ",
+    "english": "newspaper",
+    "band": "mid",
+    "zipf": 4.82
+  },
+  {
+    "id": "文件夹-wen2-jian4-jia1",
+    "hanzi": "文件夹",
+    "pinyin": "wén jiàn jiā",
+    "english": "folder",
+    "band": "rare",
+    "zipf": 3.49
+  },
+  {
+    "id": "时钟-shi2-zhong1",
+    "hanzi": "时钟",
+    "pinyin": "shí zhōng",
+    "english": "clock",
+    "band": "rare",
+    "zipf": 3.75
+  },
+  {
+    "id": "橡皮-xiang4-pi2",
+    "hanzi": "橡皮",
+    "pinyin": "xiàng pí",
+    "english": "eraser",
+    "band": "rare",
+    "zipf": 3.31
+  },
+  {
+    "id": "活页夹-huo2-ye4-jia1",
+    "hanzi": "活页夹",
+    "pinyin": "huó yè jiā",
+    "english": "binder",
+    "band": "rare",
+    "zipf": 2.12
+  },
+  {
+    "id": "电脑-dian4-nao3",
+    "hanzi": "电脑",
+    "pinyin": "diàn nǎo",
+    "english": "computer",
+    "band": "common",
+    "zipf": 5.13
+  },
+  {
+    "id": "画笔-hua4-bi3",
+    "hanzi": "画笔",
+    "pinyin": "huà bǐ",
+    "english": "paintbrush",
+    "band": "rare",
+    "zipf": 3.35
+  },
+  {
+    "id": "白板-bai2-ban3",
+    "hanzi": "白板",
+    "pinyin": "bái bǎn",
+    "english": "whiteboard",
+    "band": "rare",
+    "zipf": 3.43
+  },
+  {
+    "id": "笔-bi3",
+    "hanzi": "笔",
+    "pinyin": "bǐ",
+    "english": "pen",
+    "band": "mid",
+    "zipf": 4.48
+  },
+  {
+    "id": "笔记本-bi3-ji4-ben3",
+    "hanzi": "笔记本",
+    "pinyin": "bǐ jì běn",
+    "english": "notebook",
+    "band": "rare",
+    "zipf": 4.01
+  },
+  {
+    "id": "索引卡-suo3-yin3-ka3",
+    "hanzi": "索引卡",
+    "pinyin": "suǒ yǐn kǎ",
+    "english": "index card",
+    "band": "rare",
+    "zipf": 2.82
+  },
+  {
+    "id": "纸-zhi3",
+    "hanzi": "纸",
+    "pinyin": "zhǐ",
+    "english": "paper",
+    "band": "mid",
+    "zipf": 4.49
+  },
+  {
+    "id": "胶带-jiao1-dai4",
+    "hanzi": "胶带",
+    "pinyin": "jiāo dài",
+    "english": "tape",
+    "band": "rare",
+    "zipf": 3.64
+  },
+  {
+    "id": "荧光笔-ying2-guang1-bi3",
+    "hanzi": "荧光笔",
+    "pinyin": "yíng guāng bǐ",
+    "english": "highlighter",
+    "band": "rare",
+    "zipf": 2.4
+  },
+  {
+    "id": "蜡笔-la4-bi3",
+    "hanzi": "蜡笔",
+    "pinyin": "là bǐ",
+    "english": "crayon",
+    "band": "rare",
+    "zipf": 3.08
+  },
+  {
+    "id": "量角器-liang2-jiao3-qi4",
+    "hanzi": "量角器",
+    "pinyin": "liáng jiǎo qì",
+    "english": "protractor",
+    "band": "rare",
+    "zipf": 2.18
+  },
+  {
+    "id": "铃-ling2",
+    "hanzi": "铃",
+    "pinyin": "líng",
+    "english": "bell",
+    "band": "rare",
+    "zipf": 3.64
+  },
+  {
+    "id": "铅笔-qian1-bi3",
+    "hanzi": "铅笔",
+    "pinyin": "qiān bǐ",
+    "english": "pencil",
+    "band": "rare",
+    "zipf": 3.58
+  },
+  {
+    "id": "马克笔-ma3-ke4-bi3",
+    "hanzi": "马克笔",
+    "pinyin": "mǎ kè bǐ",
+    "english": "marker",
+    "band": "rare",
+    "zipf": 3.16
+  }
+]

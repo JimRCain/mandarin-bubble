@@ -1,0 +1,242 @@
+[
+  {
+    "id": "云-yun2",
+    "hanzi": "云",
+    "pinyin": "yún",
+    "english": "cloud",
+    "band": "common",
+    "zipf": 5
+  },
+  {
+    "id": "倾盆大雨-qing1-pen2-da4-yu3",
+    "hanzi": "倾盆大雨",
+    "pinyin": "qīng pén dà yǔ",
+    "english": "downpour",
+    "band": "rare",
+    "zipf": 3.01
+  },
+  {
+    "id": "冰-bing1",
+    "hanzi": "冰",
+    "pinyin": "bīng",
+    "english": "ice",
+    "band": "mid",
+    "zipf": 4.27
+  },
+  {
+    "id": "冰雹-bing1-bao2",
+    "hanzi": "冰雹",
+    "pinyin": "bīng báo",
+    "english": "hail",
+    "band": "rare",
+    "zipf": 3.15
+  },
+  {
+    "id": "冷-leng3",
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "english": "cold",
+    "band": "mid",
+    "zipf": 4.63
+  },
+  {
+    "id": "凉快-liang2-kuai5",
+    "hanzi": "凉快",
+    "pinyin": "liáng kuai",
+    "english": "cool",
+    "band": "rare",
+    "zipf": 3.23
+  },
+  {
+    "id": "台风-tai2-feng1",
+    "hanzi": "台风",
+    "pinyin": "tái fēng",
+    "english": "typhoon",
+    "band": "mid",
+    "zipf": 4.33
+  },
+  {
+    "id": "大风-da4-feng1",
+    "hanzi": "大风",
+    "pinyin": "dà fēng",
+    "english": "gale",
+    "band": "rare",
+    "zipf": 3.7
+  },
+  {
+    "id": "干旱-gan1-han4",
+    "hanzi": "干旱",
+    "pinyin": "gān hàn",
+    "english": "drought",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "彩虹-cai3-hong2",
+    "hanzi": "彩虹",
+    "pinyin": "cǎi hóng",
+    "english": "rainbow",
+    "band": "rare",
+    "zipf": 4.1
+  },
+  {
+    "id": "微风-wei1-feng1",
+    "hanzi": "微风",
+    "pinyin": "wēi fēng",
+    "english": "breeze",
+    "band": "rare",
+    "zipf": 3.61
+  },
+  {
+    "id": "打雷-da3-lei2",
+    "hanzi": "打雷",
+    "pinyin": "dǎ léi",
+    "english": "thunder",
+    "band": "rare",
+    "zipf": 3.37
+  },
+  {
+    "id": "晴天-qing2-tian1",
+    "hanzi": "晴天",
+    "pinyin": "qíng tiān",
+    "english": "sunny",
+    "band": "rare",
+    "zipf": 3.49
+  },
+  {
+    "id": "暖和-nuan3-huo5",
+    "hanzi": "暖和",
+    "pinyin": "nuǎn huo",
+    "english": "warm",
+    "band": "rare",
+    "zipf": 3.49
+  },
+  {
+    "id": "暴风雨-bao4-feng1-yu3",
+    "hanzi": "暴风雨",
+    "pinyin": "bào fēng yǔ",
+    "english": "storm",
+    "band": "rare",
+    "zipf": 3.69
+  },
+  {
+    "id": "暴风雪-bao4-feng1-xue3",
+    "hanzi": "暴风雪",
+    "pinyin": "bào fēng xuě",
+    "english": "blizzard",
+    "band": "rare",
+    "zipf": 3.09
+  },
+  {
+    "id": "毛毛雨-mao2-mao5-yu3",
+    "hanzi": "毛毛雨",
+    "pinyin": "máo mao yǔ",
+    "english": "drizzle",
+    "band": "rare",
+    "zipf": 2.45
+  },
+  {
+    "id": "湿度-shi1-du4",
+    "hanzi": "湿度",
+    "pinyin": "shī dù",
+    "english": "humidity",
+    "band": "rare",
+    "zipf": 3.75
+  },
+  {
+    "id": "热-re4",
+    "hanzi": "热",
+    "pinyin": "rè",
+    "english": "hot",
+    "band": "mid",
+    "zipf": 4.99
+  },
+  {
+    "id": "热浪-re4-lang4",
+    "hanzi": "热浪",
+    "pinyin": "rè làng",
+    "english": "heatwave",
+    "band": "rare",
+    "zipf": 3.33
+  },
+  {
+    "id": "闪电-shan3-dian4",
+    "hanzi": "闪电",
+    "pinyin": "shǎn diàn",
+    "english": "lightning",
+    "band": "rare",
+    "zipf": 4.07
+  },
+  {
+    "id": "阵雨-zhen4-yu3",
+    "hanzi": "阵雨",
+    "pinyin": "zhèn yǔ",
+    "english": "shower",
+    "band": "rare",
+    "zipf": 3.11
+  },
+  {
+    "id": "雨-yu3",
+    "hanzi": "雨",
+    "pinyin": "yǔ",
+    "english": "rain",
+    "band": "mid",
+    "zipf": 4.49
+  },
+  {
+    "id": "雪-xue3",
+    "hanzi": "雪",
+    "pinyin": "xuě",
+    "english": "snow",
+    "band": "mid",
+    "zipf": 4.35
+  },
+  {
+    "id": "雾-wu4",
+    "hanzi": "雾",
+    "pinyin": "wù",
+    "english": "fog",
+    "band": "mid",
+    "zipf": 4.26
+  },
+  {
+    "id": "霜-shuang1",
+    "hanzi": "霜",
+    "pinyin": "shuāng",
+    "english": "frost",
+    "band": "rare",
+    "zipf": 3.64
+  },
+  {
+    "id": "露水-lu4-shui3",
+    "hanzi": "露水",
+    "pinyin": "lù shuǐ",
+    "english": "dew",
+    "band": "rare",
+    "zipf": 3.29
+  },
+  {
+    "id": "风-feng1",
+    "hanzi": "风",
+    "pinyin": "fēng",
+    "english": "wind",
+    "band": "mid",
+    "zipf": 4.94
+  },
+  {
+    "id": "飓风-ju4-feng1",
+    "hanzi": "飓风",
+    "pinyin": "jù fēng",
+    "english": "hurricane",
+    "band": "rare",
+    "zipf": 4.18
+  },
+  {
+    "id": "龙卷风-long2-juan3-feng1",
+    "hanzi": "龙卷风",
+    "pinyin": "lóng juǎn fēng",
+    "english": "tornado",
+    "band": "rare",
+    "zipf": 3.6
+  }
+]

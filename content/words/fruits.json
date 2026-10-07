@@ -1,0 +1,242 @@
+[
+  {
+    "id": "哈密瓜-ha1-mi4-gua1",
+    "hanzi": "哈密瓜",
+    "pinyin": "hā mì guā",
+    "english": "cantaloupe",
+    "band": "rare",
+    "zipf": 2.24
+  },
+  {
+    "id": "木瓜-mu4-gua1",
+    "hanzi": "木瓜",
+    "pinyin": "mù guā",
+    "english": "papaya",
+    "band": "rare",
+    "zipf": 3.1
+  },
+  {
+    "id": "李子-li3-zi5",
+    "hanzi": "李子",
+    "pinyin": "lǐ zi",
+    "english": "plum",
+    "band": "rare",
+    "zipf": 3.46
+  },
+  {
+    "id": "杏子-xing4-zi5",
+    "hanzi": "杏子",
+    "pinyin": "xìng zi",
+    "english": "apricot",
+    "band": "rare",
+    "zipf": 2.59
+  },
+  {
+    "id": "杨桃-yang2-tao2",
+    "hanzi": "杨桃",
+    "pinyin": "yáng táo",
+    "english": "star fruit",
+    "band": "rare",
+    "zipf": 2.58
+  },
+  {
+    "id": "枣-zao3",
+    "hanzi": "枣",
+    "pinyin": "zǎo",
+    "english": "date",
+    "band": "rare",
+    "zipf": 3.17
+  },
+  {
+    "id": "柚子-you4-zi5",
+    "hanzi": "柚子",
+    "pinyin": "yòu zi",
+    "english": "grapefruit",
+    "band": "rare",
+    "zipf": 3.22
+  },
+  {
+    "id": "柠檬-ning2-meng2",
+    "hanzi": "柠檬",
+    "pinyin": "níng méng",
+    "english": "lemon",
+    "band": "rare",
+    "zipf": 3.8
+  },
+  {
+    "id": "柿子-shi4-zi5",
+    "hanzi": "柿子",
+    "pinyin": "shì zi",
+    "english": "persimmon",
+    "band": "rare",
+    "zipf": 3.14
+  },
+  {
+    "id": "桃子-tao2-zi5",
+    "hanzi": "桃子",
+    "pinyin": "táo zi",
+    "english": "peach",
+    "band": "rare",
+    "zipf": 3.65
+  },
+  {
+    "id": "梨-li2",
+    "hanzi": "梨",
+    "pinyin": "lí",
+    "english": "pear",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "椰子-ye1-zi5",
+    "hanzi": "椰子",
+    "pinyin": "yē zi",
+    "english": "coconut",
+    "band": "rare",
+    "zipf": 3.55
+  },
+  {
+    "id": "榴莲-liu2-lian2",
+    "hanzi": "榴莲",
+    "pinyin": "liú lián",
+    "english": "durian",
+    "band": "rare",
+    "zipf": 2.09
+  },
+  {
+    "id": "樱桃-ying1-tao2",
+    "hanzi": "樱桃",
+    "pinyin": "yīng táo",
+    "english": "cherry",
+    "band": "rare",
+    "zipf": 3.77
+  },
+  {
+    "id": "橘子-ju2-zi5",
+    "hanzi": "橘子",
+    "pinyin": "jú zi",
+    "english": "orange",
+    "band": "rare",
+    "zipf": 3.76
+  },
+  {
+    "id": "火龙果-huo3-long2-guo3",
+    "hanzi": "火龙果",
+    "pinyin": "huǒ lóng guǒ",
+    "english": "dragon fruit",
+    "band": "rare",
+    "zipf": 2.13
+  },
+  {
+    "id": "猕猴桃-mi2-hou2-tao2",
+    "hanzi": "猕猴桃",
+    "pinyin": "mí hóu táo",
+    "english": "kiwi",
+    "band": "rare",
+    "zipf": 3.13
+  },
+  {
+    "id": "番石榴-fan1-shi2-liu5",
+    "hanzi": "番石榴",
+    "pinyin": "fān shí liu",
+    "english": "guava",
+    "band": "rare",
+    "zipf": 2.42
+  },
+  {
+    "id": "百香果-bai3-xiang1-guo3",
+    "hanzi": "百香果",
+    "pinyin": "bǎi xiāng guǒ",
+    "english": "passion fruit",
+    "band": "rare",
+    "zipf": 2
+  },
+  {
+    "id": "石榴-shi2-liu5",
+    "hanzi": "石榴",
+    "pinyin": "shí liu",
+    "english": "pomegranate",
+    "band": "rare",
+    "zipf": 3.48
+  },
+  {
+    "id": "芒果-mang2-guo3",
+    "hanzi": "芒果",
+    "pinyin": "máng guǒ",
+    "english": "mango",
+    "band": "rare",
+    "zipf": 3.77
+  },
+  {
+    "id": "苹果-ping2-guo3",
+    "hanzi": "苹果",
+    "pinyin": "píng guǒ",
+    "english": "apple",
+    "band": "common",
+    "zipf": 5
+  },
+  {
+    "id": "草莓-cao3-mei2",
+    "hanzi": "草莓",
+    "pinyin": "cǎo méi",
+    "english": "strawberry",
+    "band": "rare",
+    "zipf": 3.94
+  },
+  {
+    "id": "荔枝-li4-zhi1",
+    "hanzi": "荔枝",
+    "pinyin": "lì zhī",
+    "english": "lychee",
+    "band": "rare",
+    "zipf": 3.64
+  },
+  {
+    "id": "菠萝-bo1-luo2",
+    "hanzi": "菠萝",
+    "pinyin": "bō luó",
+    "english": "pineapple",
+    "band": "rare",
+    "zipf": 3.58
+  },
+  {
+    "id": "葡萄-pu2-tao5",
+    "hanzi": "葡萄",
+    "pinyin": "pú tao",
+    "english": "grape",
+    "band": "rare",
+    "zipf": 4.11
+  },
+  {
+    "id": "蓝莓-lan2-mei2",
+    "hanzi": "蓝莓",
+    "pinyin": "lán méi",
+    "english": "blueberry",
+    "band": "rare",
+    "zipf": 3.22
+  },
+  {
+    "id": "西瓜-xi1-gua1",
+    "hanzi": "西瓜",
+    "pinyin": "xī guā",
+    "english": "watermelon",
+    "band": "rare",
+    "zipf": 3.91
+  },
+  {
+    "id": "覆盆子-fu4-pen2-zi5",
+    "hanzi": "覆盆子",
+    "pinyin": "fù pén zi",
+    "english": "raspberry",
+    "band": "rare",
+    "zipf": 1.19
+  },
+  {
+    "id": "香蕉-xiang1-jiao1",
+    "hanzi": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "english": "banana",
+    "band": "rare",
+    "zipf": 4.16
+  }
+]

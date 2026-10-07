@@ -1,0 +1,242 @@
+[
+  {
+    "id": "人力车-ren2-li4-che1",
+    "hanzi": "人力车",
+    "pinyin": "rén lì chē",
+    "english": "rickshaw",
+    "band": "rare",
+    "zipf": 3.36
+  },
+  {
+    "id": "公交车-gong1-jiao1-che1",
+    "hanzi": "公交车",
+    "pinyin": "gōng jiāo chē",
+    "english": "bus",
+    "band": "rare",
+    "zipf": 4.12
+  },
+  {
+    "id": "出租车-chu1-zu1-che1",
+    "hanzi": "出租车",
+    "pinyin": "chū zū chē",
+    "english": "taxi",
+    "band": "mid",
+    "zipf": 4.27
+  },
+  {
+    "id": "单车-dan1-che1",
+    "hanzi": "单车",
+    "pinyin": "dān chē",
+    "english": "bicycle",
+    "band": "rare",
+    "zipf": 4.13
+  },
+  {
+    "id": "单轨列车-dan1-gui3-lie4-che1",
+    "hanzi": "单轨列车",
+    "pinyin": "dān guǐ liè chē",
+    "english": "monorail",
+    "band": "rare",
+    "zipf": 1.65
+  },
+  {
+    "id": "卡车-ka3-che1",
+    "hanzi": "卡车",
+    "pinyin": "kǎ chē",
+    "english": "truck",
+    "band": "mid",
+    "zipf": 4.24
+  },
+  {
+    "id": "厢式货车-xiang1-shi4-huo4-che1",
+    "hanzi": "厢式货车",
+    "pinyin": "xiāng shì huò chē",
+    "english": "van",
+    "band": "rare",
+    "zipf": 1.36
+  },
+  {
+    "id": "地铁-di4-tie3",
+    "hanzi": "地铁",
+    "pinyin": "dì tiě",
+    "english": "subway",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "摩托车-mo2-tuo1-che1",
+    "hanzi": "摩托车",
+    "pinyin": "mó tuō chē",
+    "english": "motorcycle",
+    "band": "rare",
+    "zipf": 4.11
+  },
+  {
+    "id": "救护车-jiu4-hu4-che1",
+    "hanzi": "救护车",
+    "pinyin": "jiù hù chē",
+    "english": "ambulance",
+    "band": "rare",
+    "zipf": 3.83
+  },
+  {
+    "id": "敞篷车-chang3-peng2-che1",
+    "hanzi": "敞篷车",
+    "pinyin": "chǎng péng chē",
+    "english": "convertible",
+    "band": "rare",
+    "zipf": 0.55
+  },
+  {
+    "id": "无轨电车-wu2-gui3-dian4-che1",
+    "hanzi": "无轨电车",
+    "pinyin": "wú guǐ diàn chē",
+    "english": "trolley",
+    "band": "rare",
+    "zipf": 1.59
+  },
+  {
+    "id": "旱冰鞋-han4-bing1-xie2",
+    "hanzi": "旱冰鞋",
+    "pinyin": "hàn bīng xié",
+    "english": "roller skates",
+    "band": "rare",
+    "zipf": 1.09
+  },
+  {
+    "id": "有轨电车-you3-gui3-dian4-che1",
+    "hanzi": "有轨电车",
+    "pinyin": "yǒu guǐ diàn chē",
+    "english": "tram",
+    "band": "rare",
+    "zipf": 1.59
+  },
+  {
+    "id": "汽车-qi4-che1",
+    "hanzi": "汽车",
+    "pinyin": "qì chē",
+    "english": "car",
+    "band": "common",
+    "zipf": 5.24
+  },
+  {
+    "id": "渡轮-du4-lun2",
+    "hanzi": "渡轮",
+    "pinyin": "dù lún",
+    "english": "ferry",
+    "band": "rare",
+    "zipf": 3.34
+  },
+  {
+    "id": "滑板-hua2-ban3",
+    "hanzi": "滑板",
+    "pinyin": "huá bǎn",
+    "english": "skateboard",
+    "band": "rare",
+    "zipf": 3.42
+  },
+  {
+    "id": "滑板车-hua2-ban3-che1",
+    "hanzi": "滑板车",
+    "pinyin": "huá bǎn chē",
+    "english": "scooter",
+    "band": "rare",
+    "zipf": 2.41
+  },
+  {
+    "id": "火车-huo3-che1",
+    "hanzi": "火车",
+    "pinyin": "huǒ chē",
+    "english": "train",
+    "band": "mid",
+    "zipf": 4.67
+  },
+  {
+    "id": "热气球-re4-qi4-qiu2",
+    "hanzi": "热气球",
+    "pinyin": "rè qì qiú",
+    "english": "hot air balloon",
+    "band": "rare",
+    "zipf": 3.1
+  },
+  {
+    "id": "电动车-dian4-dong4-che1",
+    "hanzi": "电动车",
+    "pinyin": "diàn dòng chē",
+    "english": "moped",
+    "band": "rare",
+    "zipf": 3.85
+  },
+  {
+    "id": "皮卡-pi2-ka3",
+    "hanzi": "皮卡",
+    "pinyin": "pí kǎ",
+    "english": "pickup truck",
+    "band": "rare",
+    "zipf": 3.37
+  },
+  {
+    "id": "直升机-zhi2-sheng1-ji1",
+    "hanzi": "直升机",
+    "pinyin": "zhí shēng jī",
+    "english": "helicopter",
+    "band": "mid",
+    "zipf": 4.47
+  },
+  {
+    "id": "缆车-lan3-che1",
+    "hanzi": "缆车",
+    "pinyin": "lǎn chē",
+    "english": "cable car",
+    "band": "rare",
+    "zipf": 3.36
+  },
+  {
+    "id": "航天飞机-hang2-tian1-fei1-ji1",
+    "hanzi": "航天飞机",
+    "pinyin": "háng tiān fēi jī",
+    "english": "space shuttle",
+    "band": "rare",
+    "zipf": 3.42
+  },
+  {
+    "id": "船-chuan2",
+    "hanzi": "船",
+    "pinyin": "chuán",
+    "english": "boat",
+    "band": "mid",
+    "zipf": 4.78
+  },
+  {
+    "id": "贡多拉-gong4-duo1-la1",
+    "hanzi": "贡多拉",
+    "pinyin": "gòng duō lā",
+    "english": "gondola",
+    "band": "rare",
+    "zipf": 1.82
+  },
+  {
+    "id": "越野车-yue4-ye3-che1",
+    "hanzi": "越野车",
+    "pinyin": "yuè yě chē",
+    "english": "SUV",
+    "band": "rare",
+    "zipf": 3.02
+  },
+  {
+    "id": "轿车-jiao4-che1",
+    "hanzi": "轿车",
+    "pinyin": "jiào chē",
+    "english": "sedan",
+    "band": "rare",
+    "zipf": 4.12
+  },
+  {
+    "id": "飞机-fei1-ji1",
+    "hanzi": "飞机",
+    "pinyin": "fēi jī",
+    "english": "airplane",
+    "band": "common",
+    "zipf": 5.18
+  }
+]
