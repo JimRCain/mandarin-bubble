@@ -16,6 +16,13 @@ import { DEFAULT_SETTINGS, type SessionSettings } from '../game/types';
 
 export const SCHEMA_VERSION = 1;
 
+/**
+ * Bumped when a stored *preference* stops meaning what it used to. Separate
+ * from SCHEMA_VERSION, which guards progress: a stale setting is worth
+ * re-defaulting, a stale progress file is worth throwing away.
+ */
+export const SETTINGS_VERSION = 2;
+
 export interface ProgressStore {
   readonly version: number;
   readonly words: Record<string, WordProgress>;
@@ -149,19 +156,24 @@ export function saveProgress(storage: StorageLike, store: ProgressStore): void {
 }
 
 export function loadSettings(storage: StorageLike): SessionSettings {
-  const parsed = readJson<Partial<SessionSettings>>(storage, STORAGE_KEYS.settings);
+  const parsed = readJson<Partial<SessionSettings> & { v?: number }>(storage, STORAGE_KEYS.settings);
   if (!parsed || !Array.isArray(parsed.decks) || !Array.isArray(parsed.bands)) return DEFAULT_SETTINGS;
+  // Pinyin became a default-on reading aid on 2026-10-07 (Jim's call, matching
+  // the POC). A stored `false` written before that is the old default rather
+  // than a decision, so it is discarded once, and a deliberate toggle-off from
+  // now on persists.
+  const pinyin = parsed.v === SETTINGS_VERSION ? (parsed.pinyin ?? DEFAULT_SETTINGS.pinyin) : DEFAULT_SETTINGS.pinyin;
   return {
     decks: parsed.decks,
     bands: parsed.bands,
     pace: parsed.pace ?? DEFAULT_SETTINGS.pace,
-    pinyin: parsed.pinyin ?? DEFAULT_SETTINGS.pinyin,
+    pinyin,
     sound: parsed.sound ?? DEFAULT_SETTINGS.sound,
   };
 }
 
 export function saveSettings(storage: StorageLike, settings: SessionSettings): void {
-  storage.set(STORAGE_KEYS.settings, JSON.stringify(settings));
+  storage.set(STORAGE_KEYS.settings, JSON.stringify({ ...settings, v: SETTINGS_VERSION }));
 }
 
 export function loadSession(storage: StorageLike): StoredSession | null {

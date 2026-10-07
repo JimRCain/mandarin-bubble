@@ -78,6 +78,14 @@ test('tap, score, advance the round', async ({ page }) => {
   expect(before.candidateIds.length).toBeGreaterThan(1);
   await expect(page.getByTestId('target-prompt')).toBeVisible();
 
+  // Pinyin is a default-on reading aid (Jim, 2026-10-07, matching the POC): every
+  // bubble carries it under the Hanzi, and it is legible rather than a smudge.
+  const pinyin = page.getByTestId('bubble-pinyin');
+  await expect(pinyin.first()).toBeVisible();
+  expect(await pinyin.count()).toBe(before.candidateIds.length);
+  const pinyinBox = await pinyin.first().boundingBox();
+  expect(pinyinBox?.height ?? 0).toBeGreaterThan(6);
+
   const right = page.locator(`[data-testid="bubble"][data-word-id="${before.targetId}"]`);
   await expect(right).toHaveCount(1);
 

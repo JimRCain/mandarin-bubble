@@ -120,6 +120,23 @@ describe('settings and session', () => {
     expect(loadSettings(storage)).toEqual(settings);
   });
 
+  it('turns pinyin on for settings saved before it became the default', () => {
+    const storage = createStorage(memoryStorage());
+    // Exactly what an older build wrote: no version marker, pinyin off because
+    // that used to be the default.
+    storage.set(
+      'mb.settings.v1',
+      JSON.stringify({ decks: ['hsk-1'], bands: ['common'], pace: 'normal', pinyin: false, sound: true }),
+    );
+    expect(loadSettings(storage).pinyin).toBe(true);
+  });
+
+  it('still honours a pinyin toggle that was set after the change', () => {
+    const storage = createStorage(memoryStorage());
+    saveSettings(storage, { ...DEFAULT_SETTINGS, pinyin: false });
+    expect(loadSettings(storage).pinyin).toBe(false);
+  });
+
   it('resumes an in-flight session (FR-22) and ignores one from another version', () => {
     const storage = createStorage(memoryStorage());
     saveSession(storage, { state: { phase: 'playing' }, queue: ['a', 'b'] });

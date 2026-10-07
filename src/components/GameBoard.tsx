@@ -30,6 +30,7 @@ interface GameBoardProps {
 export default function GameBoard({ onExit }: GameBoardProps) {
   const {
     state,
+    settings,
     boardConfig,
     seed,
     advance,
@@ -182,6 +183,7 @@ export default function GameBoard({ onExit }: GameBoardProps) {
                 key={candidateId}
                 word={candidate}
                 diameterVw={boardConfig.radius * 200}
+                showPinyin={settings.pinyin}
                 feedback={feedback}
                 register={register}
                 onSelect={answer}

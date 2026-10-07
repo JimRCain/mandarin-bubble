@@ -22,6 +22,19 @@ The skeleton (step 1) is built, published and playable:
   session — the real bug, and the e2e that missed it is fixed too).
 - Still open: MIDI/audio is plumbing only (`public/audio/manifest.json` is empty),
   §1.7 sign-off, and whether to strip the 19 MB of finished music from the repo.
+- **Pinyin is now a default-on reading aid** (Jim, 2026-10-07): it renders inside
+  each bubble under the Hanzi, as the POC did. `DEFAULT_SETTINGS.pinyin` is true,
+  and settings carry a `SETTINGS_VERSION` so a stored `false` written before the
+  change is discarded once while a deliberate toggle-off still persists.
+- **POC mechanics inventory: `docs/POC-MECHANICS.md`.** Jim asked for the original
+  game's mechanics to be kept, and stopped the port mid-flight the same night
+  ("the original mechanics are largely good; the scoring system I'm still open to
+  change on, we will tune as we build"). Read that file before touching the
+  board: it has the POC's constants, its loop, its defects, and the port order.
+  Nothing of the port is implemented yet — the scoring question is unanswered.
+- **Audio batch scheduled.** Cron `9883288857a2` runs once at 2026-10-08 02:00 to
+  render the Hanzi clips (probe first, cap 300 clips or 45 min, resumable, no
+  commit and no push). 2345 unique word ids are waiting in `content/words/`.
 
 ## What the project is
 

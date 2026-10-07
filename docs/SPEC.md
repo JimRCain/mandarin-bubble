@@ -210,6 +210,14 @@ Three actions, no toggles. That is the entire screen.
 - FR-16 MUST expose replay of the target's pronunciation, **and a test MUST assert the replay is passed the target's Hanzi** — a silent no-op is otherwise indistinguishable [R2-12]. **[OPEN-A4]** — pre- or post-answer; see §11.2.
 - ~~FR-17 **[PROPOSED, pending Q1]** MUST show a word's first encounter in a session as an untimed exposure card before it can be quizzed (§1.6) [R2-1].~~ **WITHDRAWN 2026-10-07 by the owner** (§1.6 decision): no exposure phase, no card, no `teach` flag.
 
+**Reading aids (owner decision, 2026-10-07).** Pinyin shows inside every bubble
+under the Hanzi and is ON by default. Jim asked for it after playing the published
+build, and the POC did the same (`CategoryMenu.tsx:64`, `Bubble.tsx:64`). The
+settings toggle stays and turns it off; a stored preference is versioned so the
+old default is not mistaken for a choice. Jim also asked for the original game's
+mechanics to be kept rather than reinvented — the verified inventory, the POC's
+defects and the port order are in `docs/POC-MECHANICS.md`.
+
 **Session**
 - FR-18 MUST show the scoreboard and progress toward the session end (§1.5).
 - FR-19 MUST end the session at the defined condition and show a summary: correct, wrong, accuracy, fastest response, longest combo, and the words answered wrong.

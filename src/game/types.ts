@@ -108,7 +108,10 @@ export const DEFAULT_SETTINGS: SessionSettings = {
   decks: ['hsk-1'],
   bands: [...BANDS],
   pace: 'normal',
-  pinyin: false,
+  // On by default, the owner's call on 2026-10-07 and what the POC did. The
+  // toggle still turns it off; it just no longer starts off, because a beginner
+  // reading a Hanzi they have never seen has nothing to hold on to.
+  pinyin: true,
   sound: true,
 };
 
