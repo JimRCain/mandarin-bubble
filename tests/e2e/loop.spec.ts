@@ -40,6 +40,15 @@ async function startSession(page: Page, seed = SEED): Promise<void> {
   await page.getByTestId('start-session').click();
 }
 
+/**
+ * A round is dealt a beat after the phase flips: the board is assembled from the
+ * deck fetch, which is slow enough on a CI runner to be visible. Waiting on the
+ * phase alone let a probe read a session mid-deal and report a null target.
+ */
+async function expectDealt(page: Page): Promise<void> {
+  await expect.poll(async () => (await probe(page)).targetId, { timeout: 15_000 }).toBeTruthy();
+}
+
 /** Dismiss the exposure card; fails if the app forgot to teach a new word. */
 async function expectExposure(page: Page): Promise<void> {
   const card = page.getByTestId('exposure-card');
@@ -47,6 +56,7 @@ async function expectExposure(page: Page): Promise<void> {
   await page.getByTestId('exposure-dismiss').click();
   await expect(card).toBeHidden();
   expect((await probe(page)).phase).toBe('playing');
+  await expectDealt(page);
 }
 
 /** Wait until the board is answerable, teaching first if a card is up. */
@@ -57,6 +67,7 @@ async function reachPlaying(page: Page): Promise<void> {
     await expect(card).toBeHidden();
   }
   await expect.poll(async () => (await probe(page)).phase).toBe('playing');
+  await expectDealt(page);
 }
 
 test.use({ reducedMotion: 'reduce' });

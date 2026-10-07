@@ -122,7 +122,7 @@ export default function GameBoard({ onExit }: GameBoardProps) {
           </Button>
           <div className="min-w-0 flex-1 text-center">
             <div className="truncate text-xl font-bold text-white" data-testid="target-prompt">
-              {target?.english ?? ''}
+              {target?.english ?? (state.phase === 'playing' ? 'Dealing…' : '')}
             </div>
             {target && state.phase !== 'exposure' && (
               <button
