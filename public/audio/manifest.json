@@ -1,0 +1,4 @@
+{
+  "clips": [],
+  "note": "Hand-written placeholder so the app does not 404 on startup. The offline TTS batch job rewrites this file with the word ids it has rendered; an empty list means speech is off, which is the designed degradation (docs/SPEC.md AR-4) rather than a console full of 404s."
+}

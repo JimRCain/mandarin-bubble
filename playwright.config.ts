@@ -11,7 +11,9 @@ export default defineConfig({
   reporter: [['list']],
   use: {
     baseURL: 'http://127.0.0.1:4173/mandarin-bubble/',
-    channel: 'chrome',
+    // Locally we use the system Chrome (Playwright browser downloads are flaky
+    // from here); CI installs the bundled chromium and says so.
+    channel: process.env.PW_CHANNEL ?? 'chrome',
     headless: true,
     trace: 'off',
   },

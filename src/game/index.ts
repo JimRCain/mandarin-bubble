@@ -7,3 +7,6 @@ export * from './board';
 export * from './selection';
 export * from './scoring';
 export * from './review';
+
+// Export types specifically for UI components
+export type { Word, SessionSettings } from './types';

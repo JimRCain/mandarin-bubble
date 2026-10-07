@@ -6,9 +6,9 @@
   "description": "A Mandarin vocabulary learning tool masquerading as an arcade game.",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "build:web": "vite build",
+    "dev": "npm run content:build && vite",
+    "build": "tsc --noEmit && npm run content:build && vite build",
+    "build:web": "npm run content:build && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit --pretty false",
     "lint": "eslint .",

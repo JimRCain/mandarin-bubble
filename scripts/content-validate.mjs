@@ -26,15 +26,13 @@ import { z } from 'zod';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT = path.join(ROOT, 'content');
-const WORDS_DIR = path.join(CONTENT, 'words');
-const CATEGORIES_FILE = path.join(CONTENT, 'categories.json');
 const GOLDEN_FILE = path.join(CONTENT, 'golden', 'counts.json');
 
 // Pinyin is tone-marked (bǎ), tone-neutral (zi), sometimes capitalised (Ānhuī),
 // and four 在...上 style pattern entries carry a literal '...' placeholder.
 // Latin Extended-B (U+0180-U+024F) is required: ǎ ǐ ǒ ǔ ǚ ǜ live there, not in
 // U+00C0-U+017F.
-const PY_RE = /^[a-zA-ZüÜ\u00c0-\u024f\u0300-\u036f'(). ]+$/u;
+const PY_RE = /^[a-zA-ZüÜ\u00c0-\u024f\p{M}'(). ]+$/u;
 
 const categorySchema = z.strictObject({
   id: z.string().min(1).regex(/^[a-z0-9][a-z0-9-]*$/, 'id must be kebab-case'),

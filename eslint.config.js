@@ -16,7 +16,20 @@ export default tseslint.config(
     },
   },
   {
-    files: ['scripts/**/*.mjs', '*.config.{js,ts}'],
+    files: ['scripts/**/*.mjs', '*.config.{js,ts}', 'tests/e2e/**/*.ts'],
+    languageOptions: {
+      globals: {
+        // Node built-ins the content scripts and configs use. Declared here
+        // rather than pulling in the globals package for six names.
+        console: 'readonly',
+        process: 'readonly',
+        URL: 'readonly',
+        URLSearchParams: 'readonly',
+        fetch: 'readonly',
+        Buffer: 'readonly',
+        globalThis: 'readonly',
+      },
+    },
     rules: { 'no-console': 'off' },
   },
 );

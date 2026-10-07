@@ -58,7 +58,7 @@ export function createStorage(backing?: Storage | null): StorageLike {
   // exists and *reads* succeed, so only a write proves it is usable. The same
   // probe runs for an injected Storage, which is how the hostile-storage test
   // exercises the fallback instead of trusting the object's shape.
-  let candidate: Storage | null = null;
+  let candidate: Storage | null;
   if (backing === undefined) {
     try {
       candidate = globalThis.localStorage ?? null;

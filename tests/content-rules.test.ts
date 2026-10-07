@@ -69,8 +69,9 @@ describe('corpus properties the game depends on', () => {
       expect(word.pinyin.trim()).not.toBe('');
       expect(word.english.trim()).not.toBe('');
       // Same character class as scripts/content-validate.mjs: tone marks reach
-      // into Latin Extended-B, and pattern entries use a '...' placeholder.
-      expect(word.pinyin).toMatch(/^[a-zA-Zü\u00c0-\u024f\u0300-\u036f'(). ]+$/u);
+      // into Latin Extended-B and Hangul-style combining marks; \p{M} keeps the
+      // intent explicit instead of spelling out a combining range.
+      expect(word.pinyin).toMatch(/^[a-zA-Zü\u00c0-\u024f\p{M}'(). ]+$/u);
       expect(word.pinyin).not.toMatch(/[0-9]/);
     }
   });
