@@ -1,5 +1,5 @@
 /**
- * The play screen: HUD, falling bubbles, exposure card.
+ * The play screen: HUD and falling bubbles.
  *
  * Nothing here keeps a bubble position in React state (SPEC 7). The frame loop
  * moves the engine and writes `left`/`top` straight onto the bubble nodes, so
@@ -15,7 +15,6 @@ import { SESSION } from '../game/config';
 import { remainingMs } from '../game/scoring';
 import { useGame } from '../useGame';
 import Bubble from './Bubble';
-import ExposureCard from './ExposureCard';
 import Button from './ui/Button';
 
 interface GameBoardProps {
@@ -35,7 +34,6 @@ export default function GameBoard({ onExit }: GameBoardProps) {
     seed,
     advance,
     answer,
-    acknowledgeExposure,
     audio,
     word,
   } = useGame();
@@ -66,14 +64,20 @@ export default function GameBoard({ onExit }: GameBoardProps) {
   // Reset from the round's own candidate list, so the bubbles on screen and the
   // ids the reducer answers against can never disagree. Declared before the frame
   // loop so a new round is placed before it is first painted.
+  //
+  // The paint() here is not redundant: a brand-new bubble node has no inline
+  // left/top until it is written, so waiting for the next animation frame to
+  // place it leaves the whole round stacked in one spot for a frame. Refs are
+  // attached before effects run, so every node is already registered.
   useEffect(() => {
     if (state.phase === 'playing' && state.candidateIds.length > 0) {
       field.reset(state.candidateIds);
+      paint();
     }
-  }, [field, state.phase, state.candidateIds]);
+  }, [field, state.phase, state.candidateIds, paint]);
 
   useEffect(() => {
-    if (state.phase !== 'playing' && state.phase !== 'exposure') return;
+    if (state.phase !== 'playing') return;
     let stopped = false;
     let handle = 0;
     const frame = (timestamp: number) => {
@@ -124,7 +128,7 @@ export default function GameBoard({ onExit }: GameBoardProps) {
             <div className="truncate text-xl font-bold text-white" data-testid="target-prompt">
               {target?.english ?? (state.phase === 'playing' ? 'Dealing…' : '')}
             </div>
-            {target && state.phase !== 'exposure' && (
+            {target && (
               <button
                 type="button"
                 className="mt-0.5 text-xs text-jade-400 underline decoration-dotted"
@@ -184,10 +188,6 @@ export default function GameBoard({ onExit }: GameBoardProps) {
               />
             );
           })}
-
-        {state.phase === 'exposure' && (
-          <ExposureCard word={word(state.exposureId)} onDismiss={acknowledgeExposure} />
-        )}
 
         {state.streak >= 2 && state.phase === 'playing' && (
           <div

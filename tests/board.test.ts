@@ -1,6 +1,17 @@
 import { describe, expect, it } from 'vitest';
-import { BubbleField, DEFAULT_BOARD } from '../src/game/board';
+import { BubbleField, DEFAULT_BOARD, bubbleRadiusFor } from '../src/game/board';
 import { createRng } from '../src/game/rng';
+
+/** Smallest horizontal gap between any two bubbles; the overlap measure. */
+function closestPair(bubbles: readonly { x: number }[]): number {
+  let min = Number.POSITIVE_INFINITY;
+  for (let i = 0; i < bubbles.length; i += 1) {
+    for (let j = i + 1; j < bubbles.length; j += 1) {
+      min = Math.min(min, Math.abs((bubbles[i]?.x ?? 0) - (bubbles[j]?.x ?? 0)));
+    }
+  }
+  return min;
+}
 
 describe('BubbleField', () => {
   it('spawns one bubble per word, inside the playable width', () => {
@@ -34,7 +45,7 @@ describe('BubbleField', () => {
     const wrapped = board.bubbles()[0];
     expect(board.size).toBe(1);
     expect(wrapped?.wordId).toBe('a');
-    // Teleported to a random slot at the top, not stuck on the wrap line.
+    // Teleported to a lane at the top, not stuck on the wrap line.
     expect(wrapped?.y).toBeLessThan(0);
     expect(wrapped?.x).toBeGreaterThan(0);
     expect(wrapped?.x).toBeLessThan(1);
@@ -77,5 +88,60 @@ describe('BubbleField', () => {
     three.reset(['a', 'b', 'c']);
     expect(one.bubbles()).toEqual(two.bubbles());
     expect(one.bubbles()).not.toEqual(three.bubbles());
+  });
+});
+
+/**
+ * The owner's report: "the bubbles are too dense, they overlap one another".
+ * They overlapped because a lane was narrower than a bubble and a wrapped bubble
+ * drew a fresh random x. Both are engine facts, so they are engine tests.
+ */
+describe('spacing: bubbles never overlap', () => {
+  it.each([4, 5, 6])('gives %i bubbles a lane each, with air between them', (count) => {
+    const config = { ...DEFAULT_BOARD, bubbleCount: count, radius: bubbleRadiusFor(count) };
+    const board = new BubbleField(config, createRng(11));
+    board.reset(['a', 'b', 'c', 'd', 'e', 'f'].slice(0, count));
+
+    const bubbles = board.bubbles();
+    expect(bubbles).toHaveLength(count);
+    // A gap of at least a diameter means no two circles can touch.
+    expect(closestPair(bubbles)).toBeGreaterThanOrEqual(2 * config.radius);
+    for (const bubble of bubbles) {
+      expect(bubble.x - config.radius).toBeGreaterThan(0);
+      expect(bubble.x + config.radius).toBeLessThan(1);
+    }
+  });
+
+  it('keeps them apart after many wraps instead of piling them up', () => {
+    const config = {
+      ...DEFAULT_BOARD,
+      bubbleCount: 4,
+      radius: bubbleRadiusFor(4),
+      speed: 1,
+      wrapAt: 0.2,
+    };
+    const board = new BubbleField(config, createRng(12));
+    board.reset(['a', 'b', 'c', 'd']);
+
+    for (let step = 0; step < 200; step += 1) {
+      board.step(1000);
+      expect(closestPair(board.bubbles())).toBeGreaterThanOrEqual(2 * config.radius);
+    }
+  });
+
+  it('never separates two bubbles by less than the tap radius', () => {
+    // A tap resolves against the drawn circle, so lanes must be wider than a
+    // bubble or one tap can mean two answers.
+    for (const count of [4, 5, 6]) {
+      const config = { ...DEFAULT_BOARD, bubbleCount: count, radius: bubbleRadiusFor(count) };
+      const board = new BubbleField(config, createRng(13));
+      board.reset(['a', 'b', 'c', 'd', 'e', 'f'].slice(0, count));
+      const [first, second] = board.bubbles();
+      if (!first || !second) throw new Error('need at least two bubbles');
+      expect(board.hitTest(first.x, first.y)).toBe(first.wordId);
+      expect(board.hitTest(second.x, second.y)).toBe(second.wordId);
+      // The midpoint between two lanes answers to neither of them, never to both.
+      expect(board.hitTest((first.x + second.x) / 2, first.y)).toBeNull();
+    }
   });
 });

@@ -29,7 +29,7 @@ import {
 } from 'react';
 import { createAudio, type AudioEngine } from './audio';
 import { buildPool, loadDeck, loadIndex, starterDeck } from './content';
-import { DEFAULT_BOARD, type BoardConfig } from './game/board';
+import { DEFAULT_BOARD, bubbleRadiusFor, type BoardConfig } from './game/board';
 import { SESSION } from './game/config';
 import { createRng, systemClock, type Rng } from './game/rng';
 import { afterCorrect, afterWrong } from './game/review';
@@ -69,6 +69,12 @@ import {
  */
 const CLOCK_STEP_MS = 200;
 
+/**
+ * How long the green flash holds before the next word is dealt. Long enough to
+ * read as feedback, short enough not to stall a 90-second run.
+ */
+const FEEDBACK_MS = 420;
+
 export interface GameApi {
   readonly state: SessionState;
   readonly settings: SessionSettings;
@@ -90,7 +96,6 @@ export interface GameApi {
   word(id: string | null): PoolWord | null;
   advance(dtMs: number): void;
   answer(wordId: string): void;
-  acknowledgeExposure(): void;
   endSession(): void;
   updateSettings(patch: Partial<SessionSettings>): void;
   toggleDeck(deckId: string): void;
@@ -108,7 +113,7 @@ function readSeed(): number {
   return Number.isFinite(parsed) ? parsed >>> 0 : systemClock.now() >>> 0;
 }
 
-/** Board geometry for a pace: fall speed and bubble count live there, not in Band. */
+/** Board geometry for a pace: count, fall speed and spacing live there, not in Band. */
 export function boardConfigFor(pace: SessionSettings['pace']): BoardConfig {
   const spec = PACE_SPECS[pace];
   return {
@@ -121,6 +126,9 @@ export function boardConfigFor(pace: SessionSettings['pace']): BoardConfig {
     // raw, a 0.35 s offset lands as 0.35 of the board and the field spends
     // twenty seconds empty while the player stares at nothing.
     stagger: spec.speed * spec.stagger,
+    // One bubble per lane, and the lane width is what decides how big a bubble
+    // may be: a fixed radius overlaps as soon as the board gets busy.
+    radius: bubbleRadiusFor(spec.bubbleCount),
   };
 }
 
@@ -171,7 +179,6 @@ export function GameProvider({
   const stateRef = useRef(state);
   const settingsRef = useRef(settings);
   const pendingMs = useRef(0);
-  const taughtIds = useRef(new Set<string>());
 
   useEffect(() => {
     stateRef.current = state;
@@ -328,16 +335,22 @@ export function GameProvider({
     [apply, audio, storage],
   );
 
-  const acknowledgeExposure = useCallback(() => {
-    apply({ type: 'acknowledgeExposure' });
-  }, [apply]);
+  // A correct tap pops the bubble and then clears the round, which is what lets
+  // the next word be dealt. The reducer deliberately holds the finished round so
+  // the green flash can be seen; nothing else moves the game on. Without this
+  // the target stayed on the board and the player could tap the same bubble for
+  // the rest of the session (the bug iteration 1 shipped with).
+  useEffect(() => {
+    if (state.phase !== 'playing' || state.lastFeedback?.correct !== true) return;
+    const timer = setTimeout(() => apply({ type: 'clearRound' }), FEEDBACK_MS);
+    return () => clearTimeout(timer);
+  }, [state.phase, state.lastFeedback, apply]);
 
   const endSession = useCallback(() => {
     apply({ type: 'finish' });
   }, [apply]);
 
   const startSession = useCallback(() => {
-    taughtIds.current = new Set();
     pendingMs.current = 0;
     clearSession(storage);
     rng.current = createRng(seed);
@@ -349,7 +362,7 @@ export function GameProvider({
     audio.unlock();
   }, [audio, seed, storage]);
 
-  // Serving a round: pick a target, fill the board, teach a word if it is new.
+  // Serving a round: pick a target and fill the board.
   useEffect(() => {
     if (state.phase !== 'playing' || state.targetId !== null) return;
     const candidates = filterPool(pool, settings.decks, settings.bands);
@@ -379,17 +392,12 @@ export function GameProvider({
       return;
     }
 
-    const firstSight = progress.words[plan.target.id] === undefined;
-    const teach = firstSight && taughtIds.current.size < SESSION.newPerSession;
-    if (teach) taughtIds.current.add(plan.target.id);
-
     // Dealing the round is the reason this effect exists: there is no user event
     // to hang it on when the clock runs out or the target is answered.
     apply({
       type: 'round',
       targetId: plan.target.id,
       candidateIds: plan.candidateIds,
-      teach,
     });
     audio.speak(plan.target.id);
   }, [
@@ -401,7 +409,6 @@ export function GameProvider({
     settings.decks,
     settings.bands,
     boardConfig.bubbleCount,
-    progress.words,
     apply,
     endSession,
     audio,
@@ -482,7 +489,6 @@ export function GameProvider({
       word,
       advance,
       answer,
-      acknowledgeExposure,
       endSession,
       updateSettings,
       toggleDeck,
@@ -505,7 +511,6 @@ export function GameProvider({
       word,
       advance,
       answer,
-      acknowledgeExposure,
       endSession,
       updateSettings,
       toggleDeck,

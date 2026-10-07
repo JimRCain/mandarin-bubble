@@ -3,6 +3,26 @@
 Written 2026-10-05, end of session, at Jim's request before a session reset.
 Read this first, then `SPEC.md` §8 (delivery plan) and §9 (decisions).
 
+## Update 2026-10-07: shipped and live — the rest of this file is history
+
+The skeleton (step 1) is built, published and playable:
+**https://jimrcain.github.io/mandarin-bubble/** (repo `JimRCain/mandarin-bubble`).
+
+- The GitHub blocker below is **resolved**: a deploy key (`~/.ssh/mb_deploy_mb1`,
+  registered on the new repo) does the pushing, and `gh` now carries the `repo`
+  and `workflow` scopes. Nothing needed a password.
+- Files moved as proposed: `docs/SPEC.md`, `docs/spec/`, `music/preview/` and
+  `music/loops/` gitignored, app code at the repo root.
+- Of the three items "still needing Jim's yes" below: **§1.5 is built** (15 correct
+  or 90 s, wrong tap −2 s), **§1.6(a) was removed by Jim** after playing (FR-17
+  withdrawn: no teach card), **§1.7 is still open**.
+- Jim played it on 2026-10-07 and sent three fixes, all done: bubbles overlapped
+  (now one bubble per lane, measured 0 overlap on screen), remove the prelearn
+  card, and a correct tap did not clear the round (so one word could be tapped all
+  session — the real bug, and the e2e that missed it is fixed too).
+- Still open: MIDI/audio is plumbing only (`public/audio/manifest.json` is empty),
+  §1.7 sign-off, and whether to strip the 19 MB of finished music from the repo.
+
 ## What the project is
 
 Jim's vibe-coded Hanzi learning game, currently a buggy POC with a few hundred
@@ -19,7 +39,7 @@ misses and no lose condition. Pressure comes from response time.
 
 | What | Where |
 |---|---|
-| Spec (the deliverable) | `~/business/mandarin-bubble/SPEC.md` — 542 lines, ~54 KB |
+| Spec (the deliverable) | `~/business/mandarin-bubble/docs/SPEC.md` |
 | Critique + audit artifacts | `~/business/mandarin-bubble/spec/` — 6 files |
 | Music tooling + assets | `~/business/mandarin-bubble/music/` |
 | POC (leave alone) | `~/business/dyad-apps/BubbleMandarin` — clean on `main` |

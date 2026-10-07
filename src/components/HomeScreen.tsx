@@ -80,7 +80,7 @@ export default function HomeScreen({ onStartSession, onNavigate }: HomeScreenPro
             <li>Bubbles fall; a bubble that reaches the bottom wraps back to the top.</li>
             <li>Tap the bubble whose Hanzi means what the prompt says.</li>
             <li>15 correct answers or 90 seconds, whichever lands first.</li>
-            <li>A new word is introduced, untimed, before it is ever quizzed.</li>
+            <li>A correct tap pops the bubble and the next word comes straight away.</li>
           </ol>
           <Button
             variant="ghost"

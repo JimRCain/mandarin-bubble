@@ -16,8 +16,6 @@ export const SESSION = {
   comboCap: 5,
   /** Distractors visible per round, including the target. */
   choicesMin: 3,
-  /** New words taught per session before the queue falls back to repeats. */
-  newPerSession: 8,
   /** Soft cap on items in one session's queue. */
   queueCap: 20,
 } as const;

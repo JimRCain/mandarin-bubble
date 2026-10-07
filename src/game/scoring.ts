@@ -11,6 +11,11 @@
  *   - a wrong tap costs 2 seconds and breaks the streak; it never deducts points
  *     and can never make the session unwinnable
  *   - no misses exist: bubbles wrap to the top (SPEC 1.3)
+ *
+ * A correct answer does NOT move to the next word by itself: the round is
+ * cleared separately, so the UI can hold the green flash for a moment first.
+ * Whoever answers must therefore clear the round, or the same target stays on
+ * the board and can be tapped again and again for the rest of the session.
  */
 
 import { SESSION } from './config';
@@ -38,8 +43,6 @@ export interface SessionState {
   readonly askedIds: readonly string[];
   /** Words answered wrongly, in the order they were missed (FR-19, FR-20). */
   readonly wrongIds: readonly string[];
-  /** Word being taught before it may be quizzed (FR-17). */
-  readonly exposureId: string | null;
   /** Feedback for the last answer, so the UI can flash it without extra state. */
   readonly lastFeedback: { readonly wordId: string; readonly correct: boolean } | null;
   readonly paused: boolean;
@@ -60,14 +63,14 @@ export const initialSession: SessionState = {
   candidateIds: [],
   askedIds: [],
   wrongIds: [],
-  exposureId: null,
   lastFeedback: null,
   paused: false,
 };
 
 export type SessionAction =
-  | { readonly type: 'round'; readonly targetId: string; readonly candidateIds: readonly string[]; readonly teach: boolean }
-  | { readonly type: 'acknowledgeExposure' }
+  | { readonly type: 'round'; readonly targetId: string; readonly candidateIds: readonly string[] }
+  /** Ends the round so the next one can be dealt (see the note at the top). */
+  | { readonly type: 'clearRound' }
   | { readonly type: 'tick'; readonly ms: number }
   | { readonly type: 'answer'; readonly wordId: string }
   | { readonly type: 'pause' }
@@ -97,22 +100,19 @@ export function sessionReducer(state: SessionState, action: SessionAction): Sess
     case 'round':
       return {
         ...state,
-        phase: action.teach ? 'exposure' : 'playing',
+        phase: 'playing',
         targetId: action.targetId,
         candidateIds: action.candidateIds,
-        exposureId: action.teach ? action.targetId : null,
         roundElapsedMs: 0,
         lastFeedback: null,
       };
 
-    case 'acknowledgeExposure':
-      if (state.phase !== 'exposure') return state;
-      return { ...state, phase: 'playing', exposureId: null };
+    case 'clearRound':
+      if (state.phase !== 'playing' || state.targetId === null) return state;
+      return { ...state, targetId: null, candidateIds: [] };
 
     case 'tick': {
       if (state.phase === 'summary' || state.paused || action.ms <= 0) return state;
-      // Untimed exposure card: the clock is genuinely stopped, not merely hidden.
-      if (state.phase === 'exposure') return { ...state, roundElapsedMs: state.roundElapsedMs };
       const elapsedMs = state.elapsedMs + action.ms;
       const roundElapsedMs = state.roundElapsedMs + action.ms;
       if (elapsedMs + state.penaltyMs >= SESSION.timeLimitMs) {
@@ -123,6 +123,17 @@ export function sessionReducer(state: SessionState, action: SessionAction): Sess
 
     case 'answer': {
       if (state.phase !== 'playing' || state.targetId === null) return state;
+      // A correct tap leaves the bubble tappable for the green flash, so a quick
+      // double-tap is a real possibility: the word that was just answered cannot
+      // score again. Only that word is blocked, so nothing else about the round
+      // changes while it is being held.
+      if (
+        action.wordId === state.targetId &&
+        state.lastFeedback?.correct === true &&
+        state.lastFeedback.wordId === state.targetId
+      ) {
+        return state;
+      }
       if (action.wordId === state.targetId) {
         const streak = state.streak + 1;
         const correct = state.correct + 1;

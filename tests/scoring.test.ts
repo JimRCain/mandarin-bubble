@@ -9,8 +9,8 @@ import {
   type SessionState,
 } from '../src/game/scoring';
 
-const round = (state: SessionState, targetId = 'a', candidates: string[] = ['a', 'b', 'c', 'd'], teach = false) =>
-  sessionReducer(state, { type: 'round', targetId, candidateIds: candidates, teach });
+const round = (state: SessionState, targetId = 'a', candidates: string[] = ['a', 'b', 'c', 'd']) =>
+  sessionReducer(state, { type: 'round', targetId, candidateIds: candidates });
 
 describe('session shape (SPEC 1.5)', () => {
   it('starts playing, at zero, with the full clock', () => {
@@ -99,24 +99,32 @@ describe('session shape (SPEC 1.5)', () => {
     expect(state.phase).toBe('summary');
   });
 
-  it('stops the clock while an exposure card is up, so teaching time is untimed', () => {
-    let state = round(initialSession, 'a', ['a', 'b', 'c', 'd'], true);
-    expect(state.phase).toBe('exposure');
-    expect(state.exposureId).toBe('a');
-
-    state = sessionReducer(state, { type: 'tick', ms: 5000 });
-    expect(state.elapsedMs).toBe(0);
-
-    // The card is untimed, and the word cannot be answered while it is up.
+  it('holds an answered round until it is cleared, then allows the next one', () => {
+    let state = round(initialSession, 'a');
     state = sessionReducer(state, { type: 'answer', wordId: 'a' });
-    expect(state.correct).toBe(0);
+    // The round stays on the board: the green flash needs something to sit on.
+    expect(state.correct).toBe(1);
+    expect(state.targetId).toBe('a');
+    expect(state.candidateIds).toContain('a');
 
-    state = sessionReducer(state, { type: 'acknowledgeExposure' });
-    expect(state.phase).toBe('playing');
-    expect(state.exposureId).toBeNull();
+    // Until it is cleared the round cannot score again, so a double tap on the
+    // bubble that is still flashing green cannot pay twice.
+    const again = sessionReducer(state, { type: 'answer', wordId: 'a' });
+    expect(again).toBe(state);
+    expect(again.correct).toBe(1);
 
-    state = sessionReducer(state, { type: 'tick', ms: 1000 });
-    expect(state.elapsedMs).toBe(1000);
+    state = sessionReducer(state, { type: 'clearRound' });
+    expect(state.targetId).toBeNull();
+    expect(state.candidateIds).toEqual([]);
+
+    state = round(state, 'b');
+    expect(state.targetId).toBe('b');
+  });
+
+  it('ignores clearRound when there is nothing to clear', () => {
+    expect(sessionReducer(initialSession, { type: 'clearRound' })).toBe(initialSession);
+    const over = sessionReducer({ ...initialSession, phase: 'summary' }, { type: 'clearRound' });
+    expect(over.phase).toBe('summary');
   });
 
   it('freezes on pause and resumes without counting paused time', () => {

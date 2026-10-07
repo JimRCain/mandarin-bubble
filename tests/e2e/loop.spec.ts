@@ -3,10 +3,15 @@ import { test, expect, type Page } from '@playwright/test';
 /**
  * The golden loop, run against the production build (see playwright.config.ts).
  *
- * One seed, one path, asserted step by step: teach then test, a correct tap is
- * scored and advances the round, a wrong tap costs time and does not advance,
- * progress survives a reload, and the console stays clean. This is the test that
- * would have caught the POC's regressions; the POC had none of it (defect 9).
+ * One seed, one path, asserted step by step: a correct tap is scored and moves
+ * the round on, a wrong tap costs time and does not, progress survives a reload,
+ * and the console stays clean. This is the test that would have caught the POC's
+ * regressions; the POC had none of it (defect 9).
+ *
+ * The "moves the round on" assertion is the one that matters most. An earlier
+ * version of this file checked that the counters changed but never that the
+ * WORD changed, so it passed against a build where the same target stayed on the
+ * board and could be tapped for the whole session.
  */
 
 const SEED = '20261007';
@@ -49,30 +54,15 @@ async function expectDealt(page: Page): Promise<void> {
   await expect.poll(async () => (await probe(page)).targetId, { timeout: 15_000 }).toBeTruthy();
 }
 
-/** Dismiss the exposure card; fails if the app forgot to teach a new word. */
-async function expectExposure(page: Page): Promise<void> {
-  const card = page.getByTestId('exposure-card');
-  await expect(card).toBeVisible();
-  await page.getByTestId('exposure-dismiss').click();
-  await expect(card).toBeHidden();
-  expect((await probe(page)).phase).toBe('playing');
-  await expectDealt(page);
-}
-
-/** Wait until the board is answerable, teaching first if a card is up. */
+/** Wait until the board is answerable and a word has been dealt. */
 async function reachPlaying(page: Page): Promise<void> {
-  const card = page.getByTestId('exposure-card');
-  if (await card.isVisible()) {
-    await page.getByTestId('exposure-dismiss').click();
-    await expect(card).toBeHidden();
-  }
   await expect.poll(async () => (await probe(page)).phase).toBe('playing');
   await expectDealt(page);
 }
 
 test.use({ reducedMotion: 'reduce' });
 
-test('teach, tap, score, advance', async ({ page }) => {
+test('tap, score, advance the round', async ({ page }) => {
   const errors: string[] = [];
   page.on('console', (message) => {
     if (message.type() === 'error') errors.push(message.text());
@@ -80,9 +70,7 @@ test('teach, tap, score, advance', async ({ page }) => {
   page.on('pageerror', (error) => errors.push(String(error)));
 
   await startSession(page);
-
-  // First sight is taught before it can be tested (SPEC 1.6a).
-  await expectExposure(page);
+  await reachPlaying(page);
 
   // 1. The prompt names a target, and exactly one bubble carries it.
   const before = await probe(page);
@@ -101,11 +89,21 @@ test('teach, tap, score, advance', async ({ page }) => {
   await right.click({ force: true });
 
   await expect.poll(async () => (await probe(page)).correct).toBe(before.correct + 1);
+
+  // 2. The round moves on, which is what a correct tap means. Holding the round
+  //    for a moment (the green flash) is fine; keeping it forever is the bug.
+  await expect.poll(async () => (await probe(page)).targetId).not.toBe(before.targetId);
+  await expectDealt(page);
   const afterRight = await probe(page);
   expect(afterRight.score).toBeGreaterThan(before.score);
   expect(afterRight.wrong).toBe(before.wrong);
+  expect(afterRight.candidateIds).not.toContain(before.targetId);
+  // The answered bubble leaves the board rather than being tapped again.
+  await expect(
+    page.locator(`[data-testid="bubble"][data-word-id="${before.targetId}"]`),
+  ).toHaveCount(0);
 
-  // 2. A wrong tap costs time, breaks nothing else, and keeps the same target.
+  // 3. A wrong tap costs time, breaks nothing else, and keeps the same target.
   const wrong = page
     .locator(`[data-testid="bubble"][data-word-id]:not([data-word-id="${afterRight.targetId}"])`)
     .first();
@@ -121,7 +119,7 @@ test('teach, tap, score, advance', async ({ page }) => {
   // wrong tap never *gives* time back. Exact deltas live in tests/scoring.test.ts.
   expect(afterWrong.remainingMs).toBeLessThan(afterRight.remainingMs);
 
-  // 3. Progress is written to storage, so a reload is not amnesia (FR-21..23).
+  // 4. Progress is written to storage, so a reload is not amnesia (FR-21..23).
   const keys = await page.evaluate(() => Object.keys(window.localStorage));
   expect(keys.length).toBeGreaterThan(0);
 

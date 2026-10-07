@@ -27,14 +27,18 @@ export interface PaceSpec {
   readonly bubbleCount: number;
   /** Fall speed, in board-height fractions per second. */
   readonly speed: number;
-  /** Spawn offset between bubbles, in seconds. */
+  /**
+   * Spawn offset between bubbles, in seconds. The board turns this into a
+   * vertical gap so the entry reads as a diagonal cascade rather than a row of
+   * bubbles arriving side by side.
+   */
   readonly stagger: number;
 }
 
 export const PACE_SPECS: Record<Pace, PaceSpec> = {
-  chill: { bubbleCount: 4, speed: 0.055, stagger: 0.35 },
-  normal: { bubbleCount: 5, speed: 0.075, stagger: 0.25 },
-  rush: { bubbleCount: 6, speed: 0.1, stagger: 0.18 },
+  chill: { bubbleCount: 4, speed: 0.055, stagger: 0.55 },
+  normal: { bubbleCount: 5, speed: 0.075, stagger: 0.45 },
+  rush: { bubbleCount: 6, speed: 0.1, stagger: 0.35 },
 };
 
 export interface Word {
@@ -77,8 +81,11 @@ export interface ContentIndex {
   readonly decks: readonly DeckMeta[];
 }
 
-/** Where the player is in one session. */
-export type SessionPhase = 'exposure' | 'playing' | 'summary';
+/**
+ * Where the player is in one session. There is no 'exposure' phase: the owner
+ * removed the first-sight teaching card on 2026-10-07 (docs/SPEC.md §1.6).
+ */
+export type SessionPhase = 'playing' | 'summary';
 
 /** A visible bubble. Position is engine-owned; React never re-renders per frame. */
 export interface Bubble {

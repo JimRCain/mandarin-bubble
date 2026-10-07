@@ -57,6 +57,10 @@ That is correct, and it is §1.5's flaw in different clothes: **the design measu
 - **(a) Exposure first [ACCEPTED IN PRINCIPLE]:** a word's first appearance in a session shows an untimed card with Hanzi + pinyin + audio + English together; the word joins the quiz pool only after that. This is what makes the masquerade honest rather than a costume.
 - **(b) Reflex trainer:** rejected — the app's own author says it is a learning tool.
 
+**DECISION 2026-10-07 — (a) is REMOVED by the owner, after playing the published build.** Jim: *"We can remove the prelearn feature."* FR-17 is withdrawn: there is no `exposure` session phase, no `ExposureCard`, and no `teach` flag on the round action. The first-sight card interrupted the tap-tap-tap rhythm that the arcade surface depends on, and it was the only place the game stopped moving. The bullets above stay as the record of why it existed; the first-sight teach step comes back only if the owner asks for it. §1.7's "teach card first" is superseded accordingly.
+
+**The loop bug this exposed (fixed 2026-10-07).** The published build never cleared a round, so a correct tap scored, left the same word on the board, and paid again on the next tap: Jim *"kept tapping the same word until the round ended."* A correct answer now holds the round only for the green flash (420 ms) and then clears it, and the answered word cannot score twice while it is held (FR-14). The e2e that should have caught it asserted the counters moved but never that the **word** changed; it does now.
+
 ### 1.7 Rewards and playtime **[PROPOSED — Jim asked for suggestions, 2026-10-05]**
 
 The design rule that follows from §1.3: **arcade on the surface, learning underneath; tension from speed and self-competition, never from loss.** Three layers, each doing one job:
@@ -64,7 +68,7 @@ The design rule that follows from §1.3: **arcade on the surface, learning under
 | Layer | Reward | Why |
 |---|---|---|
 | Moment-to-moment | combo counter, ding pitch rising with each combo step, pop animation, haptic | This is the masquerade, and it is pure juice — it teaches nothing, which is fine, because the layer below does |
-| Session | clearing **today's queue**: N due reviews + M new words (teach card first) | A session becomes a *learning unit* rather than a score gate, so "done" means "learned", not "reached 200" |
+| Session | clearing **today's queue**: N due reviews + M new words | A session becomes a *learning unit* rather than a score gate, so "done" means "learned", not "reached 200" |
 | Long-term | per-deck mastery meter (unseen → learning → known) and personal bests (fastest response, longest combo) | The number that goes up **is** the reward. Arcade skin over a skill metric |
 
 - **Playtime:** default session ≈ **3 minutes** (soft cap ~20 items), matching the "short session" §1.2 promises and what the POC's own maths failed to deliver. A "just play" endless mode stays available as the arcade surface.
@@ -201,10 +205,10 @@ Three actions, no toggles. That is the entire screen.
 - FR-11 MUST NOT repeat the same target within a session until the eligible pool is exhausted.
 - FR-12 MUST choose distractors deliberately — same category and comparable band preferred — so the round does not get *easier* as the corpus grows [FIXED-17].
 - FR-13 MUST apply correct/incorrect/missed outcomes: scoreboard change, audio, **non-colour-only** feedback, haptic where available [FIXED-18].
-- FR-14 MUST NOT allow a bubble to be tapped twice. **Enforced in the reducer by word id, not by CSS `pointer-events`** [R2-11].
+- FR-14 MUST NOT allow a bubble to be tapped twice. **Enforced in the reducer by word id, not by CSS `pointer-events`** [R2-11]. A correct tap leaves its bubble tappable for the green flash, so the word that was just answered is refused by the reducer until the round is cleared.
 - FR-15 MUST pause on tab blur **and window blur**, stopping the game clock; on resume no bubble position, score or timer may have changed. Time must be injectable [FIXED-15][R2-11].
 - FR-16 MUST expose replay of the target's pronunciation, **and a test MUST assert the replay is passed the target's Hanzi** — a silent no-op is otherwise indistinguishable [R2-12]. **[OPEN-A4]** — pre- or post-answer; see §11.2.
-- FR-17 **[PROPOSED, pending Q1]** MUST show a word's first encounter in a session as an untimed exposure card before it can be quizzed (§1.6) [R2-1].
+- ~~FR-17 **[PROPOSED, pending Q1]** MUST show a word's first encounter in a session as an untimed exposure card before it can be quizzed (§1.6) [R2-1].~~ **WITHDRAWN 2026-10-07 by the owner** (§1.6 decision): no exposure phase, no card, no `teach` flag.
 
 **Session**
 - FR-18 MUST show the scoreboard and progress toward the session end (§1.5).
