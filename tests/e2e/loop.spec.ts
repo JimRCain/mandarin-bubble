@@ -12,6 +12,10 @@ import { test, expect, type Page } from '@playwright/test';
  * version of this file checked that the counters changed but never that the
  * WORD changed, so it passed against a build where the same target stayed on the
  * board and could be tapped for the whole session.
+ *
+ * What a correct tap means is the POC's mechanic (docs/POC-MECHANICS.md): the
+ * tapped bubble goes, and the new target is a bubble that was ALREADY up. That
+ * last assertion is the one that keeps the board from being quietly re-dealt.
  */
 
 const SEED = '20261007';
@@ -19,7 +23,7 @@ const SEED = '20261007';
 interface Probe {
   phase: string;
   targetId: string | null;
-  candidateIds: string[];
+  bubbleIds: string[];
   correct: number;
   wrong: number;
   score: number;
@@ -75,22 +79,22 @@ test('tap, score, advance the round', async ({ page }) => {
   // 1. The prompt names a target, and exactly one bubble carries it.
   const before = await probe(page);
   expect(before.targetId).toBeTruthy();
-  expect(before.candidateIds.length).toBeGreaterThan(1);
+  expect(before.bubbleIds.length).toBeGreaterThan(1);
   await expect(page.getByTestId('target-prompt')).toBeVisible();
 
   // Pinyin is a default-on reading aid (Jim, 2026-10-07, matching the POC): every
   // bubble carries it under the Hanzi, and it is legible rather than a smudge.
   const pinyin = page.getByTestId('bubble-pinyin');
   await expect(pinyin.first()).toBeVisible();
-  expect(await pinyin.count()).toBe(before.candidateIds.length);
+  expect(await pinyin.count()).toBe(before.bubbleIds.length);
   const pinyinBox = await pinyin.first().boundingBox();
   expect(pinyinBox?.height ?? 0).toBeGreaterThan(6);
 
   const right = page.locator(`[data-testid="bubble"][data-word-id="${before.targetId}"]`);
   await expect(right).toHaveCount(1);
 
-  // Bubbles fall in from above the board at the start of every round, so wait
-  // until the right one has actually arrived before tapping it.
+  // Bubbles are now on screen at the start of every round, so they should be
+  // visible without waiting for them to fall in from above.
   await expect(right).toBeInViewport({ ratio: 0.5, timeout: 10_000 });
 
   // force: bubbles move; Playwright's stability wait would never settle.
@@ -105,7 +109,13 @@ test('tap, score, advance the round', async ({ page }) => {
   const afterRight = await probe(page);
   expect(afterRight.score).toBeGreaterThan(before.score);
   expect(afterRight.wrong).toBe(before.wrong);
-  expect(afterRight.candidateIds).not.toContain(before.targetId);
+  // The new challenge was one of the bubbles already on the board: the tap hops
+  // the target, it does not deal a fresh set (the POC's rule).
+  expect(before.bubbleIds).toContain(afterRight.targetId);
+  // The tapped bubble goes; the board is topped back up by the refill tick, so it
+  // may still be a bubble short when this reads.
+  expect(afterRight.bubbleIds).not.toContain(before.targetId);
+  expect(afterRight.bubbleIds.length).toBeGreaterThanOrEqual(before.bubbleIds.length - 1);
   // The answered bubble leaves the board rather than being tapped again.
   await expect(
     page.locator(`[data-testid="bubble"][data-word-id="${before.targetId}"]`),
@@ -149,7 +159,7 @@ test('one seed deals one session (NFR-3)', async ({ page }) => {
   const second = await probe(page);
 
   expect(second.targetId).toBe(first.targetId);
-  expect([...second.candidateIds].sort()).toEqual([...first.candidateIds].sort());
+  expect([...second.bubbleIds].sort()).toEqual([...first.bubbleIds].sort());
 
   // A different seed is allowed to deal differently, but must not crash.
   await startSession(page, `${SEED}-other`);

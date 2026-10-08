@@ -12,10 +12,14 @@
  *     and can never make the session unwinnable
  *   - no misses exist: bubbles wrap to the top (SPEC 1.3)
  *
- * A correct answer does NOT move to the next word by itself: the round is
- * cleared separately, so the UI can hold the green flash for a moment first.
- * Whoever answers must therefore clear the round, or the same target stays on
- * the board and can be tapped again and again for the rest of the session.
+ * The board persists for the whole session, which is the POC's mechanic
+ * (docs/POC-MECHANICS.md): `bubbleIds` is what is on screen right now, a correct
+ * answer pops exactly one bubble, and the target hops to a bubble that was
+ * already up rather than to a freshly dealt set. Spawns refill free lanes on
+ * their own timer (`refill`). The caller decides WHICH bubble to hop to and what
+ * the refill deals, because the reducer may not touch randomness or the pool
+ * (see tests/hygiene.test.ts); the reducer enforces that the target it is given
+ * is a bubble that is really on the board.
  */
 
 import { SESSION } from './config';
@@ -38,7 +42,8 @@ export interface SessionState {
   /** ms since the current round appeared. */
   readonly roundElapsedMs: number;
   readonly targetId: string | null;
-  readonly candidateIds: readonly string[];
+  /** The bubble IDs currently on the board */
+  readonly bubbleIds: readonly string[];
   /** Targets already used this session (FR-11). */
   readonly askedIds: readonly string[];
   /** Words answered wrongly, in the order they were missed (FR-19, FR-20). */
@@ -60,7 +65,7 @@ export const initialSession: SessionState = {
   fastestMs: null,
   roundElapsedMs: 0,
   targetId: null,
-  candidateIds: [],
+  bubbleIds: [],
   askedIds: [],
   wrongIds: [],
   lastFeedback: null,
@@ -68,11 +73,16 @@ export const initialSession: SessionState = {
 };
 
 export type SessionAction =
-  | { readonly type: 'round'; readonly targetId: string; readonly candidateIds: readonly string[] }
-  /** Ends the round so the next one can be dealt (see the note at the top). */
-  | { readonly type: 'clearRound' }
+  | { readonly type: 'deal'; readonly bubbleIds: readonly string[]; readonly targetId: string }
+  /** Tops the board up by one, never past the pace's capacity. */
+  | { readonly type: 'refill'; readonly newBubbleId: string; readonly capacity: number }
   | { readonly type: 'tick'; readonly ms: number }
-  | { readonly type: 'answer'; readonly wordId: string }
+  | { 
+      readonly type: 'answer'; 
+      readonly wordId: string; 
+      readonly hopIndex?: number; 
+      readonly replacementId?: string; 
+    }
   | { readonly type: 'pause' }
   | { readonly type: 'resume' }
   | { readonly type: 'finish' };
@@ -95,30 +105,47 @@ export function pointsFor(streak: number): number {
   return SESSION.pointsPerCorrect * Math.min(streak + 1, SESSION.comboCap);
 }
 
+/**
+ * Where the target hops to after a correct answer: a bubble that is still on the
+ * board, chosen by the caller's rolled index so this stays a pure function.
+ *
+ * Returns null only when the board handed in is genuinely empty, which the caller
+ * must never allow (see the note on `answer` in useGame): the POC's version had
+ * exactly that hole, where an emptied board left the target null and every later
+ * tap did nothing.
+ */
+function hopTarget(boardIds: readonly string[], hopIndex = 0): string | null {
+  if (boardIds.length === 0) return null;
+  return boardIds[((hopIndex % boardIds.length) + boardIds.length) % boardIds.length] ?? null;
+}
+
 export function sessionReducer(state: SessionState, action: SessionAction): SessionState {
   switch (action.type) {
-    case 'round':
+    case 'deal':
       return {
         ...state,
         phase: 'playing',
+        bubbleIds: action.bubbleIds,
         targetId: action.targetId,
-        candidateIds: action.candidateIds,
         roundElapsedMs: 0,
         lastFeedback: null,
       };
-
-    case 'clearRound':
-      if (state.phase !== 'playing' || state.targetId === null) return state;
-      return { ...state, targetId: null, candidateIds: [] };
 
     case 'tick': {
       if (state.phase === 'summary' || state.paused || action.ms <= 0) return state;
       const elapsedMs = state.elapsedMs + action.ms;
       const roundElapsedMs = state.roundElapsedMs + action.ms;
       if (elapsedMs + state.penaltyMs >= SESSION.timeLimitMs) {
-        return { ...state, elapsedMs, roundElapsedMs, phase: 'summary', targetId: null, candidateIds: [] };
+        return { ...state, elapsedMs, roundElapsedMs, phase: 'summary', targetId: null, bubbleIds: [] };
       }
       return { ...state, elapsedMs, roundElapsedMs };
+    }
+
+    case 'refill': {
+      if (state.phase !== 'playing' || state.targetId === null) return state;
+      if (state.bubbleIds.includes(action.newBubbleId)) return state;
+      if (state.bubbleIds.length >= action.capacity) return state;
+      return { ...state, bubbleIds: [...state.bubbleIds, action.newBubbleId] };
     }
 
     case 'answer': {
@@ -138,6 +165,20 @@ export function sessionReducer(state: SessionState, action: SessionAction): Sess
         const streak = state.streak + 1;
         const correct = state.correct + 1;
         const finished = correct >= SESSION.correctToFinish;
+
+        // The board after the pop but BEFORE any replacement, which is the board
+        // the hop is allowed to choose from: the POC moved the target to a
+        // bubble the player could already see, never to one it had just dealt
+        // (GameBoard 396-405 in the POC).
+        const popped = state.bubbleIds.filter((id) => id !== action.wordId);
+        const board = action.replacementId
+          ? [...popped, action.replacementId]
+          : popped;
+        // Hop over the board as it stands after the pop: the POC never made a
+        // just-dealt bubble the new challenge. The one exception is the pop that
+        // empties the board, where the replacement is all that is left to ask.
+        const newTargetId = finished ? null : hopTarget(popped.length > 0 ? popped : board, action.hopIndex);
+
         return {
           ...state,
           correct,
@@ -145,11 +186,15 @@ export function sessionReducer(state: SessionState, action: SessionAction): Sess
           streak,
           longestCombo: Math.max(state.longestCombo, streak),
           fastestMs: state.fastestMs === null ? state.roundElapsedMs : Math.min(state.fastestMs, state.roundElapsedMs),
+          // The hop shows a new prompt, so the response time starts again here;
+          // without this the second tap of a session would be timed from the
+          // first prompt and no fast answer could ever beat the first one.
+          roundElapsedMs: finished ? state.roundElapsedMs : 0,
           askedIds: state.askedIds.includes(action.wordId) ? state.askedIds : [...state.askedIds, action.wordId],
+          bubbleIds: finished ? [] : board,
           lastFeedback: { wordId: action.wordId, correct: true },
           phase: finished ? 'summary' : state.phase,
-          targetId: finished ? null : state.targetId,
-          candidateIds: finished ? [] : state.candidateIds,
+          targetId: newTargetId,
         };
       }
       // Wrong tap: a small time penalty, a broken streak, and a review entry.
@@ -162,7 +207,7 @@ export function sessionReducer(state: SessionState, action: SessionAction): Sess
         wrongIds: state.wrongIds.includes(action.wordId) ? state.wrongIds : [...state.wrongIds, action.wordId],
         lastFeedback: { wordId: action.wordId, correct: false },
         ...(state.elapsedMs + (state.penaltyMs + SESSION.wrongPenaltyMs) >= SESSION.timeLimitMs
-          ? { phase: 'summary' as SessionPhase, targetId: null, candidateIds: [] }
+          ? { phase: 'summary' as SessionPhase, targetId: null, bubbleIds: [] }
           : {}),
       };
     }
@@ -174,7 +219,7 @@ export function sessionReducer(state: SessionState, action: SessionAction): Sess
       return state.paused ? { ...state, paused: false } : state;
 
     case 'finish':
-      return { ...state, phase: 'summary', targetId: null, candidateIds: [] };
+      return { ...state, phase: 'summary', targetId: null, bubbleIds: [] };
 
     default:
       return state;

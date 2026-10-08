@@ -70,7 +70,7 @@ describe('progress (FR-21)', () => {
     const storage = createStorage(memoryStorage());
     const store = {
       ...emptyProgress(),
-      words: { '马-ma3': { box: 2, dueAt: 1234, seen: 3, correct: 3, lapses: 0, lastSeenAt: 100 } },
+      words: { '马-ma3': { box: 2, dueAt: 1234, seen: 3, correct: 3, lapses: 0, lastSeenAt: 100, recentMs: [640] } },
       best: { fastestMs: 640, longestCombo: 11 },
     };
     saveProgress(storage, store);

@@ -47,12 +47,27 @@ export default function Bubble({ word, diameterVw, showPinyin, feedback, registe
         'absolute flex -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-full border-2',
         'focus:outline-none focus-visible:ring-2 focus-visible:ring-jade-400',
         feedback === 'correct'
-          ? 'border-jade-400 bg-jade-500/30'
+          ? 'border-jade-400 bg-jade-500/30 ring-8 ring-jade-500/30'
           : feedback === 'wrong'
-            ? 'border-lantern-400 bg-lantern-500/20'
+            ? 'border-lantern-400 bg-lantern-500/20 ring-8 ring-lantern-500/30'
             : 'border-ink-700 bg-ink-800 hover:border-jade-400',
       ].join(' ')}
     >
+      {/* Colour alone is not a signal (FR-13, NFR-5): the tick and the heavy
+          ring carry the same news for a player who cannot separate the two. */}
+      {feedback && (
+        <span
+          aria-hidden="true"
+          data-testid={`bubble-mark-${feedback}`}
+          className={[
+            'absolute right-0 top-0 font-black leading-none',
+            feedback === 'correct' ? 'text-jade-300' : 'text-lantern-300',
+          ].join(' ')}
+          style={{ fontSize: `${diameterVw * 0.3}vw` }}
+        >
+          {feedback === 'correct' ? '\u2713' : '\u2715'}
+        </span>
+      )}
       <span className="font-bold leading-none text-white" style={{ fontSize: `${diameterVw * 0.46}vw` }}>
         {word.hanzi}
       </span>

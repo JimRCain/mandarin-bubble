@@ -16,6 +16,13 @@
  * The wrap is the product decision, not a bug (SPEC 1.3): a bubble that reaches
  * the wrap line is teleported to a lane at the top. Nothing is lost, so there is
  * no miss and no lose condition; pressure comes from the clock.
+ *
+ * The board is PERSISTENT, and that is the POC's mechanic (docs/POC-MECHANICS.md,
+ * port order): a fixed set of bubbles stays in play for the whole session, a
+ * correct tap pops one of them and the target hops to another one already on the
+ * board, and spawns refill free lanes on their own timer. Nothing is ever
+ * re-dealt. sync() is therefore the only way the board changes: the session
+ * decides WHICH ids are up, this class decides WHERE they are.
  */
 
 import type { Rng } from './rng';
@@ -64,10 +71,10 @@ export function laneCentres(config: BoardConfig): number[] {
 
 export const DEFAULT_BOARD: BoardConfig = {
   bubbleCount: 5,
-  speed: 0.075,
-  // A sane fraction for direct construction; boardConfigFor() derives it from a
-  // pace's spawn offset in seconds (stagger seconds x fall speed).
-  stagger: 0.03,
+  speed: 1 / 35,
+  // A sane fraction for direct construction; boardConfigFor() passes the pace's
+  // own figure through. One bubble's worth of the POC's STAGGER_Y.
+  stagger: 0.08,
   wrapAt: 0.8,
   radius: bubbleRadiusFor(5),
 };
@@ -94,18 +101,50 @@ export class BubbleField {
     this.rng = rng;
   }
 
-  /** Replaces the board with a fresh set of bubbles for a new round. */
-  reset(wordIds: readonly string[]): void {
-    const lanes = this.rng.shuffle(
-      Array.from({ length: Math.max(this.config.bubbleCount, 1) }, (_, lane) => lane),
-    );
-    this.items = wordIds.map((wordId, index) => ({
-      wordId,
-      lane: lanes[index % lanes.length] ?? index,
-      // Stagger entry so the board fills from the top instead of popping in all
-      // at once; the last bubble starts just above the board.
-      y: -0.06 - this.config.stagger * index,
-    }));
+  /**
+   * Makes the board's contents equal the given id list: ids that are new are
+   * dealt, ids that are gone are dropped, and ids that stay keep their lane and
+   * their height. The session owns the list (see the note at the top of the
+   * file), so this is the one place a bubble appears or disappears.
+   *
+   * New bubbles enter ON SCREEN, staggered down the board by `config.stagger`,
+   * which is the POC's behaviour: it dealt at fixed slot positions inside the
+   * board and never above it, so nothing untappable is ever dealt. Each new
+   * bubble takes a free lane in random order, so a refilled bubble does not
+   * always arrive in the same column.
+   */
+  sync(wordIds: readonly string[]): void {
+    const wanted = new Set(wordIds);
+    this.items = this.items.filter((item) => wanted.has(item.wordId));
+
+    const present = new Set(this.items.map((item) => item.wordId));
+    const added = wordIds.filter((wordId) => !present.has(wordId));
+    if (added.length === 0) return;
+
+    const lanes = this.rng.shuffle(this.freeLanes());
+    for (const [index, wordId] of added.entries()) {
+      const lane = lanes[index];
+      // A full board cannot happen through the session (it never holds more ids
+      // than there are lanes), but a stray id must not become an unpositioned
+      // bubble drawing on top of another: leave it out instead.
+      if (lane === undefined) return;
+      this.items.push({ wordId, lane, y: this.config.stagger * index });
+    }
+  }
+
+  /** A lane with no bubble in it, which is where a refill can land. */
+  hasFreeLane(): boolean {
+    return this.items.length < Math.max(this.config.bubbleCount, 1);
+  }
+
+  /** Lanes with no bubble, left to right. */
+  private freeLanes(): number[] {
+    const occupied = new Set(this.items.map((item) => item.lane));
+    const lanes: number[] = [];
+    for (let lane = 0; lane < Math.max(this.config.bubbleCount, 1); lane++) {
+      if (!occupied.has(lane)) lanes.push(lane);
+    }
+    return lanes;
   }
 
   /** Advances every bubble. `dtMs` comes from the injected clock only. */
@@ -115,13 +154,21 @@ export class BubbleField {
     for (const item of this.items) {
       item.y += dy;
       if (item.y >= this.config.wrapAt) {
-        item.y = -0.06;
-        // Trade lanes rather than drawing a new x: lanes stay unique, so a
-        // wrapped bubble can arrive beside another but never on top of it.
-        const other = this.rng.pick(this.items);
-        const lane = other.lane;
-        other.lane = item.lane;
-        item.lane = lane;
+        // Back to the top, in a free lane when there is one. The POC pins the
+        // bubble above the wrap line when every lane is taken, which stalls the
+        // wrap that SPEC 1.3 promises; here a full board trades lanes with
+        // another bubble instead, so the bubble always returns to the top and
+        // lanes stay unique (the spacing guarantee, and the no-overlap tests).
+        const lanes = this.freeLanes();
+        if (lanes.length > 0) {
+          item.lane = this.rng.pick(lanes);
+        } else {
+          const other = this.rng.pick(this.items);
+          const lane = other.lane;
+          other.lane = item.lane;
+          item.lane = lane;
+        }
+        item.y = 0;
       }
     }
   }

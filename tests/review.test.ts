@@ -59,15 +59,15 @@ describe('Leitner boxes (SPEC 1.7)', () => {
   it('maps boxes to the mastery meter the menu shows', () => {
     expect(masteryOf(undefined)).toBe('unseen');
     expect(masteryOf(unseenProgress())).toBe('unseen');
-    expect(masteryOf({ box: 1, dueAt: 0, seen: 2, correct: 2, lapses: 0, lastSeenAt: 0 })).toBe('learning');
-    expect(masteryOf({ box: REVIEW.knownBox, dueAt: 0, seen: 4, correct: 4, lapses: 0, lastSeenAt: 0 })).toBe('known');
+    expect(masteryOf({ box: 1, dueAt: 0, seen: 2, correct: 2, lapses: 0, recentMs: [], lastSeenAt: 0 })).toBe('learning');
+    expect(masteryOf({ box: REVIEW.knownBox, dueAt: 0, seen: 4, correct: 4, lapses: 0, recentMs: [], lastSeenAt: 0 })).toBe('known');
   });
 
   it('counts mastery across a deck', () => {
     const words = [word('a'), word('b'), word('c')];
     const counts = masteryCounts(words, {
-      a: { box: 4, dueAt: 0, seen: 5, correct: 5, lapses: 0, lastSeenAt: 0 },
-      b: { box: 1, dueAt: 0, seen: 1, correct: 1, lapses: 0, lastSeenAt: 0 },
+      a: { box: 4, dueAt: 0, seen: 5, correct: 5, lapses: 0, recentMs: [], lastSeenAt: 0 },
+      b: { box: 1, dueAt: 0, seen: 1, correct: 1, lapses: 0, recentMs: [], lastSeenAt: 0 },
     });
     expect(counts).toEqual({ unseen: 1, learning: 1, known: 1 });
   });
@@ -79,9 +79,9 @@ describe('today queue (SPEC 1.7, FR-21)', () => {
   it('puts due reviews first, soonest first, then new words', () => {
     const now = 1000;
     const queue = buildQueue(words, {
-      a: { box: 1, dueAt: now + 60_000, seen: 1, correct: 1, lapses: 0, lastSeenAt: 0 },
-      b: { box: 1, dueAt: now - 5000, seen: 1, correct: 1, lapses: 0, lastSeenAt: 0 },
-      c: { box: 0, dueAt: now - 10_000, seen: 1, correct: 0, lapses: 0, lastSeenAt: 0 },
+      a: { box: 1, dueAt: now + 60_000, seen: 1, correct: 1, lapses: 0, recentMs: [], lastSeenAt: 0 },
+      b: { box: 1, dueAt: now - 5000, seen: 1, correct: 1, lapses: 0, recentMs: [], lastSeenAt: 0 },
+      c: { box: 0, dueAt: now - 10_000, seen: 1, correct: 0, lapses: 0, recentMs: [], lastSeenAt: 0 },
     }, now, { newPerSession: 5, cap: 20 });
 
     expect(queue.due.map((entry) => entry.id)).toEqual(['c', 'b']);
@@ -102,7 +102,10 @@ describe('today queue (SPEC 1.7, FR-21)', () => {
   it('returns nothing to do when everything is scheduled for later', () => {
     const now = 0;
     const progress = Object.fromEntries(
-      words.map((entry) => [entry.id, { box: 1, dueAt: now + 10_000, seen: 1, correct: 1, lapses: 0, lastSeenAt: 0 }]),
+      words.map((entry) => [
+        entry.id,
+        { box: 1, dueAt: now + 10_000, seen: 1, correct: 1, lapses: 0, lastSeenAt: 0, recentMs: [] },
+      ]),
     );
     const queue = buildQueue(words, progress, now, { newPerSession: 5, cap: 20 });
     expect(queue.ids).toEqual([]);

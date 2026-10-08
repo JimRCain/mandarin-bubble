@@ -59,12 +59,45 @@ export interface SelectOptions {
   readonly seed?: number;
   /** Prefer distractors from these decks. */
   readonly preferDecks?: readonly string[];
+  /**
+   * How much the player needs this word (review.ts spawnWeight). Omitted means
+   * uniform, which is what the pure-selection tests want.
+   *
+   * Only the TARGET is weighted. Distractors keep their plausibility scoring
+   * (same deck, comparable band): their job is to be a fair choice on screen,
+   * and weighting them by need would fill the board with words the player
+   * cannot read, which is the coin flip FR-12 exists to avoid.
+   */
+  readonly weightOf?: (word: PoolWord) => number;
+}
+
+/**
+ * Picks one item with probability proportional to its weight. Falls back to a
+ * uniform pick when every weight is zero or negative, so a bad weight can never
+ * leave the board empty.
+ */
+function weightedPick<T>(items: readonly T[], weightOf: (item: T) => number, rng: Rng): T {
+  const weights = items.map((item) => Math.max(0, weightOf(item)));
+  const total = weights.reduce((sum, weight) => sum + weight, 0);
+  const last = items[items.length - 1];
+  if (last === undefined) throw new Error('weightedPick() from an empty list');
+  if (total <= 0) return rng.pick(items);
+  let roll = rng.next() * total;
+  for (let index = 0; index < items.length; index += 1) {
+    roll -= weights[index] ?? 0;
+    if (roll <= 0) return items[index] ?? last;
+  }
+  return last;
 }
 
 /**
  * Chooses a target and its distractors, or returns null when the pool cannot
  * support an unambiguous round (the caller then offers fewer choices or asks
  * for a wider selection rather than showing a broken round).
+ *
+ * This is how the OPENING board is dealt: one call fills every lane, because the
+ * returned candidates never collide with each other or with the target. After
+ * that the board persists for the session and nextBubbleWord() refills one lane.
  */
 export function planRound(options: SelectOptions): RoundPlan | null {
   const { pool, choices } = options;
@@ -78,7 +111,10 @@ export function planRound(options: SelectOptions): RoundPlan | null {
   const preferDecks = new Set(options.preferDecks ?? []);
   const preferred = eligible.filter((word) => word.decks.some((deck) => preferDecks.has(deck)));
   const targetPool = preferred.length > 0 ? preferred : eligible;
-  const target = rng.pick(targetPool);
+  // Uniform when no weights are given, so the seeded expectations in the
+  // selection tests keep holding exactly.
+  const target =
+    options.weightOf === undefined ? rng.pick(targetPool) : weightedPick(targetPool, options.weightOf, rng);
 
   const candidates = chooseDistractors(target, pool, choices - 1, rng);
   if (candidates.length < choices - 1) return null;
@@ -124,4 +160,65 @@ export function chooseDistractors(
     return chosen;
   }
   return rng.shuffle(chosen);
+}
+
+export interface BubbleOptions {
+  readonly pool: readonly PoolWord[];
+  /** Ids currently on the board. */
+  readonly boardIds: readonly string[];
+  /** Ids already asked this session (FR-11). */
+  readonly askedIds: readonly string[];
+  readonly rng: Rng;
+  /** Prefer refills drawn from these decks. */
+  readonly preferDecks?: readonly string[];
+  /** How much the player needs this word (review.ts spawnWeight). */
+  readonly weightOf?: (word: PoolWord) => number;
+  /** True for a word the player has never answered. */
+  readonly isNew?: (word: PoolWord) => boolean;
+  /**
+   * How many never-quizzed words may sit on one board (SRS 4.4). Once the board
+   * has that many, a refill or a new target is drawn from words the player has
+   * met: four unseen bubbles at once is a coin flip, not a reading test.
+   */
+  readonly newWordBudget?: number;
+}
+
+/**
+ * The word a refill tick deals, or null when the board cannot be topped up.
+ *
+ * The board is live, so this is the rule that keeps it answerable: the new
+ * bubble may not be a word already up, and it may not collide with anything
+ * already up by Hanzi or by gloss, or the board would show two bubbles that
+ * answer the same prompt (FR-10). Words not yet asked this session come first,
+ * so a session keeps meeting new words; the deck preference only chooses among
+ * those, because repeating a word the player has already answered is worse than
+ * drawing one from another deck.
+ */
+export function nextBubbleWord(options: BubbleOptions): PoolWord | null {
+  const { pool, boardIds, askedIds, rng } = options;
+  const boardSet = new Set(boardIds);
+  const boardWords = pool.filter((word) => boardSet.has(word.id));
+
+  const eligible = pool.filter(
+    (word) => !boardSet.has(word.id) && !boardWords.some((up) => collides(word, up)),
+  );
+  if (eligible.length === 0) return null;
+
+  const budget = options.newWordBudget;
+  const isNew = options.isNew;
+  const unseenOnBoard = isNew === undefined ? 0 : boardWords.filter((word) => isNew(word)).length;
+  const budgetSpent = budget !== undefined && isNew !== undefined && unseenOnBoard >= budget;
+  const affordable = budgetSpent ? eligible.filter((word) => !isNew(word)) : eligible;
+  // If every eligible word is new, the budget cannot be honoured and a repeat is
+  // worse than an unseen word, so the full eligible set stands.
+  const withinBudget = affordable.length > 0 ? affordable : eligible;
+
+  const asked = new Set(askedIds);
+  const unasked = withinBudget.filter((word) => !asked.has(word.id));
+  const fromPool = unasked.length > 0 ? unasked : withinBudget;
+
+  const preferDecks = new Set(options.preferDecks ?? []);
+  const preferred = fromPool.filter((word) => word.decks.some((deck) => preferDecks.has(deck)));
+  const finalPool = preferred.length > 0 ? preferred : fromPool;
+  return options.weightOf === undefined ? rng.pick(finalPool) : weightedPick(finalPool, options.weightOf, rng);
 }

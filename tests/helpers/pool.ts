@@ -8,10 +8,10 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { buildPool } from '../../src/content';
-import { filterPool, planRound, ambiguousTargets, chooseDistractors } from '../../src/game/selection';
+import { filterPool, planRound, ambiguousTargets, chooseDistractors, nextBubbleWord } from '../../src/game/selection';
 import type { PoolWord, Word } from '../../src/game/types';
 
-export { filterPool, planRound, ambiguousTargets, chooseDistractors };
+export { filterPool, planRound, ambiguousTargets, chooseDistractors, nextBubbleWord };
 
 const ROOT = new URL('../../', import.meta.url).pathname;
 export const CONTENT_DIR = join(ROOT, 'content');

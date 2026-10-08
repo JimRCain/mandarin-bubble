@@ -30,10 +30,10 @@ import {
 import { createAudio, type AudioEngine } from './audio';
 import { buildPool, loadDeck, loadIndex, starterDeck } from './content';
 import { DEFAULT_BOARD, bubbleRadiusFor, type BoardConfig } from './game/board';
-import { SESSION } from './game/config';
+import { REVIEW, SESSION } from './game/config';
 import { createRng, systemClock, type Rng } from './game/rng';
-import { afterCorrect, afterWrong } from './game/review';
-import { filterPool, planRound } from './game/selection';
+import { afterCorrect, afterWrong, isNewWord, spawnWeight } from './game/review';
+import { filterPool, nextBubbleWord, planRound } from './game/selection';
 import {
   initialSession,
   remainingMs,
@@ -70,10 +70,11 @@ import {
 const CLOCK_STEP_MS = 200;
 
 /**
- * How long the green flash holds before the next word is dealt. Long enough to
- * read as feedback, short enough not to stall a 90-second run.
+ * How often a refill tick may deal a bubble into a free lane. The POC spawned
+ * every 0.8-2 s (docs/POC-MECHANICS.md item 3); the spread matters more than the
+ * bounds, because an even cadence reads as a conveyor belt instead of a game.
  */
-const FEEDBACK_MS = 420;
+const REFILL_MS = { min: 800, max: 2000 } as const;
 
 export interface GameApi {
   readonly state: SessionState;
@@ -120,12 +121,9 @@ export function boardConfigFor(pace: SessionSettings['pace']): BoardConfig {
     ...DEFAULT_BOARD,
     bubbleCount: spec.bubbleCount,
     speed: spec.speed,
-    // PaceSpec.stagger is SECONDS between spawns; BoardConfig.stagger is a
-    // vertical gap as a fraction of board height. Converting with the pace's own
-    // speed is what keeps the entry cascade about a second long: passed through
-    // raw, a 0.35 s offset lands as 0.35 of the board and the field spends
-    // twenty seconds empty while the player stares at nothing.
-    stagger: spec.speed * spec.stagger,
+    // PaceSpec.stagger is already a vertical gap as a fraction of board height:
+    // bubbles enter on screen now (docs/POC-MECHANICS.md), so it passes through.
+    stagger: spec.stagger,
     // One bubble per lane, and the lane width is what decides how big a bubble
     // may be: a fixed radius overlaps as soon as the board gets busy.
     radius: bubbleRadiusFor(spec.bubbleCount),
@@ -178,6 +176,17 @@ export function GameProvider({
   // the storage write stay one step (SPEC 2.3, defect 9).
   const stateRef = useRef(state);
   const settingsRef = useRef(settings);
+  /**
+   * The selector runs inside timers and callbacks that must not be recreated on
+   * every answer (a refill timer restarted by each tap would never fire), so the
+   * progress store is read through this ref rather than through its state value.
+   * It trails the state by one effect, which is at least 800 ms ahead of any
+   * refill that reads it.
+   */
+  const progressRef = useRef(progress);
+  useEffect(() => {
+    progressRef.current = progress;
+  }, [progress]);
   const pendingMs = useRef(0);
 
   useEffect(() => {
@@ -309,20 +318,74 @@ export function GameProvider({
     [apply],
   );
 
+  /**
+   * The word a refill tick would deal: a word not already up, not colliding with
+   * anything up, and not yet asked this session if such a word exists
+   * (src/game/selection.ts). Returns null when the board cannot be topped up
+   * without repeating something the player can already see.
+   *
+   * Deliberately reads stateRef rather than state so the refill timer and the
+   * answer callback always see the board as it is right now, not as it was when
+   * the callback was created.
+   */
+  const nextBubble = useCallback(() => {
+    const now = systemClock.now();
+    const fastMs = REVIEW.fastMs[settingsRef.current.pace];
+    const words = progressRef.current.words;
+    return nextBubbleWord({
+      pool: filterPool(pool, settings.decks, settings.bands),
+      boardIds: stateRef.current.bubbleIds,
+      askedIds: stateRef.current.askedIds,
+      rng: rng.current,
+      preferDecks: settings.decks,
+      // What the player needs decides the word, the board's fairness rules
+      // decide the rest (docs/SRS-PROPOSAL.md 4.1, 4.4).
+      weightOf: (word) => spawnWeight(words[word.id], now, fastMs),
+      isNew: (word) => isNewWord(words[word.id]),
+      newWordBudget: REVIEW.newPerBoard,
+    });
+  }, [pool, settings.decks, settings.bands]);
+
   const answer = useCallback(
     (wordId: string) => {
       const current = stateRef.current;
       if (current.phase !== 'playing' || current.targetId === null || current.paused) return;
       const correct = wordId === current.targetId;
       audio.feedback(correct, correct ? current.streak + 1 : 0);
-      apply({ type: 'answer', wordId });
+
+      if (!correct) {
+        // A wrong tap changes nothing about the board (the POC's rule): the
+        // target stays where it is, the tapped bubble stays up.
+        apply({ type: 'answer', wordId });
+      } else {
+        // The POC's mechanic (docs/POC-MECHANICS.md): this tap pops ONE bubble
+        // and the target hops to a bubble that is still on the board. Topping the
+        // board back up is the refill tick's job, not this tap's, so the only
+        // spawn that belongs here is the one that stops the board emptying. That
+        // corner is precisely where the POC stalled: an emptied board left its
+        // target null and every later tap did nothing visible.
+        const popped = current.bubbleIds.filter((id) => id !== wordId);
+        const spare = popped.length === 0 ? nextBubble() : null;
+        apply({
+          type: 'answer',
+          wordId,
+          hopIndex: popped.length > 0 ? rng.current.int(popped.length) : 0,
+          replacementId: spare?.id,
+        });
+      }
+      
       // Long-term memory: a correct answer promotes the word; a wrong tap sends
       // the word that fooled the player back to box 0 (FR-18..FR-20).
       const recorded = correct ? current.targetId : wordId;
       const now = systemClock.now();
+      // The clock is the grade (docs/SRS-PROPOSAL.md 4.2): roundElapsedMs is the
+      // time the prompt on screen has been up, so an instant answer promotes two
+      // boxes, an ordinary one promotes one, and a slow one keeps its box.
+      const elapsedMs = correct ? current.roundElapsedMs : null;
+      const fastMs = REVIEW.fastMs[settingsRef.current.pace];
       setProgress((prev) => {
         const prior = prev.words[recorded];
-        const next = correct ? afterCorrect(prior, now) : afterWrong(prior, now);
+        const next = correct ? afterCorrect(prior, now, elapsedMs, fastMs) : afterWrong(prior, now);
         const updated: ProgressStore = {
           ...prev,
           words: { ...prev.words, [recorded]: next },
@@ -332,19 +395,9 @@ export function GameProvider({
         return updated;
       });
     },
-    [apply, audio, storage],
+    [apply, audio, storage, nextBubble],
   );
 
-  // A correct tap pops the bubble and then clears the round, which is what lets
-  // the next word be dealt. The reducer deliberately holds the finished round so
-  // the green flash can be seen; nothing else moves the game on. Without this
-  // the target stayed on the board and the player could tap the same bubble for
-  // the rest of the session (the bug iteration 1 shipped with).
-  useEffect(() => {
-    if (state.phase !== 'playing' || state.lastFeedback?.correct !== true) return;
-    const timer = setTimeout(() => apply({ type: 'clearRound' }), FEEDBACK_MS);
-    return () => clearTimeout(timer);
-  }, [state.phase, state.lastFeedback, apply]);
 
   const endSession = useCallback(() => {
     apply({ type: 'finish' });
@@ -362,7 +415,11 @@ export function GameProvider({
     audio.unlock();
   }, [audio, seed, storage]);
 
-  // Serving a round: pick a target and fill the board.
+  // Dealing the opening board: one plan fills every lane, and this is the only
+  // place a whole board is ever chosen. After this the board persists, as the POC
+  // did (docs/POC-MECHANICS.md): a correct tap hops the target to a bubble that is
+  // already up and the refill tick tops up single lanes, so a fresh board here
+  // means the session just started.
   useEffect(() => {
     if (state.phase !== 'playing' || state.targetId !== null) return;
     const candidates = filterPool(pool, settings.decks, settings.bands);
@@ -381,6 +438,13 @@ export function GameProvider({
         excludeIds,
         rng: rng.current,
         preferDecks: settings.decks,
+        // Need picks the target; the distractors keep their plausibility rules.
+        weightOf: (word) =>
+          spawnWeight(
+            progressRef.current.words[word.id],
+            systemClock.now(),
+            REVIEW.fastMs[settingsRef.current.pace],
+          ),
       });
 
     // Fresh targets first (FR-11); only repeat once the pool is exhausted.
@@ -392,12 +456,13 @@ export function GameProvider({
       return;
     }
 
-    // Dealing the round is the reason this effect exists: there is no user event
-    // to hang it on when the clock runs out or the target is answered.
+    // Dealing is the reason this effect exists: there is no user event to hang the
+    // opening board on, and a session that starts with an empty board must fill it
+    // before the first tap can mean anything.
     apply({
-      type: 'round',
+      type: 'deal',
+      bubbleIds: plan.candidateIds,
       targetId: plan.target.id,
-      candidateIds: plan.candidateIds,
     });
     audio.speak(plan.target.id);
   }, [
@@ -420,6 +485,45 @@ export function GameProvider({
     document.addEventListener('visibilitychange', onVisibility);
     return () => document.removeEventListener('visibilitychange', onVisibility);
   }, [apply]);
+
+  /**
+   * The refill tick, which is the POC's other half: a popped bubble comes back on
+   * its own timer rather than as part of the tap (docs/POC-MECHANICS.md item 3),
+   * so the board keeps its size without the player doing anything.
+   *
+   * Two things about this effect are deliberate:
+   *
+   *  - It does NOT depend on state.bubbleIds. A timer restarted by every board
+   *    change would be reset by each answer, and with answers arriving faster
+   *    than the delay it would never fire at all; it reads stateRef instead, so
+   *    each fire sees the board as it is at that moment.
+   *  - It reschedules itself whatever happens, including a full board or a pause.
+   *    Firing into a full board is a no-op, and stopping the timer there would
+   *    leave nothing to restart it when a bubble is popped.
+   */
+  useEffect(() => {
+    if (state.phase !== 'playing') return;
+    let handle: number | null = null;
+    let stopped = false;
+
+    const delay = () => REFILL_MS.min + rng.current.int(REFILL_MS.max - REFILL_MS.min + 1);
+
+    const tick = () => {
+      if (stopped) return;
+      const now = stateRef.current;
+      if (now.phase === 'playing' && !now.paused && now.bubbleIds.length < boardConfig.bubbleCount) {
+        const next = nextBubble();
+        if (next) apply({ type: 'refill', newBubbleId: next.id, capacity: boardConfig.bubbleCount });
+      }
+      handle = window.setTimeout(tick, delay());
+    };
+
+    handle = window.setTimeout(tick, delay());
+    return () => {
+      stopped = true;
+      if (handle !== null) window.clearTimeout(handle);
+    };
+  }, [state.phase, boardConfig.bubbleCount, nextBubble, apply]);
 
   useEffect(() => {
     audio.setMuted(!settings.sound);
@@ -453,14 +557,13 @@ export function GameProvider({
   );
 
   // The end-to-end test drives the real app through this probe instead of
-  // guessing at pixels. candidateIds is the board: GameBoard resets the engine
+  // guessing at pixels. bubbleIds is the board: GameBoard syncs the engine
   // from exactly this list.
   useEffect(() => {
     const probe = {
       phase: state.phase,
       targetId: state.targetId,
-      candidateIds: [...state.candidateIds],
-      bubbleIds: [...state.candidateIds],
+      bubbleIds: [...state.bubbleIds],
       correct: state.correct,
       wrong: state.wrong,
       score: state.score,

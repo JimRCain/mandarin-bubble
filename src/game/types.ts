@@ -23,22 +23,30 @@ export const PACE_LABELS: Record<Pace, string> = {
 };
 
 export interface PaceSpec {
-  /** Bubble count on the board at once. */
+  /** Bubble count on the board at once; also the number of lanes. */
   readonly bubbleCount: number;
-  /** Fall speed, in board-height fractions per second. */
+  /**
+   * Fall speed in board-height fractions per second. The POC's figures are the
+   * time to cross the whole board height, so a pace of 40 s is 1/40 per second
+   * (docs/POC-MECHANICS.md). The POC has no clock, so its fall is the only
+   * pressure it applies; ours is deliberately slower than the build Jim played
+   * on 2026-10-07 (18/13/10 s per height), which felt rushed.
+   */
   readonly speed: number;
   /**
-   * Spawn offset between bubbles, in seconds. The board turns this into a
-   * vertical gap so the entry reads as a diagonal cascade rather than a row of
-   * bubbles arriving side by side.
+   * Vertical offset between bubbles that enter the board together, as a fraction
+   * of board height. Bubbles now appear on screen rather than cascading in from
+   * above (docs/POC-MECHANICS.md), so this is a straight fraction, not seconds:
+   * the POC's STAGGER_Y steps by 0.08 per bubble over the top 40% of the board.
+   * The board turns the count into lanes and this into the staggered entry.
    */
   readonly stagger: number;
 }
 
 export const PACE_SPECS: Record<Pace, PaceSpec> = {
-  chill: { bubbleCount: 4, speed: 0.055, stagger: 0.55 },
-  normal: { bubbleCount: 5, speed: 0.075, stagger: 0.45 },
-  rush: { bubbleCount: 6, speed: 0.1, stagger: 0.35 },
+  chill: { bubbleCount: 4, speed: 1 / 40, stagger: 0.08 },
+  normal: { bubbleCount: 5, speed: 1 / 35, stagger: 0.08 },
+  rush: { bubbleCount: 6, speed: 1 / 30, stagger: 0.08 },
 };
 
 export interface Word {

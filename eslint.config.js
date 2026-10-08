@@ -20,9 +20,11 @@ export default tseslint.config(
     languageOptions: {
       globals: {
         // Node built-ins the content scripts and configs use. Declared here
-        // rather than pulling in the globals package for six names.
+        // rather than pulling in the globals package for a handful of names.
         console: 'readonly',
         process: 'readonly',
+        setTimeout: 'readonly',
+        clearTimeout: 'readonly',
         URL: 'readonly',
         URLSearchParams: 'readonly',
         fetch: 'readonly',

@@ -11,6 +11,8 @@ export interface Rng {
   next(): number;
   /** Uniform integer in [0, maxExclusive). */
   int(maxExclusive: number): number;
+  /** Uniform integer in [min, maxExclusive). */
+  nextInt(min: number, maxExclusive: number): number;
   pick<T>(items: readonly T[]): T;
   shuffle<T>(items: readonly T[]): T[];
 }
@@ -35,6 +37,10 @@ export function createRng(seed: number): Rng {
   return {
     next,
     int,
+    nextInt(min: number, maxExclusive: number): number {
+      if (min >= maxExclusive) throw new Error('nextInt() needs min < maxExclusive');
+      return min + int(maxExclusive - min);
+    },
     pick<T>(items: readonly T[]): T {
       if (items.length === 0) throw new Error('pick() from an empty list');
       const value = items[int(items.length)];

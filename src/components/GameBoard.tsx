@@ -62,7 +62,7 @@ export default function GameBoard({ onExit }: GameBoardProps) {
     }
   }, [field]);
 
-  // Reset from the round's own candidate list, so the bubbles on screen and the
+  // Sync from the board's bubble list, so the bubbles on screen and the
   // ids the reducer answers against can never disagree. Declared before the frame
   // loop so a new round is placed before it is first painted.
   //
@@ -71,11 +71,11 @@ export default function GameBoard({ onExit }: GameBoardProps) {
   // place it leaves the whole round stacked in one spot for a frame. Refs are
   // attached before effects run, so every node is already registered.
   useEffect(() => {
-    if (state.phase === 'playing' && state.candidateIds.length > 0) {
-      field.reset(state.candidateIds);
+    if (state.phase === 'playing') {
+      field.sync(state.bubbleIds);
       paint();
     }
-  }, [field, state.phase, state.candidateIds, paint]);
+  }, [field, state.phase, state.bubbleIds, paint]);
 
   useEffect(() => {
     if (state.phase !== 'playing') return;
@@ -169,18 +169,27 @@ export default function GameBoard({ onExit }: GameBoardProps) {
         data-testid="board"
       >
         {state.phase === 'playing' &&
-          state.candidateIds.map((candidateId) => {
-            const candidate = word(candidateId);
+          state.bubbleIds.map((wordId) => {
+            const candidate = word(wordId);
             if (!candidate) return null;
+            // A wrong tap on its own teaches nothing, so the bubble that would
+            // have been right is revealed too, until the next answer. The POC
+            // flashed it for 300 ms; holding it costs nothing and is more use
+            // to a learner. The target does not move on a wrong tap, so this is
+            // a read of existing state, not a second source of truth.
             const feedback =
-              lastFeedback && lastFeedback.wordId === candidateId
+              lastFeedback && lastFeedback.wordId === wordId
                 ? lastFeedback.correct
                   ? 'correct'
                   : 'wrong'
-                : null;
+                : state.lastFeedback !== null &&
+                    !state.lastFeedback.correct &&
+                    wordId === state.targetId
+                  ? 'correct'
+                  : null;
             return (
               <Bubble
-                key={candidateId}
+                key={wordId}
                 word={candidate}
                 diameterVw={boardConfig.radius * 200}
                 showPinyin={settings.pinyin}
@@ -209,6 +218,16 @@ export default function GameBoard({ onExit }: GameBoardProps) {
           Paused while the tab is hidden
         </div>
       )}
+
+      {/* The tap feedback, spoken. Sighted players get the colour and the tick;
+          a screen reader gets the same two facts in words (NFR-5). */}
+      <p className="sr-only" role="status" aria-live="polite" data-testid="feedback-status">
+        {lastFeedback
+          ? lastFeedback.correct
+            ? `${word(lastFeedback.wordId)?.hanzi ?? ''} correct`
+            : `Not quite, the answer was ${word(state.targetId)?.hanzi ?? ''}`
+          : ''}
+      </p>
 
       <p className="pointer-events-none absolute inset-x-0 bottom-2 text-center text-[11px] text-gray-500">
         Tap the bubble whose Hanzi matches the prompt

@@ -44,7 +44,12 @@ its only pressure is the fall.
    after 200 ms; `score += pointsCorrect`; if the score reaches the goal, show
    "Level Complete". Then, and this is the mechanic we are missing,
    **the target hops to a random bubble that is still on the board** (396-405).
-   The board never re-deals.
+   The board never re-deals. Jim re-confirmed this mechanic on 2026-10-08 in his
+   own words: *"it spawned a new bubble and changed the challenge word to one of
+   the existing bubbles"* — which is exactly 396-405 above, plus the separate
+   refill timer in item 3. Two events, not one: the *target* moves to an
+   already-dealt bubble, and independently a *new* bubble is spawned into a free
+   lane on the refill tick. Nothing is ever wiped and re-dealt.
 6. **A wrong tap (`handleWrongTap`, 410-438).** Buzz; `adjustWeight(target, 1.3)`;
    the tapped bubble flashes red for 300 ms; the *correct* bubble flashes green
    for 300 ms; `score = max(0, score - penaltyWrong)`; vibrate 100 ms. The target
@@ -79,6 +84,13 @@ its only pressure is the fall.
 - **DOM poking.** The correct bubble is flashed by a
   `document.querySelector([data-hanzi=...])` and a class toggle (430-434). Ours
   goes through reducer state, which is testable.
+- **Empty board stalls the level.** If a fast player pops the last bubble on the
+  board before the refill tick fires, `remaining.length === 0` sets the target to
+  `null` (401-403), and the refill path cannot restore it because
+  `targetSetRef.current` is already true (286-289). `handlePop` then returns
+  early on every tap (442) and the game is dead with no visible cause. A
+  correct-tap pop must always leave a live target: if the board empties, deal a
+  fresh bubble immediately and target it.
 
 ## Where our build stands against this
 
