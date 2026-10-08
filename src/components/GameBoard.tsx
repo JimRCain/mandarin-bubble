@@ -22,6 +22,18 @@ interface GameBoardProps {
 }
 
 /**
+ * A pop mirage: the Hanzi a correct tap leaves behind, frozen at the position the
+ * bubble occupied when it was answered.
+ */
+interface Ghost {
+  key: number;
+  hanzi: string;
+  left: string;
+  top: string;
+  diameterVw: number;
+}
+
+/**
  * The engine measures a bubble's radius as a fraction of board WIDTH, and the
  * board spans the viewport, so a diameter of 2 * radius is 2 * radius * 100 in
  * vw. Deriving it from the engine keeps the drawing and the hit test one shape.
@@ -46,6 +58,14 @@ export default function GameBoard({ onExit }: GameBoardProps) {
   const boardRef = useRef<HTMLDivElement>(null);
   const nodes = useRef(new Map<string, HTMLButtonElement>());
   const lastFrame = useRef<number | null>(null);
+  /**
+   * The mirage of a popped bubble (Jim, 2026-10-10). It lives here rather than in
+   * the reducer because it is a position, and positions belong to the engine
+   * (SPEC 7). It is removed when its own animation ends, so a player who asks for
+   * reduced motion never accumulates them.
+   */
+  const [ghosts, setGhosts] = useState<Ghost[]>([]);
+  const ghostSerial = useRef(0);
 
   const register = useCallback((wordId: string, element: HTMLButtonElement | null) => {
     if (element) nodes.current.set(wordId, element);
@@ -61,6 +81,39 @@ export default function GameBoard({ onExit }: GameBoardProps) {
       node.style.top = `${bubble.y * 100}%`;
     }
   }, [field]);
+
+  /**
+   * Answering a tap. A correct tap is the only one that pops (grey mist on a
+   * wrong tap would read as a reward), and the mirage is placed from the engine's
+   * last written position, not from where React last rendered.
+   */
+  const select = useCallback(
+    (wordId: string) => {
+      if (wordId === state.targetId) {
+        const node = nodes.current.get(wordId);
+        const candidate = word(wordId);
+        if (node && candidate) {
+          ghostSerial.current += 1;
+          setGhosts((previous) => [
+            ...previous,
+            {
+              key: ghostSerial.current,
+              hanzi: candidate.hanzi,
+              left: node.style.left,
+              top: node.style.top,
+              diameterVw: boardConfig.radius * 200,
+            },
+          ]);
+        }
+      }
+      answer(wordId);
+    },
+    [answer, boardConfig.radius, state.targetId, word],
+  );
+
+  const dismissGhost = useCallback((key: number) => {
+    setGhosts((previous) => previous.filter((ghost) => ghost.key !== key));
+  }, []);
 
   // Sync from the board's bubble list, so the bubbles on screen and the
   // ids the reducer answers against can never disagree. Declared before the frame
@@ -110,7 +163,7 @@ export default function GameBoard({ onExit }: GameBoardProps) {
       (event.clientX - rect.left) / rect.width,
       (event.clientY - rect.top) / rect.height,
     );
-    if (hit) answer(hit);
+    if (hit) select(hit);
   };
 
   const target = word(state.targetId);
@@ -195,10 +248,33 @@ export default function GameBoard({ onExit }: GameBoardProps) {
                 showPinyin={settings.pinyin}
                 feedback={feedback}
                 register={register}
-                onSelect={answer}
+                onSelect={select}
               />
             );
           })}
+
+        {ghosts.map((ghost) => (
+          <span
+            key={ghost.key}
+            data-testid="bubble-ghost"
+            aria-hidden="true"
+            onAnimationEnd={() => dismissGhost(ghost.key)}
+            className="bubble-ghost flex items-center justify-center rounded-full border-2"
+            style={{
+              left: ghost.left,
+              top: ghost.top,
+              width: `${ghost.diameterVw}vw`,
+              height: `${ghost.diameterVw}vw`,
+            }}
+          >
+            <span
+              className="font-bold leading-none"
+              style={{ fontSize: `${ghost.diameterVw * 0.46}vw` }}
+            >
+              {ghost.hanzi}
+            </span>
+          </span>
+        ))}
 
         {state.streak >= 2 && state.phase === 'playing' && (
           <div

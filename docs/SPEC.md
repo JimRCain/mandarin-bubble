@@ -61,6 +61,8 @@ That is correct, and it is §1.5's flaw in different clothes: **the design measu
 
 **The loop bug this exposed (fixed 2026-10-07).** The published build never cleared a round, so a correct tap scored, left the same word on the board, and paid again on the next tap: Jim *"kept tapping the same word until the round ended."* A correct answer now holds the round only for the green flash (420 ms) and then clears it, and the answered word cannot score twice while it is held (FR-14). The e2e that should have caught it asserted the counters moved but never that the **word** changed; it does now.
 
+**DECISION 2026-10-10 — the 420 ms hold is retired along with the round it held.** The board port moved the loop to the POC's mechanic: a correct tap pops that bubble and the target hops to a bubble already on screen, so there is no held round left to colour. The green is now a **mirage** (`.bubble-ghost`, `src/styles/index.css`): the Hanzi stays exactly where the bubble was, turns green, swells slightly and dims to nothing over 700 ms, then removes itself on `animationend`. Under `prefers-reduced-motion` the stylesheet collapses the animation to nothing, which removes the mirage at once instead of leaving it on the board. FR-14 (no double score) is unaffected: the answered bubble has left the board, so it cannot be tapped again. A wrong tap still reveals the bubble that would have been right, until the next answer. `tests/e2e/pop.spec.ts` asserts all of it.
+
 ### 1.7 Rewards and playtime **[PROPOSED — Jim asked for suggestions, 2026-10-05]**
 
 The design rule that follows from §1.3: **arcade on the surface, learning underneath; tension from speed and self-competition, never from loss.** Three layers, each doing one job:

@@ -28,6 +28,48 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+/**
+ * The pop mirage: what a correct tap leaves behind. The bubble itself is gone
+ * from the board in the same state update, so the pop needs a shape of its own.
+ * It stays exactly where the bubble was (no drift), turns green, swells a
+ * little, and dims to nothing. GameBoard.tsx removes it on `animationend`, so
+ * this animation must always end: the reduced-motion rule below collapses it to
+ * nothing, which removes the mirage at once rather than leaving it on the board.
+ */
+.bubble-ghost {
+  position: absolute;
+  pointer-events: none;
+  color: #ffffff;
+  border-color: rgb(255 255 255 / 0.25);
+  background-color: rgb(255 255 255 / 0.04);
+  transform: translate(-50%, -50%) scale(1);
+  animation: bubble-pop 700ms cubic-bezier(0.2, 0.7, 0.3, 1) forwards;
+}
+
+@keyframes bubble-pop {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    color: #ffffff;
+    border-color: rgb(255 255 255 / 0.25);
+    background-color: rgb(255 255 255 / 0.04);
+  }
+  30% {
+    transform: translate(-50%, -50%) scale(1.06);
+    opacity: 1;
+    color: var(--color-jade-400);
+    border-color: var(--color-jade-400);
+    background-color: rgb(47 174 134 / 0.25);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.28);
+    opacity: 0;
+    color: var(--color-jade-400);
+    border-color: rgb(78 201 160 / 0);
+    background-color: rgb(47 174 134 / 0);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
