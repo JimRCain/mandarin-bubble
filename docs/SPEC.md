@@ -141,7 +141,7 @@ Three actions, no toggles. That is the entire screen.
 - Deck word counts surface the §4.6 audit in the UI itself: `Animals (pets) · 11 words` explains why it is not meant to be played alone.
 
 **Level 3 — Settings.** Everything set-once moves off the home screen:
-- **Word level** (which words — bands renamed **Common · Mid · Rare**, §4.6) and **Pace** (speed / bubble count) as two separate rows — the §4.3 split.
+- **Word level** (which words — bands renamed **Common · Mid · Rare**, §4.6) and **Pace** (how many bubbles share the board — 3 / 4 / 5, §4.3) as two separate rows — the §4.3 split.
 - Pinyin (default **off**, A8) and Sound.
 
 **Three further fixes:**
@@ -269,7 +269,7 @@ The engineering critic's point, and it is correct: **588 Hanzi appear in more th
 ### 4.3 Word band and game pace are separate controls **[FIXED-3]**
 The POC's single "difficulty" switch filters the word pool *and* sets bubble count, fall speed and scoring. A learner who wants harder **words** cannot avoid a faster, harsher **game**. Split them:
 - **Word band** (content filter): `simple` / `medium` / `hard`, authored per word, **never rewritten by a build step** (fixes defect 3). A band with no words in the selection is disabled in the UI, not silently empty.
-- **Pace** (game setting): `Chill` / `Normal` / `Rush` — fall speed and bubble count only.
+- **Pace** (game setting): `Chill` / `Normal` / `Hard` — **how many bubbles share the board, and nothing else: 3 / 4 / 5** **[owner, 2026-10-12]**. The modes originally moved speed and count together (4/5/6 bubbles at 40/35/30 s per board height). The owner's ruling is that the only choice a player makes here is how crowded the board is, not how little time they get, so the three speeds collapsed to the previous `normal` figure, 35 s per board height, and the count column moved down one step. The ceiling of 5 is deliberate: 6 lanes on a 390 px phone is precisely the crowding the owner reported (§1.3, `docs/POC-MECHANICS.md` "Bubble size"), so the POC's 6-slot layout is not restored. `rush` survives only as a stored value that loads as `hard`.
 
 **[OPEN-A5]** Band hand-authored, or derived from HSK level at import? Recommendation: derive at import, commit the result as data, allow hand override, never recompute at build.
 
@@ -325,6 +325,12 @@ Full audit with the per-deck table: `spec/20-category-audit.md`. Thresholds prop
 ### 5.2 Music — MIDI source, pre-rendered output
 
 Jim asked for MIDI background music — originally Tetris-themed, now leaning Oriental.
+
+**[2026-10-12 — shipping a placeholder]** Two finished songs, `firefly-lane` and
+`spice-road`, the fastest of the set at 132 bpm, are in the build as
+`public/audio/music/*.ogg` and alternate per session, until the adaptive score this
+section describes exists. `src/music.ts` owns playback. Jim's own word for it:
+temporary.
 
 **What Alibaba offers, and why it is not the right tool.** Bailian / Model Studio carries exactly one music model: **`fun-music-v1`** (百聆), ¥0.002/second — prompt or lyrics in, **a full song with male/female vocals** out, Chinese or English. It does not appear in the compatible-mode `/models` list (262 models, all TTS/ASR/Omni, no music) because it is an async task API. **Qwen-Music** — the Qwen team's music model, arXiv 2607.11699 — is likewise a *song* generator with vocals, and is not exposed on the platform.
 

@@ -59,7 +59,7 @@ export default function SettingsScreen({ settings, onUpdate, onBack }: SettingsS
         <section>
           <h2 className="text-xs uppercase tracking-wide text-gray-400">Pace</h2>
           <p className="mt-1 text-xs text-gray-500">
-            How many bubbles fall, and how fast. Independent of which words you are learning.
+            How many bubbles share the screen at once. The fall speed is the same in all three.
           </p>
           <div className="mt-2 flex gap-2">
             {PACES.map((pace) => {

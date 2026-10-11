@@ -32,10 +32,12 @@ export const REVIEW = {
   /**
    * How long a correct answer may take and still count as instant, per pace.
    * This is the game's stand-in for Anki's Easy button: there are no buttons
-   * here, so the clock grades the answer. Longer for the slow paces, because a
-   * bubble that takes 35 s to cross the board is not meant to be read at speed.
+   * here, so the clock grades the answer. The three modes now share one fall
+   * speed and differ only by bubble count (docs/SPEC.md 4.3), so the thresholds
+   * are equal: the per-pace record is kept only so that a mode that earns its
+   * own figure later stays a one-line change.
    */
-  fastMs: { chill: 2500, normal: 1800, rush: 1300 },
+  fastMs: { chill: 1800, normal: 1800, hard: 1800 },
   /** A correct answer this many times slower than fastMs counts as slow. */
   slowFactor: 2,
   /** Boxes gained by an instant correct answer. An ordinary one gains 1. */

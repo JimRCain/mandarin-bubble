@@ -12,7 +12,7 @@
 
 import { STORAGE_KEYS } from '../game/config';
 import type { WordProgress } from '../game/review';
-import { DEFAULT_SETTINGS, type SessionSettings } from '../game/types';
+import { DEFAULT_SETTINGS, PACES, type Pace, type SessionSettings } from '../game/types';
 
 export const SCHEMA_VERSION = 1;
 
@@ -155,6 +155,17 @@ export function saveProgress(storage: StorageLike, store: ProgressStore): void {
   storage.set(STORAGE_KEYS.progress, JSON.stringify({ ...store, updatedAt: Date.now() }));
 }
 
+/**
+ * A stored pace is validated rather than cast: `rush` was renamed to `hard` on
+ * 2026-10-12, and any stale or unknown value must land on a real mode. A cast
+ * would let `rush` through, and `PACE_SPECS['rush']` is then `undefined`, which
+ * boardConfigFor() dereferences on the next render.
+ */
+function readPace(value: unknown): Pace {
+  if (value === 'rush') return 'hard';
+  return PACES.includes(value as Pace) ? (value as Pace) : DEFAULT_SETTINGS.pace;
+}
+
 export function loadSettings(storage: StorageLike): SessionSettings {
   const parsed = readJson<Partial<SessionSettings> & { v?: number }>(storage, STORAGE_KEYS.settings);
   if (!parsed || !Array.isArray(parsed.decks) || !Array.isArray(parsed.bands)) return DEFAULT_SETTINGS;
@@ -166,7 +177,7 @@ export function loadSettings(storage: StorageLike): SessionSettings {
   return {
     decks: parsed.decks,
     bands: parsed.bands,
-    pace: parsed.pace ?? DEFAULT_SETTINGS.pace,
+    pace: readPace(parsed.pace),
     pinyin,
     sound: parsed.sound ?? DEFAULT_SETTINGS.sound,
   };

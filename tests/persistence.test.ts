@@ -109,15 +109,24 @@ describe('settings and session', () => {
   it('falls back to defaults when settings are missing or malformed', () => {
     const storage = createStorage(memoryStorage());
     expect(loadSettings(storage)).toEqual(DEFAULT_SETTINGS);
-    storage.set('mb.settings.v1', JSON.stringify({ pace: 'rush' }));
+    storage.set('mb.settings.v1', JSON.stringify({ pace: 'sprint' }));
     expect(loadSettings(storage)).toEqual(DEFAULT_SETTINGS);
   });
 
   it('round-trips settings', () => {
     const storage = createStorage(memoryStorage());
-    const settings = { ...DEFAULT_SETTINGS, decks: ['hsk-1', 'food'], pace: 'rush' as const, pinyin: true };
+    const settings = { ...DEFAULT_SETTINGS, decks: ['hsk-1', 'food'], pace: 'hard' as const, pinyin: true };
     saveSettings(storage, settings);
     expect(loadSettings(storage)).toEqual(settings);
+  });
+
+  it('migrates the old rush pace to hard and re-defaults an unknown one', () => {
+    const storage = createStorage(memoryStorage());
+    const base = { decks: ['hsk-1'], bands: ['common'], pinyin: true, sound: true, v: 2 };
+    storage.set('mb.settings.v1', JSON.stringify({ ...base, pace: 'rush' }));
+    expect(loadSettings(storage).pace).toBe('hard');
+    storage.set('mb.settings.v1', JSON.stringify({ ...base, pace: 'sprint' }));
+    expect(loadSettings(storage).pace).toBe(DEFAULT_SETTINGS.pace);
   });
 
   it('turns pinyin on for settings saved before it became the default', () => {

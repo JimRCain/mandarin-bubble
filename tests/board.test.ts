@@ -1,6 +1,15 @@
 import { describe, expect, it } from 'vitest';
 import { BubbleField, DEFAULT_BOARD, bubbleRadiusFor } from '../src/game/board';
 import { createRng } from '../src/game/rng';
+import { PACES, PACE_SPECS } from '../src/game/types';
+
+/**
+ * The bubble counts the shipped modes actually use, read from PACE_SPECS rather
+ * than written out here. The modes changed once already (4/5/6 became 3/4/5 on
+ * 2026-10-12) and a hard-coded list is exactly what would let these tests keep
+ * passing against layouts that no longer ship.
+ */
+const SHIPPED_COUNTS = [...new Set(PACES.map((pace) => PACE_SPECS[pace].bubbleCount))];
 
 /** Smallest horizontal gap between any two bubbles; the overlap measure. */
 function closestPair(bubbles: readonly { x: number }[]): number {
@@ -97,7 +106,7 @@ describe('BubbleField', () => {
  * drew a fresh random x. Both are engine facts, so they are engine tests.
  */
 describe('spacing: bubbles never overlap', () => {
-  it.each([4, 5, 6])('gives %i bubbles a lane each, with air between them', (count) => {
+  it.each(SHIPPED_COUNTS)('gives %i bubbles a lane each, with air between them', (count) => {
     const config = { ...DEFAULT_BOARD, bubbleCount: count, radius: bubbleRadiusFor(count) };
     const board = new BubbleField(config, createRng(11));
     board.sync(['a', 'b', 'c', 'd', 'e', 'f'].slice(0, count));
@@ -132,7 +141,7 @@ describe('spacing: bubbles never overlap', () => {
   it('never separates two bubbles by less than the tap radius', () => {
     // A tap resolves against the drawn circle, so lanes must be wider than a
     // bubble or one tap can mean two answers.
-    for (const count of [4, 5, 6]) {
+    for (const count of SHIPPED_COUNTS) {
       const config = { ...DEFAULT_BOARD, bubbleCount: count, radius: bubbleRadiusFor(count) };
       const board = new BubbleField(config, createRng(13));
       board.sync(['a', 'b', 'c', 'd', 'e', 'f'].slice(0, count));

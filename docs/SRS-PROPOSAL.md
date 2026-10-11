@@ -92,7 +92,10 @@ Record response time on every correct answer and derive an implicit grade:
 - Wrong: drop to `lapseBox`, count a lapse (as today).
 
 Thresholds scale with pace, because rush pace is meant to be read quickly:
-chill 2500 ms, normal 1800 ms, rush 1300 ms.
+chill 2500 ms, normal 1800 ms, rush 1300 ms. **[superseded 2026-10-12]** the three
+modes now share one fall speed, so `REVIEW.fastMs` holds 1800 ms for all three and
+the record keeps its per-pace shape only so a mode that earns its own figure stays
+a one-line change (SPEC §4.3).
 
 Per word, store the median of the last 5 correct response times (a median, not a
 mean, so one distracted tap does not reclassify a known word).

@@ -85,7 +85,7 @@ Row count: 31.
 - One bubble per lane with a fitted radius, replacing the POC's fixed-size bubbles that overlapped when the board got busy. Reason: `board.ts:9-14`; `docs/SPEC.md:268` / POC-MECHANICS defect "Bubble size".
 - Duplicate prevention extended from Hanzi to id, Hanzi and gloss, because 56 glosses collide inside a deck. Reason: `selection.ts:6-10`, `:31-34`; `docs/SPEC.md:204`.
 - The wrap always returns to the top and swaps lanes when the board is full, rather than pinning a bubble above the line. Reason: SPEC 1.3 as cited at `board.ts:156-161`.
-- Fall speed set back to the POC's 40/35/30 s per height after an earlier faster build (18/13/10) felt rushed. Reason: `types.ts:29-34`.
+- Fall speed set back to the POC's 40/35/30 s per height after an earlier faster build (18/13/10) felt rushed. Reason: `types.ts:29-34`. **[superseded 2026-10-12]** the modes now share one speed (35 s per height) and differ only by bubble count (3/4/5). See SPEC §4.3.
 - No first-sight teaching card; the exposure phase was removed by the owner on 2026-10-07. Reason: `types.ts:92-96`; `docs/SPEC.md:60`.
 - Persistence of in-flight sessions and a tab-blur pause are new, because the new build has a clock and a phone-first target. Reason: `useGame.tsx:453-458`; FR-15, FR-22 (`docs/SPEC.md:209, 226`).
 - Feedback goes through reducer state rather than a `document.querySelector` DOM poke. Reason: POC-MECHANICS defect "DOM poking"; `scoring.ts:52`, `:195`.
