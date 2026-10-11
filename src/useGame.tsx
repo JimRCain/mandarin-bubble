@@ -28,6 +28,7 @@ import {
   type ReactNode,
 } from 'react';
 import { createAudio, type AudioEngine } from './audio';
+import { createMusic, nextTrack, type MusicEngine } from './music';
 import { buildPool, loadDeck, loadIndex, starterDeck } from './content';
 import { DEFAULT_BOARD, bubbleRadiusFor, type BoardConfig } from './game/board';
 import { REVIEW, SESSION } from './game/config';
@@ -83,6 +84,12 @@ export interface GameApi {
   readonly pool: readonly PoolWord[];
   readonly boardConfig: BoardConfig;
   readonly audio: AudioEngine;
+  /**
+   * Background music. Temporary by design: two pre-rendered songs, one per
+   * session, alternating (docs/SPEC.md 5.2 is the real adaptive score). Exposed
+   * on the API so App.tsx can stop it when the player leaves the board.
+   */
+  readonly music: MusicEngine;
   readonly progress: ProgressStore;
   readonly loading: boolean;
   readonly error: string | null;
@@ -169,6 +176,9 @@ export function GameProvider({
   const [howToSeen, setHowToSeenState] = useState(() => hasSeenHowTo(storage));
 
   const audio = useMemo(() => createAudio(), []);
+  const music = useMemo(() => createMusic(), []);
+  /** Which of the two temporary tracks the next session opens on, alternating. */
+  const sessionIndex = useRef(0);
   const boardConfig = useMemo(() => boardConfigFor(settings.pace), [settings.pace]);
 
   // The reducer is pure, so the very next state can be computed from the current
@@ -400,8 +410,10 @@ export function GameProvider({
 
 
   const endSession = useCallback(() => {
+    // The session's music ends with the session, whichever way it ended.
+    music.stop();
     apply({ type: 'finish' });
-  }, [apply]);
+  }, [apply, music]);
 
   const startSession = useCallback(() => {
     pendingMs.current = 0;
@@ -413,7 +425,12 @@ export function GameProvider({
     setSessionEpoch((epoch) => epoch + 1);
     // WebAudio may only start inside a user gesture, and this is the one (AR-5).
     audio.unlock();
-  }, [audio, seed, storage]);
+    // Same rule for the music, and the two tracks alternate so consecutive
+    // sessions do not open on the same song.
+    music.unlock();
+    music.play(nextTrack(sessionIndex.current));
+    sessionIndex.current += 1;
+  }, [audio, music, seed, storage]);
 
   // Dealing the opening board: one plan fills every lane, and this is the only
   // place a whole board is ever chosen. After this the board persists, as the POC
@@ -527,7 +544,14 @@ export function GameProvider({
 
   useEffect(() => {
     audio.setMuted(!settings.sound);
-  }, [audio, settings.sound]);
+    music.setMuted(!settings.sound);
+  }, [audio, music, settings.sound]);
+
+  // The session clock can end a session without endSession() being called, so the
+  // music is stopped on the phase change too rather than only at the call site.
+  useEffect(() => {
+    if (state.phase === 'summary') music.stop();
+  }, [state.phase, music]);
 
   useEffect(() => {
     void audio.loadManifest();
@@ -583,6 +607,7 @@ export function GameProvider({
       pool,
       boardConfig,
       audio,
+      music,
       progress,
       loading,
       error,
@@ -605,6 +630,7 @@ export function GameProvider({
       pool,
       boardConfig,
       audio,
+      music,
       progress,
       loading,
       error,

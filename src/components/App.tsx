@@ -18,7 +18,7 @@ import SummaryScreen from './SummaryScreen';
 type Screen = 'home' | 'game' | 'decks' | 'settings' | 'progress';
 
 function Screens() {
-  const { state, settings, sessionEpoch, startSession, updateSettings } = useGame();
+  const { state, settings, sessionEpoch, startSession, updateSettings, music } = useGame();
   const [screen, setScreen] = useState<Screen>('home');
 
   const begin = () => {
@@ -32,7 +32,17 @@ function Screens() {
     }
     // Keyed by pace and session epoch: a new session (or a new pace) builds a new
     // board engine rather than trying to re-shape a running one.
-    return <GameBoard key={`${settings.pace}:${sessionEpoch}`} onExit={() => setScreen('home')} />;
+    return (
+      <GameBoard
+        key={`${settings.pace}:${sessionEpoch}`}
+        onExit={() => {
+          // Leaving the board ends its music. The session itself is abandoned
+          // rather than finished, which is what the home button has always meant.
+          music.stop();
+          setScreen('home');
+        }}
+      />
+    );
   }
 
   if (screen === 'decks') return <DecksScreen onBack={() => setScreen('home')} />;
