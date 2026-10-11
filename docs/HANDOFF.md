@@ -3,6 +3,28 @@
 Written 2026-10-05, end of session, at Jim's request before a session reset.
 Read this first, then `SPEC.md` §8 (delivery plan) and §9 (decisions).
 
+## Update 2026-10-12: modes re-cut, music in, clips committed
+
+- **The three modes were re-cut** (Jim, 2026-10-12). `Chill` 3 bubbles, `Normal` 4,
+  `Hard` 5 (`rush` renamed to `hard`), **and the fall speed is now the same in all
+  three: 35 s per board height.** The modes used to move speed and count together
+  (4/5/6 at 40/35/30). A stored `rush` loads as `hard`, and an unknown value
+  re-defaults (`readPace()` in `src/store/persistence.ts`). Five is the ceiling on
+  purpose: six lanes is the crowding Jim reported. SPEC §4.3 is updated.
+- **Background music is in, deliberately temporary.** The two fastest finished
+  songs, `firefly-lane` and `spice-road` (132 bpm each, `music/songs/`), ship as
+  `public/audio/music/*.ogg` (1.46 MB) and alternate per session; `src/music.ts`
+  owns playback and the Sound toggle mutes it. SPEC §5.2's adaptive MIDI score is
+  still the real target.
+- **The Hanzi clips are committed.** 340 pre-rendered clips (2.2 MB) and
+  `public/audio/manifest.json`. Before this the deployed build advertised 0 clips,
+  so speech was silently off on Pages.
+- **The POC board port and the tap/pop fix are pushed.** Both commits had been
+  sitting unpushed since 2026-10-09; the live site was two commits stale.
+- Verified: build + 130 unit tests + 3 Playwright e2e tests + a real Chrome pass
+  over the built bundle (3 bubbles dealt in chill, 5 in hard, both songs requested
+  only after the click).
+
 ## Update 2026-10-07: shipped and live — the rest of this file is history
 
 The skeleton (step 1) is built, published and playable:
