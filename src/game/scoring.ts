@@ -6,7 +6,7 @@
  * (SPEC 2.3 defect 9). So: no side effects, no Date.now(), no Math.random().
  *
  * Session shape (SPEC 1.5), all of it non-punitive:
- *   - 15 correct answers or 90 seconds of playing time, whichever comes first
+ *   - 15 correct answers or the chosen session length (2/3/5 minutes), whichever comes first
  *   - progress counts correct answers; points are a scoreboard, not a gate
  *   - a wrong tap costs 2 seconds and breaks the streak; it never deducts points
  *     and can never make the session unwinnable
@@ -76,21 +76,33 @@ export type SessionAction =
   | { readonly type: 'deal'; readonly bubbleIds: readonly string[]; readonly targetId: string }
   /** Tops the board up by one, never past the pace's capacity. */
   | { readonly type: 'refill'; readonly newBubbleId: string; readonly capacity: number }
-  | { readonly type: 'tick'; readonly ms: number }
+  /**
+   * `limitMs` is the session length for the run in progress, carried on the
+   * action rather than read from settings inside the reducer: the reducer is
+   * pure (see the header), and a resumed session must keep the length it was
+   * started with even if the preference changes mid-run.
+   */
+  | { readonly type: 'tick'; readonly ms: number; readonly limitMs: number }
   | { 
       readonly type: 'answer'; 
       readonly wordId: string; 
       readonly hopIndex?: number; 
       readonly replacementId?: string; 
+      readonly limitMs: number;
     }
   | { readonly type: 'pause' }
   | { readonly type: 'resume' }
   | { readonly type: 'finish' };
 
-export function remainingMs(state: SessionState): number {
-  return Math.max(0, SESSION.timeLimitMs - state.elapsedMs - state.penaltyMs);
+export function remainingMs(state: SessionState, limitMs: number): number {
+  return Math.max(0, limitMs - state.elapsedMs - state.penaltyMs);
 }
 
+/**
+ * Progress for the meters, now that a run is not "reach 15 answers". A fast
+ * player answers far more than that in three minutes, so the figure is capped at
+ * 100% rather than used as a finish line.
+ */
 export function progressRatio(state: SessionState): number {
   return Math.min(1, state.correct / SESSION.correctToFinish);
 }
@@ -135,7 +147,7 @@ export function sessionReducer(state: SessionState, action: SessionAction): Sess
       if (state.phase === 'summary' || state.paused || action.ms <= 0) return state;
       const elapsedMs = state.elapsedMs + action.ms;
       const roundElapsedMs = state.roundElapsedMs + action.ms;
-      if (elapsedMs + state.penaltyMs >= SESSION.timeLimitMs) {
+      if (elapsedMs + state.penaltyMs >= action.limitMs) {
         return { ...state, elapsedMs, roundElapsedMs, phase: 'summary', targetId: null, bubbleIds: [] };
       }
       return { ...state, elapsedMs, roundElapsedMs };
@@ -164,7 +176,6 @@ export function sessionReducer(state: SessionState, action: SessionAction): Sess
       if (action.wordId === state.targetId) {
         const streak = state.streak + 1;
         const correct = state.correct + 1;
-        const finished = correct >= SESSION.correctToFinish;
 
         // The board after the pop but BEFORE any replacement, which is the board
         // the hop is allowed to choose from: the POC moved the target to a
@@ -177,8 +188,11 @@ export function sessionReducer(state: SessionState, action: SessionAction): Sess
         // Hop over the board as it stands after the pop: the POC never made a
         // just-dealt bubble the new challenge. The one exception is the pop that
         // empties the board, where the replacement is all that is left to ask.
-        const newTargetId = finished ? null : hopTarget(popped.length > 0 ? popped : board, action.hopIndex);
+        const newTargetId = hopTarget(popped.length > 0 ? popped : board, action.hopIndex);
 
+        // A correct answer no longer ends the session (Jim, 2026-10-31): there is
+        // no correct-answer target, so the run ends on the clock alone and a fast
+        // player keeps answering for as long as the clock holds.
         return {
           ...state,
           correct,
@@ -189,12 +203,13 @@ export function sessionReducer(state: SessionState, action: SessionAction): Sess
           // The hop shows a new prompt, so the response time starts again here;
           // without this the second tap of a session would be timed from the
           // first prompt and no fast answer could ever beat the first one.
-          roundElapsedMs: finished ? state.roundElapsedMs : 0,
+          roundElapsedMs: 0,
           askedIds: state.askedIds.includes(action.wordId) ? state.askedIds : [...state.askedIds, action.wordId],
-          bubbleIds: finished ? [] : board,
+          bubbleIds: board,
           lastFeedback: { wordId: action.wordId, correct: true },
-          phase: finished ? 'summary' : state.phase,
-          targetId: newTargetId,
+          // The hop is what keeps a prompt on screen: the board was refilled
+          // above, so this is null only if the caller dealt nothing at all.
+          targetId: newTargetId ?? state.targetId,
         };
       }
       // Wrong tap: a small time penalty, a broken streak, and a review entry.
@@ -206,7 +221,7 @@ export function sessionReducer(state: SessionState, action: SessionAction): Sess
         penaltyMs: state.penaltyMs + SESSION.wrongPenaltyMs,
         wrongIds: state.wrongIds.includes(action.wordId) ? state.wrongIds : [...state.wrongIds, action.wordId],
         lastFeedback: { wordId: action.wordId, correct: false },
-        ...(state.elapsedMs + (state.penaltyMs + SESSION.wrongPenaltyMs) >= SESSION.timeLimitMs
+        ...(state.elapsedMs + (state.penaltyMs + SESSION.wrongPenaltyMs) >= action.limitMs
           ? { phase: 'summary' as SessionPhase, targetId: null, bubbleIds: [] }
           : {}),
       };

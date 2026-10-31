@@ -6,8 +6,23 @@
 export const SESSION = {
   /** A session ends after this many correct answers. */
   correctToFinish: 15,
-  /** ...or after this much playing time, whichever comes first. */
-  timeLimitMs: 90_000,
+  /**
+   * ...or after this much playing time, whichever comes first. The default run
+   * is 3 minutes; Settings offers 2 (short) and 5 (long) as well. The table
+   * itself is LENGTH_MS in ./types, which is the one place the figures live, so
+   * this line is only the default and history.
+   *
+   * It was 90 s until 2026-10-31 (Jim). The old figure was sized for a 15-answer
+   * session, and a 3-minute run now gives a beginner room to read rather than
+   * race. Nothing ends a run except the clock: a fast player keeps answering.
+   */
+  timeLimitMs: 3 * 60_000,
+  /**
+   * The clock for each length, keyed by the Settings choice. This is the table
+   * the game reads; timeLimitMs above is kept only as the default and as the
+   * history of what the number used to be. LENGTH_MS in ./types is for display.
+   */
+  lengthsMs: { short: 2 * 60_000, default: 3 * 60_000, long: 5 * 60_000 } as const,
   /** A wrong tap costs time, not points (the session must stay winnable). */
   wrongPenaltyMs: 2_000,
   /** Points are a scoreboard, not a gate. */
@@ -30,16 +45,21 @@ export const REVIEW = {
   /** Box at or above this counts as learning rather than unseen. */
   learningBox: 0,
   /**
-   * How long a correct answer may take and still count as instant, per pace.
-   * This is the game's stand-in for Anki's Easy button: there are no buttons
-   * here, so the clock grades the answer. The three modes now share one fall
-   * speed and differ only by bubble count (docs/SPEC.md 4.3), so the thresholds
-   * are equal: the per-pace record is kept only so that a mode that earns its
-   * own figure later stays a one-line change.
+   * How fast a correct answer has to be, relative to the player's own baseline
+   * click time, to count as instant. Speed is judged against the player, not
+   * against a fixed millisecond figure (Jim, 2026-10-31): a fixed threshold
+   * graded a fast reader the same as a slow one.
    */
-  fastMs: { chill: 1800, normal: 1800, hard: 1800 },
-  /** A correct answer this many times slower than fastMs counts as slow. */
+  instantFactor: 0.85,
+  /** A correct answer this many times slower than the baseline counts as slow. */
   slowFactor: 2,
+  /**
+   * Response times that build the player's baseline, and how few is too few to
+   * have one. Five samples is enough for a median to be stable and few enough
+   * that a player has a baseline inside the first minute of play.
+   */
+  baselineWindow: 20,
+  baselineMinSamples: 5,
   /** Boxes gained by an instant correct answer. An ordinary one gains 1. */
   instantBoxes: 2,
   /** Response times kept per word. The median of these is the word's speed. */
@@ -57,6 +77,12 @@ export const REVIEW = {
   weightDueMultiplier: 2,
   weightNotDueMultiplier: 0.5,
   weightFastMultiplier: 0.5,
+  /**
+   * The floor of the fast case. A word tapped at half the player's baseline
+   * lands near this, so it comes up rarely but never vanishes; weightFloor below
+   * is the hard stop that applies after the box and due multipliers.
+   */
+  weightFastFloor: 0.3,
   weightSlowMultiplier: 1.6,
   weightLeechMultiplier: 1.5,
   /** Nothing is ever fully retired: this is the floor of the product of weights. */

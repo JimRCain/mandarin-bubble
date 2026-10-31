@@ -9,6 +9,8 @@ import {
   type SessionState,
 } from '../src/game/scoring';
 
+const LIMIT = SESSION.lengthsMs.default;
+
 const round = (state: SessionState, targetId = 'a', bubbleIds: string[] = ['a', 'b', 'c', 'd']) =>
   sessionReducer(state, { type: 'deal', targetId, bubbleIds });
 
@@ -22,12 +24,13 @@ const tapTarget = (state: SessionState, replacementId?: string) =>
     wordId: state.targetId ?? '',
     hopIndex: 0,
     replacementId,
+    limitMs: LIMIT,
   });
 
 describe('session shape (SPEC 1.5)', () => {
   it('starts playing, at zero, with the full clock', () => {
     expect(initialSession.correct).toBe(0);
-    expect(remainingMs(initialSession)).toBe(SESSION.timeLimitMs);
+    expect(remainingMs(initialSession, LIMIT)).toBe(LIMIT);
     expect(progressRatio(initialSession)).toBe(0);
   });
 
@@ -68,53 +71,53 @@ describe('session shape (SPEC 1.5)', () => {
     const distractor = state.bubbleIds.find((id) => id !== state.targetId);
     expect(distractor).toBeDefined();
     const target = state.targetId;
-    state = sessionReducer(state, { type: 'answer', wordId: distractor ?? 'zzz' });
+    state = sessionReducer(state, { type: 'answer', wordId: distractor ?? 'zzz' , limitMs: LIMIT });
 
     expect(state.score).toBe(scoreBefore);
     expect(state.wrong).toBe(1);
     expect(state.penaltyMs).toBe(SESSION.wrongPenaltyMs);
     expect(state.streak).toBe(0);
-    expect(remainingMs(state)).toBe(SESSION.timeLimitMs - SESSION.wrongPenaltyMs);
+    expect(remainingMs(state, LIMIT)).toBe(LIMIT - SESSION.wrongPenaltyMs);
     expect(state.wrongIds).toEqual([distractor]);
     expect(state.targetId).toBe(target);
   });
 
   it('records each missed word once, in the order missed (FR-19)', () => {
     let state = round(initialSession);
-    state = sessionReducer(state, { type: 'answer', wordId: 'b' });
-    state = sessionReducer(state, { type: 'answer', wordId: 'c' });
-    state = sessionReducer(state, { type: 'answer', wordId: 'b' });
+    state = sessionReducer(state, { type: 'answer', wordId: 'b' , limitMs: LIMIT });
+    state = sessionReducer(state, { type: 'answer', wordId: 'c' , limitMs: LIMIT });
+    state = sessionReducer(state, { type: 'answer', wordId: 'b' , limitMs: LIMIT });
     expect(state.wrongIds).toEqual(['b', 'c']);
     expect(state.wrong).toBe(3);
   });
 
-  it('ends after 15 correct answers, not before', () => {
+  it('keeps going past 15 correct answers: only the clock ends a run', () => {
     let state = round(initialSession);
-    for (let i = 0; i < SESSION.correctToFinish - 1; i += 1) {
+    // A fast player answers well past the old 15-answer finish line.
+    for (let i = 0; i < SESSION.correctToFinish * 2; i += 1) {
       state = tapTarget(state, `spare-${i}`);
       expect(state.phase).toBe('playing');
     }
-    state = tapTarget(state, 'spare-last');
-    expect(state.correct).toBe(SESSION.correctToFinish);
-    expect(state.phase).toBe('summary');
-    expect(state.targetId).toBeNull();
-    // A finished session has no board left to render.
-    expect(state.bubbleIds).toEqual([]);
+    expect(state.correct).toBe(SESSION.correctToFinish * 2);
+    expect(state.targetId).not.toBeNull();
+    expect(state.bubbleIds.length).toBeGreaterThan(0);
+    // Progress is a capped meter now, not a finish condition.
+    expect(progressRatio(state)).toBe(1);
   });
 
-  it('ends when playing time plus penalties reaches 90 seconds', () => {
+  it('ends when playing time plus penalties reaches the session length', () => {
     let state = round(initialSession);
-    state = sessionReducer(state, { type: 'tick', ms: SESSION.timeLimitMs - 1 });
+    state = sessionReducer(state, { type: 'tick', ms: LIMIT - 1 , limitMs: LIMIT});
     expect(state.phase).toBe('playing');
-    state = sessionReducer(state, { type: 'tick', ms: 1 });
+    state = sessionReducer(state, { type: 'tick', ms: 1 , limitMs: LIMIT});
     expect(state.phase).toBe('summary');
     expect(progressRatio(state)).toBe(0);
   });
 
   it('can be ended early by a wrong tap when only the penalty remains', () => {
     let state = round(initialSession);
-    state = sessionReducer(state, { type: 'tick', ms: SESSION.timeLimitMs - 1000 });
-    state = sessionReducer(state, { type: 'answer', wordId: 'b' });
+    state = sessionReducer(state, { type: 'tick', ms: LIMIT - 1000 , limitMs: LIMIT});
+    state = sessionReducer(state, { type: 'answer', wordId: 'b' , limitMs: LIMIT });
     expect(state.phase).toBe('summary');
   });
 });
@@ -128,7 +131,7 @@ describe('session shape (SPEC 1.5)', () => {
 describe('a correct tap pops one bubble and hops the target', () => {
   it('hops to a bubble that was already on the board', () => {
     let state = round(initialSession, 'a', ['a', 'b', 'c']);
-    state = sessionReducer(state, { type: 'answer', wordId: 'a', hopIndex: 0, replacementId: 'd' });
+    state = sessionReducer(state, { type: 'answer', wordId: 'a', hopIndex: 0, replacementId: 'd' , limitMs: LIMIT });
 
     expect(state.correct).toBe(1);
     // 'b' and 'c' were up when the tap happened; 'd' arrived with it and the POC
@@ -144,6 +147,7 @@ describe('a correct tap pops one bubble and hops the target', () => {
     for (let hopIndex = 0; hopIndex < 6; hopIndex += 1) {
       const state = sessionReducer(round(initialSession, 'a', board), {
         type: 'answer',
+        limitMs: LIMIT,
         wordId: 'a',
         hopIndex,
       });
@@ -159,6 +163,7 @@ describe('a correct tap pops one bubble and hops the target', () => {
       type: 'answer',
       wordId: 'a',
       hopIndex: 1,
+      limitMs: LIMIT,
     });
     expect(state.bubbleIds).toEqual(['b', 'c']);
     expect(state.targetId).toBe('c');
@@ -171,6 +176,7 @@ describe('a correct tap pops one bubble and hops the target', () => {
       type: 'answer',
       wordId: 'a',
       replacementId: 'd',
+      limitMs: LIMIT,
     });
     expect(state.bubbleIds).toEqual(['d']);
     expect(state.targetId).toBe('d');
@@ -178,15 +184,15 @@ describe('a correct tap pops one bubble and hops the target', () => {
 
   it('never scores the same tap twice', () => {
     const state = round(initialSession, 'a', ['a', 'b', 'c']);
-    const answered = sessionReducer(state, { type: 'answer', wordId: 'a', hopIndex: 0 });
-    const again = sessionReducer(answered, { type: 'answer', wordId: 'a' });
+    const answered = sessionReducer(state, { type: 'answer', wordId: 'a', hopIndex: 0 , limitMs: LIMIT });
+    const again = sessionReducer(answered, { type: 'answer', wordId: 'a' , limitMs: LIMIT });
     expect(again.correct).toBe(1);
     expect(again.score).toBe(answered.score);
   });
 
   it('changes nothing about the board or the target on a wrong tap', () => {
     const state = round(initialSession, 'a', ['a', 'b', 'c']);
-    const wrong = sessionReducer(state, { type: 'answer', wordId: 'b' });
+    const wrong = sessionReducer(state, { type: 'answer', wordId: 'b' , limitMs: LIMIT });
     expect(wrong.correct).toBe(0);
     expect(wrong.wrong).toBe(1);
     expect(wrong.targetId).toBe('a');
@@ -215,26 +221,26 @@ describe('refill', () => {
 describe('the clock and the record', () => {
   it('freezes on pause and resumes without counting paused time', () => {
     let state = round(initialSession);
-    state = sessionReducer(state, { type: 'tick', ms: 1000 });
+    state = sessionReducer(state, { type: 'tick', ms: 1000 , limitMs: LIMIT});
     state = sessionReducer(state, { type: 'pause' });
-    state = sessionReducer(state, { type: 'tick', ms: 10_000 });
+    state = sessionReducer(state, { type: 'tick', ms: 10_000 , limitMs: LIMIT});
     expect(state.elapsedMs).toBe(1000);
     state = sessionReducer(state, { type: 'resume' });
-    state = sessionReducer(state, { type: 'tick', ms: 500 });
+    state = sessionReducer(state, { type: 'tick', ms: 500 , limitMs: LIMIT});
     expect(state.elapsedMs).toBe(1500);
   });
 
   it('tracks the fastest correct response, and only the fastest', () => {
     let state = round(initialSession);
-    state = sessionReducer(state, { type: 'tick', ms: 1800 });
+    state = sessionReducer(state, { type: 'tick', ms: 1800 , limitMs: LIMIT});
     state = tapTarget(state, 'spare-1');
     expect(state.fastestMs).toBe(1800);
 
-    state = sessionReducer(state, { type: 'tick', ms: 900 });
+    state = sessionReducer(state, { type: 'tick', ms: 900 , limitMs: LIMIT});
     state = tapTarget(state, 'spare-2');
     expect(state.fastestMs).toBe(900);
 
-    state = sessionReducer(state, { type: 'tick', ms: 2400 });
+    state = sessionReducer(state, { type: 'tick', ms: 2400 , limitMs: LIMIT});
     state = tapTarget(state, 'spare-3');
     expect(state.fastestMs).toBe(900);
   });

@@ -69,14 +69,50 @@ export function medianOf(values: readonly number[] | undefined): number | null {
 }
 
 /**
- * The clock's grade. `elapsedMs` null means the caller did not measure it, and
- * that is graded as an ordinary correct answer rather than a slow one: the game
- * must not punish a word for a missing stopwatch.
+ * The player's own click time, which is the yardstick a word is graded against
+ * (Jim, 2026-10-31). A fixed 1800 ms threshold cannot tell a fast reader from a
+ * slow one: the player's own median response is the only fair speed.
+ *
+ * The baseline lives with the progress store rather than on each word, because
+ * it describes the player, not the vocabulary.
  */
-export function gradeFor(elapsedMs: number | null, fastMs: number): Grade {
-  if (elapsedMs === null) return 'good';
-  if (elapsedMs <= fastMs) return 'instant';
-  if (elapsedMs >= fastMs * REVIEW.slowFactor) return 'slow';
+export interface PlayerSpeed {
+  /** Recent correct response times in ms, oldest first, capped at REVIEW.baselineWindow. */
+  readonly recentMs: readonly number[];
+}
+
+export function emptySpeed(): PlayerSpeed {
+  return { recentMs: [] };
+}
+
+/**
+ * The player's baseline, or null before there is enough evidence to have one.
+ * Null means "grade nothing as instant yet": a baseline built from one lucky tap
+ * would make every later word look slow.
+ */
+export function baselineMs(speed: PlayerSpeed | undefined): number | null {
+  const values = speed?.recentMs ?? [];
+  if (values.length < REVIEW.baselineMinSamples) return null;
+  return medianOf(values);
+}
+
+/** The baseline with one more sample, oldest dropped. */
+export function withBaseline(speed: PlayerSpeed | undefined, elapsedMs: number | null): PlayerSpeed {
+  const kept = speed?.recentMs ?? [];
+  if (elapsedMs === null) return { recentMs: kept };
+  return { recentMs: [...kept, elapsedMs].slice(-REVIEW.baselineWindow) };
+}
+
+/**
+ * The clock's grade, against the player's own baseline. `elapsedMs` or
+ * `baseline` null means the caller did not measure it, and that is graded as an
+ * ordinary correct answer rather than a slow one: the game must not punish a
+ * word for a missing stopwatch.
+ */
+export function gradeFor(elapsedMs: number | null, baseline: number | null): Grade {
+  if (elapsedMs === null || baseline === null) return 'good';
+  if (elapsedMs <= baseline * REVIEW.instantFactor) return 'instant';
+  if (elapsedMs >= baseline * REVIEW.slowFactor) return 'slow';
   return 'good';
 }
 
@@ -96,10 +132,10 @@ export function afterCorrect(
   prior: WordProgress | undefined,
   now: number,
   elapsedMs: number | null = null,
-  fastMs: number = Number.POSITIVE_INFINITY,
+  baseline: number | null = null,
 ): WordProgress {
   const base = prior ?? unseenProgress();
-  const grade = gradeFor(elapsedMs, fastMs);
+  const grade = gradeFor(elapsedMs, baseline);
   const step = grade === 'instant' ? REVIEW.instantBoxes : grade === 'good' ? 1 : 0;
   const box = Math.min(base.box + step, REVIEW.boxWeights.length - 1);
   return {
@@ -154,14 +190,22 @@ export function masteryCounts(
  *  - whether the review is due: twice the weight when it is, half when it is
  *    not, but only for a word that has been quizzed at all (an unseen word is
  *    already at the top of the list and must not be multiplied further);
- *  - speed: a word answered instantly and correctly thins out, a slow one comes
- *    back more;
+ *  - speed, measured against the player's own baseline: a word tapped faster
+ *    than the player normally taps is thinned out, and the faster it was
+ *    relative to that baseline the more it thins, so a word they clearly know
+ *    keeps getting rarer and frees board space for something new. A slow word
+ *    comes back more;
  *  - lapses: a word that keeps beating the player earns extra board time
  *    instead of being suspended the way Anki suspends a leech.
  *
- * Never zero: nothing is retired. The floor is REVIEW.weightFloor.
+ * Never zero: nothing is retired. The floor is REVIEW.weightFloor, which is
+ * what stops the rarest word from disappearing entirely.
  */
-export function spawnWeight(progress: WordProgress | undefined, now: number, fastMs: number): number {
+export function spawnWeight(
+  progress: WordProgress | undefined,
+  now: number,
+  baseline: number | null,
+): number {
   const base = progress ?? unseenProgress();
   const boxIndex = Math.min(Math.max(base.box, 0), REVIEW.boxWeights.length - 1);
   const byBox = REVIEW.boxWeights[boxIndex] ?? REVIEW.boxWeights[0];
@@ -173,19 +217,38 @@ export function spawnWeight(progress: WordProgress | undefined, now: number, fas
         ? REVIEW.weightDueMultiplier
         : REVIEW.weightNotDueMultiplier;
 
-  const median = medianOf(base.recentMs);
-  const bySpeed =
-    median === null
-      ? 1
-      : median <= fastMs
-        ? REVIEW.weightFastMultiplier
-        : median >= fastMs * REVIEW.slowFactor
-          ? REVIEW.weightSlowMultiplier
-          : 1;
+  return Math.max(
+    REVIEW.weightFloor,
+    byBox * familiarity * speedFactor(medianOf(base.recentMs), baseline, base.lapses >= REVIEW.leechLapses),
+  );
+}
 
-  const byLapses = base.lapses >= REVIEW.leechLapses ? REVIEW.weightLeechMultiplier : 1;
+/**
+ * The speed multiplier alone. Split out from spawnWeight so the rule is testable
+ * and readable on its own, because it is the one the product turns on: speed is
+ * what tells us the player knows the word.
+ *
+ * `median` is the word's own median response and `baseline` the player's. Both
+ * being non-null is the only case where speed says anything; with no baseline
+ * the word is left alone.
+ */
+export function speedFactor(median: number | null, baseline: number | null, leech: boolean): number {
+  const byLapses = leech ? REVIEW.weightLeechMultiplier : 1;
+  if (median === null || baseline === null || baseline <= 0) return byLapses;
+  const ratio = median / baseline;
 
-  return Math.max(REVIEW.weightFloor, byBox * familiarity * bySpeed * byLapses);
+  if (ratio < REVIEW.instantFactor) {
+    // Recognized faster than the player's average, so it needs less board time.
+    // The multiplier falls smoothly from weightFastMultiplier towards
+    // weightFastFloor as the ratio goes to zero: the faster it was, the rarer it
+    // gets, rather than one threshold that flips a word to a single value.
+    const relative = Math.min(1, Math.max(0, ratio / REVIEW.instantFactor));
+    const thinning =
+      REVIEW.weightFastFloor + (REVIEW.weightFastMultiplier - REVIEW.weightFastFloor) * relative;
+    return byLapses * thinning;
+  }
+  if (ratio >= REVIEW.slowFactor) return byLapses * REVIEW.weightSlowMultiplier;
+  return byLapses;
 }
 
 /** True for a word the player has never answered, which is what the budget counts. */

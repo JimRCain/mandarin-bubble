@@ -33,7 +33,7 @@ import { buildPool, loadDeck, loadIndex, starterDeck } from './content';
 import { DEFAULT_BOARD, bubbleRadiusFor, type BoardConfig } from './game/board';
 import { REVIEW, SESSION } from './game/config';
 import { createRng, systemClock, type Rng } from './game/rng';
-import { afterCorrect, afterWrong, isNewWord, spawnWeight } from './game/review';
+import { afterCorrect, afterWrong, baselineMs, isNewWord, spawnWeight, withBaseline } from './game/review';
 import { filterPool, nextBubbleWord, planRound } from './game/selection';
 import {
   initialSession,
@@ -71,11 +71,12 @@ import {
 const CLOCK_STEP_MS = 200;
 
 /**
- * How often a refill tick may deal a bubble into a free lane. The POC spawned
- * every 0.8-2 s (docs/POC-MECHANICS.md item 3); the spread matters more than the
- * bounds, because an even cadence reads as a conveyor belt instead of a game.
+ * There is no refill timer any more (Jim, 2026-10-31): a correct tap pops the
+ * bubble and deals its replacement in the same step, so the board is never short
+ * of a lane and a player who reads fast gets through as many words as they can
+ * tap in the session length. The old 0.8-2 s refill paced the game at the speed
+ * of a timer instead of the speed of the player.
  */
-const REFILL_MS = { min: 800, max: 2000 } as const;
 
 export interface GameApi {
   readonly state: SessionState;
@@ -323,7 +324,7 @@ export function GameProvider({
       if (pendingMs.current < CLOCK_STEP_MS) return;
       const ms = pendingMs.current;
       pendingMs.current = 0;
-      apply({ type: 'tick', ms });
+      apply({ type: 'tick', ms, limitMs: SESSION.lengthsMs[settingsRef.current.length] });
     },
     [apply],
   );
@@ -340,7 +341,7 @@ export function GameProvider({
    */
   const nextBubble = useCallback(() => {
     const now = systemClock.now();
-    const fastMs = REVIEW.fastMs[settingsRef.current.pace];
+    const baseline = baselineMs(progressRef.current.speed);
     const words = progressRef.current.words;
     return nextBubbleWord({
       pool: filterPool(pool, settings.decks, settings.bands),
@@ -350,7 +351,7 @@ export function GameProvider({
       preferDecks: settings.decks,
       // What the player needs decides the word, the board's fairness rules
       // decide the rest (docs/SRS-PROPOSAL.md 4.1, 4.4).
-      weightOf: (word) => spawnWeight(words[word.id], now, fastMs),
+      weightOf: (word) => spawnWeight(words[word.id], now, baseline),
       isNew: (word) => isNewWord(words[word.id]),
       newWordBudget: REVIEW.newPerBoard,
     });
@@ -361,26 +362,26 @@ export function GameProvider({
       const current = stateRef.current;
       if (current.phase !== 'playing' || current.targetId === null || current.paused) return;
       const correct = wordId === current.targetId;
+      const limit = SESSION.lengthsMs[settingsRef.current.length];
       audio.feedback(correct, correct ? current.streak + 1 : 0);
 
       if (!correct) {
         // A wrong tap changes nothing about the board (the POC's rule): the
         // target stays where it is, the tapped bubble stays up.
-        apply({ type: 'answer', wordId });
+        apply({ type: 'answer', wordId, limitMs: limit });
       } else {
-        // The POC's mechanic (docs/POC-MECHANICS.md): this tap pops ONE bubble
-        // and the target hops to a bubble that is still on the board. Topping the
-        // board back up is the refill tick's job, not this tap's, so the only
-        // spawn that belongs here is the one that stops the board emptying. That
-        // corner is precisely where the POC stalled: an emptied board left its
-        // target null and every later tap did nothing visible.
-        const popped = current.bubbleIds.filter((id) => id !== wordId);
-        const spare = popped.length === 0 ? nextBubble() : null;
+        // A correct tap pops one bubble and deals its replacement immediately
+        // (Jim, 2026-10-31). The board stays full, so a player who reads fast
+        // keeps tapping at their own pace and gets through many more words in
+        // the session than a slow one does. This replaced both the refill timer
+        // and the "only deal when the board would empty" special case.
+        const spare = nextBubble();
         apply({
           type: 'answer',
           wordId,
-          hopIndex: popped.length > 0 ? rng.current.int(popped.length) : 0,
+          hopIndex: rng.current.int(Math.max(current.bubbleIds.length - 1, 1)),
           replacementId: spare?.id,
+          limitMs: limit,
         });
       }
       
@@ -392,13 +393,20 @@ export function GameProvider({
       // time the prompt on screen has been up, so an instant answer promotes two
       // boxes, an ordinary one promotes one, and a slow one keeps its box.
       const elapsedMs = correct ? current.roundElapsedMs : null;
-      const fastMs = REVIEW.fastMs[settingsRef.current.pace];
       setProgress((prev) => {
+        // The baseline is read BEFORE this answer is folded into it, so a word is
+        // graded against the player's speed as it was, not against a baseline the
+        // answer itself just moved.
+        const baseline = baselineMs(prev.speed);
         const prior = prev.words[recorded];
-        const next = correct ? afterCorrect(prior, now, elapsedMs, fastMs) : afterWrong(prior, now);
+        const next = correct ? afterCorrect(prior, now, elapsedMs, baseline) : afterWrong(prior, now);
         const updated: ProgressStore = {
           ...prev,
           words: { ...prev.words, [recorded]: next },
+          // Only a correct answer says anything about click speed: a wrong tap is
+          // a misread, and folding it into the baseline would slow the yardstick
+          // down and make everything look fast.
+          speed: correct ? withBaseline(prev.speed, elapsedMs) : prev.speed,
           updatedAt: now,
         };
         saveProgress(storage, updated);
@@ -460,7 +468,7 @@ export function GameProvider({
           spawnWeight(
             progressRef.current.words[word.id],
             systemClock.now(),
-            REVIEW.fastMs[settingsRef.current.pace],
+            baselineMs(progressRef.current.speed),
           ),
       });
 
@@ -503,44 +511,8 @@ export function GameProvider({
     return () => document.removeEventListener('visibilitychange', onVisibility);
   }, [apply]);
 
-  /**
-   * The refill tick, which is the POC's other half: a popped bubble comes back on
-   * its own timer rather than as part of the tap (docs/POC-MECHANICS.md item 3),
-   * so the board keeps its size without the player doing anything.
-   *
-   * Two things about this effect are deliberate:
-   *
-   *  - It does NOT depend on state.bubbleIds. A timer restarted by every board
-   *    change would be reset by each answer, and with answers arriving faster
-   *    than the delay it would never fire at all; it reads stateRef instead, so
-   *    each fire sees the board as it is at that moment.
-   *  - It reschedules itself whatever happens, including a full board or a pause.
-   *    Firing into a full board is a no-op, and stopping the timer there would
-   *    leave nothing to restart it when a bubble is popped.
-   */
-  useEffect(() => {
-    if (state.phase !== 'playing') return;
-    let handle: number | null = null;
-    let stopped = false;
-
-    const delay = () => REFILL_MS.min + rng.current.int(REFILL_MS.max - REFILL_MS.min + 1);
-
-    const tick = () => {
-      if (stopped) return;
-      const now = stateRef.current;
-      if (now.phase === 'playing' && !now.paused && now.bubbleIds.length < boardConfig.bubbleCount) {
-        const next = nextBubble();
-        if (next) apply({ type: 'refill', newBubbleId: next.id, capacity: boardConfig.bubbleCount });
-      }
-      handle = window.setTimeout(tick, delay());
-    };
-
-    handle = window.setTimeout(tick, delay());
-    return () => {
-      stopped = true;
-      if (handle !== null) window.clearTimeout(handle);
-    };
-  }, [state.phase, boardConfig.bubbleCount, nextBubble, apply]);
+  // There is no refill timer: a correct tap deals its own replacement (see the
+  // `answer` callback). The board is topped up at tap speed, not at timer speed.
 
   useEffect(() => {
     audio.setMuted(!settings.sound);
@@ -592,12 +564,12 @@ export function GameProvider({
       wrong: state.wrong,
       score: state.score,
       streak: state.streak,
-      remainingMs: remainingMs(state),
+      remainingMs: remainingMs(state, SESSION.lengthsMs[settings.length]),
       paused: state.paused,
       seed,
     };
     (globalThis as { __mbTest?: typeof probe }).__mbTest = probe;
-  }, [state, seed]);
+  }, [state, seed, settings.length]);
 
   const value = useMemo<GameApi>(
     () => ({

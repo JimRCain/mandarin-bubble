@@ -1,3 +1,4 @@
+import { SESSION } from '../game/config';
 import { useGame } from '../useGame';
 import Button from './ui/Button';
 
@@ -29,7 +30,7 @@ export default function HomeScreen({ onStartSession, onNavigate }: HomeScreenPro
       )}
 
       <Button size="medium" className="w-full py-4 text-base" onClick={onStartSession} disabled={!ready} data-testid="start-session">
-        {loading ? 'Loading words...' : ready ? 'Start a 90 second run' : 'No words selected'}
+        {loading ? 'Loading words...' : ready ? `Start a ${Math.round(SESSION.lengthsMs[settings.length] / 60_000)} minute run` : 'No words selected'}
       </Button>
 
       <div className="grid grid-cols-3 gap-2">
@@ -64,6 +65,9 @@ export default function HomeScreen({ onStartSession, onNavigate }: HomeScreenPro
             Pace: <span className="font-mono text-white">{settings.pace}</span>
           </li>
           <li>
+            Length: <span className="font-mono text-white">{settings.length}</span>
+          </li>
+          <li>
             Words you have answered: <span className="font-mono text-white">{wordsSeen}</span>
           </li>
         </ul>
@@ -79,7 +83,7 @@ export default function HomeScreen({ onStartSession, onNavigate }: HomeScreenPro
             <li>The English meaning sits at the top. The clock is running.</li>
             <li>Bubbles fall; a bubble that reaches the bottom wraps back to the top.</li>
             <li>Tap the bubble whose Hanzi means what the prompt says.</li>
-            <li>15 correct answers or 90 seconds, whichever lands first.</li>
+            <li>{Math.round(SESSION.lengthsMs[settings.length] / 60_000)} minutes on the clock. The board refills as fast as you tap it.</li>
             <li>A correct tap pops the bubble and the next word comes straight away.</li>
           </ol>
           <Button

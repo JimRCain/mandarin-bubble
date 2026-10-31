@@ -167,8 +167,9 @@ export default function GameBoard({ onExit }: GameBoardProps) {
   };
 
   const target = word(state.targetId);
-  const remainingSeconds = Math.ceil(remainingMs(state) / 1000);
+  const remainingSeconds = Math.ceil(remainingMs(state, SESSION.lengthsMs[settings.length]) / 1000);
   const urgent = remainingSeconds <= 15;
+  const totalSeconds = Math.round(SESSION.lengthsMs[settings.length] / 1000);
   const lastFeedback = state.lastFeedback;
 
   return (
@@ -203,14 +204,14 @@ export default function GameBoard({ onExit }: GameBoardProps) {
 
         <div className="mt-2 flex items-center justify-between text-xs text-gray-300">
           <span data-testid="hud-progress">
-            {state.correct}/{SESSION.correctToFinish} correct
+            {state.correct} correct
           </span>
           <span className="font-mono">{state.streak}x streak</span>
           <span
             className={urgent ? 'font-mono text-lantern-400' : 'font-mono'}
             data-testid="hud-timer"
           >
-            {remainingSeconds}s
+            {remainingSeconds}s / {totalSeconds}s
           </span>
         </div>
       </div>
