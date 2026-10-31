@@ -18,9 +18,7 @@ export default function SummaryScreen({ onPlayAgain, onBackHome }: SummaryScreen
       data-testid="summary"
     >
       <header className="mt-2 text-center">
-        <h1 className="text-2xl font-bold text-white">
-          {state.correct >= 15 ? 'Session cleared' : 'Time'}
-        </h1>
+        <h1 className="text-2xl font-bold text-white">Time</h1>
         <p className="mt-1 text-sm text-gray-400">
           {state.correct} correct of {state.correct + state.wrong} taps
           {state.correct + state.wrong > 0 ? ` (${Math.round(accuracy(state) * 100)}%)` : ''}

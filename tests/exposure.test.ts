@@ -49,12 +49,20 @@ const progress = (patch: Partial<WordProgress> = {}): WordProgress => ({
   ...patch,
 });
 
-const FAST = REVIEW.fastMs.normal;
+/**
+ * A stand-in for the player's own baseline click time, which is what a word is
+ * now graded against (Jim, 2026-10-31 replaced the fixed per-pace figure).
+ */
+const FAST = 1800;
 
 describe('gradeFor', () => {
-  it('calls an answer inside fastMs instant and one past twice fastMs slow', () => {
-    expect(gradeFor(FAST, FAST)).toBe('instant');
-    expect(gradeFor(FAST + 1, FAST)).toBe('good');
+  it('calls an answer faster than the baseline instant and one past twice it slow', () => {
+    // Speed is now judged against the player: their own baseline is the
+    // yardstick, and "instant" means they recognized it faster than they
+    // normally do (Jim, 2026-10-31).
+    expect(gradeFor(FAST * REVIEW.instantFactor - 1, FAST)).toBe('instant');
+    expect(gradeFor(FAST * REVIEW.instantFactor, FAST)).toBe('instant');
+    expect(gradeFor(FAST, FAST)).toBe('good');
     expect(gradeFor(FAST * REVIEW.slowFactor - 1, FAST)).toBe('good');
     expect(gradeFor(FAST * REVIEW.slowFactor, FAST)).toBe('slow');
   });
@@ -128,7 +136,10 @@ describe('spawnWeight', () => {
   });
 
   it('gives a word that keeps beating the player extra board time instead of retiring it', () => {
-    const shared = { box: 4, seen: 9, correct: 5, dueAt: 10 ** 12, recentMs: [600] };
+    // A mid-speed word, so the product has room to move: at a fast median the
+    // box and familiarity multipliers already sit near the weight floor and the
+    // leech bonus would be swallowed by it.
+    const shared = { box: 4, seen: 9, correct: 5, dueAt: 10 ** 12, recentMs: [1700] };
     const clean = progress({ ...shared, lapses: 0 });
     const leech = progress({ ...shared, lapses: REVIEW.leechLapses });
     expect(spawnWeight(leech, 10, FAST)).toBeGreaterThan(spawnWeight(clean, 10, FAST));

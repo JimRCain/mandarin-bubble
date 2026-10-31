@@ -11,8 +11,8 @@
  */
 
 import { STORAGE_KEYS } from '../game/config';
-import type { WordProgress } from '../game/review';
-import { DEFAULT_SETTINGS, PACES, type Pace, type SessionSettings } from '../game/types';
+import { emptySpeed, type PlayerSpeed, type WordProgress } from '../game/review';
+import { DEFAULT_SETTINGS, LENGTHS, PACES, type Length, type Pace, type SessionSettings } from '../game/types';
 
 export const SCHEMA_VERSION = 1;
 
@@ -21,7 +21,7 @@ export const SCHEMA_VERSION = 1;
  * from SCHEMA_VERSION, which guards progress: a stale setting is worth
  * re-defaulting, a stale progress file is worth throwing away.
  */
-export const SETTINGS_VERSION = 2;
+export const SETTINGS_VERSION = 3;
 
 export interface ProgressStore {
   readonly version: number;
@@ -30,6 +30,11 @@ export interface ProgressStore {
     readonly fastestMs: number | null;
     readonly longestCombo: number;
   };
+  /**
+   * The player's own click speed, which every word's speed is graded against.
+   * Absent in a store written before 2026-10-31; loadProgress fills it in.
+   */
+  readonly speed: PlayerSpeed;
   readonly updatedAt: number | null;
 }
 
@@ -49,7 +54,13 @@ export interface StorageLike {
 }
 
 export function emptyProgress(): ProgressStore {
-  return { version: SCHEMA_VERSION, words: {}, best: { fastestMs: null, longestCombo: 0 }, updatedAt: null };
+  return {
+    version: SCHEMA_VERSION,
+    words: {},
+    best: { fastestMs: null, longestCombo: 0 },
+    speed: emptySpeed(),
+    updatedAt: null,
+  };
 }
 
 /**
@@ -147,6 +158,13 @@ export function loadProgress(storage: StorageLike): ProgressStore {
       fastestMs: parsed.best?.fastestMs ?? null,
       longestCombo: parsed.best?.longestCombo ?? 0,
     },
+    // A store written before the baseline existed has no `speed`, and the player
+    // simply has no baseline yet rather than a wrong one.
+    speed: {
+      recentMs: Array.isArray(parsed.speed?.recentMs)
+        ? parsed.speed.recentMs.filter((ms) => typeof ms === 'number')
+        : [],
+    },
     updatedAt: parsed.updatedAt ?? null,
   };
 }
@@ -166,6 +184,10 @@ function readPace(value: unknown): Pace {
   return PACES.includes(value as Pace) ? (value as Pace) : DEFAULT_SETTINGS.pace;
 }
 
+function readLength(value: unknown): Length {
+  return LENGTHS.includes(value as Length) ? (value as Length) : DEFAULT_SETTINGS.length;
+}
+
 export function loadSettings(storage: StorageLike): SessionSettings {
   const parsed = readJson<Partial<SessionSettings> & { v?: number }>(storage, STORAGE_KEYS.settings);
   if (!parsed || !Array.isArray(parsed.decks) || !Array.isArray(parsed.bands)) return DEFAULT_SETTINGS;
@@ -178,6 +200,10 @@ export function loadSettings(storage: StorageLike): SessionSettings {
     decks: parsed.decks,
     bands: parsed.bands,
     pace: readPace(parsed.pace),
+    // Length never had an older meaning to migrate: a file written before
+    // 2026-10-31 simply has no `length`, and the default applies. A hand-edited
+    // or unknown value lands on the default rather than on `LENGTH_MS[undefined]`.
+    length: readLength(parsed.length),
     pinyin,
     sound: parsed.sound ?? DEFAULT_SETTINGS.sound,
   };

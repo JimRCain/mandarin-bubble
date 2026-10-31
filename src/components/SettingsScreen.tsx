@@ -1,6 +1,11 @@
-import { PACES, PACE_LABELS, BANDS, BAND_LABELS, type SessionSettings } from '../game/types';
+import { PACES, PACE_LABELS, BANDS, BAND_LABELS, LENGTHS, LENGTH_LABELS, LENGTH_MS, type SessionSettings } from '../game/types';
 import { PACE_SPECS } from '../game/types';
 import Button from './ui/Button';
+
+/** "90 s" / "2 min" style label for a length button. */
+function lengthHint(ms: number): string {
+  return ms % 60_000 === 0 ? `${ms / 60_000} min` : `${Math.round(ms / 1000)} s`;
+}
 
 interface SettingsScreenProps {
   settings: SessionSettings;
@@ -82,6 +87,37 @@ export default function SettingsScreen({ settings, onUpdate, onBack }: SettingsS
                   <span className="block text-[11px] text-gray-500">
                     {PACE_SPECS[pace].bubbleCount} bubbles
                   </span>
+                </button>
+              );
+            })}
+          </div>
+        </section>
+
+        <section>
+          <h2 className="text-xs uppercase tracking-wide text-gray-400">Length</h2>
+          <p className="mt-1 text-xs text-gray-500">
+            How long a run lasts. The board refills as fast as you tap it, so a longer run is more
+            words, not more difficulty.
+          </p>
+          <div className="mt-2 flex gap-2">
+            {LENGTHS.map((length) => {
+              const on = settings.length === length;
+              return (
+                <button
+                  key={length}
+                  type="button"
+                  onClick={() => onUpdate({ length })}
+                  aria-pressed={on}
+                  data-testid={`length-${length}`}
+                  className={[
+                    'flex-1 rounded-lg border px-3 py-2 text-sm transition-colors',
+                    on
+                      ? 'border-jade-500 bg-jade-500/10 text-white'
+                      : 'border-ink-800 bg-ink-900 text-gray-400',
+                  ].join(' ')}
+                >
+                  <span className="block">{LENGTH_LABELS[length]}</span>
+                  <span className="block text-[11px] text-gray-500">{lengthHint(LENGTH_MS[length])}</span>
                 </button>
               );
             })}

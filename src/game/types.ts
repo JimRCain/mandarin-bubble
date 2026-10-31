@@ -12,12 +12,17 @@ export const BAND_LABELS: Record<Band, string> = {
 };
 
 /**
- * How crowded the board is: bubble count, and therefore lane count. Nothing else.
+ * How crowded the board is: bubble count, and therefore lane count.
  *
  * The modes used to set the fall speed too, and no longer do (Jim, 2026-10-12).
  * All three fall at the same rate, so the choice a player makes here is "how many
  * words are on screen at once" and not "how little time do I get to read them".
  * Deliberately independent of Band, which is about the words (SPEC 4.3).
+ *
+ * The board is no longer a fixed number of bubbles for the session (Jim,
+ * 2026-10-31): a correct tap pops one and deals the replacement at once, so the
+ * board holds this many at once while a fast player cycles through many more. The
+ * mode is therefore a board WIDTH, not a count per run.
  */
 export type Pace = 'chill' | 'normal' | 'hard';
 
@@ -124,10 +129,33 @@ export interface Bubble {
   y: number;
 }
 
+/** Session length. Default is the 90 s run the product shipped with; Jim added
+ * the two-minute and five-minute choices on 2026-10-31 so a session can be a
+ * quick coffee break or a real sitting. Length is a preference, so it lives on
+ * SessionSettings; the clock itself stays in SESSION.lengthsMs.
+ */
+export type Length = 'short' | 'default' | 'long';
+
+export const LENGTHS: readonly Length[] = ['short', 'default', 'long'];
+
+export const LENGTH_LABELS: Record<Length, string> = {
+  short: 'Short',
+  default: 'Default',
+  long: 'Long',
+};
+
+/** One line per mode, shown under the label in Settings and on Home. */
+export const LENGTH_MS: Record<Length, number> = {
+  short: 2 * 60_000,
+  default: 3 * 60_000,
+  long: 5 * 60_000,
+};
+
 export interface SessionSettings {
   readonly decks: readonly string[];
   readonly bands: readonly Band[];
   readonly pace: Pace;
+  readonly length: Length;
   readonly pinyin: boolean;
   readonly sound: boolean;
 }
@@ -136,6 +164,7 @@ export const DEFAULT_SETTINGS: SessionSettings = {
   decks: ['hsk-1'],
   bands: [...BANDS],
   pace: 'normal',
+  length: 'default',
   // On by default, the owner's call on 2026-10-07 and what the POC did. The
   // toggle still turns it off; it just no longer starts off, because a beginner
   // reading a Hanzi they have never seen has nothing to hold on to.
