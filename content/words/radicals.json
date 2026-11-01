@@ -1,0 +1,1714 @@
+[
+  {
+    "id": "rad-001-一-yi",
+    "hanzi": "一",
+    "pinyin": "yī",
+    "english": "one (radical 1)",
+    "band": "common",
+    "zipf": 6.0
+  },
+  {
+    "id": "rad-002-丨-shu",
+    "hanzi": "丨",
+    "pinyin": "shù",
+    "english": "line (radical 2)",
+    "band": "common",
+    "zipf": 5.98
+  },
+  {
+    "id": "rad-003-丶-dian",
+    "hanzi": "丶",
+    "pinyin": "diǎn",
+    "english": "dot (radical 3)",
+    "band": "common",
+    "zipf": 5.96
+  },
+  {
+    "id": "rad-004-丿-pie",
+    "hanzi": "丿",
+    "pinyin": "piě",
+    "english": "slash (radical 4)",
+    "band": "common",
+    "zipf": 5.94
+  },
+  {
+    "id": "rad-005-乙-yi",
+    "hanzi": "乙",
+    "pinyin": "yǐ",
+    "english": "second (radical 5)",
+    "band": "common",
+    "zipf": 5.92
+  },
+  {
+    "id": "rad-006-亅-gou",
+    "hanzi": "亅",
+    "pinyin": "gōu",
+    "english": "hook (radical 6)",
+    "band": "common",
+    "zipf": 5.91
+  },
+  {
+    "id": "rad-007-二-er",
+    "hanzi": "二",
+    "pinyin": "èr",
+    "english": "two (radical 7)",
+    "band": "common",
+    "zipf": 5.89
+  },
+  {
+    "id": "rad-008-亠-tou",
+    "hanzi": "亠",
+    "pinyin": "tóu",
+    "english": "lid (radical 8)",
+    "band": "common",
+    "zipf": 5.87
+  },
+  {
+    "id": "rad-009-人-ren",
+    "hanzi": "人",
+    "pinyin": "rén",
+    "english": "person (radical 9)",
+    "band": "common",
+    "zipf": 5.85
+  },
+  {
+    "id": "rad-010-儿-er",
+    "hanzi": "儿",
+    "pinyin": "ér",
+    "english": "legs (radical 10)",
+    "band": "common",
+    "zipf": 5.83
+  },
+  {
+    "id": "rad-011-入-ru",
+    "hanzi": "入",
+    "pinyin": "rù",
+    "english": "enter (radical 11)",
+    "band": "common",
+    "zipf": 5.81
+  },
+  {
+    "id": "rad-012-八-ba",
+    "hanzi": "八",
+    "pinyin": "bā",
+    "english": "eight (radical 12)",
+    "band": "common",
+    "zipf": 5.79
+  },
+  {
+    "id": "rad-013-冂-jiong",
+    "hanzi": "冂",
+    "pinyin": "jiǒng",
+    "english": "down box (radical 13)",
+    "band": "common",
+    "zipf": 5.77
+  },
+  {
+    "id": "rad-014-冖-mi",
+    "hanzi": "冖",
+    "pinyin": "mì",
+    "english": "cover (radical 14)",
+    "band": "common",
+    "zipf": 5.76
+  },
+  {
+    "id": "rad-015-冫-bing",
+    "hanzi": "冫",
+    "pinyin": "bīng",
+    "english": "ice (radical 15)",
+    "band": "common",
+    "zipf": 5.74
+  },
+  {
+    "id": "rad-016-几-ji",
+    "hanzi": "几",
+    "pinyin": "jī",
+    "english": "table (radical 16)",
+    "band": "common",
+    "zipf": 5.72
+  },
+  {
+    "id": "rad-017-凵-qu",
+    "hanzi": "凵",
+    "pinyin": "qǔ",
+    "english": "open box (radical 17)",
+    "band": "common",
+    "zipf": 5.7
+  },
+  {
+    "id": "rad-018-刀-dao",
+    "hanzi": "刀",
+    "pinyin": "dāo",
+    "english": "knife (radical 18)",
+    "band": "common",
+    "zipf": 5.68
+  },
+  {
+    "id": "rad-019-力-li",
+    "hanzi": "力",
+    "pinyin": "lì",
+    "english": "power (radical 19)",
+    "band": "common",
+    "zipf": 5.66
+  },
+  {
+    "id": "rad-020-勹-bao",
+    "hanzi": "勹",
+    "pinyin": "bāo",
+    "english": "wrap (radical 20)",
+    "band": "common",
+    "zipf": 5.64
+  },
+  {
+    "id": "rad-021-匕-bi",
+    "hanzi": "匕",
+    "pinyin": "bǐ",
+    "english": "ladle (radical 21)",
+    "band": "common",
+    "zipf": 5.62
+  },
+  {
+    "id": "rad-022-匚-fang",
+    "hanzi": "匚",
+    "pinyin": "fāng",
+    "english": "right open box (radical 22)",
+    "band": "common",
+    "zipf": 5.61
+  },
+  {
+    "id": "rad-023-匸-xi",
+    "hanzi": "匸",
+    "pinyin": "xǐ",
+    "english": "hiding enclosure (radical 23)",
+    "band": "common",
+    "zipf": 5.59
+  },
+  {
+    "id": "rad-024-十-shi",
+    "hanzi": "十",
+    "pinyin": "shí",
+    "english": "ten (radical 24)",
+    "band": "common",
+    "zipf": 5.57
+  },
+  {
+    "id": "rad-025-卜-bu",
+    "hanzi": "卜",
+    "pinyin": "bǔ",
+    "english": "divination (radical 25)",
+    "band": "common",
+    "zipf": 5.55
+  },
+  {
+    "id": "rad-026-卩-jie",
+    "hanzi": "卩",
+    "pinyin": "jié",
+    "english": "seal (radical 26)",
+    "band": "common",
+    "zipf": 5.53
+  },
+  {
+    "id": "rad-027-厂-han",
+    "hanzi": "厂",
+    "pinyin": "hàn",
+    "english": "cliff (radical 27)",
+    "band": "common",
+    "zipf": 5.51
+  },
+  {
+    "id": "rad-028-厶-si",
+    "hanzi": "厶",
+    "pinyin": "sī",
+    "english": "private (radical 28)",
+    "band": "common",
+    "zipf": 5.49
+  },
+  {
+    "id": "rad-029-又-you",
+    "hanzi": "又",
+    "pinyin": "yòu",
+    "english": "again (radical 29)",
+    "band": "common",
+    "zipf": 5.47
+  },
+  {
+    "id": "rad-030-口-kou",
+    "hanzi": "口",
+    "pinyin": "kǒu",
+    "english": "mouth (radical 30)",
+    "band": "common",
+    "zipf": 5.46
+  },
+  {
+    "id": "rad-031-囗-wei",
+    "hanzi": "囗",
+    "pinyin": "wéi",
+    "english": "enclosure (radical 31)",
+    "band": "common",
+    "zipf": 5.44
+  },
+  {
+    "id": "rad-032-土-tu",
+    "hanzi": "土",
+    "pinyin": "tǔ",
+    "english": "earth (radical 32)",
+    "band": "common",
+    "zipf": 5.42
+  },
+  {
+    "id": "rad-033-士-shi",
+    "hanzi": "士",
+    "pinyin": "shì",
+    "english": "scholar (radical 33)",
+    "band": "common",
+    "zipf": 5.4
+  },
+  {
+    "id": "rad-034-夂-zhi",
+    "hanzi": "夂",
+    "pinyin": "zhī",
+    "english": "go (radical 34)",
+    "band": "common",
+    "zipf": 5.38
+  },
+  {
+    "id": "rad-035-夊-sui",
+    "hanzi": "夊",
+    "pinyin": "suī",
+    "english": "go slowly (radical 35)",
+    "band": "common",
+    "zipf": 5.36
+  },
+  {
+    "id": "rad-036-夕-xi",
+    "hanzi": "夕",
+    "pinyin": "xī",
+    "english": "night (radical 36)",
+    "band": "common",
+    "zipf": 5.34
+  },
+  {
+    "id": "rad-037-大-da",
+    "hanzi": "大",
+    "pinyin": "dà",
+    "english": "big (radical 37)",
+    "band": "common",
+    "zipf": 5.32
+  },
+  {
+    "id": "rad-038-女-nu",
+    "hanzi": "女",
+    "pinyin": "nǚ",
+    "english": "woman (radical 38)",
+    "band": "common",
+    "zipf": 5.31
+  },
+  {
+    "id": "rad-039-子-zi",
+    "hanzi": "子",
+    "pinyin": "zǐ",
+    "english": "child (radical 39)",
+    "band": "common",
+    "zipf": 5.29
+  },
+  {
+    "id": "rad-040-宀-gai",
+    "hanzi": "宀",
+    "pinyin": "gài",
+    "english": "roof (radical 40)",
+    "band": "common",
+    "zipf": 5.27
+  },
+  {
+    "id": "rad-041-寸-cun",
+    "hanzi": "寸",
+    "pinyin": "cùn",
+    "english": "inch (radical 41)",
+    "band": "common",
+    "zipf": 5.25
+  },
+  {
+    "id": "rad-042-小-xiao",
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "english": "small (radical 42)",
+    "band": "common",
+    "zipf": 5.23
+  },
+  {
+    "id": "rad-043-尢-you",
+    "hanzi": "尢",
+    "pinyin": "yóu",
+    "english": "lame (radical 43)",
+    "band": "common",
+    "zipf": 5.21
+  },
+  {
+    "id": "rad-044-尸-shi",
+    "hanzi": "尸",
+    "pinyin": "shī",
+    "english": "corpse (radical 44)",
+    "band": "common",
+    "zipf": 5.19
+  },
+  {
+    "id": "rad-045-屮-che",
+    "hanzi": "屮",
+    "pinyin": "chè",
+    "english": "sprout (radical 45)",
+    "band": "common",
+    "zipf": 5.17
+  },
+  {
+    "id": "rad-046-山-shan",
+    "hanzi": "山",
+    "pinyin": "shān",
+    "english": "mountain (radical 46)",
+    "band": "common",
+    "zipf": 5.15
+  },
+  {
+    "id": "rad-047-川-chuan",
+    "hanzi": "川",
+    "pinyin": "chuān",
+    "english": "river (radical 47)",
+    "band": "common",
+    "zipf": 5.14
+  },
+  {
+    "id": "rad-048-工-gong",
+    "hanzi": "工",
+    "pinyin": "gōng",
+    "english": "work (radical 48)",
+    "band": "common",
+    "zipf": 5.12
+  },
+  {
+    "id": "rad-049-己-ji",
+    "hanzi": "己",
+    "pinyin": "jǐ",
+    "english": "oneself (radical 49)",
+    "band": "common",
+    "zipf": 5.1
+  },
+  {
+    "id": "rad-050-巾-jin",
+    "hanzi": "巾",
+    "pinyin": "jīn",
+    "english": "towel (radical 50)",
+    "band": "common",
+    "zipf": 5.08
+  },
+  {
+    "id": "rad-051-干-gan",
+    "hanzi": "干",
+    "pinyin": "gān",
+    "english": "dry (radical 51)",
+    "band": "common",
+    "zipf": 5.06
+  },
+  {
+    "id": "rad-052-幺-yao",
+    "hanzi": "幺",
+    "pinyin": "yāo",
+    "english": "thread (radical 52)",
+    "band": "common",
+    "zipf": 5.04
+  },
+  {
+    "id": "rad-053-广-guang",
+    "hanzi": "广",
+    "pinyin": "guǎng",
+    "english": "shelter (radical 53)",
+    "band": "common",
+    "zipf": 5.02
+  },
+  {
+    "id": "rad-054-廴-yin",
+    "hanzi": "廴",
+    "pinyin": "yǐn",
+    "english": "stride (radical 54)",
+    "band": "common",
+    "zipf": 5.0
+  },
+  {
+    "id": "rad-055-廾-gong",
+    "hanzi": "廾",
+    "pinyin": "gǒng",
+    "english": "hands joined (radical 55)",
+    "band": "mid",
+    "zipf": 4.99
+  },
+  {
+    "id": "rad-056-弋-yi",
+    "hanzi": "弋",
+    "pinyin": "yì",
+    "english": "shoot with a bow (radical 56)",
+    "band": "mid",
+    "zipf": 4.97
+  },
+  {
+    "id": "rad-057-弓-gong",
+    "hanzi": "弓",
+    "pinyin": "gōng",
+    "english": "bow (radical 57)",
+    "band": "mid",
+    "zipf": 4.95
+  },
+  {
+    "id": "rad-058-彐-ji",
+    "hanzi": "彐",
+    "pinyin": "jì",
+    "english": "snout (radical 58)",
+    "band": "mid",
+    "zipf": 4.93
+  },
+  {
+    "id": "rad-059-彡-shan",
+    "hanzi": "彡",
+    "pinyin": "shān",
+    "english": "hair (radical 59)",
+    "band": "mid",
+    "zipf": 4.91
+  },
+  {
+    "id": "rad-060-彳-chi",
+    "hanzi": "彳",
+    "pinyin": "chì",
+    "english": "step (radical 60)",
+    "band": "mid",
+    "zipf": 4.89
+  },
+  {
+    "id": "rad-061-心-xin",
+    "hanzi": "心",
+    "pinyin": "xīn",
+    "english": "heart (radical 61)",
+    "band": "mid",
+    "zipf": 4.87
+  },
+  {
+    "id": "rad-062-戈-ge",
+    "hanzi": "戈",
+    "pinyin": "gē",
+    "english": "spear (radical 62)",
+    "band": "mid",
+    "zipf": 4.85
+  },
+  {
+    "id": "rad-063-户-hu",
+    "hanzi": "户",
+    "pinyin": "hù",
+    "english": "door (radical 63)",
+    "band": "mid",
+    "zipf": 4.84
+  },
+  {
+    "id": "rad-064-手-shou",
+    "hanzi": "手",
+    "pinyin": "shǒu",
+    "english": "hand (radical 64)",
+    "band": "mid",
+    "zipf": 4.82
+  },
+  {
+    "id": "rad-065-支-zhi",
+    "hanzi": "支",
+    "pinyin": "zhī",
+    "english": "branch (radical 65)",
+    "band": "mid",
+    "zipf": 4.8
+  },
+  {
+    "id": "rad-066-攴-pu",
+    "hanzi": "攴",
+    "pinyin": "pū",
+    "english": "rap (radical 66)",
+    "band": "mid",
+    "zipf": 4.78
+  },
+  {
+    "id": "rad-067-文-wen",
+    "hanzi": "文",
+    "pinyin": "wén",
+    "english": "script (radical 67)",
+    "band": "mid",
+    "zipf": 4.76
+  },
+  {
+    "id": "rad-068-斗-dou",
+    "hanzi": "斗",
+    "pinyin": "dǒu",
+    "english": "dipper (radical 68)",
+    "band": "mid",
+    "zipf": 4.74
+  },
+  {
+    "id": "rad-069-斤-jin",
+    "hanzi": "斤",
+    "pinyin": "jīn",
+    "english": "axe (radical 69)",
+    "band": "mid",
+    "zipf": 4.72
+  },
+  {
+    "id": "rad-070-方-fang",
+    "hanzi": "方",
+    "pinyin": "fāng",
+    "english": "square (radical 70)",
+    "band": "mid",
+    "zipf": 4.7
+  },
+  {
+    "id": "rad-071-无-wu",
+    "hanzi": "无",
+    "pinyin": "wú",
+    "english": "not (radical 71)",
+    "band": "mid",
+    "zipf": 4.69
+  },
+  {
+    "id": "rad-072-日-ri",
+    "hanzi": "日",
+    "pinyin": "rì",
+    "english": "sun (radical 72)",
+    "band": "mid",
+    "zipf": 4.67
+  },
+  {
+    "id": "rad-073-曰-yue",
+    "hanzi": "曰",
+    "pinyin": "yuē",
+    "english": "say (radical 73)",
+    "band": "mid",
+    "zipf": 4.65
+  },
+  {
+    "id": "rad-074-月-yue",
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "english": "moon (radical 74)",
+    "band": "mid",
+    "zipf": 4.63
+  },
+  {
+    "id": "rad-075-木-mu",
+    "hanzi": "木",
+    "pinyin": "mù",
+    "english": "tree (radical 75)",
+    "band": "mid",
+    "zipf": 4.61
+  },
+  {
+    "id": "rad-076-欠-qian",
+    "hanzi": "欠",
+    "pinyin": "qiàn",
+    "english": "lack (radical 76)",
+    "band": "mid",
+    "zipf": 4.59
+  },
+  {
+    "id": "rad-077-止-zhi",
+    "hanzi": "止",
+    "pinyin": "zhǐ",
+    "english": "stop (radical 77)",
+    "band": "mid",
+    "zipf": 4.57
+  },
+  {
+    "id": "rad-078-歹-dai",
+    "hanzi": "歹",
+    "pinyin": "dǎi",
+    "english": "death (radical 78)",
+    "band": "mid",
+    "zipf": 4.55
+  },
+  {
+    "id": "rad-079-殳-shu",
+    "hanzi": "殳",
+    "pinyin": "shū",
+    "english": "weapon (radical 79)",
+    "band": "mid",
+    "zipf": 4.54
+  },
+  {
+    "id": "rad-080-母-mu",
+    "hanzi": "母",
+    "pinyin": "mǔ",
+    "english": "mother (radical 80)",
+    "band": "mid",
+    "zipf": 4.52
+  },
+  {
+    "id": "rad-081-比-bi",
+    "hanzi": "比",
+    "pinyin": "bǐ",
+    "english": "compare (radical 81)",
+    "band": "mid",
+    "zipf": 4.5
+  },
+  {
+    "id": "rad-082-毛-mao",
+    "hanzi": "毛",
+    "pinyin": "máo",
+    "english": "fur (radical 82)",
+    "band": "mid",
+    "zipf": 4.48
+  },
+  {
+    "id": "rad-083-氏-shi",
+    "hanzi": "氏",
+    "pinyin": "shì",
+    "english": "clan (radical 83)",
+    "band": "mid",
+    "zipf": 4.46
+  },
+  {
+    "id": "rad-084-气-qi",
+    "hanzi": "气",
+    "pinyin": "qì",
+    "english": "steam (radical 84)",
+    "band": "mid",
+    "zipf": 4.44
+  },
+  {
+    "id": "rad-085-水-shui",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "english": "water (radical 85)",
+    "band": "mid",
+    "zipf": 4.42
+  },
+  {
+    "id": "rad-086-火-huo",
+    "hanzi": "火",
+    "pinyin": "huǒ",
+    "english": "fire (radical 86)",
+    "band": "mid",
+    "zipf": 4.4
+  },
+  {
+    "id": "rad-087-爪-zhao",
+    "hanzi": "爪",
+    "pinyin": "zhǎo",
+    "english": "claw (radical 87)",
+    "band": "mid",
+    "zipf": 4.38
+  },
+  {
+    "id": "rad-088-父-fu",
+    "hanzi": "父",
+    "pinyin": "fù",
+    "english": "father (radical 88)",
+    "band": "mid",
+    "zipf": 4.37
+  },
+  {
+    "id": "rad-089-爻-yao",
+    "hanzi": "爻",
+    "pinyin": "yáo",
+    "english": "lines on a trigram (radical 89)",
+    "band": "mid",
+    "zipf": 4.35
+  },
+  {
+    "id": "rad-090-爿-qiang",
+    "hanzi": "爿",
+    "pinyin": "qiáng",
+    "english": "half of a tree trunk (radical 90)",
+    "band": "mid",
+    "zipf": 4.33
+  },
+  {
+    "id": "rad-091-片-pian",
+    "hanzi": "片",
+    "pinyin": "piàn",
+    "english": "slice (radical 91)",
+    "band": "mid",
+    "zipf": 4.31
+  },
+  {
+    "id": "rad-092-牙-ya",
+    "hanzi": "牙",
+    "pinyin": "yá",
+    "english": "tooth (radical 92)",
+    "band": "mid",
+    "zipf": 4.29
+  },
+  {
+    "id": "rad-093-牛-niu",
+    "hanzi": "牛",
+    "pinyin": "niú",
+    "english": "cow (radical 93)",
+    "band": "mid",
+    "zipf": 4.27
+  },
+  {
+    "id": "rad-094-犭-quan",
+    "hanzi": "犭",
+    "pinyin": "quǎn",
+    "english": "dog (radical 94)",
+    "band": "mid",
+    "zipf": 4.25
+  },
+  {
+    "id": "rad-095-玄-xuan",
+    "hanzi": "玄",
+    "pinyin": "xuán",
+    "english": "profound (radical 95)",
+    "band": "mid",
+    "zipf": 4.23
+  },
+  {
+    "id": "rad-096-玉-yu",
+    "hanzi": "玉",
+    "pinyin": "yù",
+    "english": "jade (radical 96)",
+    "band": "mid",
+    "zipf": 4.22
+  },
+  {
+    "id": "rad-097-瓜-gua",
+    "hanzi": "瓜",
+    "pinyin": "guā",
+    "english": "melon (radical 97)",
+    "band": "mid",
+    "zipf": 4.2
+  },
+  {
+    "id": "rad-098-瓦-wa",
+    "hanzi": "瓦",
+    "pinyin": "wǎ",
+    "english": "tile (radical 98)",
+    "band": "mid",
+    "zipf": 4.18
+  },
+  {
+    "id": "rad-099-甘-gan",
+    "hanzi": "甘",
+    "pinyin": "gān",
+    "english": "sweet (radical 99)",
+    "band": "mid",
+    "zipf": 4.16
+  },
+  {
+    "id": "rad-100-生-sheng",
+    "hanzi": "生",
+    "pinyin": "shēng",
+    "english": "life (radical 100)",
+    "band": "mid",
+    "zipf": 4.14
+  },
+  {
+    "id": "rad-101-用-yong",
+    "hanzi": "用",
+    "pinyin": "yòng",
+    "english": "use (radical 101)",
+    "band": "mid",
+    "zipf": 4.12
+  },
+  {
+    "id": "rad-102-田-tian",
+    "hanzi": "田",
+    "pinyin": "tián",
+    "english": "field (radical 102)",
+    "band": "mid",
+    "zipf": 4.1
+  },
+  {
+    "id": "rad-103-疋-pi",
+    "hanzi": "疋",
+    "pinyin": "pǐ",
+    "english": "cloth (radical 103)",
+    "band": "mid",
+    "zipf": 4.08
+  },
+  {
+    "id": "rad-104-疒-bing",
+    "hanzi": "疒",
+    "pinyin": "bìng",
+    "english": "ill (radical 104)",
+    "band": "mid",
+    "zipf": 4.07
+  },
+  {
+    "id": "rad-105-癶-bo",
+    "hanzi": "癶",
+    "pinyin": "bō",
+    "english": "foot steps (radical 105)",
+    "band": "mid",
+    "zipf": 4.05
+  },
+  {
+    "id": "rad-106-白-bai",
+    "hanzi": "白",
+    "pinyin": "bái",
+    "english": "white (radical 106)",
+    "band": "mid",
+    "zipf": 4.03
+  },
+  {
+    "id": "rad-107-皮-pi",
+    "hanzi": "皮",
+    "pinyin": "pí",
+    "english": "skin (radical 107)",
+    "band": "mid",
+    "zipf": 4.01
+  },
+  {
+    "id": "rad-108-皿-min",
+    "hanzi": "皿",
+    "pinyin": "mǐn",
+    "english": "dish (radical 108)",
+    "band": "rare",
+    "zipf": 3.99
+  },
+  {
+    "id": "rad-109-目-mu",
+    "hanzi": "目",
+    "pinyin": "mù",
+    "english": "eye (radical 109)",
+    "band": "rare",
+    "zipf": 3.97
+  },
+  {
+    "id": "rad-110-矛-mao",
+    "hanzi": "矛",
+    "pinyin": "máo",
+    "english": "spear (radical 110)",
+    "band": "rare",
+    "zipf": 3.95
+  },
+  {
+    "id": "rad-111-矢-shi",
+    "hanzi": "矢",
+    "pinyin": "shǐ",
+    "english": "arrow (radical 111)",
+    "band": "rare",
+    "zipf": 3.93
+  },
+  {
+    "id": "rad-112-石-shi",
+    "hanzi": "石",
+    "pinyin": "shí",
+    "english": "stone (radical 112)",
+    "band": "rare",
+    "zipf": 3.92
+  },
+  {
+    "id": "rad-113-示-shi",
+    "hanzi": "示",
+    "pinyin": "shì",
+    "english": "spirit (radical 113)",
+    "band": "rare",
+    "zipf": 3.9
+  },
+  {
+    "id": "rad-114-禸-rou",
+    "hanzi": "禸",
+    "pinyin": "róu",
+    "english": "track (radical 114)",
+    "band": "rare",
+    "zipf": 3.88
+  },
+  {
+    "id": "rad-115-禾-he",
+    "hanzi": "禾",
+    "pinyin": "hé",
+    "english": "grain (radical 115)",
+    "band": "rare",
+    "zipf": 3.86
+  },
+  {
+    "id": "rad-116-穴-xue",
+    "hanzi": "穴",
+    "pinyin": "xuè",
+    "english": "cave (radical 116)",
+    "band": "rare",
+    "zipf": 3.84
+  },
+  {
+    "id": "rad-117-立-li",
+    "hanzi": "立",
+    "pinyin": "lì",
+    "english": "stand (radical 117)",
+    "band": "rare",
+    "zipf": 3.82
+  },
+  {
+    "id": "rad-118-竹-zhu",
+    "hanzi": "竹",
+    "pinyin": "zhú",
+    "english": "bamboo (radical 118)",
+    "band": "rare",
+    "zipf": 3.8
+  },
+  {
+    "id": "rad-119-米-mi",
+    "hanzi": "米",
+    "pinyin": "mǐ",
+    "english": "rice (radical 119)",
+    "band": "rare",
+    "zipf": 3.78
+  },
+  {
+    "id": "rad-120-纟-si",
+    "hanzi": "纟",
+    "pinyin": "sī",
+    "english": "silk (radical 120)",
+    "band": "rare",
+    "zipf": 3.77
+  },
+  {
+    "id": "rad-121-缶-fou",
+    "hanzi": "缶",
+    "pinyin": "fǒu",
+    "english": "jar (radical 121)",
+    "band": "rare",
+    "zipf": 3.75
+  },
+  {
+    "id": "rad-122-网-wang",
+    "hanzi": "网",
+    "pinyin": "wǎng",
+    "english": "net (radical 122)",
+    "band": "rare",
+    "zipf": 3.73
+  },
+  {
+    "id": "rad-123-羊-yang",
+    "hanzi": "羊",
+    "pinyin": "yáng",
+    "english": "sheep (radical 123)",
+    "band": "rare",
+    "zipf": 3.71
+  },
+  {
+    "id": "rad-124-羽-yu",
+    "hanzi": "羽",
+    "pinyin": "yǔ",
+    "english": "feather (radical 124)",
+    "band": "rare",
+    "zipf": 3.69
+  },
+  {
+    "id": "rad-125-老-lao",
+    "hanzi": "老",
+    "pinyin": "lǎo",
+    "english": "old (radical 125)",
+    "band": "rare",
+    "zipf": 3.67
+  },
+  {
+    "id": "rad-126-而-er",
+    "hanzi": "而",
+    "pinyin": "ér",
+    "english": "and (radical 126)",
+    "band": "rare",
+    "zipf": 3.65
+  },
+  {
+    "id": "rad-127-耒-lei",
+    "hanzi": "耒",
+    "pinyin": "lěi",
+    "english": "plow (radical 127)",
+    "band": "rare",
+    "zipf": 3.63
+  },
+  {
+    "id": "rad-128-耳-er",
+    "hanzi": "耳",
+    "pinyin": "ěr",
+    "english": "ear (radical 128)",
+    "band": "rare",
+    "zipf": 3.62
+  },
+  {
+    "id": "rad-129-聿-yu",
+    "hanzi": "聿",
+    "pinyin": "yù",
+    "english": "brush (radical 129)",
+    "band": "rare",
+    "zipf": 3.6
+  },
+  {
+    "id": "rad-130-肉-rou",
+    "hanzi": "肉",
+    "pinyin": "ròu",
+    "english": "meat (radical 130)",
+    "band": "rare",
+    "zipf": 3.58
+  },
+  {
+    "id": "rad-131-臣-chen",
+    "hanzi": "臣",
+    "pinyin": "chén",
+    "english": "minister (radical 131)",
+    "band": "rare",
+    "zipf": 3.56
+  },
+  {
+    "id": "rad-132-自-zi",
+    "hanzi": "自",
+    "pinyin": "zì",
+    "english": "oneself (radical 132)",
+    "band": "rare",
+    "zipf": 3.54
+  },
+  {
+    "id": "rad-133-至-zhi",
+    "hanzi": "至",
+    "pinyin": "zhì",
+    "english": "arrive (radical 133)",
+    "band": "rare",
+    "zipf": 3.52
+  },
+  {
+    "id": "rad-134-臼-jiu",
+    "hanzi": "臼",
+    "pinyin": "jiù",
+    "english": "mortar (radical 134)",
+    "band": "rare",
+    "zipf": 3.5
+  },
+  {
+    "id": "rad-135-舌-she",
+    "hanzi": "舌",
+    "pinyin": "shé",
+    "english": "tongue (radical 135)",
+    "band": "rare",
+    "zipf": 3.48
+  },
+  {
+    "id": "rad-136-舛-chuan",
+    "hanzi": "舛",
+    "pinyin": "chuǎn",
+    "english": "contrary (radical 136)",
+    "band": "rare",
+    "zipf": 3.46
+  },
+  {
+    "id": "rad-137-舟-zhou",
+    "hanzi": "舟",
+    "pinyin": "zhōu",
+    "english": "boat (radical 137)",
+    "band": "rare",
+    "zipf": 3.45
+  },
+  {
+    "id": "rad-138-艮-gen",
+    "hanzi": "艮",
+    "pinyin": "gèn",
+    "english": "mountain (radical 138)",
+    "band": "rare",
+    "zipf": 3.43
+  },
+  {
+    "id": "rad-139-色-se",
+    "hanzi": "色",
+    "pinyin": "sè",
+    "english": "color (radical 139)",
+    "band": "rare",
+    "zipf": 3.41
+  },
+  {
+    "id": "rad-140-艹-cao",
+    "hanzi": "艹",
+    "pinyin": "cǎo",
+    "english": "grass (radical 140)",
+    "band": "rare",
+    "zipf": 3.39
+  },
+  {
+    "id": "rad-141-虍-hu",
+    "hanzi": "虍",
+    "pinyin": "hǔ",
+    "english": "tiger (radical 141)",
+    "band": "rare",
+    "zipf": 3.37
+  },
+  {
+    "id": "rad-142-虫-chong",
+    "hanzi": "虫",
+    "pinyin": "chóng",
+    "english": "insect (radical 142)",
+    "band": "rare",
+    "zipf": 3.35
+  },
+  {
+    "id": "rad-143-血-xue",
+    "hanzi": "血",
+    "pinyin": "xuě",
+    "english": "blood (radical 143)",
+    "band": "rare",
+    "zipf": 3.33
+  },
+  {
+    "id": "rad-144-行-xing",
+    "hanzi": "行",
+    "pinyin": "xíng",
+    "english": "walk (radical 144)",
+    "band": "rare",
+    "zipf": 3.31
+  },
+  {
+    "id": "rad-145-衣-yi",
+    "hanzi": "衣",
+    "pinyin": "yī",
+    "english": "clothes (radical 145)",
+    "band": "rare",
+    "zipf": 3.3
+  },
+  {
+    "id": "rad-146-西-xi",
+    "hanzi": "西",
+    "pinyin": "xī",
+    "english": "west (radical 146)",
+    "band": "rare",
+    "zipf": 3.28
+  },
+  {
+    "id": "rad-147-见-jian",
+    "hanzi": "见",
+    "pinyin": "jiàn",
+    "english": "see (radical 147)",
+    "band": "rare",
+    "zipf": 3.26
+  },
+  {
+    "id": "rad-148-角-jiao",
+    "hanzi": "角",
+    "pinyin": "jiǎo",
+    "english": "horn (radical 148)",
+    "band": "rare",
+    "zipf": 3.24
+  },
+  {
+    "id": "rad-149-讠-yan",
+    "hanzi": "讠",
+    "pinyin": "yán",
+    "english": "speech (radical 149)",
+    "band": "rare",
+    "zipf": 3.22
+  },
+  {
+    "id": "rad-150-谷-gu",
+    "hanzi": "谷",
+    "pinyin": "gǔ",
+    "english": "valley (radical 150)",
+    "band": "rare",
+    "zipf": 3.2
+  },
+  {
+    "id": "rad-151-豆-dou",
+    "hanzi": "豆",
+    "pinyin": "dòu",
+    "english": "bean (radical 151)",
+    "band": "rare",
+    "zipf": 3.18
+  },
+  {
+    "id": "rad-152-豕-shi",
+    "hanzi": "豕",
+    "pinyin": "shǐ",
+    "english": "pig (radical 152)",
+    "band": "rare",
+    "zipf": 3.16
+  },
+  {
+    "id": "rad-153-豸-zhi",
+    "hanzi": "豸",
+    "pinyin": "zhì",
+    "english": "badger (radical 153)",
+    "band": "rare",
+    "zipf": 3.15
+  },
+  {
+    "id": "rad-154-贝-bei",
+    "hanzi": "贝",
+    "pinyin": "bèi",
+    "english": "shell (radical 154)",
+    "band": "rare",
+    "zipf": 3.13
+  },
+  {
+    "id": "rad-155-赤-chi",
+    "hanzi": "赤",
+    "pinyin": "chì",
+    "english": "red (radical 155)",
+    "band": "rare",
+    "zipf": 3.11
+  },
+  {
+    "id": "rad-156-走-zou",
+    "hanzi": "走",
+    "pinyin": "zǒu",
+    "english": "walk (radical 156)",
+    "band": "rare",
+    "zipf": 3.09
+  },
+  {
+    "id": "rad-157-足-zu",
+    "hanzi": "足",
+    "pinyin": "zú",
+    "english": "foot (radical 157)",
+    "band": "rare",
+    "zipf": 3.07
+  },
+  {
+    "id": "rad-158-身-shen",
+    "hanzi": "身",
+    "pinyin": "shēn",
+    "english": "body (radical 158)",
+    "band": "rare",
+    "zipf": 3.05
+  },
+  {
+    "id": "rad-159-车-che",
+    "hanzi": "车",
+    "pinyin": "chē",
+    "english": "cart (radical 159)",
+    "band": "rare",
+    "zipf": 3.03
+  },
+  {
+    "id": "rad-160-辛-xin",
+    "hanzi": "辛",
+    "pinyin": "xīn",
+    "english": "bitter (radical 160)",
+    "band": "rare",
+    "zipf": 3.01
+  },
+  {
+    "id": "rad-161-辰-chen",
+    "hanzi": "辰",
+    "pinyin": "chén",
+    "english": "morning (radical 161)",
+    "band": "rare",
+    "zipf": 3.0
+  },
+  {
+    "id": "rad-162-辶-chuo",
+    "hanzi": "辶",
+    "pinyin": "chuò",
+    "english": "walk (radical 162)",
+    "band": "rare",
+    "zipf": 2.98
+  },
+  {
+    "id": "rad-163-邑-yi",
+    "hanzi": "邑",
+    "pinyin": "yì",
+    "english": "city (radical 163)",
+    "band": "rare",
+    "zipf": 2.96
+  },
+  {
+    "id": "rad-164-酉-you",
+    "hanzi": "酉",
+    "pinyin": "yǒu",
+    "english": "wine (radical 164)",
+    "band": "rare",
+    "zipf": 2.94
+  },
+  {
+    "id": "rad-165-釆-bian",
+    "hanzi": "釆",
+    "pinyin": "biàn",
+    "english": "distinguish (radical 165)",
+    "band": "rare",
+    "zipf": 2.92
+  },
+  {
+    "id": "rad-166-里-li",
+    "hanzi": "里",
+    "pinyin": "lǐ",
+    "english": "village (radical 166)",
+    "band": "rare",
+    "zipf": 2.9
+  },
+  {
+    "id": "rad-167-钅-jin",
+    "hanzi": "钅",
+    "pinyin": "jīn",
+    "english": "metal (radical 167)",
+    "band": "rare",
+    "zipf": 2.88
+  },
+  {
+    "id": "rad-168-长-chang",
+    "hanzi": "长",
+    "pinyin": "cháng",
+    "english": "long (radical 168)",
+    "band": "rare",
+    "zipf": 2.86
+  },
+  {
+    "id": "rad-169-门-men",
+    "hanzi": "门",
+    "pinyin": "mén",
+    "english": "gate (radical 169)",
+    "band": "rare",
+    "zipf": 2.85
+  },
+  {
+    "id": "rad-170-阜-fu",
+    "hanzi": "阜",
+    "pinyin": "fù",
+    "english": "mound (radical 170)",
+    "band": "rare",
+    "zipf": 2.83
+  },
+  {
+    "id": "rad-171-隶-li",
+    "hanzi": "隶",
+    "pinyin": "lì",
+    "english": "slave (radical 171)",
+    "band": "rare",
+    "zipf": 2.81
+  },
+  {
+    "id": "rad-172-隹-zhui",
+    "hanzi": "隹",
+    "pinyin": "zhuī",
+    "english": "short-tailed bird (radical 172)",
+    "band": "rare",
+    "zipf": 2.79
+  },
+  {
+    "id": "rad-173-雨-yu",
+    "hanzi": "雨",
+    "pinyin": "yǔ",
+    "english": "rain (radical 173)",
+    "band": "rare",
+    "zipf": 2.77
+  },
+  {
+    "id": "rad-174-青-qing",
+    "hanzi": "青",
+    "pinyin": "qīng",
+    "english": "blue (radical 174)",
+    "band": "rare",
+    "zipf": 2.75
+  },
+  {
+    "id": "rad-175-非-fei",
+    "hanzi": "非",
+    "pinyin": "fēi",
+    "english": "wrong (radical 175)",
+    "band": "rare",
+    "zipf": 2.73
+  },
+  {
+    "id": "rad-176-面-mian",
+    "hanzi": "面",
+    "pinyin": "miàn",
+    "english": "face (radical 176)",
+    "band": "rare",
+    "zipf": 2.71
+  },
+  {
+    "id": "rad-177-革-ge",
+    "hanzi": "革",
+    "pinyin": "gé",
+    "english": "leather (radical 177)",
+    "band": "rare",
+    "zipf": 2.69
+  },
+  {
+    "id": "rad-178-韦-wei",
+    "hanzi": "韦",
+    "pinyin": "wěi",
+    "english": "soft leather (radical 178)",
+    "band": "rare",
+    "zipf": 2.68
+  },
+  {
+    "id": "rad-179-韭-jiu",
+    "hanzi": "韭",
+    "pinyin": "jiǔ",
+    "english": "leek (radical 179)",
+    "band": "rare",
+    "zipf": 2.66
+  },
+  {
+    "id": "rad-180-音-yin",
+    "hanzi": "音",
+    "pinyin": "yīn",
+    "english": "sound (radical 180)",
+    "band": "rare",
+    "zipf": 2.64
+  },
+  {
+    "id": "rad-181-页-ye",
+    "hanzi": "页",
+    "pinyin": "yè",
+    "english": "page (radical 181)",
+    "band": "rare",
+    "zipf": 2.62
+  },
+  {
+    "id": "rad-182-风-feng",
+    "hanzi": "风",
+    "pinyin": "fēng",
+    "english": "wind (radical 182)",
+    "band": "rare",
+    "zipf": 2.6
+  },
+  {
+    "id": "rad-183-飞-fei",
+    "hanzi": "飞",
+    "pinyin": "fēi",
+    "english": "fly (radical 183)",
+    "band": "rare",
+    "zipf": 2.58
+  },
+  {
+    "id": "rad-184-饣-shi",
+    "hanzi": "饣",
+    "pinyin": "shí",
+    "english": "eat (radical 184)",
+    "band": "rare",
+    "zipf": 2.56
+  },
+  {
+    "id": "rad-185-首-shou",
+    "hanzi": "首",
+    "pinyin": "shǒu",
+    "english": "head (radical 185)",
+    "band": "rare",
+    "zipf": 2.54
+  },
+  {
+    "id": "rad-186-香-xiang",
+    "hanzi": "香",
+    "pinyin": "xiāng",
+    "english": "fragrant (radical 186)",
+    "band": "rare",
+    "zipf": 2.53
+  },
+  {
+    "id": "rad-187-马-ma",
+    "hanzi": "马",
+    "pinyin": "mǎ",
+    "english": "horse (radical 187)",
+    "band": "rare",
+    "zipf": 2.51
+  },
+  {
+    "id": "rad-188-骨-gu",
+    "hanzi": "骨",
+    "pinyin": "gǔ",
+    "english": "bone (radical 188)",
+    "band": "rare",
+    "zipf": 2.49
+  },
+  {
+    "id": "rad-189-高-gao",
+    "hanzi": "高",
+    "pinyin": "gāo",
+    "english": "high (radical 189)",
+    "band": "rare",
+    "zipf": 2.47
+  },
+  {
+    "id": "rad-190-髟-biao",
+    "hanzi": "髟",
+    "pinyin": "biāo",
+    "english": "long hair (radical 190)",
+    "band": "rare",
+    "zipf": 2.45
+  },
+  {
+    "id": "rad-191-鬥-dou",
+    "hanzi": "鬥",
+    "pinyin": "dòu",
+    "english": "fight (radical 191)",
+    "band": "rare",
+    "zipf": 2.43
+  },
+  {
+    "id": "rad-192-鬯-chang",
+    "hanzi": "鬯",
+    "pinyin": "chàng",
+    "english": "sacrificial wine (radical 192)",
+    "band": "rare",
+    "zipf": 2.41
+  },
+  {
+    "id": "rad-193-鬲-li",
+    "hanzi": "鬲",
+    "pinyin": "lì",
+    "english": "cauldron (radical 193)",
+    "band": "rare",
+    "zipf": 2.39
+  },
+  {
+    "id": "rad-194-鬼-gui",
+    "hanzi": "鬼",
+    "pinyin": "guǐ",
+    "english": "ghost (radical 194)",
+    "band": "rare",
+    "zipf": 2.38
+  },
+  {
+    "id": "rad-195-鱼-yu",
+    "hanzi": "鱼",
+    "pinyin": "yú",
+    "english": "fish (radical 195)",
+    "band": "rare",
+    "zipf": 2.36
+  },
+  {
+    "id": "rad-196-鸟-niao",
+    "hanzi": "鸟",
+    "pinyin": "niǎo",
+    "english": "bird (radical 196)",
+    "band": "rare",
+    "zipf": 2.34
+  },
+  {
+    "id": "rad-197-卤-lu",
+    "hanzi": "卤",
+    "pinyin": "lǔ",
+    "english": "salty (radical 197)",
+    "band": "rare",
+    "zipf": 2.32
+  },
+  {
+    "id": "rad-198-鹿-lu",
+    "hanzi": "鹿",
+    "pinyin": "lù",
+    "english": "deer (radical 198)",
+    "band": "rare",
+    "zipf": 2.3
+  },
+  {
+    "id": "rad-199-麦-mai",
+    "hanzi": "麦",
+    "pinyin": "mài",
+    "english": "wheat (radical 199)",
+    "band": "rare",
+    "zipf": 2.28
+  },
+  {
+    "id": "rad-200-麻-ma",
+    "hanzi": "麻",
+    "pinyin": "má",
+    "english": "hemp (radical 200)",
+    "band": "rare",
+    "zipf": 2.26
+  },
+  {
+    "id": "rad-201-黄-huang",
+    "hanzi": "黄",
+    "pinyin": "huáng",
+    "english": "yellow (radical 201)",
+    "band": "rare",
+    "zipf": 2.24
+  },
+  {
+    "id": "rad-202-黍-shu",
+    "hanzi": "黍",
+    "pinyin": "shǔ",
+    "english": "millet (radical 202)",
+    "band": "rare",
+    "zipf": 2.23
+  },
+  {
+    "id": "rad-203-黑-hei",
+    "hanzi": "黑",
+    "pinyin": "hēi",
+    "english": "black (radical 203)",
+    "band": "rare",
+    "zipf": 2.21
+  },
+  {
+    "id": "rad-204-黹-zhi",
+    "hanzi": "黹",
+    "pinyin": "zhǐ",
+    "english": "embroidery (radical 204)",
+    "band": "rare",
+    "zipf": 2.19
+  },
+  {
+    "id": "rad-205-黾-min",
+    "hanzi": "黾",
+    "pinyin": "mǐn",
+    "english": "frog (radical 205)",
+    "band": "rare",
+    "zipf": 2.17
+  },
+  {
+    "id": "rad-206-鼎-ding",
+    "hanzi": "鼎",
+    "pinyin": "dǐng",
+    "english": "tripod (radical 206)",
+    "band": "rare",
+    "zipf": 2.15
+  },
+  {
+    "id": "rad-207-鼓-gu",
+    "hanzi": "鼓",
+    "pinyin": "gǔ",
+    "english": "drum (radical 207)",
+    "band": "rare",
+    "zipf": 2.13
+  },
+  {
+    "id": "rad-208-鼠-shu",
+    "hanzi": "鼠",
+    "pinyin": "shǔ",
+    "english": "rat (radical 208)",
+    "band": "rare",
+    "zipf": 2.11
+  },
+  {
+    "id": "rad-209-鼻-bi",
+    "hanzi": "鼻",
+    "pinyin": "bí",
+    "english": "nose (radical 209)",
+    "band": "rare",
+    "zipf": 2.09
+  },
+  {
+    "id": "rad-210-齐-qi",
+    "hanzi": "齐",
+    "pinyin": "qí",
+    "english": "even (radical 210)",
+    "band": "rare",
+    "zipf": 2.08
+  },
+  {
+    "id": "rad-211-齿-chi",
+    "hanzi": "齿",
+    "pinyin": "chǐ",
+    "english": "tooth (radical 211)",
+    "band": "rare",
+    "zipf": 2.06
+  },
+  {
+    "id": "rad-212-龙-long",
+    "hanzi": "龙",
+    "pinyin": "lóng",
+    "english": "dragon (radical 212)",
+    "band": "rare",
+    "zipf": 2.04
+  },
+  {
+    "id": "rad-213-龟-gui",
+    "hanzi": "龟",
+    "pinyin": "guī",
+    "english": "turtle (radical 213)",
+    "band": "rare",
+    "zipf": 2.02
+  },
+  {
+    "id": "rad-214-龠-yue",
+    "hanzi": "龠",
+    "pinyin": "yuè",
+    "english": "flute (radical 214)",
+    "band": "rare",
+    "zipf": 2.0
+  }
+]

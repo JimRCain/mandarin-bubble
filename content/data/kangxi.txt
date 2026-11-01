@@ -1,0 +1,507 @@
+Kangxi Radicals
+Range: 2F00–2FDF
+
+This chart contains an excerpt from the character code tables and list of character names for
+The Unicode Standard, Version 18.0
+
+This file will not be updated with errata, or when additional characters are assigned to the Unicode Standard.
+
+See https://www.unicode.org/errata/ for an up-to-date list of errata.
+
+See https://www.unicode.org/charts/ for access to a complete list of the latest character code charts. See
+https://www.unicode.org/charts/PDF/Unicode-18.0/ for charts showing only the characters added in Unicode 18.0. See
+https://www.unicode.org/Public/18.0.0/charts/ for a complete set of character code charts for Unicode 18.0. See
+https://www.unicode.org/Public/18.0.0/charts/About.html#Conventions for conventions used in these code charts, and
+other general information.
+
+Disclaimer
+These charts are provided as the online reference to the character contents of the Unicode Standard, Version 18.0 but do
+not provide all the information needed to fully support individual scripts using the Unicode Standard. For a complete
+understanding of the use of the characters contained in this file, please consult the appropriate sections of The Unicode
+Standard, Version 18.0, online at:
+
+https://www.unicode.org/versions/Unicode18.0.0/
+
+Fonts
+The shapes of the reference glyphs used in these code charts are not prescriptive. Considerable variation is to be
+expected in actual fonts.
+
+See https://www.unicode.org/charts/fonts.html for a list.
+
+Terms of Use
+© 1991–2026 Unicode, Inc. This publication is protected by copyright, and permission must be obtained from Unicode,
+Inc. prior to any reproduction, modification, or other use not permitted by the Terms of Use
+(https://www.unicode.org/copyright.html). Specifically, you may make copies of this publication and may annotate and
+translate it solely for personal or internal business purposes and not for public distribution, provided that any such
+permitted copies and modifications fully reproduce all copyright and other legal notices contained in the original. You
+may not make copies of or modifications to this publication for public distribution, or incorporate it in whole or in part
+into any product or publication without the express written permission of Unicode.
+
+The Unicode Consortium specifically grants ISO a license to produce such code charts with their associated character
+names list to show the repertoire of characters for that standard, as a normatively referenced, integral part of that
+standard.
+
+Unicode uses most fonts under restricted license from the original font owner. You may not extract, copy, modify, or
+distribute fonts or font data from any Unicode Products, including this publication, without license from the font owner.
+
+Use of all Unicode Products, including this publication, is governed by the Unicode Terms of Use
+(https://www.unicode.org/copyright.html). The authors, contributors, and publishers have taken care in the preparation of
+this publication, but make no express or implied representation or warranty of any kind and assume no responsibility or
+liability for errors or omissions or for consequential or incidental damages that may arise therefrom. This publication is
+provided “AS-IS” without charge as a convenience to users.
+
+Unicode and the Unicode Logo are registered trademarks of Unicode, Inc., in the United States and other countries.
+    2F00                                                  Kangxi Radicals                                               2FDF
+
+
+      2F0      2F1      2F2      2F3     2F4      2F5       2F6     2F7      2F8      2F9      2FA        2FB    2FC    2FD
+
+
+0    ⼀ ⼐ ⼠ ⼰ ⽀ ⽐ ⽠ ⽰ ⾀ ⾐ ⾠ ⾰ ⿀ ⿐
+       2F00     2F10     2F20    2F30     2F40     2F50      2F60    2F70     2F80     2F90        2FA0   2FB0   2FC0   2FD0
+
+
+
+1    ⼁ ⼑ ⼡ ⼱ ⽁ ⽑ ⽡ ⽱ ⾁ ⾑ ⾡ ⾱ ⿁ ⿑
+       2F01     2F11     2F21    2F31     2F41     2F51      2F61    2F71     2F81     2F91        2FA1   2FB1   2FC1   2FD1
+
+
+
+2    ⼂ ⼒ ⼢ ⼲ ⽂ ⽒ ⽢ ⽲ ⾂ ⾒ ⾢ ⾲ ⿂ ⿒
+       2F02     2F12     2F22    2F32     2F42     2F52      2F62    2F72     2F82     2F92        2FA2   2FB2   2FC2   2FD2
+
+
+
+3    ⼃ ⼓ ⼣ ⼳ ⽃ ⽓ ⽣ ⽳ ⾃ ⾓ ⾣ ⾳ ⿃ ⿓
+       2F03     2F13     2F23    2F33     2F43     2F53      2F63    2F73     2F83     2F93        2FA3   2FB3   2FC3   2FD3
+
+
+
+4    ⼄ ⼔ ⼤ ⼴ ⽄ ⽔ ⽤ ⽴ ⾄ ⾔ ⾤ ⾴ ⿄ ⿔
+       2F04     2F14     2F24    2F34     2F44     2F54      2F64    2F74     2F84     2F94        2FA4   2FB4   2FC4   2FD4
+
+
+
+5    ⼅ ⼕ ⼥ ⼵ ⽅ ⽕ ⽥ ⽵ ⾅ ⾕ ⾥ ⾵ ⿅ ⿕
+       2F05     2F15     2F25    2F35     2F45     2F55      2F65    2F75     2F85     2F95        2FA5   2FB5   2FC5   2FD5
+
+
+
+6    ⼆ ⼖ ⼦ ⼶ ⽆ ⽖ ⽦ ⽶ ⾆ ⾖ ⾦ ⾶ ⿆
+       2F06     2F16     2F26    2F36     2F46     2F56      2F66    2F76     2F86     2F96        2FA6   2FB6   2FC6
+
+
+
+7    ⼇ ⼗ ⼧ ⼷ ⽇ ⽗ ⽧ ⽷ ⾇ ⾗ ⾧ ⾷ ⿇
+       2F07     2F17     2F27    2F37     2F47     2F57      2F67    2F77     2F87     2F97        2FA7   2FB7   2FC7
+
+
+
+8    ⼈ ⼘ ⼨ ⼸ ⽈ ⽘ ⽨ ⽸ ⾈ ⾘ ⾨ ⾸ ⿈
+       2F08     2F18     2F28    2F38     2F48     2F58      2F68    2F78     2F88     2F98        2FA8   2FB8   2FC8
+
+
+
+9    ⼉ ⼙ ⼩ ⼹ ⽉ ⽙ ⽩ ⽹ ⾉ ⾙ ⾩ ⾹ ⿉
+       2F09     2F19     2F29    2F39     2F49     2F59      2F69    2F79     2F89     2F99        2FA9   2FB9   2FC9
+
+
+
+A    ⼊ ⼚ ⼪ ⼺ ⽊ ⽚ ⽪ ⽺ ⾊ ⾚ ⾪ ⾺ ⿊
+       2F0A     2F1A    2F2A     2F3A     2F4A     2F5A      2F6A    2F7A     2F8A     2F9A    2FAA       2FBA   2FCA
+
+
+
+B    ⼋ ⼛ ⼫ ⼻ ⽋ ⽛ ⽫ ⽻ ⾋ ⾛ ⾫ ⾻ ⿋
+       2F0B     2F1B    2F2B     2F3B     2F4B     2F5B      2F6B    2F7B     2F8B     2F9B    2FAB       2FBB   2FCB
+
+
+
+C    ⼌ ⼜ ⼬ ⼼ ⽌ ⽜ ⽬ ⽼ ⾌ ⾜ ⾬ ⾼ ⿌
+       2F0C     2F1C    2F2C     2F3C     2F4C     2F5C      2F6C    2F7C     2F8C     2F9C    2FAC       2FBC   2FCC
+
+
+
+D    ⼍ ⼝ ⼭ ⼽ ⽍ ⽝ ⽭ ⽽ ⾍ ⾝ ⾭ ⾽ ⿍
+       2F0D     2F1D    2F2D     2F3D     2F4D     2F5D      2F6D    2F7D     2F8D     2F9D    2FAD       2FBD   2FCD
+
+
+
+E    ⼎ ⼞ ⼮ ⼾ ⽎ ⽞ ⽮ ⽾ ⾎ ⾞ ⾮ ⾾ ⿎
+       2F0E     2F1E    2F2E     2F3E     2F4E     2F5E      2F6E    2F7E     2F8E     2F9E    2FAE       2FBE   2FCE
+
+
+
+F    ⼏ ⼟ ⼯ ⼿ ⽏ ⽟ ⽯ ⽿ ⾏ ⾟ ⾯ ⾿ ⿏
+       2F0F     2F1F     2F2F    2F3F     2F4F     2F5F      2F6F    2F7F     2F8F     2F9F        2FAF   2FBF   2FCF
+
+
+
+    The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved.                           335
+2F00                                               Kangxi Radicals                                      2F28
+
+
+Kangxi radicals                                                2F14 ⼔ KANGXI RADICAL SPOON
+2F00 ⼀ KANGXI RADICAL ONE                                             • Kangxi Radical 21
+          • Kangxi Radical 1                                          ≈ 5315 匕
+          ≈ 4E00 一                                             2F15 ⼕ KANGXI RADICAL RIGHT OPEN BOX
+2F01 ⼁ KANGXI RADICAL LINE                                            • Kangxi Radical 22
+          • Kangxi Radical 2                                          ≈ 531A 匚
+          ≈ 4E28 丨                                             2F16 ⼖ KANGXI RADICAL HIDING ENCLOSURE
+2F02 ⼂ KANGXI RADICAL DOT                                             • Kangxi Radical 23
+          • Kangxi Radical 3                                          ≈ 5338 匸
+          ≈ 4E36 丶                                             2F17 ⼗ KANGXI RADICAL TEN
+2F03 ⼃ KANGXI RADICAL SLASH                                           • Kangxi Radical 24
+          • Kangxi Radical 4                                          ≈ 5341 十
+          ≈ 4E3F 丿                                             2F18 ⼘ KANGXI RADICAL DIVINATION
+2F04 ⼄ KANGXI RADICAL SECOND                                          • Kangxi Radical 25
+          • Kangxi Radical 5                                          ≈ 535C 卜
+          ≈ 4E59 乙                                             2F19 ⼙ KANGXI RADICAL SEAL
+2F05 ⼅ KANGXI RADICAL HOOK                                            • Kangxi Radical 26
+          • Kangxi Radical 6                                          ≈ 5369 卩
+          ≈ 4E85 亅                                             2F1A ⼚ KANGXI RADICAL CLIFF
+2F06 ⼆ KANGXI RADICAL TWO                                             • Kangxi Radical 27
+          • Kangxi Radical 7                                          ≈ 5382 厂
+          ≈ 4E8C 二                                             2F1B ⼛ KANGXI RADICAL PRIVATE
+2F07 ⼇ KANGXI RADICAL LID                                             • Kangxi Radical 28
+          • Kangxi Radical 8                                          ≈ 53B6 厶
+          ≈ 4EA0 亠                                             2F1C ⼜ KANGXI RADICAL AGAIN
+2F08 ⼈ KANGXI RADICAL MAN                                             • Kangxi Radical 29
+          • Kangxi Radical 9                                          ≈ 53C8 又
+          ≈ 4EBA 人                                             2F1D ⼝ KANGXI RADICAL MOUTH
+2F09 ⼉ KANGXI RADICAL LEGS                                            • Kangxi Radical 30
+          • Kangxi Radical 10                                         ≈ 53E3 口
+          ≈ 513F 儿                                             2F1E ⼞ KANGXI RADICAL ENCLOSURE
+2F0A ⼊ KANGXI RADICAL ENTER                                           • Kangxi Radical 31
+          • Kangxi Radical 11                                         ≈ 56D7 囗
+          ≈ 5165 入                                             2F1F ⼟ KANGXI RADICAL EARTH
+2F0B ⼋ KANGXI RADICAL EIGHT                                           • Kangxi Radical 32
+          • Kangxi Radical 12                                         ≈ 571F 土
+          ≈ 516B 八                                             2F20 ⼠ KANGXI RADICAL SCHOLAR
+2F0C ⼌ KANGXI RADICAL DOWN BOX                                        • Kangxi Radical 33
+          • Kangxi Radical 13                                         ≈ 58EB 士
+          ≈ 5182 冂                                             2F21 ⼡ KANGXI RADICAL GO
+2F0D ⼍ KANGXI RADICAL COVER                                           • Kangxi Radical 34
+          • Kangxi Radical 14                                         ≈ 5902 夂
+          ≈ 5196 冖                                             2F22 ⼢ KANGXI RADICAL GO SLOWLY
+2F0E ⼎ KANGXI RADICAL ICE                                             • Kangxi Radical 35
+          • Kangxi Radical 15                                         ≈ 590A 夊
+          ≈ 51AB 冫                                             2F23 ⼣ KANGXI RADICAL EVENING
+2F0F ⼏ KANGXI RADICAL TABLE                                           • Kangxi Radical 36
+          • Kangxi Radical 16                                         ≈ 5915 夕
+          ≈ 51E0 几                                             2F24 ⼤ KANGXI RADICAL BIG
+2F10 ⼐ KANGXI RADICAL OPEN BOX                                        • Kangxi Radical 37
+          • Kangxi Radical 17                                         ≈ 5927 大
+          ≈ 51F5 凵                                             2F25 ⼥ KANGXI RADICAL WOMAN
+2F11 ⼑ KANGXI RADICAL KNIFE                                           • Kangxi Radical 38
+          • Kangxi Radical 18                                         ≈ 5973 女
+          ≈ 5200 刀                                             2F26 ⼦ KANGXI RADICAL CHILD
+2F12 ⼒ KANGXI RADICAL POWER                                           • Kangxi Radical 39
+          • Kangxi Radical 19                                         ≈ 5B50 子
+          ≈ 529B 力                                             2F27 ⼧ KANGXI RADICAL ROOF
+2F13 ⼓ KANGXI RADICAL WRAP                                            • Kangxi Radical 40
+          • Kangxi Radical 20                                         ≈ 5B80 宀
+          ≈ 52F9 勹                                             2F28 ⼨ KANGXI RADICAL INCH
+                                                                      • Kangxi Radical 41
+                                                                      ≈ 5BF8 寸
+
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved.             336
+2F29                                               Kangxi Radicals                             2F51
+
+
+2F29 ⼩ KANGXI RADICAL SMALL                                    2F3D ⼽ KANGXI RADICAL HALBERD
+       • Kangxi Radical 42                                            • Kangxi Radical 62
+       ≈ 5C0F 小                                                       ≈ 6208 戈
+2F2A ⼪ KANGXI RADICAL LAME                                     2F3E ⼾ KANGXI RADICAL DOOR
+       • Kangxi Radical 43                                            • Kangxi Radical 63
+       → 21BC1 ᰡ                                                      ≈ 6236 戶
+       ≈ 5C22 尢                                                2F3F ⼿ KANGXI RADICAL HAND
+2F2B ⼫ KANGXI RADICAL CORPSE                                          • Kangxi Radical 64
+       • Kangxi Radical 44                                            ≈ 624B 手
+       ≈ 5C38 尸                                                2F40 ⽀ KANGXI RADICAL BRANCH
+2F2C ⼬ KANGXI RADICAL SPROUT                                          • Kangxi Radical 65
+       • Kangxi Radical 45                                            ≈ 652F 支
+       ≈ 5C6E 屮                                                2F41 ⽁ KANGXI RADICAL RAP
+2F2D ⼭ KANGXI RADICAL MOUNTAIN                                        • Kangxi Radical 66
+       • Kangxi Radical 46                                            ≈ 6534 攴
+       ≈ 5C71 山                                                2F42 ⽂ KANGXI RADICAL SCRIPT
+2F2E ⼮ KANGXI RADICAL RIVER                                           • Kangxi Radical 67
+       • Kangxi Radical 47                                            ≈ 6587 文
+       ≈ 5DDB 巛                                                2F43 ⽃ KANGXI RADICAL DIPPER
+2F2F ⼯ KANGXI RADICAL WORK                                            • Kangxi Radical 68
+       • Kangxi Radical 48                                            ≈ 6597 斗
+       ≈ 5DE5 工                                                2F44 ⽄ KANGXI RADICAL AXE
+2F30 ⼰ KANGXI RADICAL ONESELF                                         • Kangxi Radical 69
+       • Kangxi Radical 49                                            ≈ 65A4 斤
+       ≈ 5DF1 己                                                2F45 ⽅ KANGXI RADICAL SQUARE
+2F31 ⼱ KANGXI RADICAL TURBAN                                          • Kangxi Radical 70
+       • Kangxi Radical 50                                            ≈ 65B9 方
+       ≈ 5DFE 巾                                                2F46 ⽆ KANGXI RADICAL NOT
+2F32 ⼲ KANGXI RADICAL DRY                                             • Kangxi Radical 71
+       • Kangxi Radical 51                                            ≈ 65E0 无
+       ≈ 5E72 干                                                2F47 ⽇ KANGXI RADICAL SUN
+2F33 ⼳ KANGXI RADICAL SHORT THREAD                                    • Kangxi Radical 72
+       • Kangxi Radical 52                                            ≈ 65E5 日
+       ≈ 5E7A 幺                                                2F48 ⽈ KANGXI RADICAL SAY
+2F34 ⼴ KANGXI RADICAL DOTTED CLIFF                                    • Kangxi Radical 73
+       • Kangxi Radical 53                                            ≈ 66F0 曰
+       ≈ 5E7F 广                                                2F49 ⽉ KANGXI RADICAL MOON
+2F35 ⼵ KANGXI RADICAL LONG STRIDE                                     • Kangxi Radical 74
+       • Kangxi Radical 54                                            ≈ 6708 月
+       ≈ 5EF4 廴                                                2F4A ⽊ KANGXI RADICAL TREE
+2F36 ⼶ KANGXI RADICAL TWO HANDS                                       • Kangxi Radical 75
+       • Kangxi Radical 55                                            ≈ 6728 木
+       ≈ 5EFE 廾                                                2F4B ⽋ KANGXI RADICAL LACK
+2F37 ⼷ KANGXI RADICAL SHOOT                                           • Kangxi Radical 76
+       • Kangxi Radical 56                                            ≈ 6B20 欠
+       ≈ 5F0B 弋                                                2F4C ⽌ KANGXI RADICAL STOP
+2F38 ⼸ KANGXI RADICAL BOW                                             • Kangxi Radical 77
+       • Kangxi Radical 57                                            ≈ 6B62 止
+       ≈ 5F13 弓                                                2F4D ⽍ KANGXI RADICAL DEATH
+2F39 ⼹ KANGXI RADICAL SNOUT                                           • Kangxi Radical 78
+       • Kangxi Radical 58                                            ≈ 6B79 歹
+       ≈ 5F50 彐                                                2F4E ⽎ KANGXI RADICAL WEAPON
+2F3A ⼺ KANGXI RADICAL BRISTLE                                         • Kangxi Radical 79
+       • Kangxi Radical 59                                            ≈ 6BB3 殳
+       ≈ 5F61 彡                                                2F4F ⽏ KANGXI RADICAL DO NOT
+2F3B ⼻ KANGXI RADICAL STEP                                            • Kangxi Radical 80
+       • Kangxi Radical 60                                            ≈ 6BCB 毋
+       ≈ 5F73 彳                                                2F50 ⽐ KANGXI RADICAL COMPARE
+2F3C ⼼ KANGXI RADICAL HEART                                           • Kangxi Radical 81
+       • Kangxi Radical 61                                            ≈ 6BD4 比
+       ≈ 5FC3 心                                                2F51 ⽑ KANGXI RADICAL FUR
+                                                                      • Kangxi Radical 82
+                                                                      ≈ 6BDB 毛
+
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved.    337
+2F52                                               Kangxi Radicals                                 2F7B
+
+
+2F52 ⽒ KANGXI RADICAL CLAN                                     2F67 ⽧ KANGXI RADICAL SICKNESS
+       • Kangxi Radical 83                                            • Kangxi Radical 104
+       ≈ 6C0F 氏                                                       ≈ 7592 疒
+2F53 ⽓ KANGXI RADICAL STEAM                                    2F68 ⽨ KANGXI RADICAL DOTTED TENT
+       • Kangxi Radical 84                                            • Kangxi Radical 105
+       ≈ 6C14 气                                                       ≈ 7676 癶
+2F54 ⽔ KANGXI RADICAL WATER                                    2F69 ⽩ KANGXI RADICAL WHITE
+       • Kangxi Radical 85                                            • Kangxi Radical 106
+       ≈ 6C34 水                                                       ≈ 767D 白
+2F55 ⽕ KANGXI RADICAL FIRE                                     2F6A ⽪ KANGXI RADICAL SKIN
+       • Kangxi Radical 86                                            • Kangxi Radical 107
+       ≈ 706B 火                                                       ≈ 76AE 皮
+2F56 ⽖ KANGXI RADICAL CLAW                                     2F6B ⽫ KANGXI RADICAL DISH
+       • Kangxi Radical 87                                            • Kangxi Radical 108
+       ≈ 722A 爪                                                       ≈ 76BF 皿
+2F57 ⽗ KANGXI RADICAL FATHER                                   2F6C ⽬ KANGXI RADICAL EYE
+       • Kangxi Radical 88                                            • Kangxi Radical 109
+       ≈ 7236 父                                                       ≈ 76EE 目
+2F58 ⽘ KANGXI RADICAL DOUBLE X                                 2F6D ⽭ KANGXI RADICAL SPEAR
+       • Kangxi Radical 89                                            • Kangxi Radical 110
+       ≈ 723B 爻                                                       ≈ 77DB 矛
+2F59 ⽙ KANGXI RADICAL HALF TREE TRUNK                          2F6E ⽮ KANGXI RADICAL ARROW
+       • Kangxi Radical 90                                            • Kangxi Radical 111
+       ≈ 723F 爿                                                       ≈ 77E2 矢
+2F5A ⽚ KANGXI RADICAL SLICE                                    2F6F ⽯ KANGXI RADICAL STONE
+       • Kangxi Radical 91                                            • Kangxi Radical 112
+       ≈ 7247 片                                                       ≈ 77F3 石
+2F5B ⽛ KANGXI RADICAL FANG                                     2F70 ⽰ KANGXI RADICAL SPIRIT
+       • Kangxi Radical 92                                            • Kangxi Radical 113
+       ≈ 7259 牙                                                       ≈ 793A 示
+2F5C ⽜ KANGXI RADICAL COW                                      2F71 ⽱ KANGXI RADICAL TRACK
+       • Kangxi Radical 93                                            • Kangxi Radical 114
+       ≈ 725B 牛                                                       ≈ 79B8 禸
+2F5D ⽝ KANGXI RADICAL DOG                                      2F72 ⽲ KANGXI RADICAL GRAIN
+       • Kangxi Radical 94                                            • Kangxi Radical 115
+       ≈ 72AC 犬                                                       ≈ 79BE 禾
+2F5E ⽞ KANGXI RADICAL PROFOUND                                 2F73 ⽳ KANGXI RADICAL CAVE
+       • Kangxi Radical 95                                            • Kangxi Radical 116
+       ≈ 7384 玄                                                       ≈ 7A74 穴
+2F5F ⽟ KANGXI RADICAL JADE                                     2F74 ⽴ KANGXI RADICAL STAND
+       • Kangxi Radical 96                                            • Kangxi Radical 117
+       ≈ 7389 玉                                                       ≈ 7ACB 立
+2F60 ⽠ KANGXI RADICAL MELON                                    2F75 ⽵ KANGXI RADICAL BAMBOO
+       • Kangxi Radical 97                                            • Kangxi Radical 118
+       ≈ 74DC 瓜                                                       ≈ 7AF9 竹
+2F61 ⽡ KANGXI RADICAL TILE                                     2F76 ⽶ KANGXI RADICAL RICE
+       • Kangxi Radical 98                                            • Kangxi Radical 119
+       ≈ 74E6 瓦                                                       ≈ 7C73 米
+2F62 ⽢ KANGXI RADICAL SWEET                                    2F77 ⽷ KANGXI RADICAL SILK
+       • Kangxi Radical 99                                            • Kangxi Radical 120
+       ≈ 7518 甘                                                       ≈ 7CF8 糸
+2F63 ⽣ KANGXI RADICAL LIFE                                     2F78 ⽸ KANGXI RADICAL JAR
+       • Kangxi Radical 100                                           • Kangxi Radical 121
+       ≈ 751F 生                                                       ≈ 7F36 缶
+2F64 ⽤ KANGXI RADICAL USE                                      2F79 ⽹ KANGXI RADICAL NET
+       • Kangxi Radical 101                                           • Kangxi Radical 122
+       ≈ 7528 用                                                       ≈ 7F51 网
+2F65 ⽥ KANGXI RADICAL FIELD                                    2F7A ⽺ KANGXI RADICAL SHEEP
+       • Kangxi Radical 102                                           • Kangxi Radical 123
+       ≈ 7530 田                                                       ≈ 7F8A 羊
+2F66 ⽦ KANGXI RADICAL BOLT OF CLOTH                            2F7B ⽻ KANGXI RADICAL FEATHER
+       • Kangxi Radical 103                                           • Kangxi Radical 124
+       ≈ 758B 疋                                                       ≈ 7FBD 羽
+
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved.        338
+2F7C                                               Kangxi Radicals                                 2FA5
+
+
+2F7C ⽼ KANGXI RADICAL OLD                                      2F91 ⾑ KANGXI RADICAL WEST
+       • Kangxi Radical 125                                           • Kangxi Radical 146
+       ≈ 8001 老                                                       ≈ 897E 襾
+2F7D ⽽ KANGXI RADICAL AND                                      2F92 ⾒ KANGXI RADICAL SEE
+       • Kangxi Radical 126                                           • Kangxi Radical 147
+       ≈ 800C 而                                                       ≈ 898B 見
+2F7E ⽾ KANGXI RADICAL PLOW                                     2F93 ⾓ KANGXI RADICAL HORN
+       • Kangxi Radical 127                                           • Kangxi Radical 148
+       ≈ 8012 耒                                                       ≈ 89D2 角
+2F7F ⽿ KANGXI RADICAL EAR                                      2F94 ⾔ KANGXI RADICAL SPEECH
+       • Kangxi Radical 128                                           • Kangxi Radical 149
+       ≈ 8033 耳                                                       ≈ 8A00 言
+2F80 ⾀ KANGXI RADICAL BRUSH                                    2F95 ⾕ KANGXI RADICAL VALLEY
+       • Kangxi Radical 129                                           • Kangxi Radical 150
+       ≈ 807F 聿                                                       ≈ 8C37 谷
+2F81 ⾁ KANGXI RADICAL MEAT                                     2F96 ⾖ KANGXI RADICAL BEAN
+       • Kangxi Radical 130                                           • Kangxi Radical 151
+       ≈ 8089 肉                                                       ≈ 8C46 豆
+2F82 ⾂ KANGXI RADICAL MINISTER                                 2F97 ⾗ KANGXI RADICAL PIG
+       • Kangxi Radical 131                                           • Kangxi Radical 152
+       ≈ 81E3 臣                                                       ≈ 8C55 豕
+2F83 ⾃ KANGXI RADICAL SELF                                     2F98 ⾘ KANGXI RADICAL BADGER
+       • Kangxi Radical 132                                           • Kangxi Radical 153
+       ≈ 81EA 自                                                       ≈ 8C78 豸
+2F84 ⾄ KANGXI RADICAL ARRIVE                                   2F99 ⾙ KANGXI RADICAL SHELL
+       • Kangxi Radical 133                                           • Kangxi Radical 154
+       ≈ 81F3 至                                                       ≈ 8C9D 貝
+2F85 ⾅ KANGXI RADICAL MORTAR                                   2F9A ⾚ KANGXI RADICAL RED
+       • Kangxi Radical 134                                           • Kangxi Radical 155
+       ≈ 81FC 臼                                                       ≈ 8D64 赤
+2F86 ⾆ KANGXI RADICAL TONGUE                                   2F9B ⾛ KANGXI RADICAL RUN
+       • Kangxi Radical 135                                           • Kangxi Radical 156
+       ≈ 820C 舌                                                       ≈ 8D70 走
+2F87 ⾇ KANGXI RADICAL OPPOSE                                   2F9C ⾜ KANGXI RADICAL FOOT
+       • Kangxi Radical 136                                           • Kangxi Radical 157
+       ≈ 821B 舛                                                       ≈ 8DB3 足
+2F88 ⾈ KANGXI RADICAL BOAT                                     2F9D ⾝ KANGXI RADICAL BODY
+       • Kangxi Radical 137                                           • Kangxi Radical 158
+       ≈ 821F 舟                                                       ≈ 8EAB 身
+2F89 ⾉ KANGXI RADICAL STOPPING                                 2F9E ⾞ KANGXI RADICAL CART
+       • Kangxi Radical 138                                           • Kangxi Radical 159
+       ≈ 826E 艮                                                       ≈ 8ECA 車
+2F8A ⾊ KANGXI RADICAL COLOR                                    2F9F ⾟ KANGXI RADICAL BITTER
+       • Kangxi Radical 139                                           • Kangxi Radical 160
+       ≈ 8272 色                                                       ≈ 8F9B 辛
+2F8B ⾋ KANGXI RADICAL GRASS                                    2FA0 ⾠ KANGXI RADICAL MORNING
+       • Kangxi Radical 140                                           • Kangxi Radical 161
+       ≈ 8278 艸                                                       ≈ 8FB0 辰
+2F8C ⾌ KANGXI RADICAL TIGER                                    2FA1 ⾡ KANGXI RADICAL WALK
+       • Kangxi Radical 141                                           • Kangxi Radical 162
+       ≈ 864D 虍                                                       ≈ 8FB5 辵
+2F8D ⾍ KANGXI RADICAL INSECT                                   2FA2 ⾢ KANGXI RADICAL CITY
+       • Kangxi Radical 142                                           • Kangxi Radical 163
+       ≈ 866B 虫                                                       ≈ 9091 邑
+2F8E ⾎ KANGXI RADICAL BLOOD                                    2FA3 ⾣ KANGXI RADICAL WINE
+       • Kangxi Radical 143                                           • Kangxi Radical 164
+       ≈ 8840 血                                                       ≈ 9149 酉
+2F8F ⾏ KANGXI RADICAL WALK ENCLOSURE                           2FA4 ⾤ KANGXI RADICAL DISTINGUISH
+       • Kangxi Radical 144                                           • Kangxi Radical 165
+       ≈ 884C 行                                                       ≈ 91C6 釆
+2F90 ⾐ KANGXI RADICAL CLOTHES                                  2FA5 ⾥ KANGXI RADICAL VILLAGE
+       • Kangxi Radical 145                                           • Kangxi Radical 166
+       ≈ 8863 衣                                                       ≈ 91CC 里
+
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved.        339
+2FA6                                               Kangxi Radicals                                      2FCF
+
+
+2FA6 ⾦ KANGXI RADICAL GOLD                                     2FBB ⾻ KANGXI RADICAL BONE
+       • Kangxi Radical 167                                           • Kangxi Radical 188
+       ≈ 91D1 金                                                       ≈ 9AA8 骨
+2FA7 ⾧ KANGXI RADICAL LONG                                     2FBC ⾼ KANGXI RADICAL TALL
+       • Kangxi Radical 168                                           • Kangxi Radical 189
+       ≈ 9577 長                                                       ≈ 9AD8 高
+2FA8 ⾨ KANGXI RADICAL GATE                                     2FBD ⾽ KANGXI RADICAL HAIR
+       • Kangxi Radical 169                                           • Kangxi Radical 190
+       ≈ 9580 門                                                       ≈ 9ADF 髟
+2FA9 ⾩ KANGXI RADICAL MOUND                                    2FBE ⾾ KANGXI RADICAL FIGHT
+       • Kangxi Radical 170                                           • Kangxi Radical 191
+       ≈ 961C 阜                                                       ≈ 9B25 鬥
+2FAA ⾪ KANGXI RADICAL SLAVE                                    2FBF ⾿ KANGXI RADICAL SACRIFICIAL WINE
+       • Kangxi Radical 171                                           • Kangxi Radical 192
+       ≈ 96B6 隶                                                       ≈ 9B2F 鬯
+2FAB ⾫ KANGXI RADICAL SHORT TAILED BIRD                        2FC0 ⿀ KANGXI RADICAL CAULDRON
+       • Kangxi Radical 172                                           • Kangxi Radical 193
+       ≈ 96B9 隹                                                       ≈ 9B32 鬲
+2FAC ⾬ KANGXI RADICAL RAIN                                     2FC1 ⿁ KANGXI RADICAL GHOST
+       • Kangxi Radical 173                                           • Kangxi Radical 194
+       ≈ 96E8 雨                                                       ≈ 9B3C 鬼
+2FAD ⾭ KANGXI RADICAL BLUE                                     2FC2 ⿂ KANGXI RADICAL FISH
+       • Kangxi Radical 174                                           • Kangxi Radical 195
+       ≈ 9751 靑                                                       ≈ 9B5A 魚
+2FAE ⾮ KANGXI RADICAL WRONG                                    2FC3 ⿃ KANGXI RADICAL BIRD
+       • Kangxi Radical 175                                           • Kangxi Radical 196
+       ≈ 975E 非                                                       ≈ 9CE5 鳥
+2FAF ⾯ KANGXI RADICAL FACE                                     2FC4 ⿄ KANGXI RADICAL SALT
+       • Kangxi Radical 176                                           • Kangxi Radical 197
+       ≈ 9762 面                                                       ≈ 9E75 鹵
+2FB0 ⾰ KANGXI RADICAL LEATHER                                  2FC5 ⿅ KANGXI RADICAL DEER
+       • Kangxi Radical 177                                           • Kangxi Radical 198
+       ≈ 9769 革                                                       ≈ 9E7F 鹿
+2FB1 ⾱ KANGXI RADICAL TANNED LEATHER                           2FC6 ⿆ KANGXI RADICAL WHEAT
+       • Kangxi Radical 178                                           • Kangxi Radical 199
+       ≈ 97CB 韋                                                       ≈ 9EA5 麥
+2FB2 ⾲ KANGXI RADICAL LEEK                                     2FC7 ⿇ KANGXI RADICAL HEMP
+       • Kangxi Radical 179                                           • Kangxi Radical 200
+       ≈ 97ED 韭                                                       ≈ 9EBB 麻
+2FB3 ⾳ KANGXI RADICAL SOUND                                    2FC8 ⿈ KANGXI RADICAL YELLOW
+       • Kangxi Radical 180                                           • Kangxi Radical 201
+       ≈ 97F3 音                                                       ≈ 9EC3 黃
+2FB4 ⾴ KANGXI RADICAL LEAF                                     2FC9 ⿉ KANGXI RADICAL MILLET
+       • Kangxi Radical 181                                           • Kangxi Radical 202
+       ≈ 9801 頁                                                       ≈ 9ECD 黍
+2FB5 ⾵ KANGXI RADICAL WIND                                     2FCA ⿊ KANGXI RADICAL BLACK
+       • Kangxi Radical 182                                           • Kangxi Radical 203
+       ≈ 98A8 風                                                       ≈ 9ED1 黑
+2FB6 ⾶ KANGXI RADICAL FLY                                      2FCB ⿋ KANGXI RADICAL EMBROIDERY
+       • Kangxi Radical 183                                           • Kangxi Radical 204
+       ≈ 98DB 飛                                                       ≈ 9EF9 黹
+2FB7 ⾷ KANGXI RADICAL EAT                                      2FCC ⿌ KANGXI RADICAL FROG
+       • Kangxi Radical 184                                           • Kangxi Radical 205
+       ≈ 98DF 食                                                       ≈ 9EFD 黽
+2FB8 ⾸ KANGXI RADICAL HEAD                                     2FCD ⿍ KANGXI RADICAL TRIPOD
+       • Kangxi Radical 185                                           • Kangxi Radical 206
+       ≈ 9996 首                                                       ≈ 9F0E 鼎
+2FB9 ⾹ KANGXI RADICAL FRAGRANT                                 2FCE ⿎ KANGXI RADICAL DRUM
+       • Kangxi Radical 186                                           • Kangxi Radical 207
+       ≈ 9999 香                                                       ≈ 9F13 鼓
+2FBA ⾺ KANGXI RADICAL HORSE                                    2FCF ⿏ KANGXI RADICAL RAT
+       • Kangxi Radical 187                                           • Kangxi Radical 208
+       ≈ 99AC 馬                                                       ≈ 9F20 鼠
+
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved.             340
+2FD0                                               Kangxi Radicals                             2FD5
+
+
+2FD0 ⿐ KANGXI RADICAL NOSE
+       • Kangxi Radical 209
+       ≈ 9F3B 鼻
+2FD1 ⿑ KANGXI RADICAL EVEN
+       • Kangxi Radical 210
+       ≈ 9F4A 齊
+2FD2 ⿒ KANGXI RADICAL TOOTH
+       • Kangxi Radical 211
+       ≈ 9F52 齒
+2FD3 ⿓ KANGXI RADICAL DRAGON
+       • Kangxi Radical 212
+       ≈ 9F8D 龍
+2FD4 ⿔ KANGXI RADICAL TURTLE
+       • Kangxi Radical 213
+       ≈ 9F9C 龜
+2FD5 ⿕ KANGXI RADICAL FLUTE
+       • Kangxi Radical 214
+       ≈ 9FA0 龠
+
+
+
+
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved.    341
+

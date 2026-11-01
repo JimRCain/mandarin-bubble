@@ -2,14 +2,14 @@
   "generatedBy": "scripts/content-migrate.mjs — do not edit by hand; CI diffs this file",
   "source": "POC corpus snapshot 2026-10-05 + 45 expansion words",
   "totals": {
-    "decks": 50,
-    "entries": 3081,
+    "decks": 51,
+    "entries": 3295,
     "duplicateEntries": 736,
-    "uniqueWords": 2345,
+    "uniqueWords": 2559,
     "bands": {
-      "common": 1057,
-      "mid": 1138,
-      "rare": 886
+      "common": 1111,
+      "mid": 1191,
+      "rare": 993
     }
   },
   "decks": [
@@ -660,6 +660,19 @@
         "common": 10,
         "mid": 12,
         "rare": 6
+      },
+      "usableBands": 3
+    },
+    {
+      "id": "radicals",
+      "name": "Radicals (214 Kangxi)",
+      "group": "Characters",
+      "entries": 214,
+      "uniqueWords": 214,
+      "bands": {
+        "common": 54,
+        "mid": 53,
+        "rare": 107
       },
       "usableBands": 3
     }

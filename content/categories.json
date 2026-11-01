@@ -298,5 +298,11 @@
     "name": "Prepositions & location words",
     "group": "Grammar & Function Words",
     "order": 49
+  },
+  {
+    "id": "radicals",
+    "name": "Radicals (214 Kangxi)",
+    "group": "Characters",
+    "order": 50
   }
 ]

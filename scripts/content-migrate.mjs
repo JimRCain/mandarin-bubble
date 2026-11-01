@@ -35,6 +35,18 @@ const ADDED_FILE = path.join(ROOT, 'scripts', 'data', 'added-words.json');
 const OVERRIDES_FILE = path.join(ROOT, 'scripts', 'data', 'gloss-overrides.json');
 const CATEGORIES_FILE = path.join(ROOT, 'content', 'categories.json');
 const WORDS_DIR = path.join(ROOT, 'content', 'words');
+
+/**
+ * Decks whose word file is not produced by the POC group table above.
+ *
+ * They are built from content/data by scripts/add-deck.py and are listed here
+ * so a word file that appears without a home is a loud error rather than a
+ * deck that quietly goes missing from the app.
+ */
+const EXTRA_DECK_GROUPS = [['radicals', 'Characters']];
+
+/** Display names for those decks; the slug alone reads badly in the tree. */
+const DECK_NAMES = { radicals: 'Radicals (214 Kangxi)' };
 const GOLDEN_FILE = path.join(ROOT, 'content', 'golden', 'counts.json');
 const REPORT_DIR = path.join(ROOT, 'content', '_reports');
 
@@ -464,8 +476,80 @@ export function migrate() {
   return { categories, files, golden, report };
 }
 
+/**
+ * Decks that have a word file but are not in the POC group table (radicals,
+ * built by scripts/add-deck.py from content/data).
+ *
+ * This runs AFTER migrate() has itself overwritten categories.json from the
+ * group table, so it must re-add the category as well as the golden counts.
+ * Doing only the golden half left the two out of step and the validator red
+ * every time, which is exactly how the first version of this function failed.
+ */
+function extraDecks(knownIds) {
+  // The category list migrate() just wrote is already on disk, so reading the
+  // file here is reading its output, not the pre-migrate state. Any deck added
+  // by the previous run is therefore still in it and must be skipped, or the
+  // second run appends it again (which is exactly what happened).
+  const onDisk = readJson(CATEGORIES_FILE);
+  const addedHere = new Set();
+  let order = Math.max(...onDisk.map((c) => c.order), -1) + 1;
+  const assigned = new Map(EXTRA_DECK_GROUPS);
+  const extra = [];
+  for (const pathname of fs.readdirSync(WORDS_DIR)) {
+    if (!pathname.endsWith('.json')) continue;
+    const deckId = pathname.replace(/\.json$/, '');
+    if (knownIds.has(deckId)) continue;
+    const words = readJson(path.join(WORDS_DIR, pathname));
+    const group = assigned.get(deckId);
+    if (group === undefined) {
+      throw new Error(`${deckId}.json has words but no group; add it to EXTRA_DECK_GROUPS`);
+    }
+    const name = DECK_NAMES[deckId] ?? deckId.replace(/-/g, ' ');
+    if (!onDisk.some((c) => c.id === deckId)) {
+      onDisk.push({ id: deckId, name, group, order: order++ });
+      addedHere.add(deckId);
+    }
+    const bands = { common: 0, mid: 0, rare: 0 };
+    for (const w of words) bands[w.band] += 1;
+    extra.push({
+      id: deckId,
+      name,
+      group,
+      entries: words.length,
+      uniqueWords: new Set(words.map((w) => w.id)).size,
+      bands,
+      usableBands: Object.values(bands).filter((n) => n > 0).length,
+    });
+  }
+  return { categories: onDisk, addedHere, extra };
+}
+
 function main() {
   const { categories, files, golden, report } = migrate();
+  const added = extraDecks(new Set(golden.decks.map((deck) => deck.id)));
+  if (added.extra.length > 0) {
+    // migrate() already wrote categories.json from the group table, so the
+    // list from extraDecks (which started from that file) is the authoritative
+    // one and simply replaces it.
+    categories.length = 0;
+    categories.push(...added.categories);
+    golden.decks.push(...added.extra);
+    // Every total is recounted from the deck rows rather than patched by deltas.
+    // Deltas were how this went wrong three times: once by leaving uniqueWords
+    // alone, once by adding the deck's word count on top of an already-stale
+    // figure. A recount cannot drift from the rows it is a sum of.
+    golden.totals.decks = golden.decks.length;
+    golden.totals.entries = golden.decks.reduce((n, d) => n + d.entries, 0);
+    golden.totals.uniqueWords =
+      // Every deck's ids, but a word shared by two decks must count once. The
+      // rows only carry per-deck counts, so the corpus-wide figure comes from
+      // migrate()'s own scan plus the added decks, which share no ids with it.
+      golden.totals.uniqueWords + added.extra.reduce((n, d) => n + d.uniqueWords, 0);
+    for (const band of ['common', 'mid', 'rare']) {
+      golden.totals.bands[band] = golden.decks.reduce((n, d) => n + d.bands[band], 0);
+    }
+    golden.totals.duplicateEntries = golden.totals.entries - golden.totals.uniqueWords;
+  }
   const writes = [
     [CATEGORIES_FILE, JSON.stringify(categories, null, 2) + '\n'],
     [path.join(GOLDEN_FILE), JSON.stringify(golden, null, 2) + '\n'],
