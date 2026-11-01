@@ -19,7 +19,6 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { REVIEW } from '../src/game/config';
 
-const CONTENT_DIR = join(process.cwd(), 'public', 'content');
 import type { Band, DeckMeta, Word } from '../src/game/types';
 
 const word = (id: string, band: Band = 'common'): Word => ({
