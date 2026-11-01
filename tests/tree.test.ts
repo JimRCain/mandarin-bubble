@@ -137,11 +137,13 @@ describe('buildTree unlocking', () => {
     // The Kangxi radicals deck was in the corpus and in the index but absent
     // from the screen, because WORLD_ORDER is an allowlist. Every deck in the
     // content index must land in a world or be an explicit ladder member.
+    // categories.json is the committed source; public/content/index.json is a
+    // build artifact, and CI runs this suite before it builds.
     const index = JSON.parse(
-      readFileSync(join(CONTENT_DIR, 'index.json'), 'utf8'),
-    ) as { decks: { id: string; group: string }[] };
+      readFileSync(join(process.cwd(), 'content', 'categories.json'), 'utf8'),
+    ) as { id: string; group: string }[];
     const worlds = new Set(WORLD_ORDER);
-    const dropped = index.decks.filter(
+    const dropped = index.filter(
       (deck) => !worlds.has(deck.group) && deck.group !== LADDER_GROUP,
     );
     expect(dropped.map((deck) => `${deck.id} (${deck.group})`)).toEqual([]);
