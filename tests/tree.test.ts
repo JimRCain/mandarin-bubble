@@ -9,11 +9,17 @@ import {
   groupIcon,
   isLadderDeck,
   isMastered,
+  LADDER_GROUP,
   STARTER_DECKS,
   UNLOCK_KNOWN_FRACTION,
   unlockedDeckIds,
+  WORLD_ORDER,
 } from '../src/game/tree';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { REVIEW } from '../src/game/config';
+
+const CONTENT_DIR = join(process.cwd(), 'public', 'content');
 import type { Band, DeckMeta, Word } from '../src/game/types';
 
 const word = (id: string, band: Band = 'common'): Word => ({
@@ -127,6 +133,20 @@ describe('buildTree unlocking', () => {
   const verbs = ['v1', 'v2'].map((id, i) => deck(id, 'Verbs & Routines', i, [word(`${id}-w`)]));
   const all = [...nouns, ...verbs];
 
+  it('never silently drops a deck whose group is not in WORLD_ORDER', () => {
+    // The Kangxi radicals deck was in the corpus and in the index but absent
+    // from the screen, because WORLD_ORDER is an allowlist. Every deck in the
+    // content index must land in a world or be an explicit ladder member.
+    const index = JSON.parse(
+      readFileSync(join(CONTENT_DIR, 'index.json'), 'utf8'),
+    ) as { decks: { id: string; group: string }[] };
+    const worlds = new Set(WORLD_ORDER);
+    const dropped = index.decks.filter(
+      (deck) => !worlds.has(deck.group) && deck.group !== LADDER_GROUP,
+    );
+    expect(dropped.map((deck) => `${deck.id} (${deck.group})`)).toEqual([]);
+  });
+
   it('opens the first deck of the first world on a fresh install', () => {
     const tree = buildTree(all, {}, withWords(all, all.flatMap((d) => [word(`${d.id}-w`)])));
     const open = unlockedDeckIds(tree);
@@ -195,7 +215,7 @@ describe('the HSK ladder opens on its own rung', () => {
 describe('presentation helpers', () => {
   it('gives every group an icon and an unknown group a fallback', () => {
     expect(groupIcon('Nouns')).not.toBe(groupIcon('HSK'));
-    expect(groupIcon('Characters')).toBe('\u{1F4E6}');
+    expect(groupIcon('No Such World')).toBe('📦');
   });
 
   it('counts boxes left to known, never negative', () => {

@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mandarin Bubble — menu mock</title>
+<style>
+  :root{
+    --ink-950:#080c0e; --ink-900:#0e1416; --ink-850:#131b1e; --ink-800:#1a2427; --ink-700:#25332f;
+    --jade-400:#4fd1a5; --jade-500:#2eb88a; --lantern-400:#f5b544; --lantern-500:#e09a1f;
+    --text:#e7ecea; --muted:#8b9a96; --dim:#5d6b68;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#05080a;color:var(--text);
+    font:14px/1.45 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans SC",sans-serif;
+    -webkit-font-smoothing:antialiased;padding:24px}
+  h1.page{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);text-align:center;margin:0 0 18px}
+  .rail{display:flex;gap:22px;overflow-x:auto;padding:0 0 18px;align-items:flex-start;justify-content:center;flex-wrap:wrap}
+  .phone{width:340px;flex:0 0 auto;background:var(--ink-900);border:1px solid var(--ink-800);
+    border-radius:26px;overflow:hidden;box-shadow:0 18px 40px rgba(0,0,0,.55);display:flex;flex-direction:column;height:660px}
+  .phone > .body{flex:1;overflow-y:auto;padding:18px 16px}
+  .caption{text-align:center;font-size:11px;color:var(--dim);padding:10px 8px;border-top:1px solid var(--ink-800);background:var(--ink-950)}
+  .caption b{color:var(--muted);font-weight:600}
+  svg.i{width:1em;height:1em;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;display:block}
+
+  /* ---------- HOME ---------- */
+  .brand{text-align:center;margin:6px 0 16px}
+  .brand .hanzi{font-family:"Noto Serif CJK SC",serif;font-size:13px;letter-spacing:.5em;color:var(--jade-400);opacity:.85}
+  .brand .name{font-size:22px;font-weight:700;letter-spacing:-.01em;margin-top:2px}
+  .brand .name span{color:var(--jade-400)}
+
+  .play{width:100%;border:0;border-radius:20px;background:linear-gradient(160deg,#35c79a,#1f9c76);
+    color:#04120d;padding:16px 18px;display:flex;align-items:center;gap:14px;cursor:pointer;
+    box-shadow:0 10px 24px rgba(46,184,138,.28),inset 0 1px 0 rgba(255,255,255,.35);transition:transform .08s}
+  .play:active{transform:scale(.985)}
+  .play .disc{width:52px;height:52px;border-radius:50%;background:rgba(4,18,13,.16);
+    display:grid;place-items:center;flex:0 0 auto}
+  .play .disc svg{width:26px;height:26px;fill:#04120d;stroke:none;margin-left:3px}
+  .play .lbl{font-size:17px;font-weight:800;letter-spacing:.01em}
+  .play .sub{font-size:11.5px;font-weight:600;opacity:.72;margin-top:1px}
+
+  .row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+  .tile{background:var(--ink-850);border:1px solid var(--ink-800);border-radius:16px;padding:12px 8px 10px;
+    display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer;position:relative;
+    transition:background .12s,border-color .12s}
+  .tile:hover{background:var(--ink-800);border-color:var(--ink-700)}
+  .tile .glyph{font-size:24px;color:var(--text);line-height:0}
+  .tile .ti{font-size:11.5px;color:var(--muted);letter-spacing:.02em}
+  .tile .chip{position:absolute;top:8px;right:8px;font:600 10px/1 ui-monospace,monospace;
+    background:var(--jade-500);color:#04120d;border-radius:999px;padding:3px 5px}
+  .tile.locked{opacity:.45}
+
+  .setup{margin-top:16px;font-size:11.5px;color:var(--dim);text-align:center}
+  .setup b{color:var(--muted);font-weight:600}
+
+  /* ---------- GENERIC SCREEN CHROME ---------- */
+  .hdr{display:flex;align-items:center;gap:12px;padding:14px 16px;border-bottom:1px solid var(--ink-800);background:var(--ink-900)}
+  .back{width:34px;height:34px;border-radius:10px;border:1px solid var(--ink-700);background:var(--ink-850);
+    color:var(--muted);display:grid;place-items:center;cursor:pointer;font-size:17px}
+  .hdr .title{font-size:16px;font-weight:700;flex:1}
+  .hdr .meta{font:600 11px/1 ui-monospace,monospace;color:var(--jade-400)}
+
+  /* ---------- DECKS: tree ---------- */
+  .world{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .world .w{flex:1 1 auto;min-width:70px;padding:9px 10px;border-radius:12px;background:var(--ink-850);
+    border:1px solid var(--ink-800);text-align:center;cursor:pointer}
+  .world .w .n{font-size:16px;line-height:1.2}
+  .world .w .l{font-size:10px;color:var(--muted);margin-top:2px}
+  .world .w.done .n{filter:none}
+  .world .w.done{border-color:var(--jade-500);background:rgba(46,184,138,.10)}
+  .world .w.off{opacity:.45}
+
+  .group{margin-bottom:14px}
+  .group .gh{display:flex;align-items:center;gap:8px;padding:8px 2px;cursor:pointer}
+  .group .gh .dot{flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:var(--ink-850);
+    border:1px solid var(--ink-700);display:grid;place-items:center;font-size:15px}
+  .group .gh .gn{font-size:12.5px;font-weight:600;color:var(--text);flex:1}
+  .group .gh .gp{font:600 10.5px/1 ui-monospace,monospace;color:var(--muted)}
+  .group .gh .chev{color:var(--dim);font-size:13px;transition:transform .15s}
+  .group.open .gh .chev{transform:rotate(90deg)}
+  .group .gbar{height:3px;border-radius:2px;background:var(--ink-800);overflow:hidden;margin:0 2px 8px 36px}
+  .group .gbar i{display:block;height:100%;background:var(--jade-500)}
+  .group .gbody{display:none;padding-left:18px;border-left:1px dashed var(--ink-800);margin-left:14px}
+  .group.open .gbody{display:block}
+
+  .node{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:12px;
+    background:var(--ink-850);border:1px solid var(--ink-800);margin-bottom:7px;cursor:pointer;position:relative}
+  .node .ni{flex:0 0 auto;width:30px;height:30px;border-radius:9px;display:grid;place-items:center;font-size:16px;
+    background:var(--ink-800);color:var(--muted)}
+  .node .nm{flex:1;min-width:0}
+  .node .nm .n{font-size:12.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .node .nm .p{height:4px;border-radius:2px;background:var(--ink-700);margin-top:5px;overflow:hidden}
+  .node .nm .p i{display:block;height:100%;background:var(--jade-500);border-radius:2px}
+  .node .nm .p i.mid{background:var(--lantern-500)}
+  .node .pct{font:600 10.5px/1 ui-monospace,monospace;color:var(--muted);flex:0 0 auto}
+  .node.on{border-color:var(--jade-500);background:rgba(46,184,138,.10)}
+  .node.on .ni{background:rgba(46,184,138,.18);color:var(--jade-400)}
+  .node.locked{opacity:.4}
+  .node.locked .ni{background:var(--ink-900)}
+  .node .lock{font-size:12px;color:var(--dim)}
+  .newnote{margin:2px 0 0;font-size:10.5px;color:var(--dim);padding-left:40px}
+  .crown{position:absolute;top:-6px;left:34px;font-size:11px}
+
+  /* ---------- SETTINGS: options ---------- */
+  .sec{margin-bottom:18px}
+  .sec h3{margin:0 0 8px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:600}
+  .opts{display:grid;gap:8px}
+  .opts.three{grid-template-columns:repeat(3,1fr)}
+  .opts.two{grid-template-columns:repeat(2,1fr)}
+  .opt{background:var(--ink-850);border:1px solid var(--ink-800);border-radius:14px;padding:10px 6px;
+    display:flex;flex-direction:column;align-items:center;gap:5px;cursor:pointer;color:var(--muted)}
+  .opt .g{font-size:22px;line-height:0}
+  .opt .t{font-size:10.5px;font-weight:600}
+  .opt.on{border-color:var(--jade-500);background:rgba(46,184,138,.12);color:var(--text)}
+  .opt.on .g{color:var(--jade-400)}
+  .speeds{display:flex;align-items:flex-end;justify-content:center;gap:3px;height:22px}
+  .speeds i{width:4px;border-radius:1px;background:currentColor;opacity:.85}
+  .sw{display:flex;align-items:center;gap:10px;background:var(--ink-850);border:1px solid var(--ink-800);
+    border-radius:14px;padding:10px 12px;margin-bottom:8px}
+  .sw .lg{font-size:19px;color:var(--muted);line-height:0}
+  .sw .sl{flex:1;font-size:12.5px;color:var(--text)}
+  .sw .hint{font-family:"Noto Serif CJK SC",serif;font-size:15px;color:var(--muted)}
+  .toggle{width:40px;height:23px;border-radius:99px;background:var(--ink-700);position:relative;transition:background .15s}
+  .toggle::after{content:"";position:absolute;top:3px;left:3px;width:17px;height:17px;border-radius:50%;
+    background:#c8d3d0;transition:transform .15s}
+  .toggle.on{background:var(--jade-500)}
+  .toggle.on::after{transform:translateX(17px);background:#04120d}
+
+  /* ---------- PROGRESS ---------- */
+  .ring{display:flex;align-items:center;gap:16px;background:var(--ink-850);border:1px solid var(--ink-800);
+    border-radius:18px;padding:14px;margin-bottom:14px}
+  .ring .big{font:800 26px/1 ui-sans-serif;color:var(--text)}
+  .ring .big small{font-size:11px;color:var(--muted);font-weight:600;display:block;margin-top:4px}
+  .legend{flex:1;display:grid;gap:6px}
+  .legend .lr{display:flex;align-items:center;gap:7px;font-size:11px;color:var(--muted)}
+  .legend .lr b{color:var(--text);font:600 11px/1 ui-monospace,monospace;margin-left:auto}
+  .legend .sw2{width:9px;height:9px;border-radius:3px}
+  .worlds{display:grid;gap:9px}
+  .wrow{display:flex;align-items:center;gap:10px;background:var(--ink-850);border:1px solid var(--ink-800);border-radius:12px;padding:9px 11px}
+  .wrow .wn{font-size:15px;line-height:1}
+  .wrow .wl{flex:1;font-size:11.5px;color:var(--text)}
+  .wrow .wp{flex:0 0 84px;height:5px;border-radius:3px;background:var(--ink-700);overflow:hidden}
+  .wrow .wp i{display:block;height:100%;background:var(--jade-500)}
+  .wrow .wv{font:600 10.5px/1 ui-monospace,monospace;color:var(--muted);flex:0 0 34px;text-align:right}
+  .trophies{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+  .trophy{display:flex;align-items:center;gap:8px;background:var(--ink-850);border:1px solid var(--ink-800);
+    border-radius:12px;padding:9px 10px}
+  .trophy .tg{font-size:18px;line-height:0;color:var(--lantern-400)}
+  .trophy .tl{font-size:10.5px;color:var(--muted)}
+  .trophy .tv{font:700 13px/1 ui-monospace,monospace;color:var(--text);display:block;margin-top:2px}
+</style>
+</head>
+<body>
+
+<h1 class="page">Mandarin Bubble · icon-first menus · mock</h1>
+
+<div class="rail">
+
+  <!-- ================= HOME ================= -->
+  <div class="phone">
+    <div class="body">
+      <div class="brand">
+        <div class="hanzi">汉语气泡</div>
+        <div class="name">Mandarin <span>Bubble</span></div>
+      </div>
+
+      <button class="play">
+        <span class="disc">
+          <svg viewBox="0 0 24 24"><path d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z"/></svg>
+        </span>
+        <span style="text-align:left">
+          <span class="lbl">3 min</span>
+          <span class="sub">158 words · normal</span>
+        </span>
+      </button>
+
+      <div class="row">
+        <div class="tile">
+          <span class="chip">14</span>
+          <span class="glyph">
+            <svg class="i" viewBox="0 0 24 24" style="width:24px;height:24px">
+              <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/>
+              <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/>
+              <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/>
+            </svg>
+          </span>
+          <span class="ti">Decks</span>
+        </div>
+        <div class="tile">
+          <span class="glyph">
+            <svg class="i" viewBox="0 0 24 24" style="width:24px;height:24px">
+              <path d="M9.67 4.14a2.34 2.34 0 0 1 4.66 0 2.34 2.34 0 0 0 3.32 1.91 2.34 2.34 0 0 1 2.33 4.03 2.34 2.34 0 0 0 0 3.83 2.34 2.34 0 0 1-2.33 4.03 2.34 2.34 0 0 0-3.32 1.92 2.34 2.34 0 0 1-4.66 0 2.34 2.34 0 0 0-3.32-1.92 2.34 2.34 0 0 1-2.33-4.03 2.34 2.34 0 0 0 0-3.83A2.34 2.34 0 0 1 6.35 6.05a2.34 2.34 0 0 0 3.32-1.91"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+          </span>
+          <span class="ti">Settings</span>
+        </div>
+        <div class="tile">
+          <span class="glyph">
+            <svg class="i" viewBox="0 0 24 24" style="width:24px;height:24px">
+              <path d="M5 21v-6"/><path d="M12 21V9"/><path d="M19 21V3"/>
+            </svg>
+          </span>
+          <span class="ti">Progress</span>
+        </div>
+      </div>
+
+      <p class="setup">158 words · 3 bands · <b>normal</b> pace · 3 min</p>
+    </div>
+    <div class="caption"><b>HOME</b> — play triangle, one chip, no paragraph, no how-to box</div>
+  </div>
+
+  <!-- ================= DECKS ================= -->
+  <div class="phone">
+    <div class="hdr">
+      <div class="back">‹</div>
+      <div class="title">Decks</div>
+      <div class="meta">14 · 158w</div>
+    </div>
+    <div class="body">
+      <div class="world">
+        <div class="w done"><div class="n">🏠</div><div class="l">Nouns</div></div>
+        <div class="w done"><div class="n">🏃</div><div class="l">Verbs</div></div>
+        <div class="w off"><div class="n">🎨</div><div class="l">Adj</div></div>
+        <div class="w off"><div class="n">⏰</div><div class="l">Time</div></div>
+        <div class="w off"><div class="n">✈️</div><div class="l">Travel</div></div>
+        <div class="w off"><div class="n">🎓</div><div class="l">HSK</div></div>
+      </div>
+
+      <div class="group open">
+        <div class="gh">
+          <span class="dot">🏠</span>
+          <span class="gn">Everyday things</span>
+          <span class="gp">6/16</span>
+          <span class="chev">›</span>
+        </div>
+        <div class="gbar"><i style="width:37%"></i></div>
+        <div class="gbody">
+          <div class="node on">
+            <span class="crown">👑</span>
+            <span class="ni">🎨</span>
+            <span class="nm"><div class="n">Colors</div><div class="p"><i style="width:100%"></i></div></span>
+            <span class="lock">✓</span>
+          </div>
+          <div class="node on">
+            <span class="ni">🔢</span>
+            <span class="nm"><div class="n">Numbers</div><div class="p"><i style="width:63%"></i></div></span>
+            <span class="lock">✓</span>
+          </div>
+          <div class="node on">
+            <span class="ni">👨‍👩‍👧</span>
+            <span class="nm"><div class="n">Family</div><div class="p"><i style="width:22%"></i></div></span>
+            <span class="lock">✓</span>
+          </div>
+          <div class="node">
+            <span class="ni">🐘</span>
+            <span class="nm"><div class="n">Animals</div><div class="p"><i class="mid" style="width:8%"></i></div></span>
+            <span class="lock">✓</span>
+          </div>
+          <div class="node locked">
+            <span class="ni">🍑</span>
+            <span class="nm"><div class="n">Fruit</div><div class="p"><i style="width:0%"></i></div></span>
+            <span class="lock">🔒</span>
+          </div>
+          <p class="newnote">Finish Animals to unlock · tap a node to pick it for the next run</p>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="gh">
+          <span class="dot">🏃</span>
+          <span class="gn">Actions</span>
+          <span class="gp">0/8</span>
+          <span class="chev">›</span>
+        </div>
+        <div class="gbar"><i style="width:0%"></i></div>
+        <div class="gbody"></div>
+      </div>
+
+      <div class="group">
+        <div class="gh">
+          <span class="dot">🎓</span>
+          <span class="gn">HSK ladder</span>
+          <span class="gp">1/5</span>
+          <span class="chev">›</span>
+        </div>
+        <div class="gbar"><i style="width:20%"></i></div>
+        <div class="gbody"></div>
+      </div>
+    </div>
+    <div class="caption"><b>DECKS</b> — worlds across the top, collapsed groups with bars, nodes with a lock</div>
+  </div>
+
+  <!-- ================= SETTINGS ================= -->
+  <div class="phone">
+    <div class="hdr">
+      <div class="back">‹</div>
+      <div class="title">Settings</div>
+      <div class="meta">158w</div>
+    </div>
+    <div class="body">
+      <div class="sec">
+        <h3>Length</h3>
+        <div class="opts two">
+          <div class="opt"><span class="g">⏱</span><span class="t">90s</span></div>
+          <div class="opt on"><span class="g">⏱</span><span class="t">3 min</span></div>
+        </div>
+      </div>
+      <div class="sec">
+        <h3>Pace</h3>
+        <div class="opts three">
+          <div class="opt"><span class="g">··</span><span class="t">3</span></div>
+          <div class="opt on"><span class="g">···</span><span class="t">4</span></div>
+          <div class="opt"><span class="g">····</span><span class="t">5</span></div>
+        </div>
+      </div>
+      <div class="sec">
+        <h3>Bands</h3>
+        <div class="opts three">
+          <div class="opt on"><span class="g">●●●</span><span class="t">All</span></div>
+          <div class="opt"><span class="g">●○○</span><span class="t">Common</span></div>
+          <div class="opt"><span class="g">○○●</span><span class="t">Rare</span></div>
+        </div>
+      </div>
+      <div class="sec">
+        <h3>Reading aids</h3>
+        <div class="sw"><span class="lg">a</span><span class="sl">Pinyin</span><span class="hint">拼音</span><span class="toggle on"></span></div>
+        <div class="sw"><span class="lg">🔊</span><span class="sl">Sound</span><span class="toggle on"></span></div>
+      </div>
+    </div>
+    <div class="caption"><b>SETTINGS</b> — every paragraph deleted; options are icons, sub-labels survive</div>
+  </div>
+
+  <!-- ================= PROGRESS ================= -->
+  <div class="phone">
+    <div class="hdr">
+      <div class="back">‹</div>
+      <div class="title">Progress</div>
+      <div class="meta">12%</div>
+    </div>
+    <div class="body">
+      <div class="ring">
+        <svg width="88" height="88" viewBox="0 0 88 88">
+          <circle cx="44" cy="44" r="36" fill="none" stroke="#1a2427" stroke-width="11"/>
+          <circle cx="44" cy="44" r="36" fill="none" stroke="#2eb88a" stroke-width="11"
+                  stroke-dasharray="22.6 226" stroke-linecap="round" transform="rotate(-90 44 44)"/>
+          <circle cx="44" cy="44" r="36" fill="none" stroke="#e09a1f" stroke-width="11"
+                  stroke-dasharray="56.6 226" stroke-dashoffset="-22.6" transform="rotate(-90 44 44)"/>
+          <text x="44" y="46" text-anchor="middle" font-size="17" font-weight="800" fill="#e7ecea" font-family="ui-sans-serif">12%</text>
+          <text x="44" y="59" text-anchor="middle" font-size="7.5" fill="#8b9a96" font-family="ui-sans-serif">known</text>
+        </svg>
+        <div class="legend">
+          <div class="lr"><span class="sw2" style="background:#2eb88a"></span>Known <b>22</b></div>
+          <div class="lr"><span class="sw2" style="background:#e09a1f"></span>Learning <b>55</b></div>
+          <div class="lr"><span class="sw2" style="background:#25332f"></span>New <b>81</b></div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <h3>By world</h3>
+        <div class="worlds">
+          <div class="wrow"><span class="wn">🏠</span><span class="wl">Everyday</span><span class="wp"><i style="width:41%"></i></span><span class="wv">41%</span></div>
+          <div class="wrow"><span class="wn">🏃</span><span class="wl">Actions</span><span class="wp"><i style="width:12%"></i></span><span class="wv">12%</span></div>
+          <div class="wrow"><span class="wn">🎓</span><span class="wl">HSK</span><span class="wp"><i style="width:4%"></i></span><span class="wv">4%</span></div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <h3>Trophies</h3>
+        <div class="trophies">
+          <div class="trophy"><span class="tg">🔥</span><span><span class="tl">Longest combo</span><span class="tv">17</span></span></div>
+          <div class="trophy"><span class="tg">⚡</span><span><span class="tl">Fastest tap</span><span class="tv">0.9s</span></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="caption"><b>PROGRESS</b> — ring instead of three meters, bars per world, two trophies</div>
+  </div>
+
+</div>
+</body>
+</html>

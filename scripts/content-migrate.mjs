@@ -524,7 +524,14 @@ function extraDecks(knownIds) {
   return { categories: onDisk, addedHere, extra };
 }
 
-function main() {
+/**
+ * Everything the migration would write, in the order it would write it.
+ *
+ * main() and the migration tests both go through this, so "the committed files
+ * match the migration" is a statement about the real output including any
+ * extra deck, not about the subset migrate() happens to build itself.
+ */
+export function plannedWrites() {
   const { categories, files, golden, report } = migrate();
   const added = extraDecks(new Set(golden.decks.map((deck) => deck.id)));
   if (added.extra.length > 0) {
@@ -558,6 +565,12 @@ function main() {
   for (const [id, words] of files) {
     writes.push([path.join(WORDS_DIR, `${id}.json`), JSON.stringify(words, null, 2) + '\n']);
   }
+
+  return { writes, golden, report };
+}
+
+function main() {
+  const { writes, golden, report } = plannedWrites();
 
   if (CHECK) {
     const stale = writes.filter(([file, content]) => {

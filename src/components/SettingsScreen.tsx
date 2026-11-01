@@ -1,4 +1,4 @@
-import { PACES, PACE_LABELS, BANDS, BAND_LABELS, LENGTHS, LENGTH_LABELS, LENGTH_MS, type SessionSettings } from '../game/types';
+import { PACES, PACE_LABELS, LENGTHS, LENGTH_LABELS, LENGTH_MS, type SessionSettings } from '../game/types';
 import { PACE_SPECS } from '../game/types';
 import Button from './ui/Button';
 
@@ -14,14 +14,9 @@ interface SettingsScreenProps {
 }
 
 export default function SettingsScreen({ settings, onUpdate, onBack }: SettingsScreenProps) {
-  const toggleBand = (band: (typeof BANDS)[number]) => {
-    onUpdate({
-      bands: settings.bands.includes(band)
-        ? settings.bands.filter((existing) => existing !== band)
-        : [...settings.bands, band],
-    });
-  };
-
+  // Rarity used to be a three-button choice here. It is not a choice any more:
+  // a deck opens up its rarer words as the player masters its common ones, so
+  // the ramp lives in game/tree.ts where the progression can own it.
   return (
     <div className="mx-auto flex h-full w-full max-w-md flex-col overflow-hidden" data-testid="settings">
       <header className="flex items-center justify-between border-b border-ink-800 p-4">
@@ -32,35 +27,6 @@ export default function SettingsScreen({ settings, onUpdate, onBack }: SettingsS
       </header>
 
       <div className="flex-1 space-y-6 overflow-y-auto p-4">
-        <section>
-          <h2 className="text-xs uppercase tracking-wide text-gray-400">Difficulty bands</h2>
-          <p className="mt-1 text-xs text-gray-500">
-            Bands come from how often a word appears in real text, not from an exam level.
-          </p>
-          <div className="mt-2 flex gap-2">
-            {BANDS.map((band) => {
-              const on = settings.bands.includes(band);
-              return (
-                <button
-                  key={band}
-                  type="button"
-                  onClick={() => toggleBand(band)}
-                  aria-pressed={on}
-                  data-testid={`band-${band}`}
-                  className={[
-                    'flex-1 rounded-lg border px-3 py-2 text-sm transition-colors',
-                    on
-                      ? 'border-jade-500 bg-jade-500/10 text-white'
-                      : 'border-ink-800 bg-ink-900 text-gray-400',
-                  ].join(' ')}
-                >
-                  {BAND_LABELS[band]}
-                </button>
-              );
-            })}
-          </div>
-        </section>
-
         <section>
           <h2 className="text-xs uppercase tracking-wide text-gray-400">Pace</h2>
           <p className="mt-1 text-xs text-gray-500">

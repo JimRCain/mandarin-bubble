@@ -30,7 +30,10 @@ GROUPS = {
     "radicals": "Characters",
 }
 
-BAND_CUTS = ((5.0, "common"), (4.0, "mid"))
+# The same cuts as BANDS in scripts/content-migrate.mjs. Duplicated because this
+# script is plain Python and cannot import the JS constant; tests/content-rules
+# fails loudly if the two ever drift apart.
+BAND_CUTS = ((5.0, "common"), (4.2, "mid"))
 
 
 def band(zipf: float) -> str:
@@ -71,7 +74,10 @@ def build_radicals() -> list[dict]:
         pinyin = first_reading(entry["pinyin"])
         out.append(
             {
-                "id": f"rad-{rank:03d}-{hanzi}-{slugify(pinyin)}",
+                # SPEC 4.2: an id derives from the word itself, never from its
+                # deck. The rank stays in the gloss, not in the id, so the id
+                # can be regenerated and still match what the app stored.
+                "id": f"{hanzi}-{slugify(pinyin)}",
                 "hanzi": hanzi,
                 "pinyin": pinyin,
                 "english": f'{entry["english"]} (radical {rank})',

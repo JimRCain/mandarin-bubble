@@ -8,10 +8,14 @@ describe('content validator (FR-26)', () => {
   });
 
   it('reports the corpus it actually checked', () => {
+    // Deliberately exact, not a floor: these three numbers moving is a content
+    // decision that should cost someone a thought, and this is that thought.
+    // 51 decks since the Kangxi radicals deck (2026-11-01); its 214 characters
+    // are 214 new ids, so unique words rose by exactly 214.
     const golden = readGolden();
-    expect(golden.totals.decks).toBe(50);
-    expect(golden.totals.entries).toBe(3081);
-    expect(golden.totals.uniqueWords).toBe(2345);
+    expect(golden.totals.decks).toBe(51);
+    expect(golden.totals.entries).toBe(3295);
+    expect(golden.totals.uniqueWords).toBe(2559);
   });
 });
 
@@ -91,8 +95,8 @@ describe('corpus properties the game depends on', () => {
 
   it('matches the golden counts file it ships with (FR-27)', () => {
     const golden = readGolden();
-    expect(golden.totals.decks).toBe(50);
-    expect(golden.totals.uniqueWords).toBe(2345);
+    expect(golden.totals.decks).toBe(51);
+    expect(golden.totals.uniqueWords).toBe(2559);
     for (const deck of golden.decks) {
       const words = readDeck(deck.id);
       expect(words.length, `entry count drift in ${deck.id}`).toBe(deck.entries);

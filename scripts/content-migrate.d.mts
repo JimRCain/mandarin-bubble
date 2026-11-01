@@ -72,3 +72,13 @@ export function migrate(): {
   golden: GoldenCounts;
   report: MigrationReport;
 };
+/**
+ * Every file the migration would write, as [absolute path, exact text]. This is
+ * what main() writes verbatim, including the extra decks it appends after
+ * migrate() returns, so it is the only honest thing to diff the repo against.
+ */
+export function plannedWrites(): {
+  writes: [string, string][];
+  golden: GoldenCounts;
+  report: MigrationReport;
+};

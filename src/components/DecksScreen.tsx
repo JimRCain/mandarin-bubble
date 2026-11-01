@@ -1,15 +1,26 @@
+/**
+ * Decks: the tree, not a list.
+ *
+ * The screen used to be every deck in one flat scroll with a band breakdown per
+ * deck. That made the first day a wall of 51 rows and told the player about
+ * rarity, which is a property of the progression rather than a choice to make.
+ * Now it shows worlds, opens them as the player masters what they have, and says
+ * plainly when a deck is shut.
+ *
+ * A locked deck is not hidden: seeing the next one is the point of the tree.
+ */
 import { useGame } from '../useGame';
-import { BAND_LABELS, type Band } from '../game/types';
+import { UNLOCK_KNOWN_FRACTION } from '../game/tree';
 import Button from './ui/Button';
 
 interface DecksScreenProps {
   onBack: () => void;
 }
 
-const BAND_ORDER: readonly Band[] = ['common', 'mid', 'rare'];
+const percent = (value: number): string => `${Math.round(value * 100)}%`;
 
 export default function DecksScreen({ onBack }: DecksScreenProps) {
-  const { index, settings, toggleDeck, pool } = useGame();
+  const { index, settings, toggleDeck, tree, pool } = useGame();
 
   if (!index) {
     return (
@@ -18,8 +29,6 @@ export default function DecksScreen({ onBack }: DecksScreenProps) {
       </div>
     );
   }
-
-  const groups = [...new Set(index.decks.map((deck) => deck.group))];
 
   return (
     <div className="mx-auto flex h-full w-full max-w-md flex-col overflow-hidden" data-testid="decks">
@@ -36,47 +45,80 @@ export default function DecksScreen({ onBack }: DecksScreenProps) {
       </header>
 
       <div className="flex-1 overflow-y-auto p-4">
-        {groups.map((group) => (
-          <section key={group} className="mb-5">
-            <h2 className="mb-2 text-xs uppercase tracking-wide text-gray-400">{group}</h2>
+        {tree.map((group) => (
+          <section key={group.name} className="mb-5" data-testid="deck-group" data-group={group.name}>
+            <div className="mb-2 flex items-center justify-between">
+              <h2 className="text-xs uppercase tracking-wide text-gray-400">
+                <span className="mr-1" aria-hidden>
+                  {group.icon}
+                </span>
+                {group.name}
+                {group.ladder && <span className="ml-1 text-gray-600">· ladder</span>}
+              </h2>
+              <span className="font-mono text-[11px] text-gray-400">
+                {group.open}/{group.total} open · {percent(group.progress)}
+              </span>
+            </div>
+            <div className="mb-2 h-[3px] overflow-hidden rounded bg-ink-800" aria-hidden>
+              <div
+                className="h-full bg-jade-500"
+                style={{ width: `${Math.round(group.progress * 100)}%` }}
+              />
+            </div>
+
             <ul className="space-y-2">
-              {index.decks
-                .filter((deck) => deck.group === group)
-                .map((deck) => {
-                  const selected = settings.decks.includes(deck.id);
-                  return (
-                    <li key={deck.id}>
-                      <button
-                        type="button"
-                        onClick={() => toggleDeck(deck.id)}
-                        data-testid="deck-toggle"
-                        data-deck-id={deck.id}
-                        aria-pressed={selected}
-                        className={[
-                          'w-full rounded-lg border p-3 text-left transition-colors',
-                          selected
+              {group.nodes.map((node) => {
+                const selected = settings.decks.includes(node.deck.id);
+                return (
+                  <li key={node.deck.id}>
+                    <button
+                      type="button"
+                      onClick={() => toggleDeck(node.deck.id)}
+                      disabled={!node.unlocked}
+                      data-testid="deck-toggle"
+                      data-deck-id={node.deck.id}
+                      data-unlocked={node.unlocked}
+                      aria-pressed={selected}
+                      className={[
+                        'w-full rounded-lg border p-3 text-left transition-colors',
+                        !node.unlocked
+                          ? 'cursor-not-allowed border-ink-800 bg-ink-950 opacity-50'
+                          : selected
                             ? 'border-jade-500 bg-jade-500/10'
                             : 'border-ink-800 bg-ink-900 hover:border-ink-700',
-                        ].join(' ')}
-                      >
-                        <div className="flex items-center justify-between">
-                          <span className="text-sm font-semibold text-white">{deck.name}</span>
-                          <span className="font-mono text-xs text-gray-400">
-                            {deck.uniqueWords} words
+                      ].join(' ')}
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="text-sm font-semibold text-white">
+                          {node.deck.name}
+                          {node.complete && <span className="ml-1 text-jade-400">✓</span>}
+                        </span>
+                        <span className="font-mono text-xs text-gray-400">
+                          {node.deck.uniqueWords} words
+                        </span>
+                      </div>
+                      <div className="mt-1 flex items-center justify-between text-[11px] text-gray-400">
+                        {node.unlocked ? (
+                          <span>
+                            {node.known} known · {node.seen} seen
                           </span>
+                        ) : (
+                          <span>Opens at {percent(UNLOCK_KNOWN_FRACTION)} of the deck before it</span>
+                        )}
+                        <span className="font-mono">{percent(node.progress)}</span>
+                      </div>
+                      {node.unlocked && node.progress > 0 && (
+                        <div className="mt-1 h-[2px] overflow-hidden rounded bg-ink-800" aria-hidden>
+                          <div
+                            className="h-full bg-jade-500"
+                            style={{ width: `${Math.round(node.progress * 100)}%` }}
+                          />
                         </div>
-                        <div className="mt-1 flex flex-wrap gap-2 text-[11px] text-gray-400">
-                          {BAND_ORDER.filter((band) => deck.bands[band] > 0).map((band) => (
-                            <span key={band}>
-                              {BAND_LABELS[band]} {deck.bands[band]}
-                            </span>
-                          ))}
-                          {deck.usableBands === 0 && <span className="text-lantern-400">too small to play solo</span>}
-                        </div>
-                      </button>
-                    </li>
-                  );
-                })}
+                      )}
+                    </button>
+                  </li>
+                );
+              })}
             </ul>
           </section>
         ))}

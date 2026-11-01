@@ -8,7 +8,9 @@ interface HomeScreenProps {
 }
 
 export default function HomeScreen({ onStartSession, onNavigate }: HomeScreenProps) {
-  const { loading, error, pool, settings, progress, howToSeen, setHowToSeen, index } = useGame();
+  const { loading, error, pool, settings, progress, howToSeen, setHowToSeen, index, unlockedDecks } =
+    useGame();
+  const unlocked = unlockedDecks.length;
 
   const ready = !loading && pool.length > 0;
   const wordsSeen = Object.keys(progress.words).length;
@@ -59,7 +61,7 @@ export default function HomeScreen({ onStartSession, onNavigate }: HomeScreenPro
             Words in the pool: <span className="font-mono text-white">{pool.length}</span>
           </li>
           <li>
-            Bands: <span className="font-mono text-white">{settings.bands.join(', ')}</span>
+            Decks open: <span className="font-mono text-white">{unlocked}</span>
           </li>
           <li>
             Pace: <span className="font-mono text-white">{settings.pace}</span>

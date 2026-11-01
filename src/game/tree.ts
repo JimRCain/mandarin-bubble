@@ -58,6 +58,7 @@ export const WORLD_ORDER: readonly string[] = [
   'Adjectives & Emotions',
   'Time, Weather, Nature',
   'Grammar & Function Words',
+  'Characters',
   'Social & Travel',
 ];
 
@@ -100,6 +101,7 @@ export interface TreeGroup {
 }
 
 const GROUP_ICONS: Record<string, string> = {
+  Characters: '📐',
   Nouns: '🏠',
   'Verbs & Routines': '🏃',
   'Adjectives & Emotions': '💛',

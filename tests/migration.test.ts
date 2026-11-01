@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { bandFor, buildDecks, migrate, pinyinSlug, wordId } from '../scripts/content-migrate.mjs';
+import { bandFor, buildDecks, migrate, pinyinSlug, plannedWrites, wordId } from '../scripts/content-migrate.mjs';
 import { CONTENT_DIR } from './helpers/pool';
 
 describe('band rule (SPEC 4.6)', () => {
@@ -54,7 +54,20 @@ describe('deck plan', () => {
 });
 
 describe('committed content is exactly what the migration produces', () => {
-  const { categories, files, golden } = migrate();
+  // plannedWrites() is the real output: migrate() alone does not carry the
+  // extra decks (radicals) that main() appends after it.
+  const { writes } = plannedWrites();
+  const byName = new Map(
+    writes.map(([file, content]) => [file.slice(file.indexOf('content/')), content] as const),
+  );
+  const categories = JSON.parse(byName.get('content/categories.json') as string);
+  const golden = JSON.parse(byName.get('content/golden/counts.json') as string);
+  const files = new Map(
+    writes
+      .map(([file, content]) => [file, content] as const)
+      .filter(([file]) => file.includes('/words/'))
+      .map(([file, content]) => [file.slice(file.lastIndexOf('/') + 1, -5), content] as const),
+  );
 
   it('matches content/categories.json byte for byte', () => {
     const onDisk = readFileSync(join(CONTENT_DIR, 'categories.json'), 'utf8');
@@ -67,23 +80,24 @@ describe('committed content is exactly what the migration produces', () => {
   });
 
   it('matches every content/words/<deck>.json byte for byte', () => {
-    for (const [deckId, words] of files) {
+    // `files` holds the exact text main() would write, so this compares output
+    // to output rather than re-serialising and hoping the two agree.
+    for (const [deckId, text] of files) {
       const onDisk = readFileSync(join(CONTENT_DIR, 'words', `${deckId}.json`), 'utf8');
-      expect(onDisk, `deck ${deckId} drifted from the migration output`).toBe(
-        `${JSON.stringify(words, null, 2)}\n`,
-      );
+      expect(onDisk, `deck ${deckId} drifted from the migration output`).toBe(text);
     }
   });
 
   it('records the numbers quoted in the migration plan', () => {
-    // These are the load-bearing totals from docs/spec/21-content-migration.md.
-    expect(golden.totals.decks).toBe(50);
-    expect(golden.totals.entries).toBe(3081);
-    // 2345, not 2342: the three homograph splits in scripts/data/gloss-overrides.json
-    // (新/贵/云 in the plate deck) are separate words from the common ones.
-    expect(golden.totals.uniqueWords).toBe(2345);
+    // The POC migration totals from docs/spec/21-content-migration.md, plus the
+    // Kangxi radicals deck added 2026-11-01: 214 entries, 214 new word ids (they
+    // are characters nothing else in the corpus teaches), so unique words rose
+    // by exactly 214 while the cross-deck repeats stayed at 736.
+    expect(golden.totals.decks).toBe(51);
+    expect(golden.totals.entries).toBe(3295);
+    expect(golden.totals.uniqueWords).toBe(2559);
     expect(golden.totals.duplicateEntries).toBe(736);
-    expect(golden.totals.bands).toEqual({ common: 1057, mid: 1138, rare: 886 });
+    expect(golden.totals.bands).toEqual({ common: 1111, mid: 1181, rare: 1003 });
   });
 });
 

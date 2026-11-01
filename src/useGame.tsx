@@ -30,10 +30,11 @@ import {
 import { createAudio, type AudioEngine } from './audio';
 import { createMusic, nextTrack, type MusicEngine } from './music';
 import { buildPool, loadDeck, loadIndex, starterDeck } from './content';
+import { bandsForDeck, buildTree, filterByRamp, unlockedDeckIds, type TreeGroup } from './game/tree';
 import { DEFAULT_BOARD, bubbleRadiusFor, type BoardConfig } from './game/board';
 import { REVIEW, SESSION } from './game/config';
 import { createRng, systemClock, type Rng } from './game/rng';
-import { afterCorrect, afterWrong, baselineMs, isNewWord, spawnWeight, withBaseline } from './game/review';
+import { afterCorrect, afterWrong, baselineMs, isNewWord, masteryOf, spawnWeight, withBaseline } from './game/review';
 import { filterPool, nextBubbleWord, planRound } from './game/selection';
 import {
   initialSession,
@@ -43,10 +44,13 @@ import {
   type SessionState,
 } from './game/scoring';
 import {
+  BANDS,
   PACE_SPECS,
   type ContentIndex,
+  type DeckMeta,
   type PoolWord,
   type SessionSettings,
+  type Word,
 } from './game/types';
 import {
   clearSession,
@@ -92,6 +96,14 @@ export interface GameApi {
    */
   readonly music: MusicEngine;
   readonly progress: ProgressStore;
+  /**
+   * The progression tree: which decks are open, how far each is, and which band
+   * a deck may draw from. Built from every deck in the corpus, not just the
+   * selected ones, or the world behind the player would look empty.
+   */
+  readonly tree: readonly TreeGroup[];
+  /** Decks the player may currently play, per the tree's unlock rules. */
+  readonly unlockedDecks: readonly string[];
   readonly loading: boolean;
   readonly error: string | null;
   readonly seed: number;
@@ -258,6 +270,69 @@ export function GameProvider({
     saveSettings(storage, settings);
   }, [storage, settings]);
 
+  // ---- the tree -----------------------------------------------------------
+
+  /**
+   * Word lists for decks the player has not selected. The tree needs a word
+   * count per deck to say how far along it is, and the game pool only holds
+   * the selected ones, so the tree loads its own copy. loadDeck caches, so a
+   * deck opened later costs nothing the second time.
+   */
+  const [treeWords, setTreeWords] = useState<{ [deckId: string]: readonly Word[] }>({});
+
+  useEffect(() => {
+    if (!index) return;
+    let cancelled = false;
+    void Promise.all(
+      index.decks.map(async (deck) => [deck.id, await loadDeck(deck.id)] as const),
+    )
+      .then((entries) => {
+        if (cancelled) return;
+        setTreeWords(Object.fromEntries(entries));
+      })
+      .catch(() => {
+        // A deck that will not load shows no progress rather than a wrong one;
+        // the deck the player actually plays still reports its own errors.
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [index]);
+
+  const tree = useMemo<readonly TreeGroup[]>(() => {
+    if (!index) return [];
+    const wordsOf = (deckId: string) => treeWords[deckId] ?? [];
+    return buildTree(index.decks, progress.words, wordsOf);
+  }, [index, progress.words, treeWords]);
+
+  const unlockedDecks = useMemo(() => unlockedDeckIds(tree), [tree]);
+
+  /**
+   * Every word the player could be shown, before the session's own deck
+   * selection narrows it further. The band rule is now a ramp per deck: a word
+   * passes if any deck it belongs to has learned far enough to deal that band.
+   */
+  const rampPool = useMemo<readonly PoolWord[]>(() => {
+    if (pool.length === 0) return [];
+    const byId = new Map<string, DeckMeta>();
+    for (const deck of index?.decks ?? []) byId.set(deck.id, deck);
+    const ratioOf = (deckId: string): number => {
+      const deck = byId.get(deckId);
+      if (!deck || deck.uniqueWords === 0) return 0;
+      const words = treeWords[deckId] ?? [];
+      if (words.length === 0) return 0;
+      let known = 0;
+      for (const word of words) {
+        if (masteryOf(progress.words[word.id] ?? undefined) === 'known') known += 1;
+      }
+      return known / deck.uniqueWords;
+    };
+    const bandsOf = (deckId: string, ratio: number) =>
+      byId.has(deckId) ? bandsForDeck(byId.get(deckId)!, ratio) : (['common'] as const);
+    const kept = new Set(filterByRamp(pool, ratioOf, bandsOf));
+    return pool.filter((_, indexOfWord) => kept.has(indexOfWord));
+  }, [pool, index, treeWords, progress.words]);
+
   const byId = useMemo(() => {
     const map = new Map<string, PoolWord>();
     for (const entry of pool) map.set(entry.id, entry);
@@ -344,7 +419,7 @@ export function GameProvider({
     const baseline = baselineMs(progressRef.current.speed);
     const words = progressRef.current.words;
     return nextBubbleWord({
-      pool: filterPool(pool, settings.decks, settings.bands),
+      pool: filterPool(rampPool, settings.decks, BANDS),
       boardIds: stateRef.current.bubbleIds,
       askedIds: stateRef.current.askedIds,
       rng: rng.current,
@@ -355,7 +430,7 @@ export function GameProvider({
       isNew: (word) => isNewWord(words[word.id]),
       newWordBudget: REVIEW.newPerBoard,
     });
-  }, [pool, settings.decks, settings.bands]);
+  }, [rampPool, settings.decks]);
 
   const answer = useCallback(
     (wordId: string) => {
@@ -447,7 +522,7 @@ export function GameProvider({
   // means the session just started.
   useEffect(() => {
     if (state.phase !== 'playing' || state.targetId !== null) return;
-    const candidates = filterPool(pool, settings.decks, settings.bands);
+    const candidates = filterPool(rampPool, settings.decks, BANDS);
     if (candidates.length === 0) {
       // A dead end worth naming: every deck or band is on but the filter matches
       // nothing. It cannot be derived during render because it also depends on
@@ -494,10 +569,9 @@ export function GameProvider({
     state.phase,
     state.targetId,
     state.askedIds,
-    pool,
+    rampPool,
     loading,
     settings.decks,
-    settings.bands,
     boardConfig.bubbleCount,
     apply,
     endSession,
@@ -581,6 +655,8 @@ export function GameProvider({
       audio,
       music,
       progress,
+      tree,
+      unlockedDecks,
       loading,
       error,
       seed,
@@ -604,6 +680,8 @@ export function GameProvider({
       audio,
       music,
       progress,
+      tree,
+      unlockedDecks,
       loading,
       error,
       seed,

@@ -8,8 +8,8 @@
     "uniqueWords": 2559,
     "bands": {
       "common": 1111,
-      "mid": 1191,
-      "rare": 993
+      "mid": 1181,
+      "rare": 1003
     }
   },
   "decks": [
@@ -671,8 +671,8 @@
       "uniqueWords": 214,
       "bands": {
         "common": 54,
-        "mid": 53,
-        "rare": 107
+        "mid": 43,
+        "rare": 117
       },
       "usableBands": 3
     }
